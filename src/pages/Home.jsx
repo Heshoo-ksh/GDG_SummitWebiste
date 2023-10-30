@@ -4,15 +4,16 @@ import Footer from '@/layouts/Footer'
 import LandingSection from '@/layouts/LandingSection'
 import LocationSection from '@/layouts/LocationSection'
 import SessionsSection from '@/layouts/SessionsSection'
-import SpeakerSection from '@/layouts/SpeakerSection'
+import SpeakersSection from '@/layouts/SpeakersSection'
 
-function MainPage() {
+function Home() {
   return (
     <main>
       <Navbar />
+      <div className="h-16"></div>
       <LandingSection />
       <AboutSection />
-      <SpeakerSection />
+      <SpeakersSection />
       <SessionsSection />
       <LocationSection />
       <Footer />
@@ -20,4 +21,4 @@ function MainPage() {
   )
 }
 
-export default MainPage
+export default Home

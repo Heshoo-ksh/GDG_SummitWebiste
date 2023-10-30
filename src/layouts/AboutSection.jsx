@@ -1,6 +1,6 @@
 function AboutSection() {
   return (
-    <section className="flex h-screen items-center justify-center">
+    <section id="about" className="flex h-screen items-center justify-center">
       About Section
     </section>
   )
