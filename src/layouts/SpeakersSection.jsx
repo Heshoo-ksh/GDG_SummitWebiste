@@ -1,12 +1,12 @@
-function LocationSection() {
+function SpeakersSection() {
   return (
     <section
-      id="location"
+      id="speakers"
       className="flex h-screen items-center justify-center"
     >
-      Location Section
+      Speakers Section
     </section>
   )
 }
 
-export default LocationSection
+export default SpeakersSection

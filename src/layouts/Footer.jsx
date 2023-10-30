@@ -1,5 +1,9 @@
 function Footer() {
-  return <div>Footer</div>
+  return (
+    <footer id="footer" className="flex justify-center">
+      Footer
+    </footer>
+  )
 }
 
 export default Footer

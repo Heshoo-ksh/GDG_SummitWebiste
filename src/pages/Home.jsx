@@ -1,21 +1,24 @@
+import Navbar from '@/components/ui/Navbar'
 import AboutSection from '@/layouts/AboutSection'
 import Footer from '@/layouts/Footer'
 import LandingSection from '@/layouts/LandingSection'
 import LocationSection from '@/layouts/LocationSection'
 import SessionsSection from '@/layouts/SessionsSection'
-import SpeakerSection from '@/layouts/SpeakerSection'
+import SpeakersSection from '@/layouts/SpeakersSection'
 
-function MainPage() {
+function Home() {
   return (
-    <div>
+    <main>
+      <Navbar />
+      <div className="h-16"></div>
       <LandingSection />
       <AboutSection />
-      <SpeakerSection />
+      <SpeakersSection />
       <SessionsSection />
       <LocationSection />
       <Footer />
-    </div>
+    </main>
   )
 }
 
-export default MainPage
+export default Home

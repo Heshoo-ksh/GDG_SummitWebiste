@@ -1,5 +1,12 @@
 function SessionsSection() {
-  return <div className="flex h-screen items-center">Sessions Section</div>
+  return (
+    <section
+      id="sessions"
+      className="flex h-screen items-center justify-center"
+    >
+      Sessions Section
+    </section>
+  )
 }
 
 export default SessionsSection
