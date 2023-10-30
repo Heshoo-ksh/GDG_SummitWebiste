@@ -1,5 +1,9 @@
 function SpeakerSection() {
-  return <div className="flex h-screen items-center">Speaker Section</div>
+  return (
+    <section className="flex h-screen items-center justify-center">
+      Speaker Section
+    </section>
+  )
 }
 
 export default SpeakerSection

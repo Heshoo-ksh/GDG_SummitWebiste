@@ -1,5 +1,9 @@
 function LocationSection() {
-  return <div className="flex h-screen items-center">Location Section</div>
+  return (
+    <section className="flex h-screen items-center justify-center">
+      Location Section
+    </section>
+  )
 }
 
 export default LocationSection

@@ -1,6 +1,8 @@
 function SpeakerDetailSection() {
   return (
-    <div className="flex h-screen items-center">Speaker Detail Section</div>
+    <section className="flex h-screen items-center justify-center">
+      Speaker Detail Section
+    </section>
   )
 }
 

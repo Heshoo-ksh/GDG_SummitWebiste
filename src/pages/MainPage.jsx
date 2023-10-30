@@ -1,3 +1,4 @@
+import Navbar from '@/components/ui/Navbar'
 import AboutSection from '@/layouts/AboutSection'
 import Footer from '@/layouts/Footer'
 import LandingSection from '@/layouts/LandingSection'
@@ -7,14 +8,15 @@ import SpeakerSection from '@/layouts/SpeakerSection'
 
 function MainPage() {
   return (
-    <div>
+    <main>
+      <Navbar />
       <LandingSection />
       <AboutSection />
       <SpeakerSection />
       <SessionsSection />
       <LocationSection />
       <Footer />
-    </div>
+    </main>
   )
 }
 
