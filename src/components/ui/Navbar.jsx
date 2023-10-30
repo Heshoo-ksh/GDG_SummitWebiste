@@ -1,9 +1,49 @@
+import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 
 function Navbar() {
+  const [activeLink, setActiveLink] = useState('landing')
+
+  // Sections and corresponding links
+  const sections = useMemo(
+    () => [
+      { id: 'landing', text: 'Landing' },
+      { id: 'about', text: 'About' },
+      { id: 'speakers', text: 'Speakers' },
+      { id: 'sessions', text: 'Sessions' },
+      { id: 'location', text: 'Location' },
+    ],
+    [],
+  )
+
+  useEffect(() => {
+    // Function to set the active link based on scroll position
+    const handleScroll = () => {
+      // Determine which section is currently in view
+      for (const section of sections) {
+        const target = document.querySelector(`#${section.id}`)
+        if (target) {
+          const { top, bottom } = target.getBoundingClientRect()
+          if (Math.round(top) <= 0 && Math.round(bottom) > 0) {
+            setActiveLink(section.id)
+            break // No need to check further
+          }
+        }
+      }
+    }
+
+    // Attach the scroll event listener
+    window.addEventListener('scroll', handleScroll)
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+      window.removeEventListener('scroll', handleScroll)
+    }
+  }, [sections])
+
   const handleNavigation = (event, sectionId) => {
     event.preventDefault()
-    const target = document.querySelector(sectionId)
+    const target = document.querySelector(`#${sectionId}`)
     if (target) {
       target.scrollIntoView({ behavior: 'smooth' })
     }
@@ -12,42 +52,19 @@ function Navbar() {
   return (
     <nav className="fixed left-0 top-0 w-full bg-white p-4 shadow">
       <ul className="flex justify-end space-x-2 px-4 py-2">
-        <li>
-          <Link
-            to="/#about"
-            onClick={(event) => handleNavigation(event, '#about')}
-            className="p-6"
-          >
-            About
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="/#speakers"
-            onClick={(event) => handleNavigation(event, '#speakers')}
-            className="p-6"
-          >
-            Speakers
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="/#sessions"
-            onClick={(event) => handleNavigation(event, '#sessions')}
-            className="p-6"
-          >
-            Sessions
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="/#location"
-            onClick={(event) => handleNavigation(event, '#location')}
-            className="p-6"
-          >
-            Location
-          </Link>
-        </li>
+        {sections.map((section) => (
+          <li key={section.id}>
+            <Link
+              to={`#${section.id}`}
+              onClick={(event) => handleNavigation(event, section.id)}
+              className={`${section.id === 'landing' ? 'invisible' : ''} p-6 ${
+                activeLink === section.id ? 'text-blue-500' : ''
+              }`}
+            >
+              {section.text}
+            </Link>
+          </li>
+        ))}
       </ul>
     </nav>
   )
