@@ -13,7 +13,7 @@ function Navbar() {
       { id: 'sessions', text: 'Sessions' },
       { id: 'location', text: 'Location' },
     ],
-    [],
+    []
   )
 
   useEffect(() => {
