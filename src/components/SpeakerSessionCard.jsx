@@ -35,9 +35,11 @@ function SpeakerSessionCard({ name, title, speakerImg, desc }) {
             alt={`Headshot of ${name}`}
             className="hidden h-40 rounded-full md:block"
           />
-          <div>
+          <div
+            className="md:ml-5"
+          >
             <h3
-              className="font-bold"
+              className="font-bold md:mb-5 md:text-xl lg:text-2xl xl:text-3xl"
             >
               {title}
             </h3>
@@ -56,7 +58,7 @@ function SpeakerSessionCard({ name, title, speakerImg, desc }) {
             fill="none" viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="currentColor"
-            className={`h-10 w-10 transition md:h-20 md:w-20 ${toggled ? "rotate-180" : "rotate-0"} duration-300`}>
+            className={`h-10 w-10 transition md:h-12 md:w-12 xl:h-20 xl:w-20 ${toggled ? "rotate-180" : "rotate-0"} duration-300`}>
             
             <path
               strokeLinecap="round"
