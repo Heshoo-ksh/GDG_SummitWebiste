@@ -1,4 +1,6 @@
-function SpeakerSessionCard() {
+import React from "react"
+
+function SpeakerSessionCard({ name, sessionTitle, speakerImg }) {
   return (
     <section
       className="flex w-5/6 items-center justify-between rounded-xl border py-2.5 pl-12 pr-24 shadow-lg transition duration-200 hover:shadow-xl"
@@ -7,7 +9,7 @@ function SpeakerSessionCard() {
         className="flex items-center"
       >
         <img
-          src={"https://ui-avatars.com/api/?name=John%20Doe&background=random"}
+          src={speakerImg}
           alt=""
           className="h-40 rounded-full"
         />
@@ -17,12 +19,12 @@ function SpeakerSessionCard() {
           <h3
             className="mb-6 text-3xl font-bold"
           >
-            John Doe
+            {sessionTitle}
           </h3>
           <p
             className="text-gray-700"
           >
-            by John Doe
+            by {name}
           </p>
         </div>
       </section>
