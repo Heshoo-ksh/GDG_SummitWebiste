@@ -1,4 +1,4 @@
-import React from "react"
+import { ReactPropTypes } from "react"
 
 function SpeakerSessionCard({ name, sessionTitle, speakerImg }) {
   return (
@@ -46,4 +46,11 @@ function SpeakerSessionCard({ name, sessionTitle, speakerImg }) {
     </section>
   )
 }
+
+SpeakerSessionCard.propTypes = {
+  name: ReactPropTypes.string,
+  sessionTitle: ReactPropTypes.string,
+  speakerImg: ReactPropTypes.string
+}
+
 export default SpeakerSessionCard
