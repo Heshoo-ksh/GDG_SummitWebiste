@@ -1,20 +1,5 @@
-import {  useState } from "react"
+import { useState } from "react"
 import PropTypes from 'prop-types'
-
-/*
-
-[Card Usage]
-Desc prop must be passed using `` in order for the <pre> tag to work
-
-Ex. this formatting gives the same as the designs
-
-`We all know that providing a good search experience for website visitors is hard. Everyone expects it to “just” work like Bing or Amazon. Maybe there is a better way, maybe we fix this with a little help from some AI or even our new friend Chat GPT.
-          
-Join the session to see how you can leverage Cognitive Services with Azure Cognitive Search in your apps. With the newly minted semantic search and OpenAI abilities this technology can provide results that are semantically closer to the intent of original query.
-
-You can expect to walk away knowing how to generate your own power search experience that leverages the power of AI to solve your search woes.`
-
-*/
 
 function SpeakerSessionCard({ name, title, speakerImg, desc }) {
   const [toggled, toggleDropdown] = useState(false)
