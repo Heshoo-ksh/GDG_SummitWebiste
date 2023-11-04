@@ -6,7 +6,7 @@ function SpeakerSessionCard({ name, title, speakerImg, desc }) {
 
   return (
     <section
-      className="w-5/6 rounded-xl border shadow-lg transition duration-200 hover:shadow-xl"
+      className="rounded-xl border bg-white shadow-lg transition duration-200 hover:shadow-xl"
     >
       <button
         onClick={() => toggleDropdown(!toggled)}
