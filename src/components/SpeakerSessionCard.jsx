@@ -3,8 +3,7 @@ import PropTypes from 'prop-types'
 
 /*
 
-[Card Usage Tip]
-
+[Card Usage]
 Desc prop must be passed using `` in order for the <pre> tag to work
 
 Ex. this formatting gives the same as the designs
@@ -22,13 +21,14 @@ function SpeakerSessionCard({ name, title, speakerImg, desc }) {
 
   return (
     <section
-      className="w-5/6 rounded-xl border p-2.5 shadow-lg transition duration-200 hover:shadow-xl"
+      className="w-5/6 rounded-xl border shadow-lg transition duration-200 hover:shadow-xl"
     >
-      <section
-        className="flex items-center justify-between"
+      <button
+        onClick={() => toggleDropdown(!toggled)}
+        className="flex w-full items-center justify-between p-2.5"
       >
         <section
-          className="flex items-center"
+          className="flex items-center text-left"
         >
           <img
             src={speakerImg}
@@ -39,7 +39,7 @@ function SpeakerSessionCard({ name, title, speakerImg, desc }) {
             className="md:ml-5"
           >
             <h3
-              className="font-bold md:mb-5 md:text-xl lg:text-2xl xl:text-3xl"
+              className="font-bold md:mb-2.5 md:text-xl lg:text-2xl xl:mb-5 xl:text-3xl"
             >
               {title}
             </h3>
@@ -50,35 +50,31 @@ function SpeakerSessionCard({ name, title, speakerImg, desc }) {
             </p>
           </div>
         </section>
-        <button
-          onClick={() => toggleDropdown(!toggled)}
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none" viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className={`h-10 w-10 transition md:h-12 md:w-12 xl:h-20 xl:w-20 ${toggled ? "rotate-180" : "rotate-0"} duration-300`}>
-            
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M19.5 8.25l-7.5 7.5-7.5-7.5"
-            />
-          </svg>
-        </button>
-      </section>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none" viewBox="0 0 24 24"
+          strokeWidth={1.5}
+          stroke="currentColor"
+          className={`h-10 w-10 transition md:h-12 md:w-12 xl:h-20 xl:w-20 ${toggled ? "rotate-180" : "rotate-0"} duration-300`}>
+          
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+          />
+        </svg>
+      </button>
       {toggled ? (
         <section
-          className="mt-5 w-10/12 pl-10"
+          className="mt-5 w-10/12 pl-12"
         >
-          <pre
-            className="whitespace-pre-wrap border-t border-gray-700 py-5"
+          <p
+            className="whitespace-pre-wrap border-t border-gray-700 pb-10 pt-5"
           >
             {desc}
-          </pre>
+          </p>
         </section>
-      ): ''}
+      ): null}
     </section>
   )
 }
