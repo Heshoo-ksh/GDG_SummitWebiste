@@ -1,4 +1,5 @@
 import Navbar from '@/components/ui/Navbar'
+import SpeakerDetails from '@/components/ui/SpeakerDetails'
 import AboutSection from '@/layouts/AboutSection'
 import Footer from '@/layouts/Footer'
 import LandingSection from '@/layouts/LandingSection'
@@ -14,6 +15,9 @@ function Home() {
       <LandingSection />
       <AboutSection />
       <SpeakersSection />
+
+      <SpeakerDetails />
+      
       <SessionsSection />
       <LocationSection />
       <Footer />
