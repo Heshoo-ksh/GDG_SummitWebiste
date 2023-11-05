@@ -1,16 +1,16 @@
 import PropTypes from 'prop-types'
 import SpeakerSessionCard from "./SpeakerSessionCard"
 
-function SessionList({ itemsToMap }) {
+function SessionList({ session }) {
   return (
     <ul
       className="grid w-5/6 grid-cols-1 gap-10 py-7"
     >
-      {itemsToMap.map((item) => (
+      {session.map(({ id, speakerName, sessionTitle, speakerImg, sessionDesc }) => (
         <li
-          key={item.id}
+          key={id}
         >
-          <SpeakerSessionCard name={item.name} title={item.title} speakerImg={item.speakerImg} desc={item.desc} />
+          <SpeakerSessionCard speakerName={speakerName} sessionTitle={sessionTitle} speakerImg={speakerImg} sessionDesc={sessionDesc} />
         </li>
       ))}
     </ul>
@@ -18,7 +18,7 @@ function SessionList({ itemsToMap }) {
 }
 
 SessionList.propTypes = {
-  itemsToMap: PropTypes.array.isRequired
+  session: PropTypes.array.isRequired
 }
 
 export default SessionList
