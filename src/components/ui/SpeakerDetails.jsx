@@ -5,15 +5,20 @@ function SpeakerDetails() {
 
     return (
         <div
-        className={'h-screen w-screen bg-[url(@/assets/DF23-SpeakerPromo-16x9-Blue.png)] bg-cover bg-center'}
+        className='left-0 top-0 flex h-auto min-h-full w-full bg-[url(@/assets/DF23-SpeakerPromo-16x9-Blue.png)] bg-cover bg-center bg-no-repeat'
         >
-            <div className='flex flex-col'>
-                <img className='ml-[60px] h-[199px] w-[512px]' src={michiganDevFestLogo} alt='Devfest Logo'/>
-                <div>
-                    <img className='ml-[235px] mt-[207px] h-[478px] w-[485px]' src={placeholderSpeaker} alt='placeholder speaker'/>
-                    <h1 className='font-sans'>Madona Wambua</h1>
-                    <p className='font-["sans-medium/2x1"]'>Jihu Labs</p>
+            <div className='flex shrink-0 flex-col self-center'>
+                <img className='mt-[10px] h-[199px] w-[512px] shrink-0 self-center' src={michiganDevFestLogo} alt='Devfest Logo'/>
+                <div className='flex shrink-0 flex-col items-center justify-center'>
+                    <img className='ml-[237px] mt-[225px] h-[478px] w-[485px]' src={placeholderSpeaker} alt='placeholder speaker'/>
+                    <article className='ml-[240px] flex flex-col items-center self-center'>
+                        <h1 className='text-4xl font-bold not-italic leading-10'>Madona Wambua</h1>
+                        <p className='text-2xl font-semibold not-italic leading-8'>Jihu Labs</p>
+                    </article>
                 </div>
+            </div>
+            <div className='flex flex-col'>
+                <p>Madona is the Founder & CTO of Jibu Labs, an Author, Keynote Speaker, Senior Android Engineer, and Google Developer Expert for Android with over years of experience building Android Applications. She is also a Women Tech Maker Ambassador, a host of Tech Talks with Madona, and a developer who enjoys sharing her Android knowledge and teaching others how to make Android applications.</p>
             </div>
         </div>
     );
