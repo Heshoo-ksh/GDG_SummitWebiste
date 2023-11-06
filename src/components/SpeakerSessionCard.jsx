@@ -1,3 +1,4 @@
+import FlippableChevronIcon from './FlippableChevronIcon'
 import { useState } from "react"
 import PropTypes from 'prop-types'
 
@@ -36,19 +37,10 @@ function SpeakerSessionCard({ speakerName, sessionTitle, speakerImg, sessionDesc
             </p>
           </div>
         </section>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none" viewBox="0 0 24 24"
-          strokeWidth={1.5}
-          stroke="currentColor"
-          className={`h-10 w-10 transition md:h-12 md:w-12 xl:h-20 xl:w-20 ${isToggled ? "rotate-180" : "rotate-0"} duration-300`}>
-          
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
-          />
-        </svg>
+        <FlippableChevronIcon
+          className="h-10 w-10 md:h-12 md:w-12 xl:h-20 xl:w-20"
+          isFlipped={isToggled}
+        />
       </button>
       {isToggled ? (
         <section

@@ -10,7 +10,12 @@ function SessionList({ session }) {
         <li
           key={index + 1}
         >
-          <SpeakerSessionCard speakerName={speakerName} sessionTitle={sessionTitle} speakerImg={speakerImg} sessionDesc={sessionDesc} />
+          <SpeakerSessionCard
+            speakerName={speakerName}
+            sessionTitle={sessionTitle}
+            speakerImg={speakerImg}
+            sessionDesc={sessionDesc}
+          />
         </li>
       ))}
     </ul>
