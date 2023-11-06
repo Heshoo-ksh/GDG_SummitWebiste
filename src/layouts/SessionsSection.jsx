@@ -2,7 +2,6 @@ import SessionList from "@/components/SessionList"
 import { SpeakerSessions } from "@/data/sessions"
 
 function SessionsSection() {
-  // add actual sessions, these are here as placeholder
   return (
     <section
       id="sessions"
@@ -12,8 +11,9 @@ function SessionsSection() {
       {
         /*
           My recommendation/approach (you don't have to do this but I wanna help):
-            conditionally pass sessions into the itemsToMap argument depending
-            on what is selected in the sessions categories tab using child callback
+            conditionally pass sessions into Session list depending on what is selected
+            in the sessions categories tab using child callback so that the SessionList
+            component doesn't need to be edited
         */
       }
       <SessionList session={SpeakerSessions} />
