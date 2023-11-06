@@ -2,7 +2,6 @@ import FlippableChevronIcon from './FlippableChevronIcon'
 import { useState } from "react"
 import PropTypes from 'prop-types'
 
-// fix padding responsiveness
 function SpeakerSessionCard({ speakerName, sessionTitle, speakerImg, sessionDesc }) {
   const [ isToggled, setIsToggled ] = useState(false)
 
@@ -38,7 +37,7 @@ function SpeakerSessionCard({ speakerName, sessionTitle, speakerImg, sessionDesc
           </div>
         </section>
         <FlippableChevronIcon
-          className="h-10 w-10 md:h-12 md:w-12 xl:h-20 xl:w-20"
+          className="h-10 w-10 shrink-0 md:h-12 md:w-12 xl:h-20 xl:w-20"
           isFlipped={isToggled}
         />
       </button>
