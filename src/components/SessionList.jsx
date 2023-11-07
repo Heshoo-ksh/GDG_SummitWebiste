@@ -6,9 +6,9 @@ function SessionList({ session }) {
     <ul
       className="grid w-5/6 grid-cols-1 gap-10 py-7"
     >
-      {session.map(({ speakerName, sessionTitle, speakerImg, sessionDesc }, index) => (
+      {session.map(({ id, speakerName, sessionTitle, speakerImg, sessionDesc }) => (
         <li
-          key={index + 1}
+          key={id}
         >
           <SpeakerSessionCard
             speakerName={speakerName}
