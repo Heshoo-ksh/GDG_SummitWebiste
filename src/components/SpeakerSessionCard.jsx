@@ -1,57 +1,55 @@
 import FlippableChevronIcon from './FlippableChevronIcon'
-import { useState } from "react"
+import { useState } from 'react'
 import PropTypes from 'prop-types'
+import { DIRECTION } from '@/constants/directions'
 
-function SpeakerSessionCard({ speakerName, sessionTitle, speakerImg, sessionDesc }) {
-  const [ isToggled, setIsToggled ] = useState(false)
+function SpeakerSessionCard({
+  speakerName,
+  sessionTitle,
+  speakerImg,
+  sessionDesc,
+}) {
+  const [direction, setDirection] = useState(DIRECTION.BOTTOM)
+
+  const toggle = () => {
+    if (direction == DIRECTION.TOP) {
+      setDirection(DIRECTION.BOTTOM)
+    } else {
+      setDirection(DIRECTION.TOP)
+    }
+  }
 
   return (
-    <section
-      className="rounded-xl border bg-white shadow-lg transition duration-200 hover:shadow-xl"
-    >
+    <section className="rounded-xl border bg-white shadow-lg transition duration-200 hover:shadow-xl">
       <button
-        onClick={() => setIsToggled(!isToggled)}
+        onClick={() => toggle()}
         className="flex w-full items-center justify-between p-2.5 pl-5 sm:px-10 md:pl-10 md:pr-14 xl:pr-24"
       >
-        <section
-          className="flex items-center text-left"
-        >
+        <section className="flex items-center text-left">
           <img
             src={speakerImg}
             alt={`Headshot of ${speakerName}`}
             className="hidden h-40 rounded-full md:block"
           />
-          <div
-            className="md:ml-5"
-          >
-            <h3
-              className="font-bold md:mb-2.5 md:text-xl lg:text-2xl xl:mb-5 xl:text-3xl"
-            >
+          <div className="md:ml-5">
+            <h3 className="font-bold md:mb-2.5 md:text-xl lg:text-2xl xl:mb-5 xl:text-3xl">
               {sessionTitle}
             </h3>
-            <p
-              className="text-gray-700"
-            >
-              by {speakerName}
-            </p>
+            <p className="text-gray-700">by {speakerName}</p>
           </div>
         </section>
         <FlippableChevronIcon
           className="h-10 w-10 shrink-0 md:h-12 md:w-12 xl:h-20 xl:w-20"
-          isFlipped={isToggled}
+          direction={direction}
         />
       </button>
-      {isToggled ? (
-        <section
-          className="mt-5 w-10/12 pl-12"
-        >
-          <p
-            className="whitespace-pre-wrap border-t border-gray-700 pb-10 pt-5"
-          >
+      {direction == DIRECTION.TOP ? (
+        <section className="mt-5 w-10/12 pl-12">
+          <p className="whitespace-pre-wrap border-t border-gray-700 pb-10 pt-5">
             {sessionDesc}
           </p>
         </section>
-      ): null}
+      ) : null}
     </section>
   )
 }
@@ -60,7 +58,7 @@ SpeakerSessionCard.propTypes = {
   speakerName: PropTypes.string.isRequired,
   sessionTitle: PropTypes.string.isRequired,
   speakerImg: PropTypes.string.isRequired,
-  sessionDesc: PropTypes.string.isRequired
+  sessionDesc: PropTypes.string.isRequired,
 }
 
 export default SpeakerSessionCard
