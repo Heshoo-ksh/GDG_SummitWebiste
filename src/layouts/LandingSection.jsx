@@ -6,27 +6,20 @@ function LandingSection() {
   return (
     <section
       id="landing"
-      className="w-screen"
+      className="flex w-screen flex-col items-center"
     >
       <img
-        className="mx-auto w-5/6"
+        className="w-5/6"
         src={michiganDevFestLogo}
         alt="Michigan DevFest Logo"
       />
-
-    <div
-      className="flex items-center justify-center"
-    >
       <img
-        className="mt-[-90px] w-2/6"
+        className="w-2/6"
         src={dateandcricle}
         alt="The date for Michigan Google DevFest, December 2nd, 2023"
-      />
-    </div>
-
-      
+      />  
       <img
-          className="w-6/6 mx-auto"
+          className="w-full"
           src = {detroitSkyline}
           alt="Detroit Skyline"
       />
