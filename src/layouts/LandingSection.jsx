@@ -13,11 +13,18 @@ function LandingSection() {
         src={michiganDevFestLogo}
         alt="Michigan DevFest Logo"
       />
+      {/*
+
+         distance between this date img and the devfest logo
+         needs to be shortened. this can be fixed by cropping the actual image
+         externally in a photo editor to fit the logo
+
+      */}
       <img
-        className="w-2/6"
+        className="w-1/3"
         src={dateandcricle}
         alt="The date for Michigan Google DevFest, December 2nd, 2023"
-      />  
+      />
       <img
           className="w-full"
           src = {detroitSkyline}
