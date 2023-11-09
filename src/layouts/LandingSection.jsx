@@ -1,6 +1,8 @@
 import michiganDevFestLogo from '@/assets/michigan-devfest-logo.png'
-import detroitSkyline from '@/assets/Frame 2 - Detroit Skyline.png'
 import dateandcricle from '@/assets/dateandcricle.png'
+import DetroitSkyLinePt1 from '@assets/DetroitSkyline-pt1.png'
+import DetroitSkyLinePt2 from '@assets/DetroitSkyline-pt2.png'
+import DetroitSkyLinePt3 from '@assets/DetroitSkyline-pt3.png'
 
 function LandingSection() {
   return (
@@ -23,13 +25,23 @@ function LandingSection() {
         src={dateandcricle}
         alt="The date for Michigan Google DevFest, December 2nd, 2023"
       />
-      <img
-          className="w-full"
-          src = {detroitSkyline}
-          alt="Detroit Skyline"
-      />
+      <div
+        className='grid grid-cols-3'
+      >
+        <img
+          className='h-full w-full scale-0 animate-grow-appear-1'
+          src={DetroitSkyLinePt1}
+        />
+        <img
+          className='h-full w-full scale-0 animate-grow-appear-2'
+          src={DetroitSkyLinePt2}
+        />
+        <img
+          className='h-full w-full scale-0 animate-grow-appear-3'
+          src={DetroitSkyLinePt3}
+        />
+      </div>
     </section>
-    
   )
 }
 
