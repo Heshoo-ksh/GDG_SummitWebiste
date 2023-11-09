@@ -3,32 +3,35 @@ import twitterLogo from '@/assets/Twitter_Logo.png'; // Replace with the actual 
 
 const SpeakerCard = ({ name, twitterHandle, imageUrl, companyName }) => {
   return (
-    <div className="relative max-w-xs rounded-lg bg-blue-500 shadow-lg">
-      <div className="flex justify-center">
+    <div className="relative h-[246.52px] w-[329.30px] rounded-[3px] bg-blue-500 shadow">
+      {/* Image circle, positioned to overlap the top of the rectangle */}
+      <div className="flex justify-center" style={{ marginTop: '-137.5px' }}>
         <div className="relative">
-          {/* Image circle */}
           <img
-            className="h-24 w-24 rounded-full border-4 border-white object-cover"
+            className="h-[275px] w-[273px] rounded-full border-4 border-white object-cover"
             src={imageUrl}
             alt={name}
-            style={{ marginTop: '-3rem' }} // Adjust this value as needed to lift the image above the rectangle
           />
           {/* Twitter Icon - Conditionally rendered */}
           {twitterHandle && (
-            <div className="absolute bottom-[-16px] left-1/2 flex h-10 w-10 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white">
-              <img className="h-5 w-5" src={twitterLogo} alt="Twitter" />
-            </div>
-          )}
+  <div className="absolute bottom-[-27px] left-1/2 flex h-[60px] w-[60px] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white">
+    <img className="h-10 w-10" src={twitterLogo} alt="Twitter logo" />
+  </div>
+)}
+
         </div>
       </div>
+
       {/* Rectangle for name and company */}
-      <div className="px-4 pb-4 pt-10"> {/* Adjust padding-top to match the negative margin-top of the image */}
-        <h3 className="text-center text-xl font-semibold text-white">{name}</h3>
-        <p className="mt-1 text-center text-sm text-gray-200">{companyName}</p>
+      <div className="absolute bottom-0 w-full px-4 pb-4 pt-[60px]">
+        <div className="text-center font-['Open_Sans'] text-2xl font-normal text-white">{name}</div>
+        <div className="mt-2 text-center font-['Open_Sans'] text-sm font-normal text-white">{companyName}</div>
       </div>
     </div>
   );
 };
+
+
 
 SpeakerCard.propTypes = {
   name: PropTypes.string.isRequired,
