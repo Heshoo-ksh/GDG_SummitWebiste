@@ -25,7 +25,7 @@ const SpeakerCard = ({ name, twitterHandle, imageUrl, companyName }) => {
       {/* Rectangle for name and company */}
       <div className="absolute bottom-0 w-full px-4 pb-10 ">
         <div className="text-center font-['Open_Sans'] text-2xl font-normal text-white">{name}</div>
-        <div className="mt-2 text-center font-['Open_Sans'] text-sm font-normal text-white">{companyName}</div>
+        <div className="mt-[6px] text-center font-['Open_Sans'] text-sm font-normal text-white">{companyName}</div>
       </div>
     </div>
   );

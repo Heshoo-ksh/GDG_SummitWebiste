@@ -1,5 +1,5 @@
 import SpeakerCard from '@/components/ui/SpeakerCard'; 
-import speakerImage from '@/assets/speakerImage.jpg'
+import speakerImage from '@/assets/speakerImage.png'
 
 const speakersData = [
   {
