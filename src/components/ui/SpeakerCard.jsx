@@ -22,8 +22,8 @@ const SpeakerCard = ({ name, twitterHandle, imageUrl, companyName }) => {
 
       {/* Rectangle for name and company */}
       <div className="flex flex-col gap-[10px]">
-        <div className="h-[32px] text-center text-2xl font-normal leading-loose text-white">{name}</div>
-        <div className="h-[22px] text-center !align-text-bottom  text-sm font-normal leading-tight text-white">{companyName}</div>
+        <div className="flex h-[32px] !items-center justify-center text-center text-2xl font-normal leading-loose text-white">{name}</div>
+        <div className="flex h-[22px] items-center justify-center text-center text-sm font-normal leading-tight text-white">{companyName}</div>
         </div>
       </div>
   );
