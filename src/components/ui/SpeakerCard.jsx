@@ -15,7 +15,7 @@ const SpeakerCard = ({ name, twitterHandle, imageUrl, companyName }) => {
           {/* Twitter Icon - Conditionally rendered */}
           {twitterHandle && (
             <div className="absolute bottom-[-31px] left-1/2 flex h-[60px] w-[60px] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white">
-              <img className="relative h-8 w-10" src={twitterLogo} alt="Twitter logo" />
+              <img className="relative h-10 w-10" src={twitterLogo} alt="Twitter logo" />
             </div>)}
         </div>
       </div>
