@@ -50,7 +50,7 @@ function Navbar() {
   }
 
   return (
-    <nav className="fixed left-0 top-0 w-full bg-white p-4 shadow">
+    <nav className="fixed left-0 top-0 z-10 w-full bg-white p-4 shadow">
       <ul className="flex justify-end space-x-2 px-4 py-2">
         {sections.map((section) => (
           <li key={section.id}>
