@@ -1,5 +1,4 @@
 import Navbar from '@/components/ui/Navbar'
-import SpeakerDetails from '@/components/ui/SpeakerDetails'
 import AboutSection from '@/layouts/AboutSection'
 import Footer from '@/layouts/Footer'
 import LandingSection from '@/layouts/LandingSection'
@@ -9,15 +8,12 @@ import SpeakersSection from '@/layouts/SpeakersSection'
 
 function Home() {
   return (
-    <main>
+    <main>\
       <Navbar />
       <div className="h-16"></div>
       <LandingSection />
       <AboutSection />
       <SpeakersSection />
-
-      <SpeakerDetails />
-      
       <SessionsSection />
       <LocationSection />
       <Footer />
