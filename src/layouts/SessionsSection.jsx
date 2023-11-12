@@ -1,9 +1,7 @@
 import SessionList from "@/components/SessionList"
 import { SpeakerSessions } from "@/data/sessions"
-
 import React, {useState} from "react";
 import './session.css';
-
 
 function SessionsSection() {
   //track active tab
@@ -12,8 +10,7 @@ function SessionsSection() {
   return (
     <section
       id="sessions"
-      className="flex h-screen flex-col items-center bg-blue-400 p-10" 
-    >
+      className="flex h-screen flex-col items-center bg-blue-400 p-10" >
       <h1 className="font-sans text-4xl font-bold italic text-white">Sessions</h1>
       <div className="mt-4 inline-flex space-x-2 rounded-md bg-black">
       {tabs.map((tab, index) =>(
@@ -43,6 +40,7 @@ function SessionsSection() {
         {activeTab === 2 && <div><SessionList session={SpeakerSessions} /> </div>}
         {activeTab === 3 && <div><SessionList session={SpeakerSessions} /></div>}
     </div>
+
       {
         /*
           My recommendation/approach (you don't have to do this but I wanna help):
