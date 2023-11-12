@@ -20,7 +20,7 @@ function SpeakerSessionCard({
   }
 
   return (
-    <section className="rounded-xl border bg-white shadow-lg transition duration-200 hover:shadow-xl">
+    <section className="rounded-xl border bg-white shadow-lg transition duration-200 hover:shadow-2xl">
       <button
         onClick={() => toggle()}
         className="flex w-full items-center justify-between p-2.5 pl-5 sm:px-10 md:pl-10 md:pr-14 xl:pr-24"
