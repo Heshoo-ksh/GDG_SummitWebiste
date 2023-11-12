@@ -1,3 +1,6 @@
+import SessionList from "@/components/SessionList"
+import { SpeakerSessions } from "@/data/sessions"
+
 import React, {useState} from "react";
 import './session.css';
 
@@ -34,12 +37,20 @@ function SessionsSection() {
       </div>
 
      {/* panels */}
-     <div className="mt-5">
-        {activeTab === 0 && <div>{/*AI/ML CONTENT PANELS */} </div>}
-        {activeTab === 1 && <div>{/*CONTENT FOR MOBILE PANEL */} </div>}
-        {activeTab === 2 && <div>{/*FULLSTACK PANEL */} </div>}
-        {activeTab === 3 && <div>{/*Miscellaneous Panel */} </div>}
+     <div className="mx-auto mt-5 w-full">
+        {activeTab === 0 && <div><SessionList session={SpeakerSessions} /> </div>}
+        {activeTab === 1 && <div><SessionList session={SpeakerSessions} /> </div>}
+        {activeTab === 2 && <div><SessionList session={SpeakerSessions} /> </div>}
+        {activeTab === 3 && <div><SessionList session={SpeakerSessions} /></div>}
     </div>
+      {
+        /*
+          My recommendation/approach (you don't have to do this but I wanna help):
+            conditionally pass sessions into Session list depending on what is selected
+            in the sessions categories tab using child callback so that the SessionList
+            component doesn't need to be edited
+        */
+      }
     </section>
   );
 }

@@ -1,11 +1,11 @@
 .triangle{
-    position: absolute;
-    bottom: -8px;
-    left: 50%;
+    position: relative;
+    bottom: -18px;
+    left: 20%;
     transform: translateX(-50%);
     width: 0;
     height: 0;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-top: 10px solid #041220;
+    border-top: 10px solid  rgb(37 99 235);
 }
