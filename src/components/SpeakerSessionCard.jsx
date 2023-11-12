@@ -30,7 +30,7 @@ function SpeakerSessionCard({
             className="hidden shrink-0 overflow-hidden rounded-full md:block"
           >
             <img
-              src={speakerAvatar}
+              src={speakerAvatar == '' ? `https://ui-avatars.com/api/?name=${speakerName}&background=random` : speakerAvatar}
               alt={`Headshot of ${speakerName}`}
               className='h-40 w-40 object-cover'
             />
