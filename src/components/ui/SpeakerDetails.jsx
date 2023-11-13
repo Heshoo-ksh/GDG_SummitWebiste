@@ -12,7 +12,7 @@ function SessionContent(props) {
                 <img className='ml-[38px]' src={Mic} />
                 {
                 !props.isHiddenText ? 
-                <div className='w-[0] min-w-full overflow-hidden text-left opacity-100 transition-opacity duration-700 ease-in'>
+                <div className='w-[0] min-w-full overflow-hidden text-left'>
                     <p className='text-2xl font-normal not-italic leading-8 text-white'>Talking About</p>
                     <p className='w-[80%] text-3xl font-bold not-italic leading-10 text-white'>{props.sessionName}</p>
                 </div> :
