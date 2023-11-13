@@ -1,6 +1,45 @@
-import placeholderSpeaker from '@assets/Madona Wambua.png';
+import Mic from '@assets/Mic.svg';
+import TwitterHandle from '../TwitterHandle';
+import { useState } from 'react';
 
-function SpeakerDetails() {
+/* eslint-disable react/prop-types */
+
+function SessionContent(props) {
+
+    if (props.isSessionOpen) {
+        return (
+            <>
+                <img className='ml-[38px]' src={Mic} />
+                {
+                !props.isHiddenText ? 
+                <div className='w-[0] min-w-full overflow-hidden text-left opacity-100 transition-opacity duration-700 ease-in'>
+                    <p className='text-2xl font-normal not-italic leading-8 text-white'>Talking About</p>
+                    <p className='w-[80%] text-3xl font-bold not-italic leading-10 text-white'>{props.sessionName}</p>
+                </div> :
+                null
+                }
+            </>
+        )
+    }
+
+    return (
+        <>
+            <img className='ml-[38px]' src={Mic} />
+        </>
+    )
+}
+
+function SpeakerDetails(props) {
+    const [isSessionOpen, setIsSessionOpen] = useState(false);
+    const [isHiddenText, setIsHiddenText] = useState(true);
+
+    const handleClick = () => {
+        setIsSessionOpen(!isSessionOpen);
+        setIsHiddenText(true);
+    }
+
+    setTimeout(() => setIsHiddenText(false), 100);
+
     return (
         <dialog open className='relative inset-0 h-[900px] w-[1600px] shrink-0 bg-[url(@/assets/speaker-details-modal.png)] bg-contain bg-center bg-no-repeat'>
             <button className='absolute right-[0px] top-[0px] mr-[18px] mt-[20px]'>
@@ -15,22 +54,35 @@ function SpeakerDetails() {
                     </svg>
                 </button>
                 <div className='ml-[120px] mt-[400px] shrink-0'>
-                    <img className='h-[400px] w-[403px]' src={placeholderSpeaker} alt='placeholder speaker'/>
-                    <article className='text-center'>
-                        <h1 className='text-center text-4xl font-bold not-italic leading-10 text-black'>Madona Wambua</h1>
-                        <p className='text-center text-2xl font-semibold not-italic leading-8 text-black'>Jihu Labs</p>
-                    </article>
+                    <div className='relative'>
+                        <img className='h-[400px] w-[403px]' src={props.image} alt='speaker image'/>
+                        {props.twitterUrl && 
+                        <div className='absolute bottom-[-30px] left-2/4 mx-auto my-0 -translate-x-2/4 -translate-y-2/4'>
+                            <TwitterHandle url={props.twitterUrl} />
+                        </div>}
+                    </div>
+                    <div className='text-center'>
+                        <h1 className='text-center text-4xl font-bold not-italic leading-10 text-black'>{props.speakerName}</h1>
+                        <p className='text-center text-2xl font-semibold not-italic leading-8 text-black'>{props.companyName}</p>
+                    </div>
                 </div>
-                <div className='ml-[189px] mr-[25px] mt-[220px] flex flex-col'>
-                    <p className='text-justify text-4xl font-normal not-italic leading-10 text-white'>Madona is the Founder & CTO of Jibu Labs, an Author, Keynote Speaker, Senior Android Engineer, and Google Developer Expert for Android with over years of experience building Android Applications. She is also a Women Tech Maker Ambassador, a host of Tech Talks with Madona, and a developer who enjoys sharing her Android knowledge and teaching others how to make Android applications.</p>
+                <div className='ml-[189px] mr-[25px] mt-[320px] flex flex-col'>
+                    <p className='text-justify text-4xl font-normal not-italic leading-10 text-white'>{props.speakerBio}</p>
+
+                    <button 
+                    onClick={handleClick}
+                    className={'transition-[width] duration-[40ms] ease-in flex items-center mt-[10px] h-36 ' + ( isSessionOpen ? 'w-[100%]' : 'w-36' ) + ' shrink-0 rounded-full bg-blue-500'}
+                    >
+                        <SessionContent isSessionOpen={isSessionOpen} isHiddenText={isHiddenText} sessionName={props.sessionName} />
+                    </button>
                 </div>
-                <button className='mr-[25px] mt-[200px]'>
+                <button className='mr-[25px] mt-[180px]'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="54" height="102" viewBox="0 0 65 123" fill="none">
                         <path d="M1.41871 8.45134C0.509668 7.51865 0 6.26117 0 4.951C0 3.64082 0.509668 2.38334 1.41871 1.45065C1.86572 0.991203 2.39855 0.626343 2.98618 0.377296C3.57381 0.128258 4.20451 0 4.84157 0C5.47864 0 6.10934 0.128258 6.69697 0.377296C7.2846 0.626343 7.81743 0.991203 8.26444 1.45065L63.5813 57.9996C64.4903 58.9323 65 60.1898 65 61.5C65 62.8102 64.4903 64.0677 63.5813 65.0003L8.26444 121.549C7.81743 122.009 7.2846 122.374 6.69697 122.623C6.10934 122.872 5.47864 123 4.84157 123C4.20451 123 3.57381 122.872 2.98618 122.623C2.39855 122.374 1.86572 122.009 1.41871 121.549C0.509668 120.617 0 119.359 0 118.049C0 116.739 0.509668 115.481 1.41871 114.549L51.868 61.4964L1.41871 8.45134Z" fill="#4285F4"/>
                     </svg>
                 </button>
             </div>
-        </dialog>        
+        </dialog>   
     );
 }
 
