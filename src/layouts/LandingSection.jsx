@@ -1,7 +1,5 @@
 import michiganDevFestLogo from '@/assets/michigan-devfest-logo.png'
 import detroitSkyline from '@/assets/Frame 2 - Detroit Skyline.png'
-import redCricle from '@/assets/Circle 1.png'
-import date from '@/assets/02 Dec, 2023.png'
 import dateandcricle from '@/assets/dateandcricle.png'
 
 function LandingSection() {
@@ -13,23 +11,19 @@ function LandingSection() {
         alt="Michigan DevFest Logo"
       />
 
-    <div className="flex justify-center items-center">
+      <div className="flex items-center justify-center">
+        <img
+          className="mt-[-90px] w-2/6"
+          src={dateandcricle}
+          alt="Date and Red Circle"
+        />
+      </div>
       <img
-        className="w-2/6 mt-[-90px]"
-        src={dateandcricle}
-        alt="Date and Red Circle"
+        className="w-6/6 mx-auto"
+        src={detroitSkyline}
+        alt="Detroit Skyline"
       />
-    </div>
-
-      
-      <img
-          className="mx-auto w-6/6"
-          src = {detroitSkyline}
-          alt="Detroit Skyline"
-      />
-      
     </section>
-    
   )
 }
 
