@@ -9,19 +9,17 @@ function LandingSection() {
       className="flex w-screen flex-col items-center"
     >
       <img
-        className="w-5/6"
+        className="w-5/6 animate-jump-fade-in-one opacity-0"
         src={michiganDevFestLogo}
         alt="Michigan DevFest Logo"
       />
       {/*
-
          distance between this date img and the devfest logo
          needs to be shortened. this can be fixed by cropping the actual image
          externally in a photo editor to fit the logo
-
       */}
       <img
-        className="w-1/3"
+        className="mb-12 w-1/3 scale-0 animate-zoom-fade-in"
         src={dateandcricle}
         alt="The date for Michigan Google DevFest, December 2nd, 2023"
       />
@@ -30,7 +28,6 @@ function LandingSection() {
           src = {detroitSkyline}
           alt="Detroit Skyline"
       />
-      
     </section>
     
   )
