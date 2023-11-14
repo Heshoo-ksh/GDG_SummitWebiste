@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import twitterLogo from '@/assets/Twitter_Logo.png'
+import TwitterIcon from '@/assets/TwitterIcon.svg'
 import SpeakerDetails from '@/components/ui/SpeakerDetails'
 import { useState } from 'react'
 
@@ -33,10 +33,10 @@ const SpeakerCard = ({
                 className="h-full w-full rounded-full object-cover shadow-md"
                 alt={name}
               />
-              <div className="absolute bottom-[-31px] left-1/2 flex h-[44px] w-[44px] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white">
+              <div className="absolute bottom-[-31px] left-1/2 flex h-[40px] w-[40px] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white">
                 <img
                   className="relative h-6 w-6"
-                  src={twitterLogo}
+                  src={TwitterIcon}
                   alt="Twitter logo"
                 />
               </div>
