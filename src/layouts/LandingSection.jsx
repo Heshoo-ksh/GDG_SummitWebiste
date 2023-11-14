@@ -18,7 +18,6 @@ function LandingSection() {
           alt="Date and Red Circle"
         />
       </div>
-
       <img
         className="w-6/6 mx-auto"
         src={detroitSkyline}

@@ -1,20 +1,21 @@
 import PropTypes from 'prop-types'
+import twitterLogo from '@/assets/Twitter_Logo.png'
 
-import twitterLogo from '@/assets/Twitter_Logo.png' // Replace with the actual path to your Twitter logo
-
-const SpeakerCard = ({ name, twitterHandle, imageUrl, companyName }) => {
+const SpeakerCard = ({ name, twitter, avatar, organization }) => {
   return (
     <div className="relative !flex h-[246.52px] w-[329.30px] flex-col gap-2 rounded-[3px] bg-blue-500 shadow">
-      {/* Image circle, positioned to overlap the top of the rectangle */}
       <div className="mt-[-137.5px] flex justify-center">
         <div className="relative">
           <img
             className="h-[273px] w-[273px] rounded-full object-cover"
-            src={imageUrl}
+            src={
+              avatar == ''
+                ? `https://ui-avatars.com/api/?name=${name}&background=random`
+                : avatar
+            }
             alt={name}
           />
-          {/* Twitter Icon - Conditionally rendered */}
-          {twitterHandle && (
+          {twitter && (
             <div className="absolute bottom-[-31px] left-1/2 flex h-[60px] w-[60px] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white">
               <img
                 className="relative h-10 w-10"
@@ -32,7 +33,7 @@ const SpeakerCard = ({ name, twitterHandle, imageUrl, companyName }) => {
           {name}
         </div>
         <div className="flex h-[22px] items-center justify-center text-center text-sm font-normal leading-tight text-white">
-          {companyName}
+          {organization}
         </div>
       </div>
     </div>
@@ -41,9 +42,9 @@ const SpeakerCard = ({ name, twitterHandle, imageUrl, companyName }) => {
 
 SpeakerCard.propTypes = {
   name: PropTypes.string.isRequired,
-  twitterHandle: PropTypes.string,
-  imageUrl: PropTypes.string.isRequired,
-  companyName: PropTypes.string.isRequired,
+  twitter: PropTypes.string,
+  avatar: PropTypes.string.isRequired,
+  organization: PropTypes.string.isRequired,
 }
 
 export default SpeakerCard
