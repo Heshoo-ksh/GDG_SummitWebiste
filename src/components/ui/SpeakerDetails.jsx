@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import PropTypes from 'prop-types'
 
 import Mic from '@/assets/Mic.svg'
 import TwitterHandle from '@/components/TwitterHandle'
@@ -81,27 +82,27 @@ function SpeakerDetails(props) {
           <div className="relative">
             <img
               className="h-[400px] w-[403px]"
-              src={props.image}
+              src={props.avatar}
               alt="speaker image"
             />
-            {props.twitterUrl && (
+            {props.twitter && (
               <div className="absolute bottom-[-30px] left-2/4 mx-auto my-0 -translate-x-2/4 -translate-y-2/4">
-                <TwitterHandle url={props.twitterUrl} />
+                <TwitterHandle url={props.twitter} />
               </div>
             )}
           </div>
           <div className="text-center">
             <h1 className="text-center text-4xl font-bold not-italic leading-10 text-black">
-              {props.speakerName}
+              {props.name}
             </h1>
             <p className="text-center text-2xl font-semibold not-italic leading-8 text-black">
-              {props.companyName}
+              {props.organization}
             </p>
           </div>
         </div>
         <div className="ml-[189px] mr-[25px] mt-[320px] flex flex-col">
           <p className="text-justify text-4xl font-normal not-italic leading-10 text-white">
-            {props.speakerBio}
+            {props.bio}
           </p>
 
           <button
@@ -115,7 +116,7 @@ function SpeakerDetails(props) {
             <SessionContent
               isSessionOpen={isSessionOpen}
               isHiddenText={isHiddenText}
-              sessionName={props.sessionName}
+              sessionName={props.sessionTitle}
             />
           </button>
         </div>
@@ -136,6 +137,16 @@ function SpeakerDetails(props) {
       </div>
     </dialog>
   )
+}
+
+SpeakerDetails.propTypes = {
+  name: PropTypes.string.isRequired,
+  bio: PropTypes.string.isRequired,
+  twitter: PropTypes.string,
+  avatar: PropTypes.string.isRequired,
+  organization: PropTypes.string.isRequired,
+  sessionTitle: PropTypes.string.isRequired,
+  // onClose: PropTypes.func.isRequired,
 }
 
 export default SpeakerDetails
