@@ -6,7 +6,7 @@ import { DIRECTION } from '@/constants/directions'
 function SpeakerSessionCard({
   speakerName,
   sessionTitle,
-  speakerImg,
+  speakerAvatar,
   sessionDesc,
 }) {
   const [direction, setDirection] = useState(DIRECTION.BOTTOM)
@@ -27,7 +27,7 @@ function SpeakerSessionCard({
       >
         <section className="flex items-center text-left">
           <img
-            src={speakerImg}
+            src={speakerAvatar}
             alt={`Headshot of ${speakerName}`}
             className="hidden h-40 rounded-full md:block"
           />
@@ -57,7 +57,7 @@ function SpeakerSessionCard({
 SpeakerSessionCard.propTypes = {
   speakerName: PropTypes.string.isRequired,
   sessionTitle: PropTypes.string.isRequired,
-  speakerImg: PropTypes.string.isRequired,
+  speakerAvatar: PropTypes.string.isRequired,
   sessionDesc: PropTypes.string.isRequired,
 }
 

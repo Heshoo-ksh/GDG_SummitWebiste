@@ -19,7 +19,7 @@ function StylableComponentList({ childComponentData, childComponent, className }
 
 StylableComponentList.propTypes = {
   childComponentData: PropTypes.array.isRequired,
-  childComponent: PropTypes.object.isRequired,
+  childComponent: PropTypes.func.isRequired,
   className: PropTypes.string
 }
 
