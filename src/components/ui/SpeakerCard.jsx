@@ -18,9 +18,9 @@ const SpeakerCard = ({
     setIsModalOpen(true)
   }
 
-  // const closeModal = () => {
-  //   setIsModalOpen(false)
-  // }
+  const closeModal = () => {
+    setIsModalOpen(false)
+  }
 
   return (
     <>
@@ -58,6 +58,7 @@ const SpeakerCard = ({
             avatar={avatar}
             twitter={twitter}
             sessionTitle={sessionTitle}
+            onClose={closeModal}
           />
         </div>
       )}
