@@ -5,7 +5,6 @@ import LandingSection from '@/layouts/LandingSection'
 import LocationSection from '@/layouts/LocationSection'
 import SessionsSection from '@/layouts/SessionsSection'
 import SpeakersSection from '@/layouts/SpeakersSection'
-
 // import SpeakerDetails from '@/components/ui/SpeakerDetails'
 // import placeholderSpeaker from '@assets/Madona Wambua.png'
 

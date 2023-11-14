@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import twitterLogo from '@/assets/Twitter_Logo.png' // Replace with the actual path to your Twitter logo
+import twitterLogo from '@/assets/Twitter_Logo.png'
 
 const SpeakerCard = ({ name, twitterHandle, imageUrl, companyName }) => {
   return (

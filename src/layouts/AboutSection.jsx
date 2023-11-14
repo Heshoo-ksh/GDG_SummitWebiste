@@ -10,8 +10,8 @@ function AboutSection() {
         <p className="font-abc text-sm font-normal md:text-base lg:text-lg xl:text-xl ">
           The Detroit and Ann Arbor Google Developer Groups (GDG) are teaming up
           once again to bring you the 9th Michigan DevFest on December 2, 2023,
-          at the Little Caesar&apos;s Global. With our 9th DevFest, we aim to put
-          together a great day of networking and knowledge sharing for all
+          at the Little Caesar&apos;s Global. With our 9th DevFest, we aim to
+          put together a great day of networking and knowledge sharing for all
           involved.
         </p>
       </div>
