@@ -1,5 +1,6 @@
-import { DIRECTION } from '@/constants/directions'
 import PropTypes from 'prop-types'
+
+import { DIRECTION } from '@/constants/directions'
 
 function AnimatedChevronIcon({
   className,
