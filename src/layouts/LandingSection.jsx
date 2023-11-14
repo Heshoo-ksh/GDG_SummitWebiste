@@ -1,47 +1,35 @@
 import michiganDevFestLogo from '@/assets/michigan-devfest-logo.png'
+import detroitSkyline from '@/assets/Frame 2 - Detroit Skyline.png'
+import redCricle from '@/assets/Circle 1.png'
+import date from '@/assets/02 Dec, 2023.png'
 import dateandcricle from '@/assets/dateandcricle.png'
-import DetroitSkyLinePt1 from '@assets/DetroitSkyline-pt1.png'
-import DetroitSkyLinePt2 from '@assets/DetroitSkyline-pt2.png'
-import DetroitSkyLinePt3 from '@assets/DetroitSkyline-pt3.png'
 
 function LandingSection() {
   return (
-    <section
-      id="landing"
-      className="flex w-screen flex-col items-center"
-    >
+    <section id="landing" className="w-screen">
       <img
-        className="w-5/6 animate-jump-fade-in-one opacity-0"
+        className="mx-auto w-5/6"
         src={michiganDevFestLogo}
         alt="Michigan DevFest Logo"
       />
-      {/*
-         distance between this date img and the devfest logo
-         needs to be shortened. this can be fixed by cropping the actual image
-         externally in a photo editor to fit the logo
-      */}
+
+    <div className="flex justify-center items-center">
       <img
-        className="mb-12 w-1/3 scale-0 animate-zoom-fade-in"
+        className="w-2/6 mt-[-90px]"
         src={dateandcricle}
-        alt="The date for Michigan Google DevFest, December 2nd, 2023"
+        alt="Date and Red Circle"
       />
-      <div
-        className='grid grid-cols-3'
-      >
-        <img
-          className='h-full w-full scale-0 animate-grow-appear-1'
-          src={DetroitSkyLinePt1}
-        />
-        <img
-          className='h-full w-full scale-0 animate-grow-appear-2'
-          src={DetroitSkyLinePt2}
-        />
-        <img
-          className='h-full w-full scale-0 animate-grow-appear-3'
-          src={DetroitSkyLinePt3}
-        />
-      </div>
+    </div>
+
+      
+      <img
+          className="mx-auto w-6/6"
+          src = {detroitSkyline}
+          alt="Detroit Skyline"
+      />
+      
     </section>
+    
   )
 }
 
