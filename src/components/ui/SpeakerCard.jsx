@@ -20,42 +20,32 @@ const SpeakerCard = ({
   // const closeModal = () => {
   //   setIsModalOpen(false)
   // }
+
   return (
     <>
-      <div
-        className="relative !flex h-[246.52px] w-[329.30px] flex-col gap-2 rounded-[3px] bg-blue-500 shadow"
-        onClick={openModal}
-      >
-        <div className="mt-[-137.5px] flex justify-center">
-          <div className="relative">
-            <img
-              className="h-[273px] w-[273px] rounded-full object-cover"
-              src={
-                avatar == ''
-                  ? `https://ui-avatars.com/api/?name=${name}&background=random`
-                  : avatar
-              }
-              alt={name}
-            />
-            {twitter && (
-              <div className="absolute bottom-[-31px] left-1/2 flex h-[60px] w-[60px] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white">
+      <div className="relative mx-auto mb-12 max-w-xs" onClick={openModal}>
+        <div className="overflow-hidden rounded bg-blue-500 shadow-lg">
+          <div className="absolute -mt-24 flex w-full justify-center">
+            <div className="h-44 w-44">
+              <img
+                src={avatar}
+                className="h-full w-full rounded-full object-cover shadow-md"
+                alt={name}
+              />
+              <div className="absolute bottom-[-31px] left-1/2 flex h-[44px] w-[44px] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white">
                 <img
-                  className="relative h-10 w-10"
+                  className="relative h-6 w-6"
                   src={twitterLogo}
                   alt="Twitter logo"
                 />
               </div>
-            )}
+            </div>
           </div>
-        </div>
-
-        {/* Rectangle for name and company */}
-        <div className="flex flex-col gap-[10px]">
-          <div className="flex h-[32px] !items-center justify-center text-center text-2xl font-normal leading-loose text-white">
-            {name}
-          </div>
-          <div className="flex h-[22px] items-center justify-center text-center text-sm font-normal leading-tight text-white">
-            {organization}
+          <div className="mt-24 pb-6">
+            <h1 className="mb-1 text-center text-lg font-semibold text-white">
+              {name}
+            </h1>
+            <p className="text-center text-sm text-white">{organization}</p>
           </div>
         </div>
       </div>
