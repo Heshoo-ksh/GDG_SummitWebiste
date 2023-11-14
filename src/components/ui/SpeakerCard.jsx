@@ -8,6 +8,7 @@ const SpeakerCard = ({
   twitter,
   avatar,
   organization,
+  position,
   bio,
   sessionTitle,
 }) => {
@@ -23,7 +24,7 @@ const SpeakerCard = ({
 
   return (
     <>
-      <div className="relative mx-auto mb-10 max-w-xs" onClick={openModal}>
+      <div className="relative mx-auto mb-12 max-w-xs" onClick={openModal}>
         <div className="overflow-hidden rounded bg-blue-500 shadow-lg">
           <div className="absolute -mt-24 flex w-full justify-center">
             <div className="h-44 w-44">
@@ -41,11 +42,12 @@ const SpeakerCard = ({
               </div>
             </div>
           </div>
-          <div className="mb-2 mt-24 h-20">
-            <h1 className="mb-1 text-center text-lg font-semibold text-white">
+          <div className="mb-4 mt-24 h-20 px-3">
+            <h1 className="text-center text-lg font-semibold text-white">
               {name}
             </h1>
-            <p className="text-center text-sm text-white">{organization}</p>
+            <h3 className="text-center text-base text-white">{organization}</h3>
+            <p className="text-center text-sm text-white">{position}</p>
           </div>
         </div>
       </div>
@@ -71,6 +73,7 @@ SpeakerCard.propTypes = {
   twitter: PropTypes.string,
   avatar: PropTypes.string.isRequired,
   organization: PropTypes.string.isRequired,
+  position: PropTypes.string.isRequired,
   bio: PropTypes.string.isRequired,
   sessionTitle: PropTypes.string.isRequired,
 }

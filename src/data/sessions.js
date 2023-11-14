@@ -27,6 +27,30 @@ import VyasBhuman from '@/assets/speakers/Vyas Bhuman.jpg'
 export const SpeakerData = [
   {
     id: 1,
+    name: 'Madona S. Wambua',
+    email: 'madona.wambua@jibulabs.com',
+    avatar: MadonaWambua,
+    bio: 'Madona is the Founder & CTO of Jibu Labs, an Author, Keynote Speaker, Senior Android Engineer, and Google Developer Expert for Android with over years of experience building Android Applications. She is also a Women Tech Maker Ambassador, a host of Tech Talks with Madona, and a developer who enjoys sharing her Android knowledge and teaching others how to make Android applications.',
+    twitter: 'madona_wambua',
+    url: 'https://madonasyombua.com/',
+    organization: 'Jibu Labs',
+    position: 'Founder & CTO',
+    session: {
+      title:
+        'Simplified App Navigation with Android Jetpack Compose Navigation',
+      abstract:
+        "Revolutionize Android app development with simplified navigation! Embrace modern best practices and make developers' lives easier. Join me and master the art of Navigation in the new Modern Android World.",
+      description:
+        "Android Jetpack Compose has revolutionized the way we build user interfaces in Android apps, and its integration with navigation components offers a modern and streamlined approach to app navigation. In this talk, Madona will explore the power and simplicity of Android Jetpack Compose Navigation.\n\nShe'll cover topics such as creating navigation graphs, handling deep linking, passing data between screens, and implementing complex navigation flows, all within the Jetpack Compose framework. Whether you’re a beginner looking to get started with Compose navigation or an experienced developer seeking best practices and advanced tips, this session will provide insights and techniques to enhance your app's navigation experience using the latest Android technologies.\n\nJoin Madona, and let's explore Modern Android Navigation with Jetpack Compose together.",
+    },
+    tags: [
+      'Android',
+      'Jetpack Compose Navigation',
+      'Modern Android Development',
+    ],
+  },
+  {
+    id: 2,
     name: 'Brian McKeiver',
     email: 'bmckeiver@bizstream.com',
     avatar: BrianMcKeiver,
@@ -34,6 +58,7 @@ export const SpeakerData = [
     twitter: 'mcbeev',
     url: 'http://www.mcbeev.com',
     organization: 'BizStream',
+    position: 'Co-Owner',
     session: {
       title: 'State-of-the-art Search with Azure AI Cognitive Search',
       abstract:
@@ -43,8 +68,29 @@ export const SpeakerData = [
     },
     tags: ['azure', 'search', 'web', 'webapps'],
   },
+
   {
-    id: 2,
+    id: 3,
+    name: 'Erica Olson',
+    email: 'ejo.erica@gmail.com',
+    avatar: EricaOlson,
+    bio: 'Erica Olson is a Lead UX Designer with a specialization in experience design and user research, and a unique perspective gained from her background in video production. Her passion lies in connecting with audiences and users, uncovering their needs and desires through research, and crafting intuitive experiences that leave a lasting impact.',
+    twitter: '',
+    url: 'https://www.linkedin.com/in/ericajolson',
+    organization: 'Little Caesars',
+    position: 'Lead UX Designer',
+    session: {
+      title:
+        'Thriving in Constraints: AI-Infused UX Strategies for Tight Timelines, Scarce Resources, and Modest Budgets',
+      abstract:
+        'For students, career-shifters, and developers: Learn to excel in UX, even with tight timelines, limited resources, and modest budgets. Explore AI-Infused strategies for success in this talk!',
+      description:
+        "In this talk, dive into the world of UX transformation with a speaker who's been there, done that, and led the way. From starting as a lone UX designer at Little Caesars to leading an award-winning UX team, Erica Olson brings invaluable insights and experiences to the podium.\n\nDiscover the secrets to thriving in the face of constraints, whether you're a student, career-shifter, or developer aspiring to excel in UX. With a background that spans the entire spectrum of UX evolution, Erica is the ideal guide to show you how AI-infused strategies can turn limitations into opportunities.\n\nJoin us and learn how to elevate your UX game, leverage AI as your ally, and create remarkable user experiences, all while staying within tight timelines, making the most of limited resources, and managing modest budgets. Don't miss this chance to gain a competitive edge from someone who's not just talking about success but has lived it, from solo designer to award-winning team leader. This is your opportunity to take your UX knowledge to new heights!",
+    },
+    tags: ['UX', 'AI', 'ChatGPT'],
+  },
+  {
+    id: 4,
     name: 'Dan Schnau',
     email: 'dsschnau@gmail.com',
     avatar: DanSchnau,
@@ -61,48 +107,7 @@ export const SpeakerData = [
     },
     tags: ['Blazor', 'C#', 'WebAssembly', 'ASP.NET'],
   },
-  {
-    id: 3,
-    name: 'Erica Olson',
-    email: 'ejo.erica@gmail.com',
-    avatar: EricaOlson,
-    bio: 'Erica Olson is a Lead UX Designer with a specialization in experience design and user research, and a unique perspective gained from her background in video production. Her passion lies in connecting with audiences and users, uncovering their needs and desires through research, and crafting intuitive experiences that leave a lasting impact.',
-    twitter: '',
-    url: 'https://www.linkedin.com/in/ericajolson',
-    organization: 'Little Caesars',
-    session: {
-      title:
-        'Thriving in Constraints: AI-Infused UX Strategies for Tight Timelines, Scarce Resources, and Modest Budgets',
-      abstract:
-        'For students, career-shifters, and developers: Learn to excel in UX, even with tight timelines, limited resources, and modest budgets. Explore AI-Infused strategies for success in this talk!',
-      description:
-        "In this talk, dive into the world of UX transformation with a speaker who's been there, done that, and led the way. From starting as a lone UX designer at Little Caesars to leading an award-winning UX team, Erica Olson brings invaluable insights and experiences to the podium.\n\nDiscover the secrets to thriving in the face of constraints, whether you're a student, career-shifter, or developer aspiring to excel in UX. With a background that spans the entire spectrum of UX evolution, Erica is the ideal guide to show you how AI-infused strategies can turn limitations into opportunities.\n\nJoin us and learn how to elevate your UX game, leverage AI as your ally, and create remarkable user experiences, all while staying within tight timelines, making the most of limited resources, and managing modest budgets. Don't miss this chance to gain a competitive edge from someone who's not just talking about success but has lived it, from solo designer to award-winning team leader. This is your opportunity to take your UX knowledge to new heights!",
-    },
-    tags: ['UX', 'AI', 'ChatGPT'],
-  },
-  {
-    id: 4,
-    name: 'Madona S. Wambua',
-    email: 'madona.wambua@jibulabs.com',
-    avatar: MadonaWambua,
-    bio: 'Madona is the Founder & CTO of Jibu Labs, an Author, Keynote Speaker, Senior Android Engineer, and Google Developer Expert for Android with over years of experience building Android Applications. She is also a Women Tech Maker Ambassador, a host of Tech Talks with Madona, and a developer who enjoys sharing her Android knowledge and teaching others how to make Android applications.',
-    twitter: 'madona_wambua',
-    url: 'https://madonasyombua.com/',
-    organization: 'Jibu Labs',
-    session: {
-      title:
-        'Simplified App Navigation with Android Jetpack Compose Navigation',
-      abstract:
-        "Revolutionize Android app development with simplified navigation! Embrace modern best practices and make developers' lives easier. Join me and master the art of Navigation in the new Modern Android World.",
-      description:
-        "Android Jetpack Compose has revolutionized the way we build user interfaces in Android apps, and its integration with navigation components offers a modern and streamlined approach to app navigation. In this talk, Madona will explore the power and simplicity of Android Jetpack Compose Navigation.\n\nShe'll cover topics such as creating navigation graphs, handling deep linking, passing data between screens, and implementing complex navigation flows, all within the Jetpack Compose framework. Whether you’re a beginner looking to get started with Compose navigation or an experienced developer seeking best practices and advanced tips, this session will provide insights and techniques to enhance your app's navigation experience using the latest Android technologies.\n\nJoin Madona, and let's explore Modern Android Navigation with Jetpack Compose together.",
-    },
-    tags: [
-      'Android',
-      'Jetpack Compose Navigation',
-      'Modern Android Development',
-    ],
-  },
+
   {
     id: 5,
     name: 'Don Ward',
@@ -112,6 +117,7 @@ export const SpeakerData = [
     twitter: '',
     url: '',
     organization: 'Google',
+    position: 'Customer Engineer Specialist',
     session: {
       title: 'Lead Your Local Tech Community, Gain the Edge in your Career',
       abstract:
@@ -123,6 +129,25 @@ export const SpeakerData = [
   },
   {
     id: 6,
+    name: 'Vikram Tiwari',
+    email: 'vikramtheone1@gmail.com',
+    avatar: VikramTiwari,
+    bio: 'Vikram Tiwari is Co-founder, tech at Omni Labs where they are building the future of work and automation. He focuses on the cloud and machine learning aspects of technology. Vikram focuses on finding novel solutions to tough problems because he believes there is always a way! Vikram enjoys public speaking and helping individuals and startups when he is not actively writing code.',
+    twitter: 'Vikram_Tiwari',
+    url: 'https://vikramtiwari.com',
+    organization: 'Omni Labs, Inc.',
+    position: 'Google Developer Expert For Cloud And ML',
+    session: {
+      title: 'Build Your Own GenAI Model',
+      abstract:
+        'In this talk, we will discuss the basics of generative AI and how to build your own GenAI model.',
+      description:
+        'In this talk, we will discuss the basics of generative AI and how to build your own GenAI model. We will cover the following topics:\n\n\u2022 What is generative AI?\n\u2022 How do GenAI models work?\n\u2022 The different types of GenAI models\n\u2022 How to build a GenAI model\n\u2022 How to deploy a GenAI model\n\nI will also provide hands-on examples of how to build GenAI models using open-source tools.',
+    },
+    tags: ['machine learning', 'tensorflow', 'google cloud'],
+  },
+  {
+    id: 7,
     name: 'Bandhan Kaur',
     email: 'kaur@bandhan.dev',
     avatar: BandhanKaur,
@@ -140,7 +165,7 @@ export const SpeakerData = [
     tags: ['Firebase', 'Google Cloud Platform'],
   },
   {
-    id: 7,
+    id: 8,
     name: 'Daniel Hope',
     email: 'm0b1us0099@gmail.com',
     avatar: DanielHope,
@@ -159,7 +184,7 @@ export const SpeakerData = [
     tags: ['accessibility'],
   },
   {
-    id: 8,
+    id: 9,
     name: 'Alex Riviere',
     email: 'fimion@gmail.com',
     avatar: AlexRiviere,
@@ -167,6 +192,7 @@ export const SpeakerData = [
     twitter: 'fimion',
     url: 'https://alex.party',
     organization: 'Nexcor Technology',
+    position: 'Senior Frontend Developer',
     session: {
       title: 'Implementing Small Design Systems',
       abstract:
@@ -176,24 +202,7 @@ export const SpeakerData = [
     },
     tags: ['webdev', 'javascript', 'design systems', 'php'],
   },
-  {
-    id: 9,
-    name: 'Vikram Tiwari',
-    email: 'vikramtheone1@gmail.com',
-    avatar: VikramTiwari,
-    bio: 'Vikram Tiwari is Co-founder, tech at Omni Labs where they are building the future of work and automation. He focuses on the cloud and machine learning aspects of technology. Vikram focuses on finding novel solutions to tough problems because he believes there is always a way! Vikram enjoys public speaking and helping individuals and startups when he is not actively writing code.',
-    twitter: 'Vikram_Tiwari',
-    url: 'https://vikramtiwari.com',
-    organization: 'Omni Labs, Inc.',
-    session: {
-      title: 'Build Your Own GenAI Model',
-      abstract:
-        'In this talk, we will discuss the basics of generative AI and how to build your own GenAI model.',
-      description:
-        'In this talk, we will discuss the basics of generative AI and how to build your own GenAI model. We will cover the following topics:\n\n\u2022 What is generative AI?\n\u2022 How do GenAI models work?\n\u2022 The different types of GenAI models\n\u2022 How to build a GenAI model\n\u2022 How to deploy a GenAI model\n\nI will also provide hands-on examples of how to build GenAI models using open-source tools.',
-    },
-    tags: ['machine learning', 'tensorflow', 'google cloud'],
-  },
+
   {
     id: 10,
     name: 'Greg Miller',
@@ -203,6 +212,7 @@ export const SpeakerData = [
     twitter: 'grmiller',
     url: 'https://shrinkraylabs.com',
     organization: 'Shrinkray Interactive, LLC',
+    position: 'UX Engineer',
     session: {
       title: 'Empowering Developers: Shipping Accessible Digital Experiences',
       abstract:
@@ -221,6 +231,7 @@ export const SpeakerData = [
     twitter: 'navczydev',
     url: 'https://medium.com/@navczydev',
     organization: 'Manulife',
+    position: 'Google Developer Expert - Android',
     session: {
       title: "What's up with Android's back?",
       abstract:
@@ -259,7 +270,7 @@ export const SpeakerData = [
     ],
   },
   {
-    id: 14,
+    id: 13,
     name: 'Nilesh Patel',
     email: 'patelnilesh@google.com',
     avatar: NileshPatel,
@@ -267,6 +278,7 @@ export const SpeakerData = [
     twitter: '',
     url: 'https://www.linkedin.com/in/nilesh-patel/',
     organization: 'Google',
+    position: 'Customer Engineer Specialist',
     session: {
       title: 'Generative AI: The Next Frontier of Conversational AI',
       abstract:
@@ -277,25 +289,7 @@ export const SpeakerData = [
     tags: ['Generative AI', 'AI'],
   },
   {
-    id: 15,
-    name: 'Vyas Bhuman',
-    email: 'bhuman.vyas@gmail.com',
-    avatar: VyasBhuman,
-    bio: '',
-    twitter: '',
-    url: '',
-    organization: '',
-    session: {
-      title: 'From Zero to Kafka Hero: A Comprehensive Introduction',
-      abstract:
-        'I am Bhuman Vyas having 12+ years of experience in building highly scalable and maintainable APIs. Currently working as a senior software developer in Credit Acceptance.\nI am fan of kafka as it solves Real-time, fault-tolerant event streaming for seamless data integration and processing.',
-      description:
-        "Apache Kafka is a high-throughput, fault-tolerant, and scalable distributed event streaming platform that enables real-time data processing and data integration in a highly efficient and reliable manner. It serves as the central nervous system for modern data-driven applications, providing a unified, durable, and real-time data pipeline for connecting various data sources and applications. With its distributed architecture and strong durability guarantees, Kafka is the go-to solution for building real-time data pipelines, event-driven microservices, and stream processing applications, ensuring your data flows smoothly and reliably across your organization.\n\nUse case : Fraud Detection\n\nReal-Time Data Streaming: Companies like Uber use Kafka to stream real-time data from various sources (e.g., mobile apps, GPS) for driver and rider matching, ETA calculations, and more.\n\nLog Aggregation: Large-scale systems and applications generate a vast amount of log data. Kafka is used to collect, aggregate, and analyze log data for troubleshooting and monitoring.\n\nMetrics and Monitoring: Kafka helps collect and process performance metrics and monitoring data to ensure the health and stability of systems and applications.\n\nEvent Sourcing: Event sourcing architectures use Kafka to store and process domain events, allowing for a complete history of changes in an application's state.\n\nIoT Data Ingestion: Internet of Things (IoT) devices generate massive streams of data. Kafka is used to ingest and process IoT data for real-time analytics and insights.\n\nFraud Detection: Financial institutions use Kafka to process large volumes of transaction data in real time to detect and prevent fraudulent activities.\n\nSocial Media Data Processing: Platforms like Twitter use Kafka to handle the high volume of tweets, track trending topics, and deliver real-time updates to users.\n\nRecommendation Engines: E-commerce companies use Kafka to process user behavior data and provide real-time product recommendations.\n\nCross-System Integration: Kafka serves as a central hub for integrating different systems and applications, ensuring data consistency and real-time communication.\n\nMicroservices Communication: Kafka is used for communication and event-driven architecture in microservices, allowing different services to react to events and maintain data consistency.",
-    },
-    tags: ['kafka', 'springboot', 'Rest'],
-  },
-  {
-    id: 16,
+    id: 14,
     name: 'Chris DeMars',
     email: 'cdemars86@gmail.com',
     avatar: ChrisDemars,
@@ -303,6 +297,7 @@ export const SpeakerData = [
     twitter: 'saltnburnem',
     url: 'https://chrisdemars.net/',
     organization: 'Harness',
+    position: 'Senior Developer Advocate',
     session: {
       title: 'Demystifying The Dreaded A/B Test',
       abstract:
@@ -313,7 +308,27 @@ export const SpeakerData = [
     tags: ['devops', 'ci/cd', 'SaaS', 'QA'],
   },
   {
-    id: 17,
+    id: 15,
+    name: 'Ceclynn Fielder-Sherrer',
+    email: 'ceclynnsherrer@yahoo.com',
+    avatar: CeclynnFielderSherrer,
+    bio: "Ceclynn Fielder-Sherrer is a dynamic and passionate staffing professional with a remarkable journey that spans industry giants to start-ups. Her unwavering dedication to the staffing industry is fueled by her love for helping people and her burning desire to make a positive impact in the tech world.\n\nAs the CEO and Founder of DataFielder, Inc.,Ceclynn's vision was born out of a dream to increase diversity and inclusion within the tech industry. With a vibrant entrepreneurial spirit, she embarked on a path to create a staffing and consulting services firm that goes beyond filling positions. Her goal is to foster a culture of belonging and empower individuals to excel in their careers.\n\nCeclynn's journey of self-discovery led her to find her own unique identity after following in the footsteps of well-known family members. With a bold determination, she paved her own way and carved a niche in the industry that aligns with her passions and aspirations. Along the way, she discovered the power of embracing her individuality and harnessing her own strengths to make a difference.\n\nWith an infectious energy and friendly approach, Ceclynn thrives on building strong relationships and delivering exceptional results. She understands the importance of creating a collaborative and supportive environment. Her goal is to create a staffing experience that is both effective and enjoyable, where clients and candidates alike can thrive.",
+    twitter: '',
+    url: 'https://datafielderinc.com',
+    organization: 'DataFielder',
+    position: 'CEO',
+    session: {
+      title:
+        'Empowering Diversity in Tech: A Journey of Innovation and Inclusion',
+      abstract:
+        "Imagine a journey where diversity sparks innovation, inclusion drives success, and tech knows no boundaries. Join me as I take you on an extraordinary adventure through the world of tech, sharing the invaluable insights I've gained over a decade in the IT staffing and recruitment industry.",
+      description:
+        "In \"Empowering Diversity in Tech: A Journey of Innovation and Inclusion,\" we'll explore how embracing diversity isn't just a social imperative, it's a powerful catalyst for innovation, creativity, and profitability. My story is a testament to the incredible transformations that occur when you celebrate differences and encourage the talents of all.\nDiscover the keys to unlock a more inclusive and innovative tech world:\n- Learn how diversity fosters creative problem-solving.\n- Uncover the strategies to attract, retain, and nurture a diverse talent pool.\n- Explore the business case for a more inclusive and equitable tech ecosystem.\n- Hear inspiring success stories from organizations that have reaped the benefits of diversity.\n- Gain practical insights into promoting diversity at all levels of your organization.\n\nMy unique perspective as a woman-minority founder in the tech world will inspire you to break free from traditional boundaries, challenge the status quo, and create a tech landscape where every voice is heard, valued, and empowered.\nGet ready for an electrifying talk that will energize your commitment to diversity, propel your innovation initiatives, and open your eyes to the endless possibilities in tech.",
+    },
+    tags: ['DiversityInTech'],
+  },
+  {
+    id: 16,
     name: 'Keith Bourne',
     email: 'keithebourne@gmail.com',
     avatar: KeithBourne,
@@ -321,6 +336,7 @@ export const SpeakerData = [
     twitter: 'keithbourne',
     url: 'https://gradientvalley.com/',
     organization: 'Gradient Valley, Inc.',
+    position: 'Senior Data Scientist, Generative AI Engineer',
     session: {
       title:
         'Production Ready Document Extraction with Generative AI, LangChain, and Vertex AI on GCP',
@@ -355,26 +371,27 @@ export const SpeakerData = [
     ],
   },
   {
-    id: 18,
-    name: 'Ceclynn Fielder-Sherrer',
-    email: 'ceclynnsherrer@yahoo.com',
-    avatar: CeclynnFielderSherrer,
-    bio: "Ceclynn Fielder-Sherrer is a dynamic and passionate staffing professional with a remarkable journey that spans industry giants to start-ups. Her unwavering dedication to the staffing industry is fueled by her love for helping people and her burning desire to make a positive impact in the tech world.\n\nAs the CEO and Founder of DataFielder, Inc.,Ceclynn's vision was born out of a dream to increase diversity and inclusion within the tech industry. With a vibrant entrepreneurial spirit, she embarked on a path to create a staffing and consulting services firm that goes beyond filling positions. Her goal is to foster a culture of belonging and empower individuals to excel in their careers.\n\nCeclynn's journey of self-discovery led her to find her own unique identity after following in the footsteps of well-known family members. With a bold determination, she paved her own way and carved a niche in the industry that aligns with her passions and aspirations. Along the way, she discovered the power of embracing her individuality and harnessing her own strengths to make a difference.\n\nWith an infectious energy and friendly approach, Ceclynn thrives on building strong relationships and delivering exceptional results. She understands the importance of creating a collaborative and supportive environment. Her goal is to create a staffing experience that is both effective and enjoyable, where clients and candidates alike can thrive.",
+    id: 17,
+    name: 'Vyas Bhuman',
+    email: 'bhuman.vyas@gmail.com',
+    avatar: VyasBhuman,
+    bio: '',
     twitter: '',
-    url: 'https://datafielderinc.com',
-    organization: 'DataFielder',
+    url: '',
+    organization: 'Credit Acceptance',
+    position: 'Senior Application Developer',
     session: {
-      title:
-        'Empowering Diversity in Tech: A Journey of Innovation and Inclusion',
+      title: 'From Zero to Kafka Hero: A Comprehensive Introduction',
       abstract:
-        "Imagine a journey where diversity sparks innovation, inclusion drives success, and tech knows no boundaries. Join me as I take you on an extraordinary adventure through the world of tech, sharing the invaluable insights I've gained over a decade in the IT staffing and recruitment industry.",
+        'I am Bhuman Vyas having 12+ years of experience in building highly scalable and maintainable APIs. Currently working as a senior software developer in Credit Acceptance.\nI am fan of kafka as it solves Real-time, fault-tolerant event streaming for seamless data integration and processing.',
       description:
-        "In \"Empowering Diversity in Tech: A Journey of Innovation and Inclusion,\" we'll explore how embracing diversity isn't just a social imperative, it's a powerful catalyst for innovation, creativity, and profitability. My story is a testament to the incredible transformations that occur when you celebrate differences and encourage the talents of all.\nDiscover the keys to unlock a more inclusive and innovative tech world:\n- Learn how diversity fosters creative problem-solving.\n- Uncover the strategies to attract, retain, and nurture a diverse talent pool.\n- Explore the business case for a more inclusive and equitable tech ecosystem.\n- Hear inspiring success stories from organizations that have reaped the benefits of diversity.\n- Gain practical insights into promoting diversity at all levels of your organization.\n\nMy unique perspective as a woman-minority founder in the tech world will inspire you to break free from traditional boundaries, challenge the status quo, and create a tech landscape where every voice is heard, valued, and empowered.\nGet ready for an electrifying talk that will energize your commitment to diversity, propel your innovation initiatives, and open your eyes to the endless possibilities in tech.",
+        "Apache Kafka is a high-throughput, fault-tolerant, and scalable distributed event streaming platform that enables real-time data processing and data integration in a highly efficient and reliable manner. It serves as the central nervous system for modern data-driven applications, providing a unified, durable, and real-time data pipeline for connecting various data sources and applications. With its distributed architecture and strong durability guarantees, Kafka is the go-to solution for building real-time data pipelines, event-driven microservices, and stream processing applications, ensuring your data flows smoothly and reliably across your organization.\n\nUse case : Fraud Detection\n\nReal-Time Data Streaming: Companies like Uber use Kafka to stream real-time data from various sources (e.g., mobile apps, GPS) for driver and rider matching, ETA calculations, and more.\n\nLog Aggregation: Large-scale systems and applications generate a vast amount of log data. Kafka is used to collect, aggregate, and analyze log data for troubleshooting and monitoring.\n\nMetrics and Monitoring: Kafka helps collect and process performance metrics and monitoring data to ensure the health and stability of systems and applications.\n\nEvent Sourcing: Event sourcing architectures use Kafka to store and process domain events, allowing for a complete history of changes in an application's state.\n\nIoT Data Ingestion: Internet of Things (IoT) devices generate massive streams of data. Kafka is used to ingest and process IoT data for real-time analytics and insights.\n\nFraud Detection: Financial institutions use Kafka to process large volumes of transaction data in real time to detect and prevent fraudulent activities.\n\nSocial Media Data Processing: Platforms like Twitter use Kafka to handle the high volume of tweets, track trending topics, and deliver real-time updates to users.\n\nRecommendation Engines: E-commerce companies use Kafka to process user behavior data and provide real-time product recommendations.\n\nCross-System Integration: Kafka serves as a central hub for integrating different systems and applications, ensuring data consistency and real-time communication.\n\nMicroservices Communication: Kafka is used for communication and event-driven architecture in microservices, allowing different services to react to events and maintain data consistency.",
     },
-    tags: ['DiversityInTech'],
+    tags: ['kafka', 'springboot', 'Rest'],
   },
+
   {
-    id: 19,
+    id: 18,
     name: 'Chris Turvey',
     email: 'christurvey@gmail.com',
     avatar: ChrisTurvey,
@@ -382,6 +399,7 @@ export const SpeakerData = [
     twitter: 'christurvey',
     url: '',
     organization: '',
+    position: 'Tech Dad',
     session: {
       title: 'Seven Habits of Somewhat Effective Self-Taught Programmers',
       abstract:
@@ -392,7 +410,7 @@ export const SpeakerData = [
     tags: [],
   },
   {
-    id: 20,
+    id: 19,
     name: 'Amit Rathik',
     email: 'amit.rathi.k@gmail.com',
     avatar: AmitRathi,
@@ -400,6 +418,7 @@ export const SpeakerData = [
     twitter: 'amitrathik',
     url: 'https://amitrathik.com',
     organization: 'The Mobile Dev',
+    position: 'Owner',
     session: {
       title: 'Data Sharing Issues with microservice architecture',
       abstract:
@@ -410,7 +429,7 @@ export const SpeakerData = [
     tags: ['Microservices', 'decoupled', 'headless', 'monoliths', 'devops'],
   },
   {
-    id: 21,
+    id: 20,
     name: 'Keith Kurak',
     email: 'keith.kurak@gmail.com',
     avatar: KeithKurak,
@@ -418,6 +437,7 @@ export const SpeakerData = [
     twitter: 'llamaluvr',
     url: 'https://github.com/keith-kurak',
     organization: 'Expo',
+    position: 'Developer Success Engineer',
     session: {
       title: 'Freaky Fast Universal Full-Stack With Firebase and Expo Router',
       abstract:
@@ -428,7 +448,7 @@ export const SpeakerData = [
     tags: ['React', 'React Native', 'Expo', 'Firebase', 'Mobile', 'Web'],
   },
   {
-    id: 22,
+    id: 21,
     name: 'Ben Jacques',
     email: 'Ben.Jacques@spindance.com',
     avatar: BenJacques,
@@ -436,6 +456,7 @@ export const SpeakerData = [
     twitter: '',
     url: 'https://www.linkedin.com/in/ben-jacques-aiml',
     organization: 'SpinDance',
+    position: 'Director Of Engineering',
     session: {
       title: 'Getting Started with Flutter for Embedded Linux',
       abstract:
@@ -446,7 +467,7 @@ export const SpeakerData = [
     tags: ['flutter', 'linux', 'UI', 'dart', 'embedded'],
   },
   {
-    id: 23,
+    id: 22,
     name: 'Mike Nimer',
     email: 'mikenimer@google.com',
     avatar: MikeNimer,
@@ -454,6 +475,7 @@ export const SpeakerData = [
     twitter: 'mnimer',
     url: '',
     organization: 'Google',
+    position: 'Solutions Specialist',
     session: {
       title: 'Introduction to Flutter',
       abstract:
@@ -464,7 +486,7 @@ export const SpeakerData = [
     tags: ['Flutter'],
   },
   {
-    id: 24,
+    id: 23,
     name: 'Chad Hamdan',
     email: 'chad.abou-hamdan@lcecorp.com',
     avatar: ChadHamdan,
@@ -472,6 +494,7 @@ export const SpeakerData = [
     twitter: '',
     url: '',
     organization: 'Little Caesars',
+    position: 'Mobile Developer',
     session: {
       title: 'Developing for the Apple Vision Pro',
       abstract: '',
@@ -481,7 +504,7 @@ export const SpeakerData = [
     tags: [],
   },
   {
-    id: 25,
+    id: 24,
     name: 'Nadia Tahiri',
     email: 'nadia.tahiri@gmail.com',
     avatar: NadiaTahiri,
@@ -489,6 +512,7 @@ export const SpeakerData = [
     twitter: 'DrNadiaTahiri',
     url: 'https://www.linkedin.com/in/tahiri-nadia/',
     organization: 'University of Sherbrooke',
+    position: 'Assistant Professor',
     session: {
       title: 'AI and Climate Change: Bridging the Past and Future',
       abstract:
@@ -499,7 +523,7 @@ export const SpeakerData = [
     tags: ['AI', 'ML', 'Bioinformatics', 'Climate change'],
   },
   {
-    id: 26,
+    id: 25,
     name: 'Pavel Ryabov',
     email: '',
     avatar: PavelRyabov,
@@ -507,6 +531,7 @@ export const SpeakerData = [
     twitter: '',
     url: '',
     organization: '',
+    position: 'Full-Stack Software Engineer',
     session: {
       title: 'AI Firebase Extensions',
       abstract:

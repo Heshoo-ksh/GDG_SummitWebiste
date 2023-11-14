@@ -12,6 +12,7 @@ function SpeakersSection() {
               twitter={speaker.twitter}
               avatar={speaker.avatar}
               organization={speaker.organization}
+              position={speaker.position}
               bio={speaker.bio}
               sessionTitle={speaker.session.title}
             />
