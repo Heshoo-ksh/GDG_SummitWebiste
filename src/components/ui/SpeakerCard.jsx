@@ -23,7 +23,7 @@ const SpeakerCard = ({
 
   return (
     <>
-      <div className="relative mx-auto mb-12 max-w-xs" onClick={openModal}>
+      <div className="relative mx-auto mb-10 max-w-xs" onClick={openModal}>
         <div className="overflow-hidden rounded bg-blue-500 shadow-lg">
           <div className="absolute -mt-24 flex w-full justify-center">
             <div className="h-44 w-44">
@@ -41,7 +41,7 @@ const SpeakerCard = ({
               </div>
             </div>
           </div>
-          <div className="mt-24 pb-6">
+          <div className="mb-2 mt-24 h-20">
             <h1 className="mb-1 text-center text-lg font-semibold text-white">
               {name}
             </h1>

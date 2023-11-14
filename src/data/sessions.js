@@ -27,7 +27,7 @@ export const SpeakerData = [
     bio: 'Dan Schnau has been writing code since 2011. Living in Metro Detroit, he loves board games, hockey, and solving problems with software.',
     twitter: 'danschnau',
     url: 'https://danschnau.com/',
-    organization: '',
+    organization: 'Software Consultant',
     session: {
       title: 'Getting started with Blazor',
       abstract:
@@ -64,7 +64,7 @@ export const SpeakerData = [
     bio: 'Madona is the Founder & CTO of Jibu Labs, an Author, Keynote Speaker, Senior Android Engineer, and Google Developer Expert for Android with over years of experience building Android Applications. She is also a Women Tech Maker Ambassador, a host of Tech Talks with Madona, and a developer who enjoys sharing her Android knowledge and teaching others how to make Android applications.',
     twitter: 'madona_wambua',
     url: 'https://madonasyombua.com/',
-    organization: '',
+    organization: 'Jibu Labs',
     session: {
       title:
         'Simplified App Navigation with Android Jetpack Compose Navigation',
