@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
-import TwitterIcon from '@/assets/TwitterIcon.svg'
 import SpeakerDetails from '@/components/ui/SpeakerDetails'
 import { useState } from 'react'
+import TwitterHandle from '../TwitterHandle'
 
 const SpeakerCard = ({
   name,
@@ -24,25 +24,22 @@ const SpeakerCard = ({
 
   return (
     <>
-      <div className="relative mx-auto mb-12 max-w-xs" onClick={openModal}>
-        <div className="overflow-hidden rounded bg-blue-500 shadow-lg">
+      <div
+        className="relative mx-auto mb-16 max-w-xs bg-blue-500 shadow-xl transition delay-75 duration-100 ease-in-out hover:-translate-y-1 hover:scale-110 hover:cursor-pointer"
+        onClick={openModal}
+      >
+        <div className="overflow-hidden rounded bg-blue-500 shadow-2xl">
           <div className="absolute -mt-24 flex w-full justify-center">
-            <div className="h-44 w-44">
+            <div className="h-48 w-48">
               <img
                 src={avatar}
                 className="h-full w-full rounded-full object-cover shadow-md"
                 alt={name}
               />
-              <div className="absolute bottom-[-31px] left-1/2 flex h-[40px] w-[40px] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white">
-                <img
-                  className="relative h-6 w-6"
-                  src={TwitterIcon}
-                  alt="Twitter logo"
-                />
-              </div>
+              {twitter && <TwitterHandle handle={twitter} />}
             </div>
           </div>
-          <div className="mb-4 mt-24 h-20 px-3">
+          <div className="mb-4 mt-28 h-20 px-2">
             <h1 className="text-center text-lg font-semibold text-white">
               {name}
             </h1>

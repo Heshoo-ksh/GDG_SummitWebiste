@@ -1,18 +1,21 @@
 import TwitterIcon from '@/assets/TwitterIcon.svg'
+import PropTypes from 'prop-types'
 
-/* eslint-disable react/prop-types */
-
-function TwitterHandle(props) {
+const TwitterHandle = ({ handle }) => {
   return (
     <a
-      href={props.url}
+      href={`https://twitter.com/${handle}`}
       target="_blank"
       rel="noreferrer"
-      className="flex h-[60px] w-[60px] shrink-0 items-center justify-center rounded-full bg-white"
+      className="absolute bottom-[-31px] left-1/2 flex h-[40px] w-[40px] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white"
     >
-      <img className="h-[40px] w-[40px]" src={TwitterIcon} />
+      <img className="relative h-6 w-6" src={TwitterIcon} alt="Twitter logo" />
     </a>
   )
+}
+
+TwitterHandle.propTypes = {
+  handle: PropTypes.string.isRequired,
 }
 
 export default TwitterHandle

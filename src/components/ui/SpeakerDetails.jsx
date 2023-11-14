@@ -85,11 +85,7 @@ function SpeakerDetails(props) {
               src={props.avatar}
               alt="speaker image"
             />
-            {props.twitter && (
-              <div className="absolute bottom-[-30px] left-2/4 mx-auto my-0 -translate-x-2/4 -translate-y-2/4">
-                <TwitterHandle url={props.twitter} />
-              </div>
-            )}
+            {props.twitter && <TwitterHandle handle={props.twitter} />}
           </div>
           <div className="text-center">
             <h1 className="text-center text-4xl font-bold not-italic leading-10 text-black">
