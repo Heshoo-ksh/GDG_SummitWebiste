@@ -12,6 +12,8 @@ function SpeakersSection() {
               twitter={speaker.twitter}
               avatar={speaker.avatar}
               organization={speaker.organization}
+              bio={speaker.bio}
+              sessionTitle={speaker.session.title}
             />
           </div>
         ))}
