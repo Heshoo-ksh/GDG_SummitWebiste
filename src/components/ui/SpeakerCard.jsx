@@ -1,13 +1,14 @@
 import PropTypes from 'prop-types'
-import twitterLogo from '@/assets/Twitter_Logo.png'
 import SpeakerDetails from '@/components/ui/SpeakerDetails'
 import { useState } from 'react'
+import TwitterHandle from '../TwitterHandle'
 
 const SpeakerCard = ({
   name,
   twitter,
   avatar,
   organization,
+  position,
   bio,
   sessionTitle,
 }) => {
@@ -17,45 +18,33 @@ const SpeakerCard = ({
     setIsModalOpen(true)
   }
 
-  // const closeModal = () => {
-  //   setIsModalOpen(false)
-  // }
+  const closeModal = () => {
+    setIsModalOpen(false)
+  }
+
   return (
     <>
       <div
-        className="relative !flex h-[246.52px] w-[329.30px] flex-col gap-2 rounded-[3px] bg-blue-500 shadow"
+        className="relative mx-auto mb-16 max-w-xs bg-blue-500 shadow-xl transition delay-75 duration-100 ease-in-out hover:-translate-y-1 hover:scale-110 hover:cursor-pointer"
         onClick={openModal}
       >
-        <div className="mt-[-137.5px] flex justify-center">
-          <div className="relative">
-            <img
-              className="h-[273px] w-[273px] rounded-full object-cover"
-              src={
-                avatar == ''
-                  ? `https://ui-avatars.com/api/?name=${name}&background=random`
-                  : avatar
-              }
-              alt={name}
-            />
-            {twitter && (
-              <div className="absolute bottom-[-31px] left-1/2 flex h-[60px] w-[60px] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white">
-                <img
-                  className="relative h-10 w-10"
-                  src={twitterLogo}
-                  alt="Twitter logo"
-                />
-              </div>
-            )}
+        <div className="overflow-hidden rounded bg-blue-500 shadow-2xl">
+          <div className="absolute -mt-24 flex w-full justify-center">
+            <div className="h-48 w-48">
+              <img
+                src={avatar}
+                className="h-full w-full rounded-full object-cover shadow-md"
+                alt={name}
+              />
+              {twitter && <TwitterHandle handle={twitter} />}
+            </div>
           </div>
-        </div>
-
-        {/* Rectangle for name and company */}
-        <div className="flex flex-col gap-[10px]">
-          <div className="flex h-[32px] !items-center justify-center text-center text-2xl font-normal leading-loose text-white">
-            {name}
-          </div>
-          <div className="flex h-[22px] items-center justify-center text-center text-sm font-normal leading-tight text-white">
-            {organization}
+          <div className="mb-4 mt-28 h-20 px-2">
+            <h1 className="text-center text-lg font-semibold text-white">
+              {name}
+            </h1>
+            <h3 className="text-center text-base text-white">{organization}</h3>
+            <p className="text-center text-sm text-white">{position}</p>
           </div>
         </div>
       </div>
@@ -69,6 +58,7 @@ const SpeakerCard = ({
             avatar={avatar}
             twitter={twitter}
             sessionTitle={sessionTitle}
+            onClose={closeModal}
           />
         </div>
       )}
@@ -81,6 +71,7 @@ SpeakerCard.propTypes = {
   twitter: PropTypes.string,
   avatar: PropTypes.string.isRequired,
   organization: PropTypes.string.isRequired,
+  position: PropTypes.string.isRequired,
   bio: PropTypes.string.isRequired,
   sessionTitle: PropTypes.string.isRequired,
 }

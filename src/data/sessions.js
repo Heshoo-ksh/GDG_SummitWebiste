@@ -1,70 +1,40 @@
+import AlexRiviere from '@/assets/speakers/Alex Riviere.jpg'
+import AllenFirstenberg from '@/assets/speakers/Allen Firstenberg.jpg'
+import AmitRathi from '@/assets/speakers/Amit Rathi.jpg'
+import BandhanKaur from '@/assets/speakers/Bandhan Kaur.jpg'
+import BenJacques from '@/assets/speakers/Ben Jacques.jpg'
+import BrianMcKeiver from '@/assets/speakers/BrianMcKeiver.png'
+import CeclynnFielderSherrer from '@/assets/speakers/Ceclynn FielderSherrer.jpg'
+import ChadHamdan from '@/assets/speakers/Chad Hamdan.jpg'
+import ChrisDemars from '@/assets/speakers/Chris Demars.jpg'
+import ChrisTurvey from '@/assets/speakers/Chris Turvey.jpg'
+import DanSchnau from '@/assets/speakers/Dan Schnau.png'
+import DanielHope from '@/assets/speakers/Daniel Hope.jpg'
+import DonWard from '@/assets/speakers/Don Ward.png'
+import EricaOlson from '@/assets/speakers/Erica Olson.png'
+import GregMiller from '@/assets/speakers/Greg Miller.jpg'
+import KeithBourne from '@/assets/speakers/Keith Bourne.jpg'
+import KeithKurak from '@/assets/speakers/Keith Kurak.jpg'
+import MadonaWambua from '@/assets/speakers/Madona Wambua.png'
+import MikeNimer from '@/assets/speakers/Mike Nimer.jpg'
+import NadiaTahiri from '@/assets/speakers/Nadia Tahiri.jpg'
+import NavSingh from '@/assets/speakers/Nav Singh.png'
+import NileshPatel from '@/assets/speakers/Nilesh Patel.jpg'
+import PavelRyabov from '@/assets/speakers/Pavel Ryabov.jpg'
+import VikramTiwari from '@/assets/speakers/Vikram Tiwari.jpg'
+import VyasBhuman from '@/assets/speakers/Vyas Bhuman.jpg'
+
 export const SpeakerData = [
   {
     id: 1,
-    name: 'Brian McKeiver',
-    email: 'bmckeiver@bizstream.com',
-    avatar:
-      'https://secure.gravatar.com/avatar/47f0ffc1dfda909c97bc3f7003529ed4?s=500',
-    bio: 'Brian McKeiver is Co-Owner at BizStream, a digital agency in Allendale, MI. At BizStream he is a solution architect, visionary, Microsoft Azure MVP, Kontent.ai MVP, and Kentico MVP. He has 21 years of experience leading his agency of more than 35 employees, about a hundred clients spread out across North America, and one heck of an interesting story of how it all started from a two-person team. In addition to his expertise in web development, cloud, integration, and digital marketing, Brian is active with the tech community via his blog at Mcbeev.com and podcast Kontent Rocks.',
-    twitter: 'mcbeev',
-    url: 'http://www.mcbeev.com',
-    organization: 'BizStream',
-    session: {
-      title: 'State-of-the-art Search with Azure AI Cognitive Search',
-      abstract:
-        'Join the session to see how you can leverage Azure AI Cognitive Services with Azure Search in your apps. With the newly minted semantic search and OpenAI abilities, this technology can provide results more accurately than ever.',
-      description:
-        'We all know that providing a good search experience for website visitors is hard. Everyone expects it to “just” work like Bing or Amazon. Maybe there is a better way, maybe we fix this with a little help from some AI or even our new friend Chat GPT.\n\nJoin the session to see how you can leverage Cognitive Services with Azure Cognitive Search in your apps. With the newly minted semantic search and OpenAI abilities this technology can provide results that are semantically closer to the intent of original query.\n\nYou can expect to walk away knowing how to generate your own power search experience that leverages the power of AI to solve your search woes.',
-    },
-    tags: ['azure', 'search', 'web', 'webapps'],
-  },
-  {
-    id: 2,
-    name: 'Dan Schnau',
-    email: 'dsschnau@gmail.com',
-    avatar:
-      'https://secure.gravatar.com/avatar/5414da7c653c4911cd0ef437fabee5fd?s=500',
-    bio: 'Dan Schnau has been writing code since 2011. Living in Metro Detroit, he loves board games, hockey, and solving problems with software.',
-    twitter: 'danschnau',
-    url: 'https://danschnau.com/',
-    organization: '',
-    session: {
-      title: 'Getting started with Blazor',
-      abstract:
-        'Blazor is a new technology from Microsoft that allows developers to write native .NET code that runs in both the server and the browser thanks to WebAssembly. If you are interested in leveraging your existing skills with .NET to build single-page applications, Blazor is the technology to learn.',
-      description:
-        'Blazor is a new technology from Microsoft that allows developers to write native .NET code that runs in both the server and the browser thanks to WebAssembly.\n\nIf you are interested in leveraging your existing skills with .NET to build single-page applications, Blazor is the technology to learn.',
-    },
-    tags: ['Blazor', 'C#', 'WebAssembly', 'ASP.NET'],
-  },
-  {
-    id: 3,
-    name: 'Erica Olson',
-    email: 'ejo.erica@gmail.com',
-    avatar: '',
-    bio: 'Erica Olson is a Lead UX Designer with a specialization in experience design and user research, and a unique perspective gained from her background in video production. Her passion lies in connecting with audiences and users, uncovering their needs and desires through research, and crafting intuitive experiences that leave a lasting impact.',
-    twitter: '',
-    url: 'https://www.linkedin.com/in/ericajolson',
-    organization: 'Little Caesars',
-    session: {
-      title:
-        'Thriving in Constraints: AI-Infused UX Strategies for Tight Timelines, Scarce Resources, and Modest Budgets',
-      abstract:
-        'For students, career-shifters, and developers: Learn to excel in UX, even with tight timelines, limited resources, and modest budgets. Explore AI-Infused strategies for success in this talk!',
-      description:
-        "In this talk, dive into the world of UX transformation with a speaker who's been there, done that, and led the way. From starting as a lone UX designer at Little Caesars to leading an award-winning UX team, Erica Olson brings invaluable insights and experiences to the podium.\n\nDiscover the secrets to thriving in the face of constraints, whether you're a student, career-shifter, or developer aspiring to excel in UX. With a background that spans the entire spectrum of UX evolution, Erica is the ideal guide to show you how AI-infused strategies can turn limitations into opportunities.\n\nJoin us and learn how to elevate your UX game, leverage AI as your ally, and create remarkable user experiences, all while staying within tight timelines, making the most of limited resources, and managing modest budgets. Don't miss this chance to gain a competitive edge from someone who's not just talking about success but has lived it, from solo designer to award-winning team leader. This is your opportunity to take your UX knowledge to new heights!",
-    },
-    tags: ['UX', 'AI', 'ChatGPT'],
-  },
-  {
-    id: 4,
     name: 'Madona S. Wambua',
     email: 'madona.wambua@jibulabs.com',
-    avatar: '',
+    avatar: MadonaWambua,
     bio: 'Madona is the Founder & CTO of Jibu Labs, an Author, Keynote Speaker, Senior Android Engineer, and Google Developer Expert for Android with over years of experience building Android Applications. She is also a Women Tech Maker Ambassador, a host of Tech Talks with Madona, and a developer who enjoys sharing her Android knowledge and teaching others how to make Android applications.',
     twitter: 'madona_wambua',
     url: 'https://madonasyombua.com/',
-    organization: '',
+    organization: 'Jibu Labs',
+    position: 'Founder & CTO',
     session: {
       title:
         'Simplified App Navigation with Android Jetpack Compose Navigation',
@@ -80,14 +50,74 @@ export const SpeakerData = [
     ],
   },
   {
+    id: 2,
+    name: 'Brian McKeiver',
+    email: 'bmckeiver@bizstream.com',
+    avatar: BrianMcKeiver,
+    bio: 'Brian McKeiver is Co-Owner at BizStream, a digital agency in Allendale, MI. At BizStream he is a solution architect, visionary, Microsoft Azure MVP, Kontent.ai MVP, and Kentico MVP. He has 21 years of experience leading his agency of more than 35 employees, about a hundred clients spread out across North America, and one heck of an interesting story of how it all started from a two-person team. In addition to his expertise in web development, cloud, integration, and digital marketing, Brian is active with the tech community via his blog at Mcbeev.com and podcast Kontent Rocks.',
+    twitter: 'mcbeev',
+    url: 'http://www.mcbeev.com',
+    organization: 'BizStream',
+    position: 'Co-Owner',
+    session: {
+      title: 'State-of-the-art Search with Azure AI Cognitive Search',
+      abstract:
+        'Join the session to see how you can leverage Azure AI Cognitive Services with Azure Search in your apps. With the newly minted semantic search and OpenAI abilities, this technology can provide results more accurately than ever.',
+      description:
+        'We all know that providing a good search experience for website visitors is hard. Everyone expects it to “just” work like Bing or Amazon. Maybe there is a better way, maybe we fix this with a little help from some AI or even our new friend Chat GPT.\n\nJoin the session to see how you can leverage Cognitive Services with Azure Cognitive Search in your apps. With the newly minted semantic search and OpenAI abilities this technology can provide results that are semantically closer to the intent of original query.\n\nYou can expect to walk away knowing how to generate your own power search experience that leverages the power of AI to solve your search woes.',
+    },
+    tags: ['azure', 'search', 'web', 'webapps'],
+  },
+
+  {
+    id: 3,
+    name: 'Erica Olson',
+    email: 'ejo.erica@gmail.com',
+    avatar: EricaOlson,
+    bio: 'Erica Olson is a Lead UX Designer with a specialization in experience design and user research, and a unique perspective gained from her background in video production. Her passion lies in connecting with audiences and users, uncovering their needs and desires through research, and crafting intuitive experiences that leave a lasting impact.',
+    twitter: '',
+    url: 'https://www.linkedin.com/in/ericajolson',
+    organization: 'Little Caesars',
+    position: 'Lead UX Designer',
+    session: {
+      title:
+        'Thriving in Constraints: AI-Infused UX Strategies for Tight Timelines, Scarce Resources, and Modest Budgets',
+      abstract:
+        'For students, career-shifters, and developers: Learn to excel in UX, even with tight timelines, limited resources, and modest budgets. Explore AI-Infused strategies for success in this talk!',
+      description:
+        "In this talk, dive into the world of UX transformation with a speaker who's been there, done that, and led the way. From starting as a lone UX designer at Little Caesars to leading an award-winning UX team, Erica Olson brings invaluable insights and experiences to the podium.\n\nDiscover the secrets to thriving in the face of constraints, whether you're a student, career-shifter, or developer aspiring to excel in UX. With a background that spans the entire spectrum of UX evolution, Erica is the ideal guide to show you how AI-infused strategies can turn limitations into opportunities.\n\nJoin us and learn how to elevate your UX game, leverage AI as your ally, and create remarkable user experiences, all while staying within tight timelines, making the most of limited resources, and managing modest budgets. Don't miss this chance to gain a competitive edge from someone who's not just talking about success but has lived it, from solo designer to award-winning team leader. This is your opportunity to take your UX knowledge to new heights!",
+    },
+    tags: ['UX', 'AI', 'ChatGPT'],
+  },
+  {
+    id: 4,
+    name: 'Dan Schnau',
+    email: 'dsschnau@gmail.com',
+    avatar: DanSchnau,
+    bio: 'Dan Schnau has been writing code since 2011. Living in Metro Detroit, he loves board games, hockey, and solving problems with software.',
+    twitter: 'danschnau',
+    url: 'https://danschnau.com/',
+    organization: 'Software Consultant',
+    session: {
+      title: 'Getting started with Blazor',
+      abstract:
+        'Blazor is a new technology from Microsoft that allows developers to write native .NET code that runs in both the server and the browser thanks to WebAssembly. If you are interested in leveraging your existing skills with .NET to build single-page applications, Blazor is the technology to learn.',
+      description:
+        'Blazor is a new technology from Microsoft that allows developers to write native .NET code that runs in both the server and the browser thanks to WebAssembly.\n\nIf you are interested in leveraging your existing skills with .NET to build single-page applications, Blazor is the technology to learn.',
+    },
+    tags: ['Blazor', 'C#', 'WebAssembly', 'ASP.NET'],
+  },
+
+  {
     id: 5,
     name: 'Don Ward',
     email: 'donward@google.com',
-    avatar: '',
+    avatar: DonWard,
     bio: '',
     twitter: '',
     url: '',
     organization: 'Google',
+    position: 'Customer Engineer Specialist',
     session: {
       title: 'Lead Your Local Tech Community, Gain the Edge in your Career',
       abstract:
@@ -99,9 +129,28 @@ export const SpeakerData = [
   },
   {
     id: 6,
+    name: 'Vikram Tiwari',
+    email: 'vikramtheone1@gmail.com',
+    avatar: VikramTiwari,
+    bio: 'Vikram Tiwari is Co-founder, tech at Omni Labs where they are building the future of work and automation. He focuses on the cloud and machine learning aspects of technology. Vikram focuses on finding novel solutions to tough problems because he believes there is always a way! Vikram enjoys public speaking and helping individuals and startups when he is not actively writing code.',
+    twitter: 'Vikram_Tiwari',
+    url: 'https://vikramtiwari.com',
+    organization: 'Omni Labs, Inc.',
+    position: 'Google Developer Expert For Cloud And ML',
+    session: {
+      title: 'Build Your Own GenAI Model',
+      abstract:
+        'In this talk, we will discuss the basics of generative AI and how to build your own GenAI model.',
+      description:
+        'In this talk, we will discuss the basics of generative AI and how to build your own GenAI model. We will cover the following topics:\n\n\u2022 What is generative AI?\n\u2022 How do GenAI models work?\n\u2022 The different types of GenAI models\n\u2022 How to build a GenAI model\n\u2022 How to deploy a GenAI model\n\nI will also provide hands-on examples of how to build GenAI models using open-source tools.',
+    },
+    tags: ['machine learning', 'tensorflow', 'google cloud'],
+  },
+  {
+    id: 7,
     name: 'Bandhan Kaur',
     email: 'kaur@bandhan.dev',
-    avatar: '',
+    avatar: BandhanKaur,
     bio: "Bandhan (pronounced bun-done) is a back-end software engineer, Google Women Tech Makers Ambassador, Change Collective's inaugural cohort member, diversity advocate with DEI Committee for her university's college of engineering, City Lead Coordinator for Venture For America Detroit, and an ex-volunteer AP computer science teacher for Microsoft TEALS. Bandhan has been coding for the last 10 years, loves building code using several languages and learning new tech while sharing her code processes via Medium articles. Growing up as a woman of color studying computer science, her aim is to break barriers on women in STEM through the new web design program for 8th grade brown and brown girls in Detroit Public Schools.",
     twitter: '',
     url: 'https://www.linkedin.com/in/bandhanpreet-kaur/',
@@ -116,10 +165,10 @@ export const SpeakerData = [
     tags: ['Firebase', 'Google Cloud Platform'],
   },
   {
-    id: 7,
+    id: 8,
     name: 'Daniel Hope',
     email: 'm0b1us0099@gmail.com',
-    avatar: '',
+    avatar: DanielHope,
     bio: 'I started as an adult who had just aged out of foster care, and all of my support people insisted that I was doomed to being forever dependent on others. Living on disability was their plan for my life. I refused to forfeit my future.\n\nAfter meeting a friend in vocational rehabilitation services, and her helping me get out on my own, I immediately turned to technology for assistance in any way that I could. As technology developed and more things became available, I was constantly on the lookout for the next way to be more independent, even when I had to repurpose or outright modify something.\n\nNow, nearly a quarter century later, I have lived a successful life and continue to keep myself active as well as help and teach others what I have learned so that they can better their own lives.\n\nI see my life as a success and an many tell me that I am an inspiration.',
     twitter: '',
     url: '',
@@ -135,15 +184,15 @@ export const SpeakerData = [
     tags: ['accessibility'],
   },
   {
-    id: 8,
+    id: 9,
     name: 'Alex Riviere',
     email: 'fimion@gmail.com',
-    avatar:
-      'https://secure.gravatar.com/avatar/bddd6cd4c86e2d5f1e39a7401d8aaf09?s=500',
+    avatar: AlexRiviere,
     bio: 'Alex Riviere is a Senior Frontend Developer for Nexcor Technology and the Co-Organizer for the Atlanta Vue.js Meetup, as well as the PyATL Meetup.',
     twitter: 'fimion',
     url: 'https://alex.party',
     organization: 'Nexcor Technology',
+    position: 'Senior Frontend Developer',
     session: {
       title: 'Implementing Small Design Systems',
       abstract:
@@ -153,34 +202,17 @@ export const SpeakerData = [
     },
     tags: ['webdev', 'javascript', 'design systems', 'php'],
   },
-  {
-    id: 9,
-    name: 'Vikram Tiwari',
-    email: 'vikramtheone1@gmail.com',
-    avatar:
-      'https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/12187/IMG_0275.JPG',
-    bio: 'Vikram Tiwari is Co-founder, tech at Omni Labs where they are building the future of work and automation. He focuses on the cloud and machine learning aspects of technology. Vikram focuses on finding novel solutions to tough problems because he believes there is always a way! Vikram enjoys public speaking and helping individuals and startups when he is not actively writing code.',
-    twitter: 'Vikram_Tiwari',
-    url: 'https://vikramtiwari.com',
-    organization: 'Omni Labs, Inc.',
-    session: {
-      title: 'Build Your Own GenAI Model',
-      abstract:
-        'In this talk, we will discuss the basics of generative AI and how to build your own GenAI model.',
-      description:
-        'In this talk, we will discuss the basics of generative AI and how to build your own GenAI model. We will cover the following topics:\n\n\u2022 What is generative AI?\n\u2022 How do GenAI models work?\n\u2022 The different types of GenAI models\n\u2022 How to build a GenAI model\n\u2022 How to deploy a GenAI model\n\nI will also provide hands-on examples of how to build GenAI models using open-source tools.',
-    },
-    tags: ['machine learning', 'tensorflow', 'google cloud'],
-  },
+
   {
     id: 10,
     name: 'Greg Miller',
     email: 'hello@gregmiller.io',
-    avatar: '',
+    avatar: GregMiller,
     bio: "Greg is a versatile professional with a solid educational foundation, holding an M.Ed. in Adult Learning and Technical Education from BGSU. His career journey began in eLearning and has since evolved into a Senior UX Engineer role.\n\nGreg's interests transcend his professional life. At the BiG Fab Lab makerspace, he passionately wields power tools while honing his skills in diverse technologies. Fueled by an innate curiosity, he's on a mission to make technology more accessible to everyone. Notably, he's dedicated to recruiting co-organizers for GDG Toledo, actively expanding his impact in the tech community.",
     twitter: 'grmiller',
     url: 'https://shrinkraylabs.com',
     organization: 'Shrinkray Interactive, LLC',
+    position: 'UX Engineer',
     session: {
       title: 'Empowering Developers: Shipping Accessible Digital Experiences',
       abstract:
@@ -194,12 +226,12 @@ export const SpeakerData = [
     id: 11,
     name: 'Nav Singh',
     email: 'navjot.singh637@gmail.com',
-    avatar:
-      'https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/38267/Expert-GDE.png',
+    avatar: NavSingh,
     bio: 'Android developer at Manulife\n\nGoogle Developer Expert for Android, Mobile Software Engineer at Manulife, Organizer at GDG-Montreal, Mentor for Android-Kotlin Nano-degree at Udacity, and write articles about Android and Kotlin.\n\nApart from his day-to-day job, He spends his time learning new technologies/frameworks.\n\nDuring his free, he loves to watch Netflix, or you can find him at Gym.',
     twitter: 'navczydev',
     url: 'https://medium.com/@navczydev',
     organization: 'Manulife',
+    position: 'Google Developer Expert - Android',
     session: {
       title: "What's up with Android's back?",
       abstract:
@@ -213,7 +245,7 @@ export const SpeakerData = [
     id: 12,
     name: 'Allen Firstenberg',
     email: 'prisoner@addventure.com',
-    avatar: '',
+    avatar: AllenFirstenberg,
     bio: "By day, Allen is a Senior Project Engineer at http://spiders.com/ where he's been instrumental in creating websites and mobile apps for companies and organizations, ranging from the American Booksellers Association to the National Science Foundation. By night he creates tools, software, and tutorials to help people share their stories and improve their digital lives. You'll find him contributing to the LangChainJS open source project, as one of the two hosts of the \"Two Voice Devs\" podcast, and co-author of the O'Reilly book “Designing and Developing for Google Glass”. He is a Google Developer Expert for Machine Learning, Google Workspace, and the Google Assistant and has been known to occasionally wear light blue shirts.",
     twitter: 'afirstenberg',
     url: 'https://prisoner.com/',
@@ -238,14 +270,15 @@ export const SpeakerData = [
     ],
   },
   {
-    id: 14,
+    id: 13,
     name: 'Nilesh Patel',
     email: 'patelnilesh@google.com',
-    avatar: '',
+    avatar: NileshPatel,
     bio: 'Nilesh Patel has been at Google since 2019. He is an Engineer Specialist, focusing on Infrastructure modernization and conversational AI. He has helped many businesses develop AI-powered bots at an enterprise scale and transform their contact center with AI capabilities.\nNilesh  has worn different hats in the past 24+ years. He began his career as an developer and transitioned into a cloud architect role helping enterprises with their digital transformation journey. He is  passionate about using technologies to solve the business challenges to drive outcomes for the customers. Most importantly, Nilesh loves telling stories based on his recent experience and sharing his excitement about new technologies with other devs.\nBesides his work at Google, he enjoys spending time traveling with his family and participating in local cultural dance events.',
     twitter: '',
     url: 'https://www.linkedin.com/in/nilesh-patel/',
     organization: 'Google',
+    position: 'Customer Engineer Specialist',
     session: {
       title: 'Generative AI: The Next Frontier of Conversational AI',
       abstract:
@@ -256,33 +289,15 @@ export const SpeakerData = [
     tags: ['Generative AI', 'AI'],
   },
   {
-    id: 15,
-    name: 'Vyas Bhuman',
-    email: 'bhuman.vyas@gmail.com',
-    avatar: '',
-    bio: '',
-    twitter: '',
-    url: '',
-    organization: '',
-    session: {
-      title: 'From Zero to Kafka Hero: A Comprehensive Introduction',
-      abstract:
-        'I am Bhuman Vyas having 12+ years of experience in building highly scalable and maintainable APIs. Currently working as a senior software developer in Credit Acceptance.\nI am fan of kafka as it solves Real-time, fault-tolerant event streaming for seamless data integration and processing.',
-      description:
-        "Apache Kafka is a high-throughput, fault-tolerant, and scalable distributed event streaming platform that enables real-time data processing and data integration in a highly efficient and reliable manner. It serves as the central nervous system for modern data-driven applications, providing a unified, durable, and real-time data pipeline for connecting various data sources and applications. With its distributed architecture and strong durability guarantees, Kafka is the go-to solution for building real-time data pipelines, event-driven microservices, and stream processing applications, ensuring your data flows smoothly and reliably across your organization.\n\nUse case : Fraud Detection\n\nReal-Time Data Streaming: Companies like Uber use Kafka to stream real-time data from various sources (e.g., mobile apps, GPS) for driver and rider matching, ETA calculations, and more.\n\nLog Aggregation: Large-scale systems and applications generate a vast amount of log data. Kafka is used to collect, aggregate, and analyze log data for troubleshooting and monitoring.\n\nMetrics and Monitoring: Kafka helps collect and process performance metrics and monitoring data to ensure the health and stability of systems and applications.\n\nEvent Sourcing: Event sourcing architectures use Kafka to store and process domain events, allowing for a complete history of changes in an application's state.\n\nIoT Data Ingestion: Internet of Things (IoT) devices generate massive streams of data. Kafka is used to ingest and process IoT data for real-time analytics and insights.\n\nFraud Detection: Financial institutions use Kafka to process large volumes of transaction data in real time to detect and prevent fraudulent activities.\n\nSocial Media Data Processing: Platforms like Twitter use Kafka to handle the high volume of tweets, track trending topics, and deliver real-time updates to users.\n\nRecommendation Engines: E-commerce companies use Kafka to process user behavior data and provide real-time product recommendations.\n\nCross-System Integration: Kafka serves as a central hub for integrating different systems and applications, ensuring data consistency and real-time communication.\n\nMicroservices Communication: Kafka is used for communication and event-driven architecture in microservices, allowing different services to react to events and maintain data consistency.",
-    },
-    tags: ['kafka', 'springboot', 'Rest'],
-  },
-  {
-    id: 16,
+    id: 14,
     name: 'Chris DeMars',
     email: 'cdemars86@gmail.com',
-    avatar:
-      'https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/4238/headshot.jpeg',
+    avatar: ChrisDemars,
     bio: 'Chris DeMars is a Senior Developer Advocate at Harness. He has over 20 years of technical experience and speaks all over the world on web accessibility, and CSS. For his community contributions, he holds awards as a Microsoft MVP, Cloudinary Media Developer Expert, Auth0 Ambassador, and Progress Ninja. Chris advocates, teaches, and speaks on web accessibility as well as modern CSS; building applications with both at the forefront. When he is not working on making the web great and accessible you can find him writing blog posts, rating Detroit Style pizza, and watching Horror movies.',
     twitter: 'saltnburnem',
     url: 'https://chrisdemars.net/',
     organization: 'Harness',
+    position: 'Senior Developer Advocate',
     session: {
       title: 'Demystifying The Dreaded A/B Test',
       abstract:
@@ -293,14 +308,35 @@ export const SpeakerData = [
     tags: ['devops', 'ci/cd', 'SaaS', 'QA'],
   },
   {
-    id: 17,
+    id: 15,
+    name: 'Ceclynn Fielder-Sherrer',
+    email: 'ceclynnsherrer@yahoo.com',
+    avatar: CeclynnFielderSherrer,
+    bio: "Ceclynn Fielder-Sherrer is a dynamic and passionate staffing professional with a remarkable journey that spans industry giants to start-ups. Her unwavering dedication to the staffing industry is fueled by her love for helping people and her burning desire to make a positive impact in the tech world.\n\nAs the CEO and Founder of DataFielder, Inc.,Ceclynn's vision was born out of a dream to increase diversity and inclusion within the tech industry. With a vibrant entrepreneurial spirit, she embarked on a path to create a staffing and consulting services firm that goes beyond filling positions. Her goal is to foster a culture of belonging and empower individuals to excel in their careers.\n\nCeclynn's journey of self-discovery led her to find her own unique identity after following in the footsteps of well-known family members. With a bold determination, she paved her own way and carved a niche in the industry that aligns with her passions and aspirations. Along the way, she discovered the power of embracing her individuality and harnessing her own strengths to make a difference.\n\nWith an infectious energy and friendly approach, Ceclynn thrives on building strong relationships and delivering exceptional results. She understands the importance of creating a collaborative and supportive environment. Her goal is to create a staffing experience that is both effective and enjoyable, where clients and candidates alike can thrive.",
+    twitter: '',
+    url: 'https://datafielderinc.com',
+    organization: 'DataFielder',
+    position: 'CEO',
+    session: {
+      title:
+        'Empowering Diversity in Tech: A Journey of Innovation and Inclusion',
+      abstract:
+        "Imagine a journey where diversity sparks innovation, inclusion drives success, and tech knows no boundaries. Join me as I take you on an extraordinary adventure through the world of tech, sharing the invaluable insights I've gained over a decade in the IT staffing and recruitment industry.",
+      description:
+        "In \"Empowering Diversity in Tech: A Journey of Innovation and Inclusion,\" we'll explore how embracing diversity isn't just a social imperative, it's a powerful catalyst for innovation, creativity, and profitability. My story is a testament to the incredible transformations that occur when you celebrate differences and encourage the talents of all.\nDiscover the keys to unlock a more inclusive and innovative tech world:\n- Learn how diversity fosters creative problem-solving.\n- Uncover the strategies to attract, retain, and nurture a diverse talent pool.\n- Explore the business case for a more inclusive and equitable tech ecosystem.\n- Hear inspiring success stories from organizations that have reaped the benefits of diversity.\n- Gain practical insights into promoting diversity at all levels of your organization.\n\nMy unique perspective as a woman-minority founder in the tech world will inspire you to break free from traditional boundaries, challenge the status quo, and create a tech landscape where every voice is heard, valued, and empowered.\nGet ready for an electrifying talk that will energize your commitment to diversity, propel your innovation initiatives, and open your eyes to the endless possibilities in tech.",
+    },
+    tags: ['DiversityInTech'],
+  },
+  {
+    id: 16,
     name: 'Keith Bourne',
     email: 'keithebourne@gmail.com',
-    avatar: '',
+    avatar: KeithBourne,
     bio: 'Keith Bourne is the founder of Gradient Valley, focused on machine learning consulting and development. He has been on the forefront of cutting edge technology since the 90’s, with extensive management and technical experience in web, mobile, and machine learning.  His focus has been on all aspects of building and selling incredible technology products and services, including a deep knowledge of user experience, agile programming methods, technology marketing, and most of the most popular programming languages and their capabilities. He holds an MBA from Babson College where he focused on technology entrepreneurship and marketing, which has provided a strong analytical base for approaching machine learning problems with an organization’s overall strategic direction in mind.  He has served in diverse roles in high growth start up environments, including Senior Software Engineer, Marketing Director, Chief Operations Officer, and Founder/Chief Executive Officer.',
     twitter: 'keithbourne',
     url: 'https://gradientvalley.com/',
     organization: 'Gradient Valley, Inc.',
+    position: 'Senior Data Scientist, Generative AI Engineer',
     session: {
       title:
         'Production Ready Document Extraction with Generative AI, LangChain, and Vertex AI on GCP',
@@ -335,33 +371,35 @@ export const SpeakerData = [
     ],
   },
   {
-    id: 18,
-    name: 'Ceclynn Fielder-Sherrer',
-    email: 'ceclynnsherrer@yahoo.com',
-    avatar: '',
-    bio: "Ceclynn Fielder-Sherrer is a dynamic and passionate staffing professional with a remarkable journey that spans industry giants to start-ups. Her unwavering dedication to the staffing industry is fueled by her love for helping people and her burning desire to make a positive impact in the tech world.\n\nAs the CEO and Founder of DataFielder, Inc.,Ceclynn's vision was born out of a dream to increase diversity and inclusion within the tech industry. With a vibrant entrepreneurial spirit, she embarked on a path to create a staffing and consulting services firm that goes beyond filling positions. Her goal is to foster a culture of belonging and empower individuals to excel in their careers.\n\nCeclynn's journey of self-discovery led her to find her own unique identity after following in the footsteps of well-known family members. With a bold determination, she paved her own way and carved a niche in the industry that aligns with her passions and aspirations. Along the way, she discovered the power of embracing her individuality and harnessing her own strengths to make a difference.\n\nWith an infectious energy and friendly approach, Ceclynn thrives on building strong relationships and delivering exceptional results. She understands the importance of creating a collaborative and supportive environment. Her goal is to create a staffing experience that is both effective and enjoyable, where clients and candidates alike can thrive.",
+    id: 17,
+    name: 'Vyas Bhuman',
+    email: 'bhuman.vyas@gmail.com',
+    avatar: VyasBhuman,
+    bio: '',
     twitter: '',
-    url: 'https://datafielderinc.com',
-    organization: 'DataFielder',
+    url: '',
+    organization: 'Credit Acceptance',
+    position: 'Senior Application Developer',
     session: {
-      title:
-        'Empowering Diversity in Tech: A Journey of Innovation and Inclusion',
+      title: 'From Zero to Kafka Hero: A Comprehensive Introduction',
       abstract:
-        "Imagine a journey where diversity sparks innovation, inclusion drives success, and tech knows no boundaries. Join me as I take you on an extraordinary adventure through the world of tech, sharing the invaluable insights I've gained over a decade in the IT staffing and recruitment industry.",
+        'I am Bhuman Vyas having 12+ years of experience in building highly scalable and maintainable APIs. Currently working as a senior software developer in Credit Acceptance.\nI am fan of kafka as it solves Real-time, fault-tolerant event streaming for seamless data integration and processing.',
       description:
-        "In \"Empowering Diversity in Tech: A Journey of Innovation and Inclusion,\" we'll explore how embracing diversity isn't just a social imperative, it's a powerful catalyst for innovation, creativity, and profitability. My story is a testament to the incredible transformations that occur when you celebrate differences and encourage the talents of all.\nDiscover the keys to unlock a more inclusive and innovative tech world:\n- Learn how diversity fosters creative problem-solving.\n- Uncover the strategies to attract, retain, and nurture a diverse talent pool.\n- Explore the business case for a more inclusive and equitable tech ecosystem.\n- Hear inspiring success stories from organizations that have reaped the benefits of diversity.\n- Gain practical insights into promoting diversity at all levels of your organization.\n\nMy unique perspective as a woman-minority founder in the tech world will inspire you to break free from traditional boundaries, challenge the status quo, and create a tech landscape where every voice is heard, valued, and empowered.\nGet ready for an electrifying talk that will energize your commitment to diversity, propel your innovation initiatives, and open your eyes to the endless possibilities in tech.",
+        "Apache Kafka is a high-throughput, fault-tolerant, and scalable distributed event streaming platform that enables real-time data processing and data integration in a highly efficient and reliable manner. It serves as the central nervous system for modern data-driven applications, providing a unified, durable, and real-time data pipeline for connecting various data sources and applications. With its distributed architecture and strong durability guarantees, Kafka is the go-to solution for building real-time data pipelines, event-driven microservices, and stream processing applications, ensuring your data flows smoothly and reliably across your organization.\n\nUse case : Fraud Detection\n\nReal-Time Data Streaming: Companies like Uber use Kafka to stream real-time data from various sources (e.g., mobile apps, GPS) for driver and rider matching, ETA calculations, and more.\n\nLog Aggregation: Large-scale systems and applications generate a vast amount of log data. Kafka is used to collect, aggregate, and analyze log data for troubleshooting and monitoring.\n\nMetrics and Monitoring: Kafka helps collect and process performance metrics and monitoring data to ensure the health and stability of systems and applications.\n\nEvent Sourcing: Event sourcing architectures use Kafka to store and process domain events, allowing for a complete history of changes in an application's state.\n\nIoT Data Ingestion: Internet of Things (IoT) devices generate massive streams of data. Kafka is used to ingest and process IoT data for real-time analytics and insights.\n\nFraud Detection: Financial institutions use Kafka to process large volumes of transaction data in real time to detect and prevent fraudulent activities.\n\nSocial Media Data Processing: Platforms like Twitter use Kafka to handle the high volume of tweets, track trending topics, and deliver real-time updates to users.\n\nRecommendation Engines: E-commerce companies use Kafka to process user behavior data and provide real-time product recommendations.\n\nCross-System Integration: Kafka serves as a central hub for integrating different systems and applications, ensuring data consistency and real-time communication.\n\nMicroservices Communication: Kafka is used for communication and event-driven architecture in microservices, allowing different services to react to events and maintain data consistency.",
     },
-    tags: ['DiversityInTech'],
+    tags: ['kafka', 'springboot', 'Rest'],
   },
+
   {
-    id: 19,
+    id: 18,
     name: 'Chris Turvey',
     email: 'christurvey@gmail.com',
-    avatar: '',
+    avatar: ChrisTurvey,
     bio: 'I am a cheap dad... A tech dad... a cheap tech dad.\nI feel like I am a jack of all trades and a master of none; but oftentimes better than master of one.\nI talk about things from time to time.\nI have been published in Make Magazine... It was a letter to the editor... but that counts as something right? I like reading as much as I can about AI/ML and IoT.',
     twitter: 'christurvey',
     url: '',
     organization: '',
+    position: 'Tech Dad',
     session: {
       title: 'Seven Habits of Somewhat Effective Self-Taught Programmers',
       abstract:
@@ -372,15 +410,15 @@ export const SpeakerData = [
     tags: [],
   },
   {
-    id: 20,
+    id: 19,
     name: 'Amit Rathik',
     email: 'amit.rathi.k@gmail.com',
-    avatar:
-      'https://secure.gravatar.com/avatar/d9c7dede97c8b27984215422b84224d8?s=500',
+    avatar: AmitRathi,
     bio: 'A developer, traveler, and entrepreneur in the pursuit of a digital nomad lifestyle.\nFounder and Owner of The Mobile Dev -- a technology solution provider specializing in mobile-first application.\nHobbies include reading articles on Medium, attending Meetups, and sharing great memes.',
     twitter: 'amitrathik',
     url: 'https://amitrathik.com',
     organization: 'The Mobile Dev',
+    position: 'Owner',
     session: {
       title: 'Data Sharing Issues with microservice architecture',
       abstract:
@@ -391,15 +429,15 @@ export const SpeakerData = [
     tags: ['Microservices', 'decoupled', 'headless', 'monoliths', 'devops'],
   },
   {
-    id: 21,
+    id: 20,
     name: 'Keith Kurak',
     email: 'keith.kurak@gmail.com',
-    avatar:
-      'https://secure.gravatar.com/avatar/ecd73462de8bcd925108807758303394?s=500',
+    avatar: KeithKurak,
     bio: "Keith is a Developer Success Engineer at Expo, helping fellow mobile developers build amazing React Native apps in record time. From the time he made a Dragon Quest knockoff on his TI-83 during study hall in high school, he can't remember not being interested in building for the small screen. When he's not slinging JavaScript, you might find Keith zipping through busy Cleveland streets on his bicycle, building a computer case out of Lego, or in the kitchen breaking new ground in the field of alternative omelette fillings.",
     twitter: 'llamaluvr',
     url: 'https://github.com/keith-kurak',
     organization: 'Expo',
+    position: 'Developer Success Engineer',
     session: {
       title: 'Freaky Fast Universal Full-Stack With Firebase and Expo Router',
       abstract:
@@ -410,14 +448,15 @@ export const SpeakerData = [
     tags: ['React', 'React Native', 'Expo', 'Firebase', 'Mobile', 'Web'],
   },
   {
-    id: 22,
+    id: 21,
     name: 'Ben Jacques',
     email: 'Ben.Jacques@spindance.com',
-    avatar: '',
+    avatar: BenJacques,
     bio: "With a dynamic professional journey spanning over 15 years, Ben Jacques is currently the Director of Engineering at SpinDance, a cutting-edge software development firm renowned for its innovation in connected digital products and IoT solutions. Ben's diverse technical background encompasses a broad spectrum of software development, including embedded systems, cloud technology, web, desktop, and mobile development. However, his true passion and expertise lie in the realms of computer vision and machine learning.\n\nAt SpinDance, Ben is instrumental in steering the engineering team towards excellence in creating smart, interconnected software systems that push the boundaries of modern IoT applications. His deep understanding of machine learning and computer vision not only contributes to the company's innovative edge but also ensures that projects harness the latest advancements in AI technology.\n\nA lifelong learner and AI enthusiast, Ben is continually experimenting with and exploring the newest trends and innovations in artificial intelligence. This passion not only keeps him at the forefront of technological advancement but also imbues his work and team with a forward-thinking, exploratory spirit.\n\nAway from the complexities of technology and software development, Ben finds solace and joy in the great outdoors. His love for nature is matched by his penchant for fixing broken machines, a hobby that not only satisfies his curiosity but also hones his problem-solving skills and attention to detail - traits that are invaluable in his professional role. Ben's balanced blend of high-tech expertise and hands-on practicality makes him a unique and respected leader at SpinDance.",
     twitter: '',
     url: 'https://www.linkedin.com/in/ben-jacques-aiml',
     organization: 'SpinDance',
+    position: 'Director Of Engineering',
     session: {
       title: 'Getting Started with Flutter for Embedded Linux',
       abstract:
@@ -428,14 +467,15 @@ export const SpeakerData = [
     tags: ['flutter', 'linux', 'UI', 'dart', 'embedded'],
   },
   {
-    id: 23,
+    id: 22,
     name: 'Mike Nimer',
     email: 'mikenimer@google.com',
-    avatar: '',
+    avatar: MikeNimer,
     bio: 'Mike Nimer is a Solution Specialist at Google, focused on Data Analytics. However, Mike has a been developing web applications for over 25 years. Before Google, Mike built middleware servers for Adobe, used by > 500k developers, has worked at multiple startups in the Social Media & InsTech spaces and he has work as a consultant for customers around the world. A frequent speaker at Adobe Max conferences, local meetups, and other developer conferences.\n\n*Fun Fact: Back in 1998, I was the first victim of a sql injection attack.',
     twitter: 'mnimer',
     url: '',
     organization: 'Google',
+    position: 'Solutions Specialist',
     session: {
       title: 'Introduction to Flutter',
       abstract:
@@ -446,14 +486,15 @@ export const SpeakerData = [
     tags: ['Flutter'],
   },
   {
-    id: 24,
+    id: 23,
     name: 'Chad Hamdan',
     email: 'chad.abou-hamdan@lcecorp.com',
-    avatar: '',
+    avatar: ChadHamdan,
     bio: 'Chad Hamdan is an iOS Developer at Little Caesars with a passion for technology. He graduated from University two years ago and has been making significant contributions to mobile ordering and order tracking throughout the Apple ecosystem. Outside of work, Chad enjoys spending time with his family and friends, exploring new technologies, and playing video games.',
     twitter: '',
     url: '',
     organization: 'Little Caesars',
+    position: 'Mobile Developer',
     session: {
       title: 'Developing for the Apple Vision Pro',
       abstract: '',
@@ -463,15 +504,15 @@ export const SpeakerData = [
     tags: [],
   },
   {
-    id: 25,
+    id: 24,
     name: 'Nadia Tahiri',
     email: 'nadia.tahiri@gmail.com',
-    avatar:
-      'https://secure.gravatar.com/avatar/9450dfab01d087a6e1d78bdb2a8a0ca7?s=500',
+    avatar: NadiaTahiri,
     bio: "Nadia Tahiri, PhD., is an expert in bioinformatics with over a decade of experience in academia and industry. She is an Assistant Professor at the Université of Sherbrooke in Canada. Nadia Tahiri's work stands at the forefront of computational biology, offering groundbreaking solutions and paving the way for collaborative research and innovation. She's spearheading the creation of an open-source platform, empowering biologists to harness her groundbreaking methodologies effortlessly. Using advanced clustering algorithms and key phylogenetic tree metrics, she's redefining optimization criteria to construct multiple alternative consensus trees and super-trees. Nadia is also very involved in community initiatives that promote women in technology and make AI more inclusive as an active member of ACM Canadian Celebration of Women In Computing, ambassador of Women Techmakers Sherbrooke, and organizer of GDG Cloud Sherbrooke.",
     twitter: 'DrNadiaTahiri',
     url: 'https://www.linkedin.com/in/tahiri-nadia/',
     organization: 'University of Sherbrooke',
+    position: 'Assistant Professor',
     session: {
       title: 'AI and Climate Change: Bridging the Past and Future',
       abstract:
@@ -482,14 +523,15 @@ export const SpeakerData = [
     tags: ['AI', 'ML', 'Bioinformatics', 'Climate change'],
   },
   {
-    id: 26,
+    id: 25,
     name: 'Pavel Ryabov',
     email: '',
-    avatar: '',
+    avatar: PavelRyabov,
     bio: "I'm a Full-Stack Software Engineer with over 4 years of experience. My stack includes Flutter, Firebase, and AWS. After working with Firebase Extensions for some time and winning the Firebase Builders ‘23 competition with my project KnowWaste, I am excited to introduce developers to this amazing product. I have developed several extensions of my own, including FlowLinks (Dynamic Links alternative) and Object Detection with Cloud Vision.",
     twitter: '',
     url: '',
     organization: '',
+    position: 'Full-Stack Software Engineer',
     session: {
       title: 'AI Firebase Extensions',
       abstract:

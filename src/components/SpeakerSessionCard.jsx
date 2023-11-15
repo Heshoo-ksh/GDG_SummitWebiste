@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 import { DIRECTION } from '@/constants/directions'
 
-import FlippableChevronIcon from './FlippableChevronIcon'
+import FlippableChevronIcon from './ui/FlippableChevronIcon'
 
 function SpeakerSessionCard({
   speakerName,
@@ -46,10 +46,7 @@ function SpeakerSessionCard({
             <p className="text-gray-700">by {speakerName}</p>
           </div>
         </section>
-        <FlippableChevronIcon
-          className="h-10 w-10 shrink-0 md:h-12 md:w-12 xl:h-20 xl:w-20"
-          direction={direction}
-        />
+        <FlippableChevronIcon direction={direction} />
       </button>
       {direction == DIRECTION.TOP ? (
         <section className="mt-5 w-10/12 pl-12">
