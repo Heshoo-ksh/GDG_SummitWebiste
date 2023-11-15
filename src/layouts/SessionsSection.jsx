@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import SpeakerSessionCard from '@/components/SpeakerSessionCard'
 import StylableComponentList from '@/components/StylableComponentList'
 import { SpeakerData } from '@/data/sessions'
@@ -7,14 +7,6 @@ import './session.css'
 function SessionsSection() {
   const [activeTab, setActiveTab] = useState(0)
   const tabs = ['AI/ML', 'Mobile', 'Fullstack', 'Miscellaneous']
-
-  useEffect(() => {
-    console.log(
-      SpeakerData.filter((speaker) =>
-        speaker.category?.includes(tabs[activeTab])
-      )
-    )
-  }, [])
 
   return (
     <section
