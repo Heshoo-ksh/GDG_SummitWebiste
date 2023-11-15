@@ -19,7 +19,7 @@ function LandingSection() {
         />
       </div>
       <img
-        className="w-6/6 mx-auto"
+        className="mx-auto w-full"
         src={detroitSkyline}
         alt="Detroit Skyline"
       />

@@ -26,10 +26,10 @@ const SpeakerCard = ({
   return (
     <>
       <div
-        className="bg-primary-500 relative mx-auto mb-16 max-w-xs shadow-xl transition delay-75 duration-100 ease-in-out hover:-translate-y-1 hover:scale-110 hover:cursor-pointer"
+        className="relative mx-auto mb-16 max-w-xs bg-primary-500 shadow-xl transition delay-75 duration-100 ease-in-out hover:-translate-y-1 hover:scale-110 hover:cursor-pointer"
         onClick={openModal}
       >
-        <div className="bg-primary-200 hover:bg-primary-300 overflow-hidden rounded shadow-2xl">
+        <div className="overflow-hidden rounded bg-primary-200 shadow-2xl hover:bg-primary-300">
           <div className="absolute -mt-24 flex w-full justify-center">
             <div className="h-48 w-48">
               <img
@@ -53,7 +53,7 @@ const SpeakerCard = ({
       </div>
 
       {isModalOpen && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-gray-800 bg-opacity-75">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-gray-800/75">
           <SpeakerDetails
             name={name}
             bio={bio}
