@@ -50,7 +50,7 @@ function SessionCard({
       </button>
       {direction == DIRECTION.TOP ? (
         <section className="mt-5 w-10/12 pl-12">
-          <p className="whitespace-pre-wrap border-t border-gray-700 pb-10 pt-5">
+          <p className="whitespace-pre-wrap border-t border-gray-700 pb-10 pt-5 text-justify">
             {sessionDesc}
           </p>
         </section>
