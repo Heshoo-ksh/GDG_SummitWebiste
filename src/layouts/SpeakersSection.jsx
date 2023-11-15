@@ -1,4 +1,4 @@
-import SpeakerCard from '@/components/ui/SpeakerCard'
+import SpeakerCard from '@/components/speakers/SpeakerCard'
 import { SpeakerData } from '@/data/sessions'
 
 function SpeakersSection() {

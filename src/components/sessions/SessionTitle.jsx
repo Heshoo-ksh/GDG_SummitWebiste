@@ -12,7 +12,7 @@ const SessionTitle = (props) => {
   return (
     <div
       className={`relative ${
-        isExpanded ? 'h-28 w-[100%] rounded-full' : 'h-28 w-28 rounded-full'
+        isExpanded ? 'h-28 w-full rounded-full' : 'h-28 w-28 rounded-full'
       } flex cursor-pointer flex-row items-center justify-center bg-blue-500 transition-all duration-300 ease-in-out`}
       onClick={handleToggle}
       onKeyDown={handleToggle}

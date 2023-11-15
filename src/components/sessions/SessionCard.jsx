@@ -1,11 +1,11 @@
-import { useState } from 'react'
 import PropTypes from 'prop-types'
+import { useState } from 'react'
 
 import { DIRECTION } from '@/constants/directions'
 
-import FlippableChevronIcon from './ui/FlippableChevronIcon'
+import FlippableChevronIcon from '../ui/FlippableChevronIcon'
 
-function SpeakerSessionCard({
+function SessionCard({
   speakerName,
   sessionTitle,
   speakerAvatar,
@@ -59,11 +59,11 @@ function SpeakerSessionCard({
   )
 }
 
-SpeakerSessionCard.propTypes = {
+SessionCard.propTypes = {
   speakerName: PropTypes.string.isRequired,
   sessionTitle: PropTypes.string.isRequired,
   speakerAvatar: PropTypes.string.isRequired,
   sessionDesc: PropTypes.string.isRequired,
 }
 
-export default SpeakerSessionCard
+export default SessionCard

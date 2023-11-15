@@ -257,7 +257,7 @@ export const SpeakerData = [
     name: 'Allen Firstenberg',
     email: 'prisoner@addventure.com',
     avatar: AllenFirstenberg,
-    bio: "By day, Allen is a Senior Project Engineer at http://spiders.com/ where he's been instrumental in creating websites and mobile apps for companies and organizations, ranging from the American Booksellers Association to the National Science Foundation. By night he creates tools, software, and tutorials to help people share their stories and improve their digital lives. You'll find him contributing to the LangChainJS open source project, as one of the two hosts of the \"Two Voice Devs\" podcast, and co-author of the O'Reilly book “Designing and Developing for Google Glass”. He is a Google Developer Expert for Machine Learning, Google Workspace, and the Google Assistant and has been known to occasionally wear light blue shirts.",
+    bio: "By day, Allen is a Senior Project Engineer at http://spiders.com/ where he's been instrumental in creating websites and mobile apps for companies and organizations, ranging from the American Booksellers Association to the National Science Foundation. By night he creates tools, software, and tutorials to help people share their stories and improve their digital lives. You'll find him contributing to the LangChainJS open source project, as one of the two hosts of the \"Two Voice Devs\" podcast, and co-author of the O'Reilly book “Designing and Developing for Google Glass”. He is a Google Developer Expert for Machine Learning, Google Workspace, and the Google Assistant and has been known to occasionally wear light primary shirts.",
     twitter: 'afirstenberg',
     url: 'https://prisoner.com/',
     organization: 'GDE',

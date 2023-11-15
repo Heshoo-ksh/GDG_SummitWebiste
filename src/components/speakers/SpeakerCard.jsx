@@ -1,7 +1,8 @@
 import PropTypes from 'prop-types'
-import SpeakerDetails from '@/components/ui/SpeakerDetails'
 import { useState } from 'react'
-import TwitterHandle from '../TwitterHandle'
+
+import SpeakerDetails from '@/components/speakers/SpeakerDetails'
+import TwitterHandle from '@/components/ui/TwitterHandle'
 
 const SpeakerCard = ({
   name,
@@ -25,10 +26,10 @@ const SpeakerCard = ({
   return (
     <>
       <div
-        className="relative mx-auto mb-16 max-w-xs bg-blue-500 shadow-xl transition delay-75 duration-100 ease-in-out hover:-translate-y-1 hover:scale-110 hover:cursor-pointer"
+        className="bg-primary-500 relative mx-auto mb-16 max-w-xs shadow-xl transition delay-75 duration-100 ease-in-out hover:-translate-y-1 hover:scale-110 hover:cursor-pointer"
         onClick={openModal}
       >
-        <div className="overflow-hidden rounded bg-blue-500 shadow-2xl">
+        <div className="bg-primary-200 hover:bg-primary-300 overflow-hidden rounded shadow-2xl">
           <div className="absolute -mt-24 flex w-full justify-center">
             <div className="h-48 w-48">
               <img
@@ -40,11 +41,13 @@ const SpeakerCard = ({
             </div>
           </div>
           <div className="mb-4 mt-28 h-20 px-2">
-            <h1 className="text-center text-lg font-semibold text-white">
+            <h1 className="text-center text-lg font-semibold text-sky-900">
               {name}
             </h1>
-            <h3 className="text-center text-base text-white">{organization}</h3>
-            <p className="text-center text-sm text-white">{position}</p>
+            <h3 className="text-center text-base text-sky-900">
+              {organization}
+            </h3>
+            <p className="text-center text-sm text-sky-900">{position}</p>
           </div>
         </div>
       </div>

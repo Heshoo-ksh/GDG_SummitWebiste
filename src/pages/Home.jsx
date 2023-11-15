@@ -1,4 +1,4 @@
-import Navbar from '@/components/ui/Navbar'
+import Navbar from '@/components/Navbar'
 import AboutSection from '@/layouts/AboutSection'
 import Footer from '@/layouts/Footer'
 import LandingSection from '@/layouts/LandingSection'

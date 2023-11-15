@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types'
 
-import TwitterHandle from '@/components/TwitterHandle'
-import { DIRECTION } from '@/constants/directions'
 import FlippableChevronIcon from '@/components/ui/FlippableChevronIcon'
-import CloseIcon from './CloseIcon'
-import SessionTitle from './SessionTitle'
+import TwitterHandle from '@/components/ui/TwitterHandle'
+import { DIRECTION } from '@/constants/directions'
+import SessionTitle from '@components/sessions/SessionTitle'
+import CloseIcon from '@components/ui/CloseIcon'
 
 function SpeakerDetails(props) {
   return (
