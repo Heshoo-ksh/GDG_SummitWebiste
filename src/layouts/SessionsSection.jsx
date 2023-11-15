@@ -1,13 +1,20 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import SpeakerSessionCard from '@/components/SpeakerSessionCard'
 import StylableComponentList from '@/components/StylableComponentList'
 import { SpeakerData } from '@/data/sessions'
-import { useState } from 'react'
 import './session.css'
 
 function SessionsSection() {
   const [activeTab, setActiveTab] = useState(0)
   const tabs = ['AI/ML', 'Mobile', 'Fullstack', 'Miscellaneous']
+
+  useEffect(() => {
+    console.log(
+      SpeakerData.filter((speaker) =>
+        speaker.category?.includes(tabs[activeTab])
+      )
+    )
+  }, [])
 
   return (
     <section
@@ -34,15 +41,10 @@ function SessionsSection() {
           </React.Fragment>
         ))}
       </div>
-      {/* TODO work on showing the session based on their categories here */}
-      <div className="mt-5">
-        {activeTab === 0 && <div>{/*AI/ML CONTENT PANELS */} </div>}
-        {activeTab === 1 && <div>{/*CONTENT FOR MOBILE PANEL */} </div>}
-        {activeTab === 2 && <div>{/*FULLSTACK PANEL */} </div>}
-        {activeTab === 3 && <div>{/*Miscellaneous Panel */} </div>}
-      </div>
       <StylableComponentList
-        childComponentData={SpeakerData.map((speaker) => {
+        childComponentData={SpeakerData.filter((speaker) =>
+          speaker.category?.includes(tabs[activeTab])
+        ).map((speaker) => {
           return {
             id: speaker.id,
             speakerName: speaker.name,
