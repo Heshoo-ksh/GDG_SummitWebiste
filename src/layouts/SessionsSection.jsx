@@ -20,7 +20,7 @@ function SessionsSection() {
 
             <button
               key={tab}
-              className={`rounded-md px-1 py-2 text-lg font-medium transition-colors duration-300 focus:outline-none sm:px-8 md:px-11 lg:px-14 ${
+              className={`relative rounded-md px-1 py-2 text-lg font-medium transition-colors duration-300 focus:outline-none sm:px-8 md:px-11 lg:px-14 ${
                 activeTab === index
                   ? 'bg-blue-600 text-white'
                   : 'bg-black text-white'
@@ -28,7 +28,9 @@ function SessionsSection() {
               onClick={() => setActiveTab(index)}
             >
               {tab}
-              {activeTab === index && <div className="triangle"></div>}
+              {activeTab === index && (
+                <div className="absolute -bottom-3 left-1/2 h-0 w-0 -translate-x-1/2 border-x-[12px] border-t-[12px] border-blue-600 border-x-transparent"></div>
+              )}
             </button>
           </React.Fragment>
         ))}
