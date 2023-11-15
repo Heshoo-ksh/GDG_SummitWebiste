@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import { DIRECTION } from '@/constants/directions'
 
 function AnimatedChevronIcon({
-  className,
   direction,
   fill = 'none',
   strokeWidth = 1.5,
@@ -31,7 +30,7 @@ function AnimatedChevronIcon({
       viewBox="0 0 24 24"
       strokeWidth={strokeWidth}
       stroke={strokeColor}
-      className={`transition-transform ${getRotationClass()} duration-300 ${className}`}
+      className={`transition-transform ${getRotationClass()} h-10 w-10 shrink-0 duration-300 md:h-12 md:w-12 xl:h-20 xl:w-20`}
     >
       <path
         strokeLinecap="round"
@@ -49,7 +48,6 @@ AnimatedChevronIcon.propTypes = {
     DIRECTION.BOTTOM,
     DIRECTION.LEFT,
   ]).isRequired,
-  className: PropTypes.string,
   fill: PropTypes.string,
   strokeWidth: PropTypes.number,
   strokeColor: PropTypes.string,

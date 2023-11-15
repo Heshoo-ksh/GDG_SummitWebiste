@@ -58,7 +58,7 @@ function Navbar() {
               to={`#${section.id}`}
               onClick={(event) => handleNavigation(event, section.id)}
               className={`${section.id === 'landing' ? 'invisible' : ''} p-6 ${
-                activeLink === section.id ? 'text-blue-500' : ''
+                activeLink === section.id ? 'text-primary-500' : ''
               }`}
             >
               {section.text}

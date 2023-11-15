@@ -1,11 +1,11 @@
-import { useState } from 'react'
 import PropTypes from 'prop-types'
+import { useState } from 'react'
 
 import { DIRECTION } from '@/constants/directions'
 
-import FlippableChevronIcon from './FlippableChevronIcon'
+import FlippableChevronIcon from '../ui/FlippableChevronIcon'
 
-function SpeakerSessionCard({
+function SessionCard({
   speakerName,
   sessionTitle,
   speakerAvatar,
@@ -46,14 +46,11 @@ function SpeakerSessionCard({
             <p className="text-gray-700">by {speakerName}</p>
           </div>
         </section>
-        <FlippableChevronIcon
-          className="h-10 w-10 shrink-0 md:h-12 md:w-12 xl:h-20 xl:w-20"
-          direction={direction}
-        />
+        <FlippableChevronIcon direction={direction} />
       </button>
       {direction == DIRECTION.TOP ? (
         <section className="mt-5 w-10/12 pl-12">
-          <p className="whitespace-pre-wrap border-t border-gray-700 pb-10 pt-5">
+          <p className="whitespace-pre-wrap border-t border-gray-700 pb-10 pt-5 text-justify">
             {sessionDesc}
           </p>
         </section>
@@ -62,11 +59,11 @@ function SpeakerSessionCard({
   )
 }
 
-SpeakerSessionCard.propTypes = {
+SessionCard.propTypes = {
   speakerName: PropTypes.string.isRequired,
   sessionTitle: PropTypes.string.isRequired,
   speakerAvatar: PropTypes.string.isRequired,
   sessionDesc: PropTypes.string.isRequired,
 }
 
-export default SpeakerSessionCard
+export default SessionCard
