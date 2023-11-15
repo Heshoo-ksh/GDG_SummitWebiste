@@ -17,7 +17,7 @@ function AboutSection() {
       </div>
 
       <img
-        className="mx-auto mt-10 h-auto w-full object-cover"
+        className="mx-auto mt-14 h-auto w-full object-cover"
         src={aboutLogo}
         alt="About Logo"
       />

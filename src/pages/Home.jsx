@@ -5,23 +5,18 @@ import LandingSection from '@/layouts/LandingSection'
 import LocationSection from '@/layouts/LocationSection'
 import SessionsSection from '@/layouts/SessionsSection'
 import SpeakersSection from '@/layouts/SpeakersSection'
-// import SpeakerDetails from '@/components/ui/SpeakerDetails'
-// import placeholderSpeaker from '@assets/Madona Wambua.png'
 
 function Home() {
   return (
-    <>
-      <main>
-        <Navbar />
-        <div className="h-16"></div>
-        <LandingSection />
-        <AboutSection />
-        <SpeakersSection />
-        <SessionsSection />
-        <LocationSection />
-        <Footer />
-      </main>
-    </>
+    <main>
+      <Navbar />
+      <LandingSection />
+      <AboutSection />
+      <SpeakersSection />
+      <SessionsSection />
+      <LocationSection />
+      <Footer />
+    </main>
   )
 }
 
