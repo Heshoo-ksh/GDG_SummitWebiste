@@ -8,19 +8,6 @@ function LocationSection() {
     >
       <div className="flex flex-col lg:mb-0 lg:flex-row lg:space-x-28">
 
-        <div className="mb-4 lg:mb-0">
-          <div className="flex items-center">
-            <div className="mr-4 flex h-[43px] w-[43px] items-center justify-center rounded-full bg-yellow-500">
-              <FaMapMarkerAlt className="  h-[23px] w-[23px] text-white" />
-            </div>
-            <h3 className=" text-lg font-semibold ">When</h3>
-          </div>         
-          <div className='ml-[56px]'>
-            <p>Saturday December 02, 2023 </p>
-            <p>8:00 AM - 4:30 PM</p>
-          </div>
-        </div>
-
         <div className="mb-4 flex flex-col lg:mb-0">    
           <div className="flex items-center">
             <div className="mr-4 flex h-[43px] w-[43px] items-center justify-center rounded-full bg-yellow-500">
@@ -36,6 +23,19 @@ function LocationSection() {
             Little Caesars Global Resource Center
             <p>2125 Woodward Avenue Detroit, 48201</p>
           </a>
+        </div>
+
+        <div className="mb-4 lg:mb-0">
+          <div className="flex items-center">
+            <div className="mr-4 flex h-[43px] w-[43px] items-center justify-center rounded-full bg-yellow-500">
+              <FaMapMarkerAlt className="  h-[23px] w-[23px] text-white" />
+            </div>
+            <h3 className=" text-lg font-semibold ">When</h3>
+          </div>         
+          <div className='ml-[56px]'>
+            <p>Saturday December 02, 2023 </p>
+            <p>8:00 AM - 4:30 PM</p>
+          </div>
         </div>
 
         <div className="w-full lg:w-1/2">
