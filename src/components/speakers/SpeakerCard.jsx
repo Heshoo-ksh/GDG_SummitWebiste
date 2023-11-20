@@ -1,10 +1,12 @@
 import PropTypes from 'prop-types'
-import { useState } from 'react'
+import { useContext } from 'react'
 
 import SpeakerDetails from '@/components/speakers/SpeakerDetails'
 import TwitterHandle from '@/components/ui/TwitterHandle'
+import { SpeakerContext } from './SpeakerContext'
 
 const SpeakerCard = ({
+  id,
   name,
   twitter,
   avatar,
@@ -13,21 +15,17 @@ const SpeakerCard = ({
   bio,
   sessionTitle,
 }) => {
-  const [isModalOpen, setIsModalOpen] = useState(false)
+  const { isModalOpen, openModal, closeModal, setSpeakerID, speakerID } = useContext(SpeakerContext);
 
-  const openModal = () => {
-    setIsModalOpen(true)
+  const open = () => {
+    openModal();
+    setSpeakerID(id);
   }
-
-  const closeModal = () => {
-    setIsModalOpen(false)
-  }
-
   return (
     <>
       <div
         className="relative mx-auto mb-16 max-w-xs bg-primary-500 shadow-xl transition delay-75 duration-100 ease-in-out hover:-translate-y-1 hover:scale-110 hover:cursor-pointer"
-        onClick={openModal}
+        onClick={open}
       >
         <div className="overflow-hidden rounded bg-primary-200 shadow-2xl hover:bg-primary-300">
           <div className="absolute -mt-24 flex w-full justify-center">
@@ -52,7 +50,7 @@ const SpeakerCard = ({
         </div>
       </div>
 
-      {isModalOpen && (
+      {(isModalOpen && id === speakerID) && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-gray-800/75">
           <SpeakerDetails
             name={name}
@@ -70,6 +68,7 @@ const SpeakerCard = ({
 }
 
 SpeakerCard.propTypes = {
+  id: PropTypes.number.isRequired,
   name: PropTypes.string.isRequired,
   twitter: PropTypes.string,
   avatar: PropTypes.string.isRequired,

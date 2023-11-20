@@ -1,22 +1,34 @@
 import PropTypes from 'prop-types'
+import { useContext } from 'react'
 
 import FlippableChevronIcon from '@/components/ui/FlippableChevronIcon'
 import TwitterHandle from '@/components/ui/TwitterHandle'
 import { DIRECTION } from '@/constants/directions'
 import SessionTitle from '@components/sessions/SessionTitle'
 import CloseIcon from '@components/ui/CloseIcon'
-
+import { SpeakerContext } from './SpeakerContext'
 function SpeakerDetails(props) {
+  const { speakerID, setSpeakerID, numSpeakers } = useContext(SpeakerContext)
+  const goLastSpeaker = () => {
+    setSpeakerID((id) => id - 1 <= 0 ? numSpeakers : id - 1)
+  }
+  const goNextSpeaker = () => {
+    setSpeakerID(speakerID + 1 >= numSpeakers ? 1 : speakerID + 1)
+  }
+
   return (
     <div className="relative inset-0 h-[900px] w-[1600px] shrink-0 bg-[url(@/assets/speaker-details-modal.png)] bg-contain bg-center bg-no-repeat">
       <div onClick={() => props.onClose()}>
         <CloseIcon />
       </div>
       <div className="flex items-center">
-        <FlippableChevronIcon
-          direction={DIRECTION.LEFT}
-          strokeColor={'#000000'}
-        />
+        <div onClick={goLastSpeaker} className='cursor-pointer transition-all hover:scale-110'>
+          <FlippableChevronIcon
+            direction={DIRECTION.LEFT}
+            strokeColor={'#000000'}
+
+          />
+        </div>
         <div className="ml-[120px] mt-[400px] shrink-0">
           <div className="relative">
             <img
@@ -43,10 +55,12 @@ function SpeakerDetails(props) {
           </div>
           <SessionTitle sessionTitle={props.sessionTitle} />
         </div>
-        <FlippableChevronIcon
-          direction={DIRECTION.RIGHT}
-          strokeColor={'#4285F4'}
-        />
+        <div onClick={goNextSpeaker} className='cursor-pointer transition-all hover:scale-110'>
+          <FlippableChevronIcon
+            direction={DIRECTION.RIGHT}
+            strokeColor={'#4285F4'}
+          />
+        </div>
       </div>
     </div>
   )
