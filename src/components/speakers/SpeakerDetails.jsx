@@ -7,6 +7,7 @@ import { DIRECTION } from '@/constants/directions'
 import SessionTitle from '@components/sessions/SessionTitle'
 import CloseIcon from '@components/ui/CloseIcon'
 import { SpeakerContext } from './SpeakerContext'
+
 function SpeakerDetails(props) {
   const { speakerID, setSpeakerID, numSpeakers } = useContext(SpeakerContext)
   const goLastSpeaker = () => {

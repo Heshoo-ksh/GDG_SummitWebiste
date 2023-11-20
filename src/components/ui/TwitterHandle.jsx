@@ -1,5 +1,6 @@
-import TwitterIcon from '@/assets/TwitterIcon.svg'
 import PropTypes from 'prop-types'
+
+import TwitterIcon from '@/assets/TwitterIcon.svg'
 
 const TwitterHandle = ({ handle }) => {
   return (
