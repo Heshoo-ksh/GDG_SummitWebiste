@@ -1,4 +1,4 @@
-import { FaMapMarkerAlt, FaClock } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaClock } from 'react-icons/fa'
 
 function LocationSection() {
   return (
@@ -7,8 +7,7 @@ function LocationSection() {
       className="flex h-auto items-center justify-center py-20"
     >
       <div className="flex flex-col lg:mb-0 lg:flex-row lg:space-x-28">
-
-        <div className="mb-4 flex flex-col lg:mb-0">    
+        <div className="mb-4 flex flex-col lg:mb-0">
           <div className="flex items-center">
             <div className="mr-4 flex h-[43px] w-[43px] items-center justify-center rounded-full bg-yellow-500">
               <FaClock className="  h-[23px] w-[23px] text-white" />
@@ -19,7 +18,8 @@ function LocationSection() {
             href="https://www.google.com/maps/dir//2125+Woodward+Ave,+Detroit,+MI+48201/@42.3378209,-83.0576339,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x883b2d3478f11d5b:0x4dfda74fa49a6074!2m2!1d-83.052484!2d42.337821?entry=ttu"
             target="_blank"
             className="ml-[56px] cursor-pointer hover:underline"
-            rel="noreferrer">
+            rel="noreferrer"
+          >
             Little Caesars Global Resource Center
             <p>2125 Woodward Avenue Detroit, 48201</p>
           </a>
@@ -31,8 +31,8 @@ function LocationSection() {
               <FaMapMarkerAlt className="  h-[23px] w-[23px] text-white" />
             </div>
             <h3 className=" text-lg font-semibold ">When</h3>
-          </div>         
-          <div className='ml-[56px]'>
+          </div>
+          <div className="ml-[56px]">
             <p>Saturday December 02, 2023 </p>
             <p>8:00 AM - 4:30 PM</p>
           </div>
@@ -46,7 +46,6 @@ function LocationSection() {
             allowFullScreen
           ></iframe>
         </div>
-
       </div>
     </section>
   )
