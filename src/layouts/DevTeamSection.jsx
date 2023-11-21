@@ -17,6 +17,17 @@ const DevTeamSection = () => {
               alt={`Image ${index + 1}`}
               className="h-56 w-full object-cover object-center "
             />
+            <div className="invisible h-20 translate-y-8 bg-primary-300 pt-2 text-center text-sm text-sky-900 transition ease-in-out group-hover:visible group-hover:translate-y-0">
+              <h1 className="text-base font-semibold text-sky-900">
+                {dev.name}
+              </h1>
+              <div className="px-2">
+                <h3 className="text-sm text-sky-900">
+                  {dev.organization || dev.university}
+                </h3>
+                <p className="text-sm text-sky-900">{dev.position}</p>
+              </div>
+            </div>
           </div>
         ))}
       </div>
