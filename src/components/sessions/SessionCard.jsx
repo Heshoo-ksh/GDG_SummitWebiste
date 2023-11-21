@@ -60,8 +60,8 @@ function SessionCard({ speakers, speakerAvatars, sessionTitle, sessionDesc }) {
 }
 
 SessionCard.propTypes = {
-  speakers: PropTypes.string.isRequired,
-  speakerAvatars: PropTypes.string.isRequired,
+  speakers: PropTypes.arrayOf(PropTypes.string).isRequired,
+  speakerAvatars: PropTypes.arrayOf(PropTypes.string).isRequired,
   sessionTitle: PropTypes.string.isRequired,
   sessionDesc: PropTypes.string.isRequired,
 }
