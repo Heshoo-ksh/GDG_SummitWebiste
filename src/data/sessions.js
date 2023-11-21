@@ -106,6 +106,7 @@ export const SpeakerData = [
     twitter: 'danschnau',
     url: 'https://danschnau.com/',
     organization: 'Software Consultant',
+    position: '',
     session: {
       title: 'Getting started with Blazor',
       abstract:
@@ -166,6 +167,7 @@ export const SpeakerData = [
     twitter: '',
     url: 'https://www.linkedin.com/in/bandhanpreet-kaur/',
     organization: 'Google Women Tech Makers Ambassador & Excelerate America',
+    position: '',
     session: {
       title: 'Firebase Talk: Advanced queries and Authentication',
       abstract:
@@ -185,6 +187,7 @@ export const SpeakerData = [
     twitter: '',
     url: '',
     organization: '',
+    position: '',
     session: {
       title:
         'Technically designs and features that improve living with disabilities',
@@ -266,6 +269,7 @@ export const SpeakerData = [
     twitter: 'afirstenberg',
     url: 'https://prisoner.com/',
     organization: 'GDE',
+    position: '',
     session: {
       title:
         'Using LLMs to bridge the Fuzzy Human / Digital Computer Bounday - tools for EVERY developer',
