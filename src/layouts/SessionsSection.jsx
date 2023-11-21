@@ -64,18 +64,18 @@ function SessionsSection() {
         ))}
       </div>
       <ul className="grid w-5/6 grid-cols-1 gap-10 py-7">
-        {combinedSpeakerData.filter((session) =>
-          session.category?.includes(tabs[activeTab])
-        ).map((session) => (
-          <li key={session.id}>
-            <SessionCard
-              speakers={session.speakers}
-              speakerAvatars={session.speakerAvatars}
-              sessionTitle={session.sessionTitle}
-              sessionDesc={session.sessionDesc}
-            />
-          </li>
-        ))}
+        {combinedSpeakerData
+          .filter((session) => session.category?.includes(tabs[activeTab]))
+          .map((session) => (
+            <li key={session.id}>
+              <SessionCard
+                speakers={session.speakers}
+                speakerAvatars={session.speakerAvatars}
+                sessionTitle={session.sessionTitle}
+                sessionDesc={session.sessionDesc}
+              />
+            </li>
+          ))}
       </ul>
     </section>
   )
