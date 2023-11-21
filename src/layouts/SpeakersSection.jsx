@@ -7,12 +7,14 @@ function SpeakersSection() {
     <SpeakerProvider>
       <section
         id="speakers"
-        className="flex flex-col px-8 pt-6 sm:px-10 sm:pt-8 md:px-14 md:pt-12 lg:px-16 lg:pt-14"
+        className="flex flex-col justify-center px-8 sm:px-10 md:px-14 lg:px-16"
       >
-        <header className="mb-32 font-russell text-4xl md:text-5xl lg:mb-36 lg:text-6xl">
-          Speakers
-        </header>
-        <div className="grid grid-cols-1 items-stretch gap-20 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        <div className="w-full pt-6 sm:pt-8 md:pt-12 lg:pt-14">
+          <header className="font-russell text-4xl md:text-5xl lg:text-6xl">
+            Speakers
+          </header>
+        </div>
+        <div className="mt-32 grid grid-cols-1 items-stretch gap-20 sm:grid-cols-2 lg:mt-36 lg:grid-cols-3 xl:grid-cols-4">
           {SpeakerData.map((speaker, index) => (
             <div key={index}>
               <SpeakerCard

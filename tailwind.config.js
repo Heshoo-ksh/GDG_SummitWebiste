@@ -20,7 +20,7 @@ export default {
         },
       },
       fontFamily: {
-        'russell': ['Russell', 'cursive'],
+        russell: ['Russell', 'cursive'],
       },
     },
   },

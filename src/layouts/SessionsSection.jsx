@@ -35,6 +35,11 @@ function SessionsSection() {
       id="sessions"
       className="flex flex-col items-center justify-center bg-primary-100"
     >
+      <div className="w-full px-8 pt-6 sm:px-10 sm:pt-8 md:px-14 md:pt-12 lg:px-16 lg:pt-14">
+        <header className="font-russell text-4xl md:text-5xl lg:text-6xl">
+          Sessions
+        </header>
+      </div>
       <div className="mt-4 inline-flex w-5/6 items-center justify-between rounded-md bg-black md:w-auto">
         {tabs.map((tab, index) => (
           <React.Fragment key={tab}>
@@ -64,18 +69,18 @@ function SessionsSection() {
         ))}
       </div>
       <ul className="grid w-5/6 grid-cols-1 gap-10 py-7">
-        {combinedSpeakerData.filter((session) =>
-          session.category?.includes(tabs[activeTab])
-        ).map((session) => (
-          <li key={session.id}>
-            <SessionCard
-              speakers={session.speakers}
-              speakerAvatars={session.speakerAvatars}
-              sessionTitle={session.sessionTitle}
-              sessionDesc={session.sessionDesc}
-            />
-          </li>
-        ))}
+        {combinedSpeakerData
+          .filter((session) => session.category?.includes(tabs[activeTab]))
+          .map((session) => (
+            <li key={session.id}>
+              <SessionCard
+                speakers={session.speakers}
+                speakerAvatars={session.speakerAvatars}
+                sessionTitle={session.sessionTitle}
+                sessionDesc={session.sessionDesc}
+              />
+            </li>
+          ))}
       </ul>
     </section>
   )

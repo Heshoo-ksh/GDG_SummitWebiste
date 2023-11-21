@@ -31,6 +31,6 @@ body {
 }
 
 @font-face {
-  font-family: "Russell";
-  src: url("./assets/fonts/RussellRg.otf");
+  font-family: 'Russell';
+  src: url('./assets/fonts/RussellRg.otf');
 }
