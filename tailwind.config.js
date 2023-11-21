@@ -19,6 +19,9 @@ export default {
           950: '#432005',
         },
       },
+      fontFamily: {
+        'russell': ['Russell', 'cursive'],
+      },
     },
   },
   plugins: [],
