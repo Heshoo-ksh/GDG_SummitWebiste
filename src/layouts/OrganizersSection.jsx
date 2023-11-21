@@ -1,5 +1,6 @@
-import DonWard from '@/assets/speakers/Organizers/Don Ward.png'
+import Arrow from '@/assets/arrow.png'
 import DaveKoziel from '@/assets/speakers/Organizers/Dave Koziol.png'
+import DonWard from '@/assets/speakers/Organizers/Don Ward.png'
 import TwitterHandle from '@/components/ui/TwitterHandle'
 
 const organizers = [
@@ -26,10 +27,15 @@ const organizers = [
 function OrganizersSection() {
   return (
     <div className="flex flex-col">
-      <div className="w-full px-8 pt-6 sm:px-10 sm:pt-8 md:px-14 md:pt-12 lg:px-16 lg:pt-14">
+      <div className="flex w-full justify-between px-8 pt-6 sm:px-10 sm:pt-8 md:px-14 md:pt-12 lg:px-16 lg:pt-14">
         <header className="font-russell text-4xl md:text-5xl lg:text-6xl">
           Organizers
         </header>
+        <img
+          src={Arrow}
+          alt="Organizers"
+          className="h-8 -scale-x-100 md:h-10 lg:h-12"
+        />
       </div>
       <div className="mt-32 flex items-center justify-center lg:mt-36">
         {organizers.map((organizer) => (
