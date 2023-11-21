@@ -1,3 +1,4 @@
+import LinkedInHandle from '@/components/ui/LinkedInHandle'
 import { devTeamData } from '@/data/dev'
 
 const DevTeamSection = () => {
@@ -17,7 +18,8 @@ const DevTeamSection = () => {
               alt={`Image ${index + 1}`}
               className="h-56 w-full object-cover object-center "
             />
-            <div className="invisible h-20 translate-y-8 bg-primary-300 pt-2 text-center text-sm text-sky-900 transition ease-in-out group-hover:visible group-hover:translate-y-0">
+            <LinkedInHandle handle={dev.linkedin} />
+            <div className="invisible h-24 translate-y-8 bg-primary-300 pt-5 text-center text-sm text-sky-900 transition ease-in-out group-hover:visible group-hover:translate-y-0">
               <h1 className="text-base font-semibold text-sky-900">
                 {dev.name}
               </h1>
