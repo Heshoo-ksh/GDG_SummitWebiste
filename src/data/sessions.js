@@ -1,8 +1,11 @@
+import AaronKaump from '@/assets/speakers/Aaron Kaump.jpg'
+import AdamKaump from '@/assets/speakers/Adam Kaump.jpg'
 import AlexRiviere from '@/assets/speakers/Alex Riviere.jpg'
 import AllenFirstenberg from '@/assets/speakers/Allen Firstenberg.jpg'
 import AmitRathi from '@/assets/speakers/Amit Rathi.jpg'
 import BandhanKaur from '@/assets/speakers/Bandhan Kaur.jpg'
 import BenJacques from '@/assets/speakers/Ben Jacques.jpg'
+import BlakeLapum from '@/assets/speakers/Blake Lapum.png'
 import BrianMcKeiver from '@/assets/speakers/BrianMcKeiver.png'
 import CeclynnFielderSherrer from '@/assets/speakers/Ceclynn FielderSherrer.jpg'
 import ChadHamdan from '@/assets/speakers/Chad Hamdan.jpg'
@@ -13,6 +16,8 @@ import DanielHope from '@/assets/speakers/Daniel Hope.jpg'
 import DonWard from '@/assets/speakers/Don Ward.png'
 import EricaOlson from '@/assets/speakers/Erica Olson.png'
 import GregMiller from '@/assets/speakers/Greg Miller.jpg'
+import JennaRitten from '@/assets/speakers/Jenna Ritten.png'
+import JuliaSuzuki from '@/assets/speakers/Julia Suzuki.png'
 import KeithBourne from '@/assets/speakers/Keith Bourne.jpg'
 import KeithKurak from '@/assets/speakers/Keith Kurak.jpg'
 import MadonaWambua from '@/assets/speakers/Madona Wambua.png'
@@ -449,6 +454,24 @@ export const SpeakerData = [
   },
   {
     id: 20,
+    name: 'Julia Suzuki',
+    email: '',
+    avatar: JuliaSuzuki,
+    bio: `Julia is a people data science & social entrepreneur whose mission is to make the world a better place by operating at the intersection of well-being, data & AI, and business. Her primary focus is to address issues around the collective well-being of individuals, organizations, society, and the planet. She is a speaker, thought leader, and strategist in workplace well-being and has over 10 years of consulting experience with a global consulting company, helping its clients transform into data-driven enterprises.`,
+    twitter: '',
+    url: '',
+    organization: 'Google Women Techmakers Ambassador',
+    position: 'People Data Science & Social Entrepreneur',
+    session: {
+      title: 'Calling All Women in Technology',
+      abstract: '',
+      description: '',
+    },
+    tags: [],
+    category: ['Miscellaneous'],
+  },
+  {
+    id: 21,
     name: 'Keith Kurak',
     email: 'keith.kurak@gmail.com',
     avatar: KeithKurak,
@@ -468,7 +491,7 @@ export const SpeakerData = [
     category: ['Mobile'],
   },
   {
-    id: 21,
+    id: 22,
     name: 'Ben Jacques',
     email: 'Ben.Jacques@spindance.com',
     avatar: BenJacques,
@@ -488,7 +511,7 @@ export const SpeakerData = [
     category: ['Mobile'],
   },
   {
-    id: 22,
+    id: 23,
     name: 'Mike Nimer',
     email: 'mikenimer@google.com',
     avatar: MikeNimer,
@@ -508,7 +531,7 @@ export const SpeakerData = [
     category: ['Mobile'],
   },
   {
-    id: 23,
+    id: 24,
     name: 'Chad Hamdan',
     email: 'chad.abou-hamdan@lcecorp.com',
     avatar: ChadHamdan,
@@ -527,7 +550,7 @@ export const SpeakerData = [
     category: ['Mobile'],
   },
   {
-    id: 24,
+    id: 25,
     name: 'Nadia Tahiri',
     email: 'nadia.tahiri@gmail.com',
     avatar: NadiaTahiri,
@@ -547,7 +570,7 @@ export const SpeakerData = [
     category: ['AI/ML'],
   },
   {
-    id: 25,
+    id: 26,
     name: 'Pavel Ryabov',
     email: '',
     avatar: PavelRyabov,
@@ -564,5 +587,82 @@ export const SpeakerData = [
         'Extensions are one of the newest Firebase products that greatly simplify and speed up the development process. These professionally crafted pre-packaged bundles of code provide must-have features like automatic email sending, data backups, user data management, payment handling, and much more.\n\nThe most interesting Extensions that have had a boom in recent years are the AI-powered Extensions. Using Google’s PaLM, Vertex AI, and Cloud Vision, these powerful solutions provide features like text generation and translation, various language tasks, chat, OCR, image labeling, and object detection. The true power of AI extensions comes with combining these solutions to build a fully automated pipeline, independent of your frontend framework. For example, you can trigger a complex pipeline of multi-level AI image processing with just a simple image upload to Cloud Storage.\n\nIn this talk, I will cover the basics of Firebase Extensions, explain their pros, mention some of the problems, and introduce the Extensions Hub. I will dedicate the rest of the talk to exploring AI Extensions and their capabilities, including a live demonstration of my AI-powered recycling companion application KnowWaste (fully open-source and available for iOS and Android), which uses over 5 AI Extensions in order to process scanned waste and output comprehensive recycling advice.',
     },
     tags: ['Fullstack', 'AI/ML'],
+    category: ['Fullstack', 'AI/ML'],
+  },
+  {
+    id: 27,
+    name: 'Adam Kaump',
+    email: '',
+    avatar: AdamKaump,
+    bio: 'Senior iOS developer at Rocket Homes who in his free time enjoys playing guitar, disc golf, video games, and hanging out with his family.',
+    twitter: '',
+    url: '',
+    organization: 'Rocket Homes',
+    position: 'Senior IOS developer',
+    session: {
+      title: 'A history of native iOS development at Rocket Homes',
+      abstract: '',
+      description:
+        'Adam and Aaron Kaump have worked on the Rocket Homes iOS app since it launched over 3 years ago in 2020. In that time the entire mobile landscape has evolved and so has how Rocket Homes considers building native apps. From supporting multiple platforms like iOS, iPadOS, macOS and now CarPlay, to dynamic layouts that scale from the smallest iPhones to the largest external displays - they’ll walk you through their history developing Rocket Homes for iOS. Along the way they’ll share learnings from Rocket Homes being featured as a Best App for Homebuyers and a Best App for iOS 17 by Apple earlier this year.',
+    },
+    tags: [],
+    category: ['Mobile'],
+  },
+  {
+    id: 28,
+    name: 'Aaron Kaump',
+    email: '',
+    avatar: AaronKaump,
+    bio: 'Senior Product Manager at Rocket Homes, focused on native mobile apps. Aaron likes trying out new electronics, cycling on his e-bike, and traveling with his wife and two kids.',
+    twitter: '',
+    url: '',
+    organization: 'Rocket Homes',
+    position: 'Senior Digital Product Manager',
+    session: {
+      title: 'A history of native iOS development at Rocket Homes',
+      abstract: '',
+      description:
+        'Adam and Aaron Kaump have worked on the Rocket Homes iOS app since it launched over 3 years ago in 2020. In that time the entire mobile landscape has evolved and so has how Rocket Homes considers building native apps. From supporting multiple platforms like iOS, iPadOS, macOS and now CarPlay, to dynamic layouts that scale from the smallest iPhones to the largest external displays - they’ll walk you through their history developing Rocket Homes for iOS. Along the way they’ll share learnings from Rocket Homes being featured as a Best App for Homebuyers and a Best App for iOS 17 by Apple earlier this year.',
+    },
+    tags: [],
+    category: ['Mobile'],
+  },
+  {
+    id: 29,
+    name: 'Jenna Ritten',
+    email: '',
+    avatar: JennaRitten,
+    bio: `Jenna Ritten (@jritten) is Chief Architect and Chief Developer Advocate for InnerSource@IBM. She works on expanding the reach of open source technologies to Detroit and Austin's developer communities. Her areas of interest include hackathons, design-thinking workshops, NLU/NLP, gamified learning, and Blockchain. Jenna left Detroit to attend Dev Bootcamp San Francisco to learn full-stack web development before joining IBM Austin as part of the Tech Re-Entry program. She is an advocate for non-traditional people in tech, much like herself, and provides support by building and fostering communities for underrepresented people in tech.`,
+    twitter: 'jritten',
+    url: '',
+    organization: 'InnerSource@IBM',
+    position: 'Chief Architect & Chief Developer Advocate',
+    session: {
+      title: 'Calling All Women in Technology',
+      abstract: '',
+      description: '',
+    },
+    tags: [],
+    category: ['Miscellaneous'],
+  },
+  {
+    id: 30,
+    name: 'Blake Lapum',
+    email: '',
+    avatar: BlakeLapum,
+    bio: `Blake Lapum has been working at SpinDance since graduating from Grand Valley State University in 2020 with a B.S. in Compute Science and has worked his way up to his current role of Senior Software Engineer and co-chair of the embedded guild (department). While embedded software is his bread and butter, Blake also enjoys staying up to date with the latest cloud developments, including AWS CDK, and working with open-sourced projects and technologies such as Flutter. Given his background in mobile application development during his college studies, his experience and certifications with AWS, and his passion for embedded software and tinkering with electronics, Blake has a deep understanding of the full IoT stack, which gives him an edge in both architecting and implementing end-to-end IoT solutions.`,
+    twitter: '',
+    url: '',
+    organization: 'SpinDance',
+    position: 'Senior Software Engineer',
+    session: {
+      title: 'Getting Started with Flutter for Embedded Linux',
+      abstract:
+        "Creating appealing and responsive UIs for embedded systems has been a major pain for years. Flutter, initially designed for mobile app development, has emerged as a compelling option for these systems. We'll dive into how to get started and why it is so much better than the alternatives.",
+      description:
+        "Getting Started with Flutter for Embedded Linux\n\nAs embedded systems continue to evolve, so do the tools that developers use to create their user interfaces. Flutter, initially designed for mobile app development, has emerged as a compelling option for these systems. In this 45-minute presentation, we'll explore how and why Flutter can be integrated with Embedded Linux, offering developers a new avenue to craft efficient and responsive UIs.\n\n1. Introduction to Flutter: An overview of Flutter's fundamental concepts and its architecture.\n\n2. A Look at Existing UI Tools: A brief overview of some of the existing tools for building UIs on embedded linux platforms and some of their shortcomings.\n\n3. Flutter in Embedded Systems: A discussion on why developers might consider Flutter when working on embedded systems. This section will highlight the toolkit's adaptability and its fit for embedded environments.\n\n4. Quickstart: A practical guide on how to get Flutter operational on Embedded Linux. We'll go through the necessary steps and tools to ensure a seamless integration.\n\n5. Learnings and Challenges: A candid reflection on the experiences with Flutter in the embedded context. We'll share advice and highlight some of the challenges faced during integration and development.\n\nAttendees will leave with a clear understanding of Flutter's capabilities within the Embedded Linux environment and practical knowledge to get started.",
+    },
+    tags: [],
+    category: ['Mobile'],
   },
 ]

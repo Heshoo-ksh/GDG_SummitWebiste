@@ -24,7 +24,7 @@ function SessionCard({
   return (
     <section className="rounded-xl border bg-white shadow-lg transition duration-200 hover:shadow-2xl">
       <button
-        onClick={() => toggle()}
+        onClick={() => sessionDesc && toggle()}
         className="flex w-full items-center justify-between p-2.5 pl-5 sm:px-10 md:pl-10 md:pr-14 xl:pr-24"
       >
         <section className="flex items-center text-left">
@@ -46,7 +46,7 @@ function SessionCard({
             <p className="text-gray-700">by {speakerName}</p>
           </div>
         </section>
-        <FlippableChevronIcon direction={direction} />
+        {sessionDesc && <FlippableChevronIcon direction={direction} />}
       </button>
       {direction == DIRECTION.TOP ? (
         <section className="mt-5 w-10/12 pl-12">
