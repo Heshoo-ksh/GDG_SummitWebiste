@@ -5,12 +5,7 @@ import { DIRECTION } from '@/constants/directions'
 
 import FlippableChevronIcon from '../ui/FlippableChevronIcon'
 
-function SessionCard({
-  speakerName,
-  sessionTitle,
-  speakerAvatar,
-  sessionDesc,
-}) {
+function SessionCard({ speakers, speakerAvatars, sessionTitle, sessionDesc }) {
   const [direction, setDirection] = useState(DIRECTION.BOTTOM)
 
   const toggle = () => {
@@ -29,21 +24,26 @@ function SessionCard({
       >
         <section className="flex items-center text-left">
           <div className="hidden shrink-0 overflow-hidden rounded-full md:block">
-            <img
-              src={
-                speakerAvatar == ''
-                  ? `https://ui-avatars.com/api/?name=${speakerName}&background=random`
-                  : speakerAvatar
-              }
-              alt={`Headshot of ${speakerName}`}
-              className="h-40 w-40 object-cover"
-            />
+            <div className="flex">
+              {speakerAvatars.map((avatar, index) => (
+                <img
+                  key={index}
+                  src={
+                    avatar == ''
+                      ? `https://ui-avatars.com/api/?name=${speakers[index]}&background=random`
+                      : avatar
+                  }
+                  alt={`Headshot of ${speakers[index]}`}
+                  className="h-40 w-40 object-cover"
+                />
+              ))}
+            </div>
           </div>
           <div className="md:ml-5">
             <h3 className="font-bold md:mb-2.5 md:text-xl lg:text-2xl xl:mb-5 xl:text-3xl">
               {sessionTitle}
             </h3>
-            <p className="text-gray-700">by {speakerName}</p>
+            <p className="text-gray-700">by {speakers.join(' & ')}</p>
           </div>
         </section>
         {sessionDesc && <FlippableChevronIcon direction={direction} />}
@@ -60,9 +60,9 @@ function SessionCard({
 }
 
 SessionCard.propTypes = {
-  speakerName: PropTypes.string.isRequired,
+  speakers: PropTypes.string.isRequired,
+  speakerAvatars: PropTypes.string.isRequired,
   sessionTitle: PropTypes.string.isRequired,
-  speakerAvatar: PropTypes.string.isRequired,
   sessionDesc: PropTypes.string.isRequired,
 }
 
