@@ -12,14 +12,20 @@ function SessionsSection() {
       id="sessions"
       className="flex flex-col items-center justify-center bg-primary-100"
     >
-      <div className="mt-4 inline-flex space-x-2 rounded-md bg-black">
+      <div className="mt-4 inline-flex w-5/6 items-center justify-between rounded-md bg-black md:w-auto">
         {tabs.map((tab, index) => (
           <React.Fragment key={tab}>
-            {index !== 0 && <div className="mt-3 h-5 w-1 bg-primary-400" />}
+            {index !== 0 && (
+              <div
+                className={`h-5 w-1 bg-primary-400 ${
+                  [activeTab, activeTab + 1].includes(index) && 'invisible'
+                }`}
+              />
+            )}
 
             <button
               key={tab}
-              className={`relative rounded-md px-1 py-2 text-lg font-medium transition-colors duration-300 focus:outline-none sm:px-8 md:px-11 lg:px-14 ${
+              className={`relative grow rounded-md px-1 py-2 text-lg font-medium transition-colors duration-300 focus:outline-none md:w-40 lg:w-56 ${
                 activeTab === index
                   ? 'bg-primary-400 text-black'
                   : 'bg-black text-white'
