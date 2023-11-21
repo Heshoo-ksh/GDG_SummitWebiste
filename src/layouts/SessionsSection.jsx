@@ -1,11 +1,34 @@
-import SessionCard from '@/components/sessions/SessionCard'
-import StylableComponentList from '@/components/StylableComponentList'
-import { SpeakerData } from '@/data/sessions'
 import React, { useState } from 'react'
+
+import SessionCard from '@/components/sessions/SessionCard'
+import { SpeakerData } from '@/data/sessions'
 
 function SessionsSection() {
   const [activeTab, setActiveTab] = useState(0)
   const tabs = ['AI/ML', 'Mobile', 'Fullstack', 'Miscellaneous']
+
+  let combinedSpeakerData = []
+
+  SpeakerData.forEach((speaker) => {
+    let existingSession = combinedSpeakerData.find(
+      (session) => session.sessionTitle === speaker.session.title
+    )
+
+    if (existingSession) {
+      existingSession.speakers.push(speaker.name)
+      existingSession.speakerAvatars.push(speaker.avatar)
+      existingSession.id += `_${speaker.id}`
+    } else {
+      combinedSpeakerData.push({
+        id: speaker.id,
+        speakers: [speaker.name],
+        speakerAvatars: [speaker.avatar],
+        sessionTitle: speaker.session.title,
+        sessionDesc: speaker.session.description,
+        category: speaker.category,
+      })
+    }
+  })
 
   return (
     <section
@@ -40,21 +63,20 @@ function SessionsSection() {
           </React.Fragment>
         ))}
       </div>
-      <StylableComponentList
-        childComponentData={SpeakerData.filter((speaker) =>
-          speaker.category?.includes(tabs[activeTab])
-        ).map((speaker) => {
-          return {
-            id: speaker.id,
-            speakerName: speaker.name,
-            speakerAvatar: speaker.avatar,
-            sessionTitle: speaker.session.title,
-            sessionDesc: speaker.session.description,
-          }
-        })}
-        childComponent={SessionCard}
-        className="grid w-5/6 grid-cols-1 gap-10 py-7"
-      />
+      <ul className="grid w-5/6 grid-cols-1 gap-10 py-7">
+        {combinedSpeakerData.filter((session) =>
+          session.category?.includes(tabs[activeTab])
+        ).map((session) => (
+          <li key={session.id}>
+            <SessionCard
+              speakers={session.speakers}
+              speakerAvatars={session.speakerAvatars}
+              sessionTitle={session.sessionTitle}
+              sessionDesc={session.sessionDesc}
+            />
+          </li>
+        ))}
+      </ul>
     </section>
   )
 }
