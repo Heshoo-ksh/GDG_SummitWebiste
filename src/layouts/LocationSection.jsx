@@ -34,7 +34,7 @@ function LocationSection() {
           </div>
           <div className="ml-[56px]">
             <p>Saturday December 02, 2023 </p>
-            <p>8:00 AM - 4:30 PM</p>
+            <p>9:00 AM - 5:00 PM</p>
           </div>
         </div>
 

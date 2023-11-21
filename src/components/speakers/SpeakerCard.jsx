@@ -15,11 +15,12 @@ const SpeakerCard = ({
   bio,
   sessionTitle,
 }) => {
-  const { isModalOpen, openModal, closeModal, setSpeakerID, speakerID } = useContext(SpeakerContext);
+  const { isModalOpen, openModal, closeModal, setSpeakerID, speakerID } =
+    useContext(SpeakerContext)
 
   const open = () => {
-    openModal();
-    setSpeakerID(id);
+    openModal()
+    setSpeakerID(id)
   }
   return (
     <>
@@ -50,7 +51,7 @@ const SpeakerCard = ({
         </div>
       </div>
 
-      {(isModalOpen && id === speakerID) && (
+      {isModalOpen && id === speakerID && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-gray-800/75">
           <SpeakerDetails
             name={name}

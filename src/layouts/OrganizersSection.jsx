@@ -1,5 +1,6 @@
 import DonWard from '@/assets/speakers/Organizers/Don Ward.png'
 import DaveKoziel from '@/assets/speakers/Organizers/Dave Koziol.png'
+import TwitterHandle from '@/components/ui/TwitterHandle'
 
 const organizers = [
   {
@@ -9,6 +10,7 @@ const organizers = [
     role: 'GDG Organizer',
     Company: 'Google',
     url: 'https://gdg.community.dev/u/m8t3sr/',
+    twitter: 'donwardpeng',
   },
   {
     id: 2,
@@ -17,6 +19,7 @@ const organizers = [
     role: 'GDG Organizer',
     Company: 'Little Caesars',
     url: 'https://gdg.community.dev/u/mrejqp/',
+    twitter: 'davekoziol',
   },
 ]
 
@@ -37,6 +40,9 @@ function OrganizersSection() {
                   className="h-full w-full rounded-full object-cover shadow-md"
                   alt={organizer.name}
                 />
+                {organizer.twitter && (
+                  <TwitterHandle handle={organizer.twitter} />
+                )}
               </div>
             </div>
             <div className="mb-4 mt-28 h-20 px-2">
