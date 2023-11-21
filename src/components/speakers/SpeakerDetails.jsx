@@ -10,7 +10,7 @@ import { SpeakerContext } from './SpeakerContext'
 function SpeakerDetails(props) {
   const { speakerID, setSpeakerID, numSpeakers } = useContext(SpeakerContext)
   const goLastSpeaker = () => {
-    setSpeakerID((id) => id - 1 <= 0 ? numSpeakers : id - 1)
+    setSpeakerID((id) => (id - 1 <= 0 ? numSpeakers : id - 1))
   }
   const goNextSpeaker = () => {
     setSpeakerID(speakerID + 1 >= numSpeakers ? 1 : speakerID + 1)
@@ -22,11 +22,13 @@ function SpeakerDetails(props) {
         <CloseIcon />
       </div>
       <div className="flex items-center">
-        <div onClick={goLastSpeaker} className='cursor-pointer transition-all hover:scale-110'>
+        <div
+          onClick={goLastSpeaker}
+          className="cursor-pointer transition-all hover:scale-110"
+        >
           <FlippableChevronIcon
             direction={DIRECTION.LEFT}
             strokeColor={'#000000'}
-
           />
         </div>
         <div className="ml-[120px] mt-[400px] shrink-0">
@@ -55,7 +57,10 @@ function SpeakerDetails(props) {
           </div>
           <SessionTitle sessionTitle={props.sessionTitle} />
         </div>
-        <div onClick={goNextSpeaker} className='cursor-pointer transition-all hover:scale-110'>
+        <div
+          onClick={goNextSpeaker}
+          className="cursor-pointer transition-all hover:scale-110"
+        >
           <FlippableChevronIcon
             direction={DIRECTION.RIGHT}
             strokeColor={'#4285F4'}
