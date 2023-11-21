@@ -11,7 +11,7 @@ function Home() {
     <main>
       <Navbar />
       <LandingSection />
-      <AboutSection />
+      {/* <AboutSection /> */}
       <SpeakersSection />
       <SessionsSection />
       <LocationSection />
