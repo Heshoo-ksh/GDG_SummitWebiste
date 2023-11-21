@@ -1,7 +1,7 @@
-import SessionCard from '@/components/sessions/SessionCard'
-import StylableComponentList from '@/components/StylableComponentList'
-import { SpeakerData } from '@/data/sessions'
 import React, { useState } from 'react'
+
+import SessionCard from '@/components/sessions/SessionCard'
+import { SpeakerData } from '@/data/sessions'
 
 function SessionsSection() {
   const [activeTab, setActiveTab] = useState(0)
@@ -40,21 +40,20 @@ function SessionsSection() {
           </React.Fragment>
         ))}
       </div>
-      <StylableComponentList
-        childComponentData={SpeakerData.filter((speaker) =>
+      <ul className="grid w-5/6 grid-cols-1 gap-10 py-7">
+        {SpeakerData.filter((speaker) =>
           speaker.category?.includes(tabs[activeTab])
-        ).map((speaker) => {
-          return {
-            id: speaker.id,
-            speakerName: speaker.name,
-            speakerAvatar: speaker.avatar,
-            sessionTitle: speaker.session.title,
-            sessionDesc: speaker.session.description,
-          }
-        })}
-        childComponent={SessionCard}
-        className="grid w-5/6 grid-cols-1 gap-10 py-7"
-      />
+        ).map((speaker) => (
+          <li key={speaker.id}>
+            <SessionCard
+              speakerName={speaker.name}
+              speakerAvatar={speaker.avatar}
+              sessionTitle={speaker.session.title}
+              sessionDesc={speaker.session.description}
+            />
+          </li>
+        ))}
+      </ul>
     </section>
   )
 }
