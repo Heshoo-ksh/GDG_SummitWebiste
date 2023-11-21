@@ -8,7 +8,7 @@ function Navbar() {
   const sections = useMemo(
     () => [
       { id: 'landing', text: 'Landing' },
-      { id: 'about', text: 'About' },
+      // { id: 'about', text: 'About' },
       { id: 'speakers', text: 'Speakers' },
       { id: 'sessions', text: 'Sessions' },
       { id: 'organizers', text: 'Organizers' },
@@ -20,17 +20,33 @@ function Navbar() {
   useEffect(() => {
     // Function to set the active link based on scroll position
     const handleScroll = () => {
-      // Determine which section is currently in view
-      for (const section of sections) {
+      // Initialize the active section and its IoU
+      let activeIoU = 0
+
+      // For each section
+      sections.forEach((section) => {
         const target = document.querySelector(`#${section.id}`)
-        if (target) {
-          const { top, bottom } = target.getBoundingClientRect()
-          if (Math.round(top) <= 0 && Math.round(bottom) > 0) {
-            setActiveLink(section.id)
-            break // No need to check further
-          }
+
+        // Get the bounding rectangle of the section
+        const rect = target.getBoundingClientRect()
+
+        // Calculate the intersection height
+        const intersectionHeight = Math.max(
+          0,
+          Math.min(rect.bottom, window.innerHeight) - Math.max(rect.top, 0)
+        )
+
+        // Calculate the IoU
+        const IoU =
+          intersectionHeight /
+          (rect.height + window.innerHeight - intersectionHeight)
+
+        // If this section's IoU is higher than the current active section's IoU, update the active section
+        if (IoU > activeIoU) {
+          setActiveLink(section.id)
+          activeIoU = IoU
         }
-      }
+      })
     }
 
     // Attach the scroll event listener
