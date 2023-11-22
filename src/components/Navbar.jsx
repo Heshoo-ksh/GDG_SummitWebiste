@@ -8,15 +8,14 @@ function Navbar() {
 
   const navRef = useRef(null)
 
-  // Sections and corresponding links
   const sections = useMemo(
     () => [
       { id: 'landing', text: 'Landing' },
-      // { id: 'about', text: 'About' },
       { id: 'speakers', text: 'Speakers' },
       { id: 'sessions', text: 'Sessions' },
-      { id: 'organizers', text: 'Organizers' },
       { id: 'location', text: 'Location' },
+      { id: 'organizers', text: 'Organizers' },
+      { id: 'devteam', text: 'Dev Team' },
     ],
     []
   )
