@@ -1,5 +1,6 @@
 import Navbar from '@/components/Navbar'
 import DevTeamSection from '@/layouts/DevTeamSection'
+import FacilitatorsSection from '@/layouts/FacilitatorsSection'
 import Footer from '@/layouts/Footer'
 import LandingSection from '@/layouts/LandingSection'
 import LocationSection from '@/layouts/LocationSection'
@@ -16,6 +17,7 @@ function Home() {
       <SessionsSection />
       <LocationSection />
       <OrganizersSection />
+      <FacilitatorsSection />
       <DevTeamSection />
       <Footer />
     </main>

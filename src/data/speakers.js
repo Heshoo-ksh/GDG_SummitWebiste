@@ -29,7 +29,7 @@ import PavelRyabov from '@/assets/speakers/Pavel Ryabov.jpg'
 import VikramTiwari from '@/assets/speakers/Vikram Tiwari.jpg'
 import VyasBhuman from '@/assets/speakers/Vyas Bhuman.jpg'
 
-export const SpeakerData = [
+export const SpeakersData = [
   {
     id: 1,
     name: 'Madona S. Wambua',

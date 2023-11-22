@@ -1,7 +1,7 @@
 import SpeakersLogo from '@/assets/speakers-logo.png'
 import SpeakerCard from '@/components/speakers/SpeakerCard'
 import { SpeakerProvider } from '@/components/speakers/SpeakerContext'
-import { SpeakerData } from '@/data/sessions'
+import { SpeakersData } from '@/data/speakers'
 
 function SpeakersSection() {
   return (
@@ -21,7 +21,7 @@ function SpeakersSection() {
           />
         </div>
         <div className="mt-32 grid grid-cols-1 items-stretch gap-20 sm:grid-cols-2 lg:mt-36 lg:grid-cols-3 xl:grid-cols-4">
-          {SpeakerData.map((speaker, index) => (
+          {SpeakersData.map((speaker, index) => (
             <div key={index}>
               <SpeakerCard
                 id={speaker.id}

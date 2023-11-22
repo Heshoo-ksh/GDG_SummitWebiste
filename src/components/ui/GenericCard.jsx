@@ -12,10 +12,13 @@ const GenericCard = ({
 }) => {
   return (
     <div
-      className="relative mx-auto mb-16 w-full max-w-xs bg-primary-500 shadow-xl transition delay-75 duration-100 ease-in-out hover:-translate-y-1 hover:scale-110 hover:cursor-pointer"
+      className={`relative mx-auto mb-16 w-full max-w-xs ${
+        onOpen &&
+        'transition delay-75 duration-100 ease-in-out hover:-translate-y-1 hover:scale-110 hover:cursor-pointer'
+      }`}
       onClick={onOpen}
     >
-      <div className="overflow-hidden rounded bg-primary-200 shadow-2xl hover:bg-primary-300">
+      <div className="overflow-hidden rounded-lg bg-primary-200 shadow-2xl hover:bg-primary-300">
         <div className="absolute -mt-24 flex w-full justify-center">
           <div className="h-48 w-48">
             <img
@@ -39,15 +42,12 @@ const GenericCard = ({
 }
 
 GenericCard.propTypes = {
-  id: PropTypes.number.isRequired,
   name: PropTypes.string.isRequired,
   twitter: PropTypes.string,
   avatar: PropTypes.string.isRequired,
   organization: PropTypes.string.isRequired,
   position: PropTypes.string.isRequired,
-  bio: PropTypes.string.isRequired,
-  sessionTitle: PropTypes.string.isRequired,
-  onOpen: PropTypes.func.isRequired,
+  onOpen: PropTypes.func,
 }
 
 export default GenericCard

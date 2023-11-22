@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 import SessionsLogo from '@/assets/sessions-logo.png'
 import SessionCard from '@/components/sessions/SessionCard'
-import { SpeakerData } from '@/data/sessions'
+import { SpeakersData } from '@/data/speakers'
 
 function SessionsSection() {
   const [activeTab, setActiveTab] = useState(0)
@@ -10,7 +10,7 @@ function SessionsSection() {
 
   let combinedSpeakerData = []
 
-  SpeakerData.forEach((speaker) => {
+  SpeakersData.forEach((speaker) => {
     let existingSession = combinedSpeakerData.find(
       (session) => session.sessionTitle === speaker.session.title
     )

@@ -1,6 +1,6 @@
-import { createContext, useState, useMemo } from 'react'
+import { SpeakersData } from '@/data/speakers'
 import PropTypes from 'prop-types'
-import { SpeakerData } from '@/data/sessions'
+import { createContext, useMemo, useState } from 'react'
 
 // default values for type sense
 export const SpeakerContext = createContext({
@@ -16,7 +16,7 @@ export const SpeakerContext = createContext({
 export const SpeakerProvider = ({ children }) => {
   const [isModalOpen, setIsModalOpen] = useState(false)
   const [speakerID, setSpeakerID] = useState(0)
-  const numSpeakers = useMemo(() => SpeakerData.length, [])
+  const numSpeakers = useMemo(() => SpeakersData.length, [])
   const openModal = () => {
     setIsModalOpen(true)
   }

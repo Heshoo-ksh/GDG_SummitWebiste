@@ -15,6 +15,7 @@ function Navbar() {
       { id: 'sessions', text: 'Sessions' },
       { id: 'location', text: 'Location' },
       { id: 'organizers', text: 'Organizers' },
+      { id: 'facilitators', text: 'Facilitators' },
       { id: 'devteam', text: 'Dev Team' },
     ],
     []
