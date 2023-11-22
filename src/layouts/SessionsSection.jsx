@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 
+import SessionsLogo from '@/assets/sessions-logo.png'
 import SessionCard from '@/components/sessions/SessionCard'
 import { SpeakerData } from '@/data/sessions'
 
@@ -35,6 +36,16 @@ function SessionsSection() {
       id="sessions"
       className="flex flex-col items-center justify-center bg-primary-100"
     >
+      <div className="flex w-full justify-between px-8 pt-6 sm:px-10 sm:pt-8 md:px-14 md:pt-12 lg:px-16 lg:pt-14">
+        <header className="font-russell text-4xl md:text-5xl lg:text-6xl">
+          Sessions
+        </header>
+        <img
+          src={SessionsLogo}
+          alt="Sessions"
+          className="h-8 md:h-10 lg:h-12"
+        />
+      </div>
       <div className="mt-4 inline-flex w-5/6 items-center justify-between rounded-md bg-black md:w-auto">
         {tabs.map((tab, index) => (
           <React.Fragment key={tab}>
