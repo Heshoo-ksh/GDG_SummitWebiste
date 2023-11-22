@@ -3,8 +3,8 @@ import { useContext } from 'react'
 import { CgCloseO } from 'react-icons/cg'
 import { IoChevronBack, IoChevronForward } from 'react-icons/io5'
 
-import TwitterHandle from '@/components/ui/TwitterHandle'
 import SessionTitle from '@/components/sessions/SessionTitle'
+import TwitterHandle from '@/components/ui/TwitterHandle'
 import { SpeakerContext } from './SpeakerContext'
 
 function SpeakerDetails(props) {
@@ -40,9 +40,9 @@ function SpeakerDetails(props) {
             </p>
           </div>
         </div>
-        <div className="overflow-x-scroll rounded-lg bg-blue-500 p-2">
+        <div className="overflow-x-hidden rounded-lg bg-blue-500 p-2">
           <p className="text-sm text-gray-200 sm:text-lg">Talking About</p>
-          <p className="whitespace-nowrap font-bold text-white sm:text-xl">
+          <p className="overflow-x-scroll whitespace-nowrap font-bold text-white sm:text-xl">
             {props.sessionTitle}
           </p>
         </div>
