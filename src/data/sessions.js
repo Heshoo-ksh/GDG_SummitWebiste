@@ -315,11 +315,11 @@ export const SpeakerData = [
     name: 'Chris DeMars',
     email: 'cdemars86@gmail.com',
     avatar: ChrisDemars,
-    bio: 'Chris DeMars is a Senior Developer Advocate at Harness. He has over 20 years of technical experience and speaks all over the world on web accessibility, and CSS. For his community contributions, he holds awards as a Microsoft MVP, Cloudinary Media Developer Expert, Auth0 Ambassador, and Progress Ninja. Chris advocates, teaches, and speaks on web accessibility as well as modern CSS; building applications with both at the forefront. When he is not working on making the web great and accessible you can find him writing blog posts, rating Detroit Style pizza, and watching Horror movies.',
+    bio: 'Chris DeMars previously worked as a Senior Developer Advocate at Harness. He has over 20 years of technical experience and speaks all over the world on web accessibility, and CSS. For his community contributions, he holds awards as a Microsoft MVP, Cloudinary Media Developer Expert, Auth0 Ambassador, and Progress Ninja. Chris advocates, teaches, and speaks on web accessibility as well as modern CSS; building applications with both at the forefront. When he is not working on making the web great and accessible you can find him writing blog posts, rating Detroit Style pizza, and watching Horror movies.',
     twitter: 'saltnburnem',
     url: 'https://chrisdemars.net/',
-    organization: 'Harness',
-    position: 'Senior Developer Advocate',
+    organization: '',
+    position: 'Microsoft MVP, Cloudinary Media Developer Expert',
     session: {
       title: 'Demystifying The Dreaded A/B Test',
       abstract:
