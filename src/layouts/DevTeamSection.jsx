@@ -1,3 +1,4 @@
+import DevLogo from '@/assets/dev-logo.png'
 import DevTeamCard from '@/components/dev/DevTeamCard'
 import { devTeamData } from '@/data/dev'
 
@@ -11,6 +12,7 @@ const DevTeamSection = () => {
         <header className="mb-4 w-full text-center font-russell text-4xl md:mb-6 md:text-5xl lg:text-6xl">
           Dev Team
         </header>
+        <img src={DevLogo} alt="Dev Team" className="h-12 md:h-14 lg:h-16" />
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {devTeamData.map((dev, index) => (

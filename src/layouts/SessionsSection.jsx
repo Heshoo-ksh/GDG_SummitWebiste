@@ -37,13 +37,13 @@ function SessionsSection() {
       className="flex flex-col items-center justify-center bg-primary-100"
     >
       <div className="flex w-full justify-between px-8 pt-6 sm:px-10 sm:pt-8 md:px-14 md:pt-12 lg:px-16 lg:pt-14">
-        <header className="font-russell text-4xl md:text-5xl lg:text-6xl">
+        <header className="w-full text-center font-russell text-4xl md:text-5xl lg:text-6xl">
           Sessions
         </header>
         <img
           src={SessionsLogo}
           alt="Sessions"
-          className="h-8 md:h-10 lg:h-12"
+          className="h-12 md:h-14 lg:h-16"
         />
       </div>
       <div className="mt-4 inline-flex w-5/6 items-center justify-between rounded-md bg-black md:w-auto">
