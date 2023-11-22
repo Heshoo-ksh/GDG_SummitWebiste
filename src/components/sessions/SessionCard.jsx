@@ -1,9 +1,8 @@
 import PropTypes from 'prop-types'
 import { useState } from 'react'
+import { IoChevronDown } from 'react-icons/io5'
 
 import { DIRECTION } from '@/constants/directions'
-
-import FlippableChevronIcon from '../ui/FlippableChevronIcon'
 
 function SessionCard({ speakers, speakerAvatars, sessionTitle, sessionDesc }) {
   const [direction, setDirection] = useState(DIRECTION.BOTTOM)
@@ -44,7 +43,13 @@ function SessionCard({ speakers, speakerAvatars, sessionTitle, sessionDesc }) {
             <p className="text-gray-700">by {speakers.join(' & ')}</p>
           </div>
         </section>
-        {sessionDesc && <FlippableChevronIcon direction={direction} />}
+        {sessionDesc && (
+          <IoChevronDown
+            className={`h-20 w-20 shrink-0 ${
+              direction === DIRECTION.TOP && '-scale-y-100'
+            } transition-transform duration-100 ease-linear`}
+          />
+        )}
       </button>
       {direction == DIRECTION.TOP ? (
         <section className="mt-5 w-10/12 pl-12">
