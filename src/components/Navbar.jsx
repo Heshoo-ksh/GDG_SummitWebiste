@@ -90,7 +90,11 @@ function Navbar() {
   return (
     <nav
       ref={navRef}
-      className="fixed left-0 top-0 z-10 w-full bg-white p-4 shadow"
+      className={`fixed left-0 top-0 z-10 w-full p-4 ${
+        activeLink === 'landing'
+          ? 'bg-primary-400 text-sky-900'
+          : 'bg-white shadow-lg'
+      }`}
     >
       <button
         className="rounded border-2 px-4 md:hidden"
