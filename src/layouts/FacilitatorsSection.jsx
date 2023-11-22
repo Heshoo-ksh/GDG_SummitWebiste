@@ -1,4 +1,4 @@
-import Connector from '@/assets/connect.png'
+import Connector from '@/assets/images/connect.png'
 import GenericCard from '@/components/ui/GenericCard'
 import facilitators from '@/data/facilitators'
 

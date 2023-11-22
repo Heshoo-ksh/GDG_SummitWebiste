@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import SessionsLogo from '@/assets/sessions-logo.png'
+import SessionsLogo from '@/assets/images/sessions-logo.png'
 import SessionCard from '@/components/sessions/SessionCard'
 import { SpeakersData } from '@/data/speakers'
 

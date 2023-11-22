@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 
-import Mic from '@/assets/Mic.svg'
+import Mic from '@/assets/images/Mic.svg'
 
 const SessionTitle = (props) => {
   return (

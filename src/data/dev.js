@@ -1,11 +1,11 @@
-import HishamOdeh from '@/assets/dev/Hisham Odeh.jpg'
-import KieranLlarena from '@/assets/dev/Kieran Llarena.jpeg'
-import MohamadAlabudi from '@/assets/dev/Mohamad Alabudi.jpg'
-import ShahdMustafa from '@/assets/dev/Shahd Mustafa.jpg'
-import ZahraaAlhmood from '@/assets/dev/Zahraa Alhmood.jpg'
-import ZavaarShah from '@/assets/dev/Zavaar Shah.jpg'
-import RosyShrestha from '@/assets/facilitators/Rosy Shrestha.webp'
-import ShashankaPrajapati from '@/assets/facilitators/Shashanka Prajapati.jpeg'
+import HishamOdeh from '@/assets/images/dev/Hisham Odeh.jpg'
+import KieranLlarena from '@/assets/images/dev/Kieran Llarena.jpeg'
+import MohamadAlabudi from '@/assets/images/dev/Mohamad Alabudi.jpg'
+import ShahdMustafa from '@/assets/images/dev/Shahd Mustafa.jpg'
+import ZahraaAlhmood from '@/assets/images/dev/Zahraa Alhmood.jpg'
+import ZavaarShah from '@/assets/images/dev/Zavaar Shah.jpg'
+import RosyShrestha from '@/assets/images/facilitators/Rosy Shrestha.webp'
+import ShashankaPrajapati from '@/assets/images/facilitators/Shashanka Prajapati.jpeg'
 
 export const devTeamData = [
   {

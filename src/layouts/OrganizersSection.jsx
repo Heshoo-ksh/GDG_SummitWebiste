@@ -1,4 +1,4 @@
-import Arrow from '@/assets/arrow.png'
+import Arrow from '@/assets/images/arrow.png'
 import GenericCard from '@/components/ui/GenericCard'
 import organizers from '@/data/organizers'
 

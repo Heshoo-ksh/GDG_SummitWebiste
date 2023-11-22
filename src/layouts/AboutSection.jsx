@@ -1,4 +1,4 @@
-import aboutLogo from '@/assets/aboutLogo.png'
+import aboutLogo from '@/assets/images/aboutLogo.png'
 
 function AboutSection() {
   return (

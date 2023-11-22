@@ -1,8 +1,8 @@
-import detroitSkyline from '@/assets/Frame 2 - Detroit Skyline.png'
+import detroitSkyline from '@/assets/images/Frame 2 - Detroit Skyline.png'
 import { FaTicketAlt } from 'react-icons/fa'
 
-import date from '@/assets/date.png'
-import michiganDevFestLogoDark from '@/assets/devfest_logo_dark.png'
+import date from '@/assets/images/date.png'
+import michiganDevFestLogoDark from '@/assets/images/devfest_logo_dark.png'
 
 function LandingSection() {
   return (

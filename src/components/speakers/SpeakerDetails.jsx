@@ -62,7 +62,7 @@ function SpeakerDetails(props) {
           <IoChevronForward className="h-16 w-16 text-blue-500" />
         </button>
       </div>
-      <div className="relative hidden h-5/6 w-5/6 bg-[url(@/assets/speaker-details-modal.png)] bg-cover bg-center lg:flex">
+      <div className="relative hidden h-5/6 w-5/6 bg-[url(@/assets/images/speaker-details-modal.png)] bg-cover bg-center lg:flex">
         <div className="relative w-5/12">
           <div className="absolute bottom-1/4 right-1/2 flex w-full translate-x-[60%] translate-y-[44%] flex-col items-center">
             <div className="relative w-3/5">

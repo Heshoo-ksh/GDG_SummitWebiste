@@ -1,4 +1,4 @@
-import SpeakersLogo from '@/assets/speakers-logo.png'
+import SpeakersLogo from '@/assets/images/speakers-logo.png'
 import SpeakerCard from '@/components/speakers/SpeakerCard'
 import { SpeakerProvider } from '@/components/speakers/SpeakerContext'
 import { SpeakersData } from '@/data/speakers'

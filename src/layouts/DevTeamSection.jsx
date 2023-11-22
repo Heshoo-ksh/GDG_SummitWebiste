@@ -1,4 +1,4 @@
-import DevLogo from '@/assets/dev-logo.png'
+import DevLogo from '@/assets/images/dev-logo.png'
 import DevTeamCard from '@/components/dev/DevTeamCard'
 import { devTeamData } from '@/data/dev'
 
