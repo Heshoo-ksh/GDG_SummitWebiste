@@ -1,32 +1,13 @@
 import Arrow from '@/assets/arrow.png'
-import DaveKoziel from '@/assets/speakers/Organizers/Dave Koziol.png'
-import DonWard from '@/assets/speakers/Organizers/Don Ward.png'
 import GenericCard from '@/components/ui/GenericCard'
-
-const organizers = [
-  {
-    id: 1,
-    name: 'Don Ward',
-    twitter: 'donwardpeng',
-    avatar: DonWard,
-    organization: 'Google',
-    position: 'GDG Organizer',
-    url: 'https://gdg.community.dev/u/m8t3sr/',
-  },
-  {
-    id: 2,
-    name: 'Dave Koziel',
-    twitter: 'davekoziol',
-    avatar: DaveKoziel,
-    organization: 'Little Caesars',
-    position: 'GDG Organizer',
-    url: 'https://gdg.community.dev/u/mrejqp/',
-  },
-]
+import organizers from '@/data/organizers'
 
 function OrganizersSection() {
   return (
-    <section id="organizers" className="flex flex-col justify-center bg-primary-100">
+    <section
+      id="organizers"
+      className="flex flex-col justify-center bg-primary-100"
+    >
       <div className="flex w-full justify-between px-8 pt-6 sm:px-10 sm:pt-8 md:px-14 md:pt-12 lg:px-16 lg:pt-14">
         <header className="w-full text-center font-russell text-4xl md:text-5xl lg:text-6xl">
           Organizers
