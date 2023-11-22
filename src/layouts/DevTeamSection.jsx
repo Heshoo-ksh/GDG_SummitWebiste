@@ -15,6 +15,7 @@ const DevTeamSection = () => {
             name={dev.name}
             avatar={dev.avatar}
             linkedin={dev.linkedin}
+            github={dev.github}
             organization={dev.organization}
             position={dev.position}
             university={dev.university}
