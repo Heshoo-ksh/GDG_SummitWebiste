@@ -4,6 +4,8 @@ import KieranLlarena from '@/assets/dev/KieranLlarena.jpeg'
 import HishamOdeh from '@/assets/dev/HishamOdeh.jpg'
 import ZahraaAlhmood from '@/assets/dev/ZahraaAlhmood.jpg'
 import ZavaarShah from '@/assets/dev/ZavaarShah.jpg'
+import MohamadAlabudi from '@/assets/dev/Mohamad Alabudi.jpg'
+import ShahdMustafa from '@/assets/dev/Shahd Mustafa.jpg'
 
 export const devTeamData = [
   {
@@ -58,7 +60,7 @@ export const devTeamData = [
     avatar: ZavaarShah,
     bio: `Zavaar is currently a junior at Wayne State University studying Computer Science like many of you are. `,
     university: 'Wayne State University',
-    organization: 'GDSC',
+    organization: 'GDSC@Wayne State',
     position: 'President',
   },
   {
@@ -74,21 +76,21 @@ export const devTeamData = [
   },
   {
     id: 7,
-    name: 'Zahraa Alhmood',
-    linkedin: 'https://www.linkedin.com/in/',
-    github: 'https://github.com/kllarena07',
-    avatar: ZahraaAlhmood,
-    bio: `Kieran is a native Detroiter who has a passion for Software Engineering and is pursuing a Bachelor's of Science in Computer Science at the University of Michigan-Dearborn (May 2027). He is a motivated self-starter with a track record of adapting to different situations, integrating into team environments, and contributing to successful outcomes. With a background encompassing both frontend and backend development, Kieran possess an expertise in frontend development and UI/UX design, which he gained from prior internship experience that used technologies such as: React, SvelteKit, TypeScript, and Figma.`,
+    name: 'Mohamad Alabudi',
+    linkedin: 'https://www.linkedin.com/in/malabudi',
+    github: 'https://malabudi.github.io/',
+    avatar: MohamadAlabudi,
+    bio: `Mohamad is currently pursuing a Bachelor's in Software Engineering. His primary expertise lies in full-stack web development, supplemented by ongoing learning in AWS cloud technologies. He is keen to master industry-standard frameworks, explore mobile development, and deepen his cloud expertise. Some of his hobbies include playing music, 3D printing and gaming.`,
     university: 'University of Michigan - Dearborn',
     organization: '',
     position: '',
   },
   {
     id: 8,
-    name: 'Zahraa Alhmood',
-    linkedin: 'https://www.linkedin.com/in/',
-    github: 'https://github.com/kllarena07',
-    avatar: ZahraaAlhmood,
+    name: 'Shahd Mustafa',
+    linkedin: 'https://www.linkedin.com/in/shahd-mustafa-194894252/',
+    github: 'https://github.com/shahdmu34',
+    avatar: ShahdMustafa,
     bio: `Kieran is a native Detroiter who has a passion for Software Engineering and is pursuing a Bachelor's of Science in Computer Science at the University of Michigan-Dearborn (May 2027). He is a motivated self-starter with a track record of adapting to different situations, integrating into team environments, and contributing to successful outcomes. With a background encompassing both frontend and backend development, Kieran possess an expertise in frontend development and UI/UX design, which he gained from prior internship experience that used technologies such as: React, SvelteKit, TypeScript, and Figma.`,
     university: 'University of Michigan - Dearborn',
     organization: '',
