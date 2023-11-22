@@ -26,7 +26,7 @@ const organizers = [
 
 function OrganizersSection() {
   return (
-    <div className="flex flex-col">
+    <section id="organizers" className="flex flex-col">
       <div className="flex w-full justify-between px-8 pt-6 sm:px-10 sm:pt-8 md:px-14 md:pt-12 lg:px-16 lg:pt-14">
         <header className="font-russell text-4xl md:text-5xl lg:text-6xl">
           Organizers
@@ -72,7 +72,7 @@ function OrganizersSection() {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   )
 }
 
