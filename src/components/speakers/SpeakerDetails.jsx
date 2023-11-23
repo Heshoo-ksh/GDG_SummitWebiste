@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import { useContext } from 'react'
+import { useContext, useEffect } from 'react'
 import { CgCloseO } from 'react-icons/cg'
 import { IoChevronBack, IoChevronForward } from 'react-icons/io5'
 
@@ -15,6 +15,20 @@ function SpeakerDetails(props) {
   const goNextSpeaker = () => {
     setSpeakerID(speakerID + 1 >= numSpeakers ? 1 : speakerID + 1)
   }
+
+  useEffect(() => {
+    const handleKeyDown = (event) => {
+      if (event.key === 'Escape' || event.key === 'Backspace') {
+        props.onClose()
+      }
+    }
+
+    document.addEventListener('keydown', handleKeyDown)
+
+    return () => {
+      document.removeEventListener('keydown', handleKeyDown)
+    }
+  }, [props])
 
   return (
     <>

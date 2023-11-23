@@ -22,6 +22,7 @@ const SpeakerCard = ({
     openModal()
     setSpeakerID(id)
   }
+
   return (
     <>
       <GenericCard
