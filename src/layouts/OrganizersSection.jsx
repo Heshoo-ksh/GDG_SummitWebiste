@@ -1,6 +1,6 @@
 import Arrow from '@/assets/images/arrow.png'
 import GenericCard from '@/components/ui/GenericCard'
-import organizers from '@/data/organizers'
+import { organizersData } from '@/data/organizers'
 
 function OrganizersSection() {
   return (
@@ -19,7 +19,7 @@ function OrganizersSection() {
         />
       </div>
       <div className="mt-32 grid grid-cols-1 gap-20 sm:grid-cols-2 lg:mt-36">
-        {organizers.map((organizer) => (
+        {organizersData.map((organizer) => (
           <GenericCard
             key={organizer.id}
             onOpen={() => window.open(organizer.url, '_blank')}

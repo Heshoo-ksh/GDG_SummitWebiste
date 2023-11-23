@@ -1,7 +1,7 @@
 import DaveKoziel from '@/assets/images/organizers/Dave Koziol.png'
 import DonWard from '@/assets/images/organizers/Don Ward.png'
 
-const organizers = [
+export const organizersData = [
   {
     id: 1,
     name: 'Don Ward',
@@ -21,5 +21,3 @@ const organizers = [
     url: 'https://gdg.community.dev/u/mrejqp/',
   },
 ]
-
-export default organizers

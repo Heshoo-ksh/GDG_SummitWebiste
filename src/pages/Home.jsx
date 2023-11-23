@@ -7,6 +7,7 @@ import LocationSection from '@/layouts/LocationSection'
 import OrganizersSection from '@/layouts/OrganizersSection'
 import SessionsSection from '@/layouts/SessionsSection'
 import SpeakersSection from '@/layouts/SpeakersSection'
+import SponsorsSection from '@/layouts/SponsorsSection'
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
       <SpeakersSection />
       <SessionsSection />
       <LocationSection />
+      <SponsorsSection />
       <OrganizersSection />
       <FacilitatorsSection />
       <DevTeamSection />

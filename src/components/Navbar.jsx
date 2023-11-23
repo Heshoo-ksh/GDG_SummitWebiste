@@ -14,6 +14,7 @@ function Navbar() {
       { id: 'speakers', text: 'Speakers' },
       { id: 'sessions', text: 'Sessions' },
       { id: 'location', text: 'Location' },
+      { id: 'sponsors', text: 'Sponsors' },
       { id: 'organizers', text: 'Organizers' },
       { id: 'facilitators', text: 'Facilitators' },
       { id: 'devteam', text: 'Dev Team' },
@@ -97,14 +98,14 @@ function Navbar() {
       }`}
     >
       <button
-        className="rounded border-2 px-4 md:hidden"
+        className="rounded border-2 px-4 lg:hidden"
         onClick={() => setIsNavVisible(!isNavVisible)}
       >
         <FaBars className="h-10" />
       </button>
       <ul
-        className={`flex flex-col space-y-4 overflow-hidden md:flex-row md:justify-end md:space-x-2 md:space-y-0 md:px-4 md:py-2 ${
-          isNavVisible ? 'h-full' : 'h-0 md:h-full'
+        className={`flex flex-col space-y-4 overflow-hidden lg:flex-row lg:justify-end lg:space-x-2 lg:space-y-0 lg:px-4 lg:py-2 ${
+          isNavVisible ? 'h-full' : 'h-0 lg:h-full'
         }`}
       >
         {sections.map((section) => (

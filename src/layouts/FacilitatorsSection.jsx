@@ -1,6 +1,6 @@
 import Connector from '@/assets/images/connect.png'
 import GenericCard from '@/components/ui/GenericCard'
-import facilitators from '@/data/facilitators'
+import { facilitatorsData } from '@/data/facilitators'
 
 function FacilitatorsSection() {
   return (
@@ -19,7 +19,7 @@ function FacilitatorsSection() {
         />
       </div>
       <div className="mt-32 grid grid-cols-1 items-stretch gap-20 sm:grid-cols-2 lg:mt-36 lg:grid-cols-3 xl:grid-cols-4">
-        {facilitators.map((facilitator) => (
+        {facilitatorsData.map((facilitator) => (
           <GenericCard key={facilitator.id} {...facilitator} />
         ))}
       </div>

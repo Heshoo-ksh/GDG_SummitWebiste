@@ -6,7 +6,7 @@ import RosyShrestha from '@/assets/images/facilitators/Rosy Shrestha.webp'
 import ShamsAhson from '@/assets/images/facilitators/Shams Ahson.webp'
 import ShashankaPrajapati from '@/assets/images/facilitators/Shashanka Prajapati.jpeg'
 
-const facilitatorsData = [
+export const facilitatorsData = [
   {
     id: 1,
     name: 'Huda Hussaini',
@@ -64,5 +64,3 @@ const facilitatorsData = [
     position: 'Graduate Student',
   },
 ]
-
-export default facilitatorsData
