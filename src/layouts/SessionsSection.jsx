@@ -1,25 +1,65 @@
-import SessionCard from '@/components/sessions/SessionCard'
-import StylableComponentList from '@/components/StylableComponentList'
-import { SpeakerData } from '@/data/sessions'
 import React, { useState } from 'react'
+
+import SessionsLogo from '@/assets/images/sessions-logo.png'
+import SessionCard from '@/components/sessions/SessionCard'
+import { SpeakersData } from '@/data/speakers'
 
 function SessionsSection() {
   const [activeTab, setActiveTab] = useState(0)
   const tabs = ['AI/ML', 'Mobile', 'Fullstack', 'Miscellaneous']
+
+  let combinedSpeakerData = []
+
+  SpeakersData.forEach((speaker) => {
+    let existingSession = combinedSpeakerData.find(
+      (session) => session.sessionTitle === speaker.session.title
+    )
+
+    if (existingSession) {
+      existingSession.speakers.push(speaker.name)
+      existingSession.speakerAvatars.push(speaker.avatar)
+      existingSession.id += `_${speaker.id}`
+    } else {
+      combinedSpeakerData.push({
+        id: speaker.id,
+        speakers: [speaker.name],
+        speakerAvatars: [speaker.avatar],
+        sessionTitle: speaker.session.title,
+        sessionDesc: speaker.session.description,
+        category: speaker.category,
+      })
+    }
+  })
 
   return (
     <section
       id="sessions"
       className="flex flex-col items-center justify-center bg-primary-100"
     >
-      <div className="mt-4 inline-flex space-x-2 rounded-md bg-black">
+      <div className="flex w-full justify-between px-8 pt-6 sm:px-10 sm:pt-8 md:px-14 md:pt-12 lg:px-16 lg:pt-14">
+        <header className="w-full text-center font-russell text-4xl md:text-5xl lg:text-6xl">
+          Sessions
+        </header>
+        <img
+          src={SessionsLogo}
+          alt="Sessions"
+          className="h-12 md:h-14 lg:h-16"
+        />
+      </div>
+      <div className="mt-4 inline-flex w-5/6 items-center justify-between rounded-md bg-black md:w-auto">
         {tabs.map((tab, index) => (
           <React.Fragment key={tab}>
-            {index !== 0 && <div className="mt-3 h-5 w-1 bg-primary-400" />}
+            {index !== 0 && (
+              <div
+                className={`h-5 w-1 bg-primary-400 ${
+                  [activeTab, activeTab + 1].includes(index) && 'invisible'
+                }`}
+              />
+            )}
 
             <button
               key={tab}
-              className={`relative rounded-md px-1 py-2 text-lg font-medium transition-colors duration-300 focus:outline-none sm:px-8 md:px-11 lg:px-14 ${
+              className={`relative grow rounded-md px-1 py-2 text-lg font-medium transition-colors duration-300 focus:outline-none md:w-40 lg:w-56 ${
                 activeTab === index
                   ? 'bg-primary-400 text-black'
                   : 'bg-black text-white'
@@ -34,21 +74,20 @@ function SessionsSection() {
           </React.Fragment>
         ))}
       </div>
-      <StylableComponentList
-        childComponentData={SpeakerData.filter((speaker) =>
-          speaker.category?.includes(tabs[activeTab])
-        ).map((speaker) => {
-          return {
-            id: speaker.id,
-            speakerName: speaker.name,
-            speakerAvatar: speaker.avatar,
-            sessionTitle: speaker.session.title,
-            sessionDesc: speaker.session.description,
-          }
-        })}
-        childComponent={SessionCard}
-        className="grid w-5/6 grid-cols-1 gap-10 py-7"
-      />
+      <ul className="grid w-5/6 grid-cols-1 gap-10 py-7">
+        {combinedSpeakerData
+          .filter((session) => session.category?.includes(tabs[activeTab]))
+          .map((session) => (
+            <li key={session.id}>
+              <SessionCard
+                speakers={session.speakers}
+                speakerAvatars={session.speakerAvatars}
+                sessionTitle={session.sessionTitle}
+                sessionDesc={session.sessionDesc}
+              />
+            </li>
+          ))}
+      </ul>
     </section>
   )
 }

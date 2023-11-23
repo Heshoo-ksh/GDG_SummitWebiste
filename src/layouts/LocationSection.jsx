@@ -4,7 +4,7 @@ function LocationSection() {
   return (
     <section
       id="location"
-      className="flex h-auto items-center justify-center py-20"
+      className="flex h-auto items-center justify-center bg-slate-100 py-16 md:py-28"
     >
       <div className="flex flex-col lg:mb-0 lg:flex-row lg:space-x-28">
         <div className="mb-4 flex flex-col lg:mb-0">
