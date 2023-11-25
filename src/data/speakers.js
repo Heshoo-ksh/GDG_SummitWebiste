@@ -26,6 +26,7 @@ import NadiaTahiri from '@/assets/images/speakers/Nadia Tahiri.jpg'
 import NavSingh from '@/assets/images/speakers/Nav Singh.png'
 import NileshPatel from '@/assets/images/speakers/Nilesh Patel.jpg'
 import PavelRyabov from '@/assets/images/speakers/Pavel Ryabov.jpg'
+import RahulNethi from '@/assets/images/speakers/Rahul Nethi.webp'
 import VikramTiwari from '@/assets/images/speakers/Vikram Tiwari.jpg'
 import VyasBhuman from '@/assets/images/speakers/Vyas Bhuman.jpg'
 
@@ -665,6 +666,25 @@ export const SpeakersData = [
         "Creating appealing and responsive UIs for embedded systems has been a major pain for years. Flutter, initially designed for mobile app development, has emerged as a compelling option for these systems. We'll dive into how to get started and why it is so much better than the alternatives.",
       description:
         "Getting Started with Flutter for Embedded Linux\n\nAs embedded systems continue to evolve, so do the tools that developers use to create their user interfaces. Flutter, initially designed for mobile app development, has emerged as a compelling option for these systems. In this 45-minute presentation, we'll explore how and why Flutter can be integrated with Embedded Linux, offering developers a new avenue to craft efficient and responsive UIs.\n\n1. Introduction to Flutter: An overview of Flutter's fundamental concepts and its architecture.\n\n2. A Look at Existing UI Tools: A brief overview of some of the existing tools for building UIs on embedded linux platforms and some of their shortcomings.\n\n3. Flutter in Embedded Systems: A discussion on why developers might consider Flutter when working on embedded systems. This section will highlight the toolkit's adaptability and its fit for embedded environments.\n\n4. Quickstart: A practical guide on how to get Flutter operational on Embedded Linux. We'll go through the necessary steps and tools to ensure a seamless integration.\n\n5. Learnings and Challenges: A candid reflection on the experiences with Flutter in the embedded context. We'll share advice and highlight some of the challenges faced during integration and development.\n\nAttendees will leave with a clear understanding of Flutter's capabilities within the Embedded Linux environment and practical knowledge to get started.",
+    },
+    tags: [],
+    category: ['Mobile'],
+  },
+  {
+    id: 31,
+    name: 'Rahul Nethi',
+    email: '',
+    avatar: RahulNethi,
+    bio: `Rahul Nethi is a Lead QA Engineer at Little Caesars with a relentless passion for ensuring the seamless functionality and reliability of web and mobile applications through automation. As a QA personnel, Rahul has honed his expertise in designing and implementing robust automation frameworks tailored for both web and mobile applications. In addition to his prowess in UI testing, he enjoys executing performance tests to ensure that software not only functions seamlessly but also performs optimally under various real world conditions.`,
+    twitter: '',
+    url: '',
+    organization: 'Little Caesars',
+    position: 'Lead QA Engineer',
+    session: {
+      title: 'Automate Apps with Appium',
+      abstract: '',
+      description:
+        'Appium is an open-source automation tool for testing mobile applications on various platforms, including Android and iOS.\n\nIn this opening session, following topics will be covered:\n\n1.Introduction to Appium\n2.Appium Architecture\n3.Advantages and Disadvantages\n4.Appium Setup\n5.Locator Strategies\n6.Test Execution\n7.Parallel Execution\n8.Cloud-based testing platform',
     },
     tags: [],
     category: ['Mobile'],
