@@ -2,6 +2,7 @@ import Composables from '@/assets/images/sponsors/Composables.webp'
 import JetBrains from '@/assets/images/sponsors/Jet Brains.webp'
 import LittleCaesars from '@/assets/images/sponsors/Little Caesars.webp'
 import MongoDB from '@/assets/images/sponsors/MongoDB.webp'
+import GrandCircus from '@/assets/images/sponsors/Grand Circus.webp'
 
 export const sponsorsData = [
   {
@@ -31,5 +32,12 @@ export const sponsorsData = [
     logo: JetBrains,
     desc: `We help developers work faster by automating common, repetitive tasks to enable them to stay focused on code design and the big picture. We provide tools to explore and familiarize with code bases faster. Our products make it easy for you to take care of quality during all stages of development and spend less time on maintenance tasks.`,
     url: 'https://www.jetbrains.com/',
+  },
+  {
+    id: 5,
+    name: 'Grand Circus',
+    logo: GrandCircus,
+    desc: `Grand Circus is a virtual coding bootcamp that's been changing lives and careers since 2013. Our grads have landed roles with Amazon, Ford, Rocket Mortgage, and many more top employers. We've partnered with Apple, Google, and Meta to make tech careers more accessible to everyone.`,
+    url: 'https://www.grandcircus.co/',
   },
 ]
