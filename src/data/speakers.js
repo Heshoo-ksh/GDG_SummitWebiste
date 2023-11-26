@@ -54,6 +54,7 @@ export const SpeakersData = [
         'Modern Android Development',
       ],
       categories: ['Mobile'],
+      time: '09:30',
     },
   },
   {
@@ -74,6 +75,7 @@ export const SpeakersData = [
         'We all know that providing a good search experience for website visitors is hard. Everyone expects it to “just” work like Bing or Amazon. Maybe there is a better way, maybe we fix this with a little help from some AI or even our new friend Chat GPT.\n\nJoin the session to see how you can leverage Cognitive Services with Azure Cognitive Search in your apps. With the newly minted semantic search and OpenAI abilities this technology can provide results that are semantically closer to the intent of original query.\n\nYou can expect to walk away knowing how to generate your own power search experience that leverages the power of AI to solve your search woes.',
       tags: ['azure', 'search', 'web', 'webapps'],
       categories: ['AI/ML'],
+      time: '10:30',
     },
   },
 
@@ -96,6 +98,7 @@ export const SpeakersData = [
         "In this talk, dive into the world of UX transformation with a speaker who's been there, done that, and led the way. From starting as a lone UX designer at Little Caesars to leading an award-winning UX team, Erica Olson brings invaluable insights and experiences to the podium.\n\nDiscover the secrets to thriving in the face of constraints, whether you're a student, career-shifter, or developer aspiring to excel in UX. With a background that spans the entire spectrum of UX evolution, Erica is the ideal guide to show you how AI-infused strategies can turn limitations into opportunities.\n\nJoin us and learn how to elevate your UX game, leverage AI as your ally, and create remarkable user experiences, all while staying within tight timelines, making the most of limited resources, and managing modest budgets. Don't miss this chance to gain a competitive edge from someone who's not just talking about success but has lived it, from solo designer to award-winning team leader. This is your opportunity to take your UX knowledge to new heights!",
       tags: ['UX', 'AI', 'ChatGPT'],
       categories: ['Miscellaneous'],
+      time: '09:30',
     },
   },
   {
@@ -116,6 +119,7 @@ export const SpeakersData = [
         'Blazor is a new technology from Microsoft that allows developers to write native .NET code that runs in both the server and the browser thanks to WebAssembly.\n\nIf you are interested in leveraging your existing skills with .NET to build single-page applications, Blazor is the technology to learn.',
       tags: ['Blazor', 'C#', 'WebAssembly', 'ASP.NET'],
       categories: ['Fullstack'],
+      time: '15:30',
     },
   },
 
@@ -137,6 +141,7 @@ export const SpeakersData = [
         "Have you ever had an interview where you knew the hiring team beforehand? Additionally they knew your work ethic and had seen evidence of it before the interview? How about when interviewing with a company that you have never 'formally' done business with?\n\nLeading a local tech community is the 'secret' to establishing this type of reputation and making these rare connections. In addition, leading and giving back to your community just feels good.\n\nIn this talk, we'll discuss specific ways that leading a local tech community can give you a career edge in the hyper-competitive tech business. We'll also share case studies of developers who have used their community involvement to advance their careers.\n\nWhether you're a new developer or a seasoned professional, this talk will give you the tools you need to start leading your local tech community and gaining a competitive advantage in your career.",
       tags: [],
       categories: ['Miscellaneous'],
+      time: '10:30',
     },
   },
   {
@@ -157,6 +162,7 @@ export const SpeakersData = [
         'In this talk, we will discuss the basics of generative AI and how to build your own GenAI model. We will cover the following topics:\n\n\u2022 What is generative AI?\n\u2022 How do GenAI models work?\n\u2022 The different types of GenAI models\n\u2022 How to build a GenAI model\n\u2022 How to deploy a GenAI model\n\nI will also provide hands-on examples of how to build GenAI models using open-source tools.',
       tags: ['machine learning', 'tensorflow', 'google cloud'],
       categories: ['AI/ML'],
+      time: '15:30',
     },
   },
   {
@@ -177,6 +183,7 @@ export const SpeakersData = [
         "Join me for an insightful presentation on Firebase Queries and Authentication! In this session, we'll dive deep into Firebase, exploring the art of data retrieval from the database. Using a real-world example website, we'll walk through user queries, search queries with filters such as categories, prices, and city, and even delve into querying by ratings. But that's not all! Authentication is a crucial aspect of app development, and we'll cover it comprehensively. Learn about the power of anonymous authentication, password authentication, and email link authentication. Discover how to implement multi-factor authentication for enhanced security. Whether you're a beginner looking to master Firebase basics or an experienced developer seeking to optimize queries and fortify your app's security, this presentation has something for everyone. Join us for a knowledge-packed session that will elevate your Firebase skills and transform your app development game!",
       tags: ['Firebase', 'Google Cloud Platform'],
       categories: ['Fullstack'],
+      time: '11:30',
     },
   },
   {
@@ -198,6 +205,7 @@ export const SpeakersData = [
         "Technology isn't only for making tasks easier or more efficient. It can greatly impact the quality of a life with disabilities. Anything from features to design choices can help not only make the technology more accessible, but can be used to give us independence in everyday life and the tasks that we do. I will show how I have used and manipulated technology and it's changes over the years to work around my own disabilities as much as possible, as well as the techniques I teach others to make their own lives easier. I will also discuss what features and design choices are unknowingly very beneficial to us, as well as caution against what make something difficult or impossible for us to use. This isn't a call for compliance, but instead is an eye opener into the usually unforeseen ways that a simple technological capability (or an unintended use) can be a game changer for someone with disabilities. I hope to be an inspiration for not only those struggling in the present, but also for those designing our future workarounds, as well as give thanks to those technologies that improved our lives.",
       tags: ['accessibility'],
       categories: ['Miscellaneous'],
+      time: '11:30',
     },
   },
   {
@@ -218,6 +226,7 @@ export const SpeakersData = [
         "There is a lot of talk around Design Systems from companies like AirBnB, Microsoft, Dropbox, etc. that can be really confusing for developers that work for smaller companies. Maybe you don't have thousands of developers to work on maintaining a component library for your design system. Maybe you just make marketing sites with wordpress, python, or a more jamstack solution. \n\nWe'll talk through how to make a minimum design system, tooling to support it, and how to make some helpful code tools to use it!",
       tags: ['webdev', 'javascript', 'design systems', 'php'],
       categories: ['Fullstack'],
+      time: '14:30',
     },
   },
 
@@ -239,6 +248,7 @@ export const SpeakersData = [
         "In today's world, we dream that the applications we build will become an integral part of others' daily lives. Picture a scenario where you rely on assistive technology to code. It's a powerful exercise in empathy because, in reality, millions of individuals with disabilities depend on assistive technology to access and engage with the digital world we create. As app developers, it's our responsibility to ensure that our applications meet a designer's expectations for functionality and inclusivity. The challenge we face is significant: How to harness our ingenuity to build applications that cater to a diverse and ever-expanding user base?\n\nJoin me on a journey where we will delve into auditing and coding for accessibility in app development.\n\n- Explore potential risks and pitfalls that can hinder an inclusive user experience, including the costs of a lawsuit and audit\n- Our quest will include learning about top a11y issues, auditing tools available today, and how to integrate tools into your workflow\n- And how AI is already having an impact on the industry\n\nBy the end of our journey, you'll be equipped with knowledge and awareness to successfully prioritize accessibility in your app development process. Build to make a positive impact on the lives of those who rely on assistive technology. ",
       tags: ['accessibility', 'code', 'audit'],
       categories: ['Miscellaneous'],
+      time: '13:30',
     },
   },
   {
@@ -259,6 +269,7 @@ export const SpeakersData = [
         "In this session, We will walk through the history of Android's Back and its current state.\n\n- Activity's onBackPressed () is marked as deprecated so what's the solution?\n\n- As part of Android13, and 14, we will explore how to support the predictive back gesture in Android apps.\n\n- We will cover different scenarios for migrating to new APIs from older ones.\n  - Migrating apps that are using AndroidX\n  - Migrating apps that are not using AndroidX\n  - Apps that don't have custom back press code\n\nAndroid 14 - updates to this feature\n\n- Custom back animations for cross-activity transitions\n\n- Animating objects while the user performs back gestures using OnBackAnimationCallback\n\n- Integration of AndroidX's Transition API to animate UI elements with onBackPress\n\n- MaterialDesign components that support the predictive back gesture (BottomSheet, SideSheet, etc.)\n\nOr\n\nCan we still use older APIs?",
       tags: ['Android Android13 Android14'],
       categories: ['Mobile'],
+      time: '10:30',
     },
   },
   {
@@ -289,6 +300,7 @@ export const SpeakersData = [
         'Google Vertex AI',
       ],
       categories: ['AI/ML'],
+      time: '11:30',
     },
   },
   {
@@ -309,6 +321,7 @@ export const SpeakersData = [
         'Generative AI is transforming conversational AI experiences, enabling developers to create chatbots and virtual assistants that are more human-like, informative, and engaging. With the Generative AI App Builder, developers without ML expertise can quickly get started to reinvent customer conversational experiences and provide specific, actionable responses and complete transactions.\n\nJoin us for a demo-driven talk on how to use GenAI technologies to build generative AI-powered chatbots in minutes and improve  conversational experiences forever.',
       tags: ['Generative AI', 'AI'],
       categories: ['AI/ML'],
+      time: '13:30',
     },
   },
   {
@@ -329,6 +342,7 @@ export const SpeakersData = [
         "The A/B test! We've all thought it: \"What's the point? How much configuration do we need?\" If you're familiar with the scientific method, those steps carve out the path to experimentation and A/B testing. Everyone loves a good hypothesis right? I know I do. Melding the world of science and software can help alleviate the stresses of experiments and help to maximize impact of every feature. In this talk we will journey through what an A/B test is, defining goals for A/B testing your app, and rolling out features based on successful experiments.",
       tags: ['devops', 'ci/cd', 'SaaS', 'QA'],
       categories: ['Fullstack'],
+      time: '09:30',
     },
   },
   {
@@ -350,6 +364,7 @@ export const SpeakersData = [
         "In \"Empowering Diversity in Tech: A Journey of Innovation and Inclusion,\" we'll explore how embracing diversity isn't just a social imperative, it's a powerful catalyst for innovation, creativity, and profitability. My story is a testament to the incredible transformations that occur when you celebrate differences and encourage the talents of all.\nDiscover the keys to unlock a more inclusive and innovative tech world:\n- Learn how diversity fosters creative problem-solving.\n- Uncover the strategies to attract, retain, and nurture a diverse talent pool.\n- Explore the business case for a more inclusive and equitable tech ecosystem.\n- Hear inspiring success stories from organizations that have reaped the benefits of diversity.\n- Gain practical insights into promoting diversity at all levels of your organization.\n\nMy unique perspective as a woman-minority founder in the tech world will inspire you to break free from traditional boundaries, challenge the status quo, and create a tech landscape where every voice is heard, valued, and empowered.\nGet ready for an electrifying talk that will energize your commitment to diversity, propel your innovation initiatives, and open your eyes to the endless possibilities in tech.",
       tags: ['DiversityInTech'],
       categories: ['Miscellaneous'],
+      time: '14:30',
     },
   },
   {
@@ -394,6 +409,7 @@ export const SpeakersData = [
         'Generative AI Studio',
       ],
       categories: ['AI/ML'],
+      time: '09:30',
     },
   },
   {
@@ -414,6 +430,7 @@ export const SpeakersData = [
         "Apache Kafka is a high-throughput, fault-tolerant, and scalable distributed event streaming platform that enables real-time data processing and data integration in a highly efficient and reliable manner. It serves as the central nervous system for modern data-driven applications, providing a unified, durable, and real-time data pipeline for connecting various data sources and applications. With its distributed architecture and strong durability guarantees, Kafka is the go-to solution for building real-time data pipelines, event-driven microservices, and stream processing applications, ensuring your data flows smoothly and reliably across your organization.\n\nUse case : Fraud Detection\n\nReal-Time Data Streaming: Companies like Uber use Kafka to stream real-time data from various sources (e.g., mobile apps, GPS) for driver and rider matching, ETA calculations, and more.\n\nLog Aggregation: Large-scale systems and applications generate a vast amount of log data. Kafka is used to collect, aggregate, and analyze log data for troubleshooting and monitoring.\n\nMetrics and Monitoring: Kafka helps collect and process performance metrics and monitoring data to ensure the health and stability of systems and applications.\n\nEvent Sourcing: Event sourcing architectures use Kafka to store and process domain events, allowing for a complete history of changes in an application's state.\n\nIoT Data Ingestion: Internet of Things (IoT) devices generate massive streams of data. Kafka is used to ingest and process IoT data for real-time analytics and insights.\n\nFraud Detection: Financial institutions use Kafka to process large volumes of transaction data in real time to detect and prevent fraudulent activities.\n\nSocial Media Data Processing: Platforms like Twitter use Kafka to handle the high volume of tweets, track trending topics, and deliver real-time updates to users.\n\nRecommendation Engines: E-commerce companies use Kafka to process user behavior data and provide real-time product recommendations.\n\nCross-System Integration: Kafka serves as a central hub for integrating different systems and applications, ensuring data consistency and real-time communication.\n\nMicroservices Communication: Kafka is used for communication and event-driven architecture in microservices, allowing different services to react to events and maintain data consistency.",
       tags: ['kafka', 'springboot', 'Rest'],
       categories: ['Fullstack'],
+      time: '14:30',
     },
   },
 
@@ -435,6 +452,7 @@ export const SpeakersData = [
         "I didn't have a mentor or formal path to programming... I still get stuff done. It was 5 years in before I knew what modulo was... it was 10 years in before I knew what levenstien distance was... Big O notation... no clue.\n\nFoundational philosophy takes from computer culture that I found here and there. Stories and quips that are guide posts. The end of the talk goes into where the self taught can backfill some of that computer science foundation.\n\nLearning from the culture of programming humor.",
       tags: [],
       categories: ['Miscellaneous'],
+      time: '15:30',
     },
   },
   {
@@ -455,6 +473,7 @@ export const SpeakersData = [
         "I'll be sharing my experiences with working on various projects leveraging the decoupled, microservice architecture and the many pitfalls with sharing data.\n\nI'll also share some tips and tricks to mitigate them.",
       tags: ['Microservices', 'decoupled', 'headless', 'monoliths', 'devops'],
       categories: ['Fullstack'],
+      time: '13:30',
     },
   },
   {
@@ -473,6 +492,7 @@ export const SpeakersData = [
       description: '',
       tags: [],
       categories: ['Miscellaneous'],
+      time: '12:30',
     },
   },
   {
@@ -493,6 +513,7 @@ export const SpeakersData = [
         "Firebase has long been a great way to lower the barrier to standing up a full-stack app, by eliminating the need to provide your own API layer, backing datastore, authentication, and more. It works great with many different front-end frameworks, including React and React Native. But things can still often get complex once it comes to targeting all the devices where you users are, with all the differences between web and native. Expo Router takes a big step forward in unifying the development experience between the platforms, offering to mobile the powerful, expressive, and easy-to-set-up routing web developers are familiar with. Your folder structure now represents your app navigation tree and each file becomes a page simply by exporting a React component, and deep linking automatically works everywhere, even between your mobile and web apps. Combined with Firebase, Expo Router lets us express our entire full-stack app in a single client front-end codebase that works great everywhere. Let's investigate an Expo Router app with Firebase Cloud Firestore and Authentication, and see how they can work together to help us ship great apps quickly.",
       tags: ['React', 'React Native', 'Expo', 'Firebase', 'Mobile', 'Web'],
       categories: ['Mobile'],
+      time: '15:30',
     },
   },
   {
@@ -513,6 +534,7 @@ export const SpeakersData = [
         "Getting Started with Flutter for Embedded Linux\n\nAs embedded systems continue to evolve, so do the tools that developers use to create their user interfaces. Flutter, initially designed for mobile app development, has emerged as a compelling option for these systems. In this 45-minute presentation, we'll explore how and why Flutter can be integrated with Embedded Linux, offering developers a new avenue to craft efficient and responsive UIs.\n\n1. Introduction to Flutter: An overview of Flutter's fundamental concepts and its architecture.\n\n2. A Look at Existing UI Tools: A brief overview of some of the existing tools for building UIs on embedded linux platforms and some of their shortcomings.\n\n3. Flutter in Embedded Systems: A discussion on why developers might consider Flutter when working on embedded systems. This section will highlight the toolkit's adaptability and its fit for embedded environments.\n\n4. Quickstart: A practical guide on how to get Flutter operational on Embedded Linux. We'll go through the necessary steps and tools to ensure a seamless integration.\n\n5. Learnings and Challenges: A candid reflection on the experiences with Flutter in the embedded context. We'll share advice and highlight some of the challenges faced during integration and development.\n\nAttendees will leave with a clear understanding of Flutter's capabilities within the Embedded Linux environment and practical knowledge to get started.",
       tags: ['flutter', 'linux', 'UI', 'dart', 'embedded'],
       categories: ['Mobile'],
+      time: '15:30',
     },
   },
   {
@@ -533,6 +555,7 @@ export const SpeakersData = [
         'This presentation will cover what is flutter and the basics of building an application. Covering everything from Hello World to Widgets, Layouts, and Theming.',
       tags: ['Flutter'],
       categories: ['Mobile'],
+      time: '14:30',
     },
   },
   {
@@ -552,6 +575,7 @@ export const SpeakersData = [
         'Apple Vision Pro is a powerful new platform for augmented reality (AR) experiences. With its advanced sensors and vision processing capabilities, Vision Pro enables developers to create AR apps that are more immersive, interactive, and realistic than ever before.\n\nIn this introductory talk, we will cover the basics of developing AR apps for the Apple Vision Pro in SwiftUI. We will start by taking a tour of visionOS inside the Vision Pro simulator, then we will then dive into the specific tools and APIs that Apple provides on developing AR apps for visionOS.\n\nWe will also discuss how to run existing apps on Vision Pro. If you have an existing app that was developed for iOS or iPadOS, you may be able to port it to Vision Pro with minimal effort.\n\nWhether you are a beginner or an experienced AR developer, this talk will give you the foundation you need to start building amazing AR apps for Apple Vision Pro.',
       tags: [],
       categories: ['Mobile'],
+      time: '13:30',
     },
   },
   {
@@ -572,6 +596,7 @@ export const SpeakersData = [
         "In a world where machine learning has led to big advancements in areas like finance, marketing, and AI models such as ChatGPT, let's delve into another exciting application of AI. In this presentation, we'll explore how AI is helping us understand and deal with climate change.\n\nThis talk focuses on the important connection between artificial intelligence (AI) and climate change. We'll look at how AI is essential for making sense of the environmental changes that have shaped our world and for planning a better, more sustainable future. Think of it like this: just as people change their clothes to adapt to changing weather, species have adapted to shifts in their environment over time. We'll use AI to help us better understand how different species have coped with these changes in the past.\n\nAI is like a powerful tool that helps us analyze large amounts of genetic data efficiently. It's like using a magnifying glass to find hidden patterns in a complex puzzle. This hidden information gives us valuable clues about how species might respond to climate changes in the future. We'll ask a big question: How will different species adapt if the temperature keeps rising, whether it's by 1.5°C, 2°C, or more? As we combine AI and climate change, we'll use this knowledge to protect our planet's biodiversity, navigate through a world that's always changing, and ensure that our ecosystems stay strong and healthy.",
       tags: ['AI', 'ML', 'Bioinformatics', 'Climate change'],
       categories: ['AI/ML'],
+      time: '14:30',
     },
   },
   {
@@ -592,6 +617,7 @@ export const SpeakersData = [
         'Extensions are one of the newest Firebase products that greatly simplify and speed up the development process. These professionally crafted pre-packaged bundles of code provide must-have features like automatic email sending, data backups, user data management, payment handling, and much more.\n\nThe most interesting Extensions that have had a boom in recent years are the AI-powered Extensions. Using Google’s PaLM, Vertex AI, and Cloud Vision, these powerful solutions provide features like text generation and translation, various language tasks, chat, OCR, image labeling, and object detection. The true power of AI extensions comes with combining these solutions to build a fully automated pipeline, independent of your frontend framework. For example, you can trigger a complex pipeline of multi-level AI image processing with just a simple image upload to Cloud Storage.\n\nIn this talk, I will cover the basics of Firebase Extensions, explain their pros, mention some of the problems, and introduce the Extensions Hub. I will dedicate the rest of the talk to exploring AI Extensions and their capabilities, including a live demonstration of my AI-powered recycling companion application KnowWaste (fully open-source and available for iOS and Android), which uses over 5 AI Extensions in order to process scanned waste and output comprehensive recycling advice.',
       tags: ['Fullstack', 'AI/ML'],
       categories: ['Fullstack', 'AI/ML'],
+      time: '10:30',
     },
   },
   {
@@ -611,6 +637,7 @@ export const SpeakersData = [
         'Adam and Aaron Kaump have worked on the Rocket Homes iOS app since it launched over 3 years ago in 2020. In that time the entire mobile landscape has evolved and so has how Rocket Homes considers building native apps. From supporting multiple platforms like iOS, iPadOS, macOS and now CarPlay, to dynamic layouts that scale from the smallest iPhones to the largest external displays - they’ll walk you through their history developing Rocket Homes for iOS. Along the way they’ll share learnings from Rocket Homes being featured as a Best App for Homebuyers and a Best App for iOS 17 by Apple earlier this year.',
       tags: [],
       categories: ['Mobile'],
+      time: '11:30',
     },
   },
   {
@@ -630,6 +657,7 @@ export const SpeakersData = [
         'Adam and Aaron Kaump have worked on the Rocket Homes iOS app since it launched over 3 years ago in 2020. In that time the entire mobile landscape has evolved and so has how Rocket Homes considers building native apps. From supporting multiple platforms like iOS, iPadOS, macOS and now CarPlay, to dynamic layouts that scale from the smallest iPhones to the largest external displays - they’ll walk you through their history developing Rocket Homes for iOS. Along the way they’ll share learnings from Rocket Homes being featured as a Best App for Homebuyers and a Best App for iOS 17 by Apple earlier this year.',
       tags: [],
       categories: ['Mobile'],
+      time: '11:30',
     },
   },
   {
@@ -648,6 +676,7 @@ export const SpeakersData = [
       description: '',
       tags: [],
       categories: ['Miscellaneous'],
+      time: '12:30',
     },
   },
   {
@@ -668,6 +697,7 @@ export const SpeakersData = [
         "Getting Started with Flutter for Embedded Linux\n\nAs embedded systems continue to evolve, so do the tools that developers use to create their user interfaces. Flutter, initially designed for mobile app development, has emerged as a compelling option for these systems. In this 45-minute presentation, we'll explore how and why Flutter can be integrated with Embedded Linux, offering developers a new avenue to craft efficient and responsive UIs.\n\n1. Introduction to Flutter: An overview of Flutter's fundamental concepts and its architecture.\n\n2. A Look at Existing UI Tools: A brief overview of some of the existing tools for building UIs on embedded linux platforms and some of their shortcomings.\n\n3. Flutter in Embedded Systems: A discussion on why developers might consider Flutter when working on embedded systems. This section will highlight the toolkit's adaptability and its fit for embedded environments.\n\n4. Quickstart: A practical guide on how to get Flutter operational on Embedded Linux. We'll go through the necessary steps and tools to ensure a seamless integration.\n\n5. Learnings and Challenges: A candid reflection on the experiences with Flutter in the embedded context. We'll share advice and highlight some of the challenges faced during integration and development.\n\nAttendees will leave with a clear understanding of Flutter's capabilities within the Embedded Linux environment and practical knowledge to get started.",
       tags: [],
       categories: ['Mobile'],
+      time: '15:30',
     },
   },
   {
@@ -687,6 +717,7 @@ export const SpeakersData = [
         'Appium is an open-source automation tool for testing mobile applications on various platforms, including Android and iOS.\n\nIn this opening session, following topics will be covered:\n\n1.Introduction to Appium\n2.Appium Architecture\n3.Advantages and Disadvantages\n4.Appium Setup\n5.Locator Strategies\n6.Test Execution\n7.Parallel Execution\n8.Cloud-based testing platform',
       tags: [],
       categories: ['Mobile'],
+      time: '10:30',
     },
   },
 ]
