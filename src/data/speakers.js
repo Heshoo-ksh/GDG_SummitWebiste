@@ -457,7 +457,7 @@ export const SpeakersData = [
   },
   {
     id: 19,
-    name: 'Amit Rathik',
+    name: 'Amit Rathi',
     email: 'amit.rathi.k@gmail.com',
     avatar: AmitRathi,
     bio: 'A developer, traveler, and entrepreneur in the pursuit of a digital nomad lifestyle.\nFounder and Owner of The Mobile Dev -- a technology solution provider specializing in mobile-first application.\nHobbies include reading articles on Medium, attending Meetups, and sharing great memes.',
