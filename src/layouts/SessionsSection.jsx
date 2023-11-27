@@ -26,8 +26,9 @@ function SessionsSection() {
         speakerAvatars: [speaker.avatar],
         sessionTitle: speaker.session.title,
         sessionDesc: speaker.session.description,
+        track: speaker.session.track,
         sessionTime: speaker.session.time,
-        categories: speaker.session.categories,
+        sessionRoom: speaker.session.room,
       })
     }
   })
@@ -77,7 +78,7 @@ function SessionsSection() {
       </div>
       <ul className="grid w-5/6 grid-cols-1 gap-10 py-7">
         {combinedSpeakerData
-          .filter((session) => session.categories?.includes(tabs[activeTab]))
+          .filter((session) => session.track === tabs[activeTab])
           .sort((a, b) => (a.sessionTime < b.sessionTime ? -1 : 1))
           .map((session) => (
             <li key={session.id}>
@@ -87,6 +88,7 @@ function SessionsSection() {
                 sessionTitle={session.sessionTitle}
                 sessionDesc={session.sessionDesc}
                 sessionTime={session.sessionTime}
+                sessionRoom={session.sessionRoom}
               />
             </li>
           ))}
