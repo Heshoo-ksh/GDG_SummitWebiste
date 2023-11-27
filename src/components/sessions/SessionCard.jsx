@@ -11,6 +11,7 @@ function SessionCard({
   sessionTitle,
   sessionDesc,
   sessionTime,
+  sessionRoom,
 }) {
   const [direction, setDirection] = useState(DIRECTION.BOTTOM)
 
@@ -54,11 +55,12 @@ function SessionCard({
               {sessionTitle}
             </h3>
             <p className="text-gray-700">by {speakers.join(' & ')}</p>
-            <div className="mt-2.5 flex items-center">
-              <p className="mr-1">at </p>
+            <div className="mt-2.5 flex items-center space-x-1">
+              <p>at </p>
               <p className="text-xl font-bold text-slate-500 md:block lg:text-2xl">
                 {startTime} - {endTime}
               </p>
+              <p>in {sessionRoom}</p>
             </div>
           </div>
         </div>
@@ -87,6 +89,7 @@ SessionCard.propTypes = {
   sessionTitle: PropTypes.string.isRequired,
   sessionDesc: PropTypes.string.isRequired,
   sessionTime: PropTypes.string.isRequired,
+  sessionRoom: PropTypes.string.isRequired,
 }
 
 export default SessionCard
