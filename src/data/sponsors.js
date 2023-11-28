@@ -3,7 +3,7 @@ import JetBrains from '@/assets/images/sponsors/Jet Brains.webp'
 import LittleCaesars from '@/assets/images/sponsors/Little Caesars.webp'
 import MongoDB from '@/assets/images/sponsors/MongoDB.webp'
 import GrandCircus from '@/assets/images/sponsors/Grand Circus.webp'
-import Compes from '@/assets/images/sponsors/Compes.webp'
+import COMPES from '@/assets/images/sponsors/Compes.webp'
 
 export const sponsorsData = [
   {
@@ -43,8 +43,8 @@ export const sponsorsData = [
   },
   {
     id: 6,
-    name: 'Compes',
-    logo: Compes,
+    name: 'COMPES',
+    logo: COMPES,
     desc: `The Coalition of Minority Professional Engineering Societies (COMPES) was formed in 2000 as an initiative between the NSBE, SHPE, and SWE Detroit professional chapters. The mission of this collaborative partnership is to support the local Detroit community in upskilling, career growth, networking, and provide access to new opportunities.`,
     url: 'http://compespdc.org/',
   },
