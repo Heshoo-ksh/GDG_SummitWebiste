@@ -3,6 +3,7 @@ import JetBrains from '@/assets/images/sponsors/Jet Brains.webp'
 import LittleCaesars from '@/assets/images/sponsors/Little Caesars.webp'
 import MongoDB from '@/assets/images/sponsors/MongoDB.webp'
 import GrandCircus from '@/assets/images/sponsors/Grand Circus.webp'
+import Compes from '@/assets/images/sponsors/Compes.webp'
 
 export const sponsorsData = [
   {
@@ -39,5 +40,12 @@ export const sponsorsData = [
     logo: GrandCircus,
     desc: `Grand Circus is a virtual coding bootcamp that's been changing lives and careers since 2013. Our grads have landed roles with Amazon, Ford, Rocket Mortgage, and many more top employers. We've partnered with Apple, Google, and Meta to make tech careers more accessible to everyone.`,
     url: 'https://www.grandcircus.co/',
+  },
+  {
+    id: 6,
+    name: 'Compes',
+    logo: Compes,
+    desc: `The Coalition of Minority Professional Engineering Societies (COMPES) was formed in 2000 as an initiative between the NSBE, SHPE, and SWE Detroit professional chapters. The mission of this collaborative partnership is to support the local Detroit community in upskilling, career growth, networking, and provide access to new opportunities.`,
+    url: 'http://compespdc.org/',
   },
 ]
