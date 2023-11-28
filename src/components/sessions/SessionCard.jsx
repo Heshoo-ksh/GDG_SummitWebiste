@@ -55,12 +55,17 @@ function SessionCard({
               {sessionTitle}
             </h3>
             <p className="text-gray-700">by {speakers.join(' & ')}</p>
-            <div className="mt-2.5 flex items-center space-x-1">
-              <p>at </p>
-              <p className="text-xl font-bold text-slate-500 md:block lg:text-2xl">
-                {startTime} - {endTime}
-              </p>
-              <p>in {sessionRoom}</p>
+            <div className="mt-2.5 flex items-center space-x-4 text-sm sm:space-x-2 sm:text-base">
+              <div className="flex flex-col items-center justify-center sm:flex-row sm:space-x-2">
+                <p>at</p>
+                <p className="whitespace-nowrap font-bold text-slate-500 sm:text-xl md:block lg:text-2xl">
+                  {startTime} - {endTime}
+                </p>
+              </div>
+              <div className="flex flex-col items-center justify-center sm:flex-row sm:space-x-2">
+                <p>in</p>
+                <p className="whitespace-nowrap">{sessionRoom}</p>
+              </div>
             </div>
           </div>
         </div>
