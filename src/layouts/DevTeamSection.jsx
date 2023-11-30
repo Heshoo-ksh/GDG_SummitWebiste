@@ -8,7 +8,7 @@ const DevTeamSection = () => {
       id="devteam"
       className="flex flex-wrap items-center justify-center bg-primary-100 pb-10"
     >
-      <div className="flex w-full sm:px-10 sm:pt-8 md:px-14 md:pt-12 lg:px-16 lg:pt-14">
+      <div className="flex w-full pt-6 sm:px-10 sm:pt-8 md:px-14 md:pt-12 lg:px-16 lg:pt-14">
         <header className="mb-4 w-full text-center font-russell text-4xl md:mb-6 md:text-5xl lg:text-6xl">
           Dev Team
         </header>
