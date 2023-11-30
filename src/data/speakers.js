@@ -77,7 +77,7 @@ export const SpeakersData = [
       tags: ['azure', 'search', 'web', 'webapps'],
       track: 'AI/ML',
       time: '10:30',
-      room: 'Reserve & Ready',
+      room: 'Pizza Treat',
     },
   },
 
@@ -101,7 +101,7 @@ export const SpeakersData = [
       tags: ['UX', 'AI', 'ChatGPT'],
       track: 'Miscellaneous',
       time: '09:30',
-      room: 'Pizza Treat',
+      room: 'Reserve & Ready',
     },
   },
   {
@@ -146,7 +146,7 @@ export const SpeakersData = [
       tags: [],
       track: 'Miscellaneous',
       time: '10:30',
-      room: 'Pizza Treat',
+      room: 'Reserve & Ready',
     },
   },
   {
@@ -168,7 +168,7 @@ export const SpeakersData = [
       tags: ['machine learning', 'tensorflow', 'google cloud'],
       track: 'AI/ML',
       time: '15:30',
-      room: 'Reserve & Ready',
+      room: 'Pizza Treat',
     },
   },
   {
@@ -213,7 +213,7 @@ export const SpeakersData = [
       tags: ['accessibility'],
       track: 'Miscellaneous',
       time: '11:30',
-      room: 'Pizza Treat',
+      room: 'Reserve & Ready',
     },
   },
   {
@@ -258,7 +258,7 @@ export const SpeakersData = [
       tags: ['accessibility', 'code', 'audit'],
       track: 'Miscellaneous',
       time: '13:30',
-      room: 'Pizza Treat',
+      room: 'Reserve & Ready',
     },
   },
   {
@@ -312,7 +312,7 @@ export const SpeakersData = [
       ],
       track: 'AI/ML',
       time: '11:30',
-      room: 'Reserve & Ready',
+      room: 'Pizza Treat',
     },
   },
   {
@@ -334,7 +334,7 @@ export const SpeakersData = [
       tags: ['Generative AI', 'AI'],
       track: 'AI/ML',
       time: '09:30',
-      room: 'Reserve & Ready',
+      room: 'Pizza Treat',
     },
   },
   {
@@ -379,7 +379,7 @@ export const SpeakersData = [
       tags: ['DiversityInTech'],
       track: 'Miscellaneous',
       time: '14:30',
-      room: 'Pizza Treat',
+      room: 'Reserve & Ready',
     },
   },
   {
@@ -425,7 +425,7 @@ export const SpeakersData = [
       ],
       track: 'AI/ML',
       time: '14:30',
-      room: 'Reserve & Ready',
+      room: 'Pizza Treat',
     },
   },
   {
@@ -470,7 +470,7 @@ export const SpeakersData = [
       tags: [],
       track: 'Miscellaneous',
       time: '15:30',
-      room: 'Pizza Treat',
+      room: 'Reserve & Ready',
     },
   },
   {
@@ -512,7 +512,7 @@ export const SpeakersData = [
       tags: [],
       track: 'Miscellaneous',
       time: '12:30',
-      room: 'Pizza Treat',
+      room: 'Reserve & Ready',
     },
   },
   {
@@ -621,7 +621,7 @@ export const SpeakersData = [
       tags: ['AI', 'ML', 'Bioinformatics', 'Climate change'],
       track: 'AI/ML',
       time: '13:30',
-      room: 'Reserve & Ready',
+      room: 'Pizza Treat',
     },
   },
   {
@@ -705,7 +705,7 @@ export const SpeakersData = [
       tags: [],
       track: 'Miscellaneous',
       time: '12:30',
-      room: 'Pizza Treat',
+      room: 'Reserve & Ready',
     },
   },
   {
