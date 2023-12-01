@@ -1,3 +1,4 @@
+import AliElSharif from '@/assets/images/speakers/Ali El-Sharif.webp'
 import AaronKaump from '@/assets/images/speakers/Aaron Kaump.jpg'
 import AdamKaump from '@/assets/images/speakers/Adam Kaump.jpg'
 import AlexRiviere from '@/assets/images/speakers/Alex Riviere.jpg'
@@ -22,7 +23,6 @@ import KeithBourne from '@/assets/images/speakers/Keith Bourne.jpg'
 import KeithKurak from '@/assets/images/speakers/Keith Kurak.jpg'
 import MadonaWambua from '@/assets/images/speakers/Madona Wambua.png'
 import MikeNimer from '@/assets/images/speakers/Mike Nimer.jpg'
-import NadiaTahiri from '@/assets/images/speakers/Nadia Tahiri.jpg'
 import NavSingh from '@/assets/images/speakers/Nav Singh.png'
 import NileshPatel from '@/assets/images/speakers/Nilesh Patel.jpg'
 import PavelRyabov from '@/assets/images/speakers/Pavel Ryabov.jpg'
@@ -603,28 +603,6 @@ export const SpeakersData = [
     },
   },
   {
-    id: 25,
-    name: 'Nadia Tahiri',
-    email: 'nadia.tahiri@gmail.com',
-    avatar: NadiaTahiri,
-    bio: "Nadia Tahiri, PhD., is an expert in bioinformatics with over a decade of experience in academia and industry. She is an Assistant Professor at the Université of Sherbrooke in Canada. Nadia Tahiri's work stands at the forefront of computational biology, offering groundbreaking solutions and paving the way for collaborative research and innovation. She's spearheading the creation of an open-source platform, empowering biologists to harness her groundbreaking methodologies effortlessly. Using advanced clustering algorithms and key phylogenetic tree metrics, she's redefining optimization criteria to construct multiple alternative consensus trees and super-trees. Nadia is also very involved in community initiatives that promote women in technology and make AI more inclusive as an active member of ACM Canadian Celebration of Women In Computing, ambassador of Women Techmakers Sherbrooke, and organizer of GDG Cloud Sherbrooke.",
-    twitter: 'DrNadiaTahiri',
-    url: 'https://www.linkedin.com/in/tahiri-nadia/',
-    organization: 'University of Sherbrooke',
-    position: 'Assistant Professor',
-    session: {
-      title: 'AI and Climate Change: Bridging the Past and Future',
-      abstract:
-        "In a world where machine learning has brought significant advancements, we're exploring another exciting use of AI: tackling climate change. By integrating AI and climate change, we aim to safeguard biodiversity, adapt to an ever-changing world, and ensure the resilience of our ecosystems.",
-      description:
-        "In a world where machine learning has led to big advancements in areas like finance, marketing, and AI models such as ChatGPT, let's delve into another exciting application of AI. In this presentation, we'll explore how AI is helping us understand and deal with climate change.\n\nThis talk focuses on the important connection between artificial intelligence (AI) and climate change. We'll look at how AI is essential for making sense of the environmental changes that have shaped our world and for planning a better, more sustainable future. Think of it like this: just as people change their clothes to adapt to changing weather, species have adapted to shifts in their environment over time. We'll use AI to help us better understand how different species have coped with these changes in the past.\n\nAI is like a powerful tool that helps us analyze large amounts of genetic data efficiently. It's like using a magnifying glass to find hidden patterns in a complex puzzle. This hidden information gives us valuable clues about how species might respond to climate changes in the future. We'll ask a big question: How will different species adapt if the temperature keeps rising, whether it's by 1.5°C, 2°C, or more? As we combine AI and climate change, we'll use this knowledge to protect our planet's biodiversity, navigate through a world that's always changing, and ensure that our ecosystems stay strong and healthy.",
-      tags: ['AI', 'ML', 'Bioinformatics', 'Climate change'],
-      track: 'AI/ML',
-      time: '13:30',
-      room: 'Pizza Treat',
-    },
-  },
-  {
     id: 26,
     name: 'Pavel Ryabov',
     email: '',
@@ -749,6 +727,28 @@ export const SpeakersData = [
       track: 'Mobile',
       time: '10:30',
       room: 'Training Room',
+    },
+  },
+  {
+    id: 32,
+    name: 'Ali El-Sharif',
+    email: 'elsharifali@hotmail.com',
+    avatar: AliElSharif,
+    bio: 'Ali El-Sharif works as a professor at St. Clair College in Windsor, where he teaches Data Analytics and Cybersecurity.\n\nAli is currently co-authoring a book with Serg Masís and Nick Schmidt. The book title is “Building Responsible AI with Python - Identify, explain, and mitigate bias with hands-on code examples.”\n\nAli enjoys volunteering for GDG Windsor and encourages everyone to stay connected with this amazing community of developers.',
+    twitter: '',
+    url: '',
+    organization: 'St. Clair College',
+    position: 'Professor',
+    session: {
+      title: 'Optimizing for AI Fairness',
+      abstract:
+        'Developers would want to learn to identify biases in their models through statistical analysis and explanatory techniques, remediate biases in their models, and monitor their models post-launch so that they deliver ML solutions that can be safely deployed in support of high-stakes decisions.',
+      description:
+        'Is it possible to design machine learning models that “do no harm”?   Ideally, we want to build machine learning models that maximize predictive accuracy while minimizing process and outcome unfairness. In the imperfect real world, these objectives may conflict, and we may be forced to prioritize some objectives at the expense of others. This talk offers an overview of AI fairness concepts and the different intervention types that we use to optimize these potentially competing objectives.',
+      tags: ['Machine Learning', 'Responsible AI', 'AI Fairness'],
+      track: 'AI/ML',
+      time: '13:30',
+      room: 'Pizza Treat',
     },
   },
 ]
