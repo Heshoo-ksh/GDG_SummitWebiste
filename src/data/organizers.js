@@ -1,15 +1,15 @@
 import DaveKoziel from '@/assets/images/organizers/Dave Koziol.png'
-import DonWard from '@/assets/images/organizers/Don Ward.png'
+import JennaRitten from '@/assets/images/organizers/Jenna Ritten.png'
 
 export const organizersData = [
   {
     id: 1,
-    name: 'Don Ward',
-    twitter: 'donwardpeng',
-    avatar: DonWard,
-    organization: 'Google',
+    name: 'Jenna Ritten',
+    twitter: 'jritten',
+    avatar: JennaRitten,
+    organization: 'IBM',
     position: 'GDG Organizer',
-    url: 'https://gdg.community.dev/u/m8t3sr/',
+    url: 'https://gdg.community.dev/u/mbhdq6/',
   },
   {
     id: 2,

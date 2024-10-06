@@ -17,7 +17,7 @@ function LocationSection() {
             </h3>
           </div>
           <div className="ml-16">
-            <p className="whitespace-nowrap">Saturday, December 02, 2023 </p>
+            <p className="whitespace-nowrap">Saturday, October 26, 2024 </p>
             <p>9:00 AM - 5:00 PM</p>
           </div>
         </div>
