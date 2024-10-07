@@ -3,7 +3,7 @@ import { FaTicketAlt } from 'react-icons/fa'
 
 import date from '@/assets/images/date.png'
 //import michiganDevFestLogoDark from '@/assets/images/devfest_logo_dark.png'
-import DevFestLogo from '@/assets/images/DevFestLogo.jpg'
+import DevFestLogo from '@/assets/images/DevFestLogo.png'
 
 function LandingSection() {
   return (
@@ -19,7 +19,7 @@ function LandingSection() {
 
         <div className="flex w-full flex-col justify-between bg-primary-400 sm:w-1/2">
           <div className="flex grow flex-col items-center justify-center space-y-8 p-10">
-            <img className="w-1/2" src={date} alt="Date and Red Circle" />
+            <img className="w-3/4" src={date} alt="Date and Red Circle" />
 
             <p className="text-justify text-sm font-normal lg:text-base xl:text-lg">
               The Detroit and Ann Arbor Google Developer Groups (GDG) are
