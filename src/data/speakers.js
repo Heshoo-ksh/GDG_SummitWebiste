@@ -5,7 +5,7 @@ import NileshPatel from '@/assets/images/speakers/Nilesh Patel.jpg'
 import VikramTiwari from '@/assets/images/speakers/Vikram Tiwari.jpg'
 import NathanLabenz from '@/assets/images/speakers/Nathan Labenz.jpg'
 import JimMason from '@/assets/images/speakers/Jim Mason.jpg'
-import KrissieKnight from '@/assets/images/speakers/Krissie Knight.jpg'
+import KrissieKnight from '@/assets/images/speakers/Krissie Knight.jpeg'
 import NicholasGordon from '@/assets/images/speakers/Nicholas Gordon.jpg'
 import AnkitaGuha from '@/assets/images/speakers/Ankita Guha.jpg'
 import KeithBourne from '@/assets/images/speakers/Keith Bourne.jpg'
@@ -18,7 +18,6 @@ import ChrisDemars from '@/assets/images/speakers/Chris Demars.jpg'
 import AliElSharif from '@/assets/images/speakers/Ali El-Sharif.jpeg'
 import Vikashagrawal from '@/assets/images/speakers/Vikash Agrawal.webp'
 import ScottStoll from '@/assets/images/speakers/Scott Stoll.png'
-
 
 export const SpeakersData = [
   {
@@ -61,7 +60,7 @@ export const SpeakersData = [
         "Are you a software engineer who believes technical prowess alone guarantees success? Do you think writing flawless code is the sole key to success in software engineering?\nThis talk challenges that notion, highlighting two often-underestimated skills vital for career advancement: building a strong professional network and mastering computer networks. We'll explore the reasons why these skills are indispensable, exploring the ways a strong network opens doors to opportunities and how troubleshooting network issues empowers engineers. Discover unexpected parallels between these seemingly unrelated domains, as we draw connections between nurturing professional relationships and constructing efficient network infrastructure.\nYou will walk away with practical insights to accelerate your career growth, whether you're a seasoned engineer or just starting out.",
       tags: ['Misc'],
       track: 'Miscellaneous',
-      time: '09:30',
+      time: '02:30',
       room: 'TBD',
     },
   },
@@ -83,7 +82,7 @@ export const SpeakersData = [
         'From Moneyball to the rise of AI, analytics is here to stay and while the demand for data scientists, engineers, analysts and developers has grown so to has the supply of entry level job seekers. We received 3,000+ applicants to the last posted data scientist opening. What separates you from the thousands of applicants, especially without any real-world experience?\nData Science isn’t for everyone and higher education is expensive. Sage has been delivering data insights for over a decade in numerous industries, reviewed thousands of potential analytics candidates resumes, and spoken with countless aspiring analytics professionals. Here are his tips for finding if the field is the right for you, getting real world experience, and making your profile standout.',
       tags: ['Misc'],
       track: 'Miscellaneous',
-      time: '1:30',
+      time: '09:30',
       room: 'TBD',
     },
   },
@@ -93,7 +92,7 @@ export const SpeakersData = [
     email: 'jkt@mktng-sciences.com',
     avatar: JohnThompson,
     bio: "John is an international technology executive with over 37 years of experience in the fields of data, advanced analytics, and artificial intelligence (AI).\n\nJohn is responsible for the global AI function at EY. His role is to actively lead the design, development, implementation, and use of innovative AI solutions, including Generative AI, Traditional/Classical AI, and Causal AI, across all of EY Service Lines and functions and for EY's clients. The team is comprised of an Applied AI Research group, a product development organization, and an AI Consulting Practice.\n\nPrior to EY, he was responsible for the AI and advanced analytics team at CSL Behring, a leading biopharmaceutical company where he led a team that developed and deployed over 25 analytical applications in 4 years. John was an Executive Partner at Gartner, where he was a management consultant to market-leading companies in the areas of digital transformation, data monetization, and advanced analytics. Before Gartner, John was responsible for the advanced analytics business unit of the Dell Software Group.\n\nJohn's most recent book – 'Causal Artificial Intelligence' is intended to provide guidance for data scientists, by providing deep technical information as well as the type of information needed to collaborate with subject matter experts (SMEs). SMEs hold deep organizational knowledge about how each business operates. Business executives and managers must be able to guide the combined team based on the direction that the organization wants to take and the problems that need to be solved. The book is meant to be a primer on how teams can work together to derive value from this new pillar of the AI field.\n\nJohn's 3rd book, 'Data for All,' is an effort to raise awareness and knowledge of the topic of data. Written for the general public, the book is an outline of how the world of data works today and how it will work in the near future. The book instructs people on how to protect and manage their data and the data of their loved ones, in applied and practical terms.\n\nJohn is also the author of the bestselling book 'Building Analytics Teams: Leveraging analytics and artificial intelligence for business improvement,' published in June 2020. It outlines how to hire and manage high-performance advanced analytics teams, how to engage with executives and senior managers, and how to select and undertake analytics projects that change and improve how a business operates.\n\nJohn is co-author of the bestselling book 'Analytics: How to Win with Intelligence,' which debuted on Amazon as the #1 new book in Analytics in 2017. This book guides non-technical executives through the journey of creating an analytics function, funding initiatives, and driving change in business operations through data and applied analytical applications.\n\nMr. Thompson's technology expertise includes all aspects of advanced analytics and information management, including descriptive, predictive, and prescriptive analytics, artificial intelligence, analytical applications, deep learning, cognitive computing, big data, simulation, optimization, synthetic data, and high-performance computing.\n\nJohn has built start-up organizations from the ground up and has reengineered business units of Fortune 500 firms to reach their potential. He has directly managed and run sales, marketing, consulting, support, and product development organizations.\n\nHe is a technology leader with expertise and experience spanning all operational areas, with a focus on strategy, product innovation, growth, and efficient execution.\n\nThompson holds a Bachelor of Science degree in Computer Science from Ferris State University and an MBA in Marketing from DePaul University.",
-    twitter: 'I am not on Twitter',
+    twitter: '',
     url: 'https://www.linkedin.com/in/johnkthompson/',
     organization: 'EY',
     position: 'Global AI Leader',
@@ -197,7 +196,7 @@ export const SpeakersData = [
         'ragas',
       ],
       track: 'AI/ML',
-      time: '09:00',
+      time: '09:30',
       room: 'TBD',
     },
   },
@@ -219,7 +218,7 @@ export const SpeakersData = [
         'The backbone of this study is a dataset from a study of heart disease that has been open to the public for many years. The study collects various measurements on patient health and cardiovascular statistics, and of course makes patient identities anonymous. Developing a Machine Learning Predictive Model that could enhance the predictive power of not only historical patient health data but also with present and future patient health data, with less bias and variance in the model, is the need of the day. This hands-on workshop will help to deep dive into the basics of application of Machine Learning Algorithms to delve into the potential of building ML & DL Models from scratch to predict the presence or absence of heart diseases.',
       tags: ['Python', 'Jupyter Notebook'],
       track: 'AI/ML',
-      time: '01:00',
+      time: '02:30',
       room: 'TBD',
     },
   },
@@ -240,7 +239,7 @@ export const SpeakersData = [
       description:
         'This panel offers an opportunity for everyone in tech to learn from the experiences of Google Women Techmakers who are driving change in the industry. We’ll discuss strategies for overcoming obstacles, fostering diversity, and creating inclusive environments where all voices are heard. Whether you’re an ally, a mentor, or someone navigating your own career path, you’ll gain valuable insights on how to build a more equitable and innovative tech community.',
       tags: ['Technology'],
-      track: 'AI/ML',
+      track: 'Miscellaneous',
       time: '11:30',
       room: 'TBD',
     },
@@ -285,7 +284,7 @@ export const SpeakersData = [
         'How to Government Contract as a Tech Professional\n\nIntroduction\nBriefly introduce yourself and your background in tech and government contracting.\nExplain why government contracting is a valuable opportunity for tech professionals.\n\nUnderstanding Government Contracts\nDefine what government contracting is and its significance in the tech industry.\nDiscuss the types of government contracts available (e.g., federal, state, local) and sectors involved (software development, cybersecurity, etc.).\n\nGetting Started\nExplain the qualifications and skills needed to pursue government contracts.\nDiscuss the importance of certifications (e.g., SBA 8(a), HUBZone, etc.) and how they can enhance opportunities.\n\nFinding Opportunities\nShare resources for locating government contracts (e.g., SAM.gov, FedBizOpps).\nDiscuss networking opportunities, such as government contractor fairs and industry conferences.\n\nNavigating the Proposal Process\nOutline the steps to create a compelling proposal, including understanding requirements and tailoring your approach.\nShare tips on pricing strategies and project management.\n\nBuilding Relationships\nDiscuss the importance of establishing relationships with government agencies and other contractors.\nShare best practices for networking and collaboration.\n\nCase Studies and Success Stories\nHighlight examples of tech professionals or companies successfully contracting with the government.\nDiscuss the impact of their work and any lessons learned.\n\nQ&A Session\nOpen the floor for questions and engage with the audience to address their concerns and interests.\n\nConclusion\nSummarize key points and encourage attendees to explore government contracting as a viable career path.\nProvide your contact information or resources for further learning.',
       tags: [],
       track: 'Miscellaneous',
-      time: '10:30',
+      time: '01:30',
       room: 'TBD',
     },
   },
@@ -306,7 +305,7 @@ export const SpeakersData = [
         'This presentation is about growing people who have the best technical skills and Mentoring them on a Career path. The mentor and mentee have a shared commitment to a goal and that is the growth of the Mentee. We will discuss some of the best practices, learned ideals and the trust for the Mentor and Mentee that are fully engaged together. During this talk we will explore several different journeys for individuals some that made it and some that did not.',
       tags: [],
       track: 'Miscellaneous',
-      time: '02:30',
+      time: '10:30',
       room: 'TBD',
     },
   },

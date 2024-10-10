@@ -4,6 +4,22 @@ import SessionsLogo from '@/assets/images/sessions-logo.png'
 import SessionCard from '@/components/sessions/SessionCard'
 import { SpeakersData } from '@/data/speakers'
 
+const convertTo24Hour = (time) => {
+  const [hour, minute] = time.split(':').map(Number)
+
+  if (hour === 12) {
+    return `12:${minute.toString().padStart(2, '0')}`
+  }
+  if (hour >= 1 && hour <= 5) {
+    return `${(hour + 12).toString().padStart(2, '0')}:${minute
+      .toString()
+      .padStart(2, '0')}`
+  }
+  return `${hour.toString().padStart(2, '0')}:${minute
+    .toString()
+    .padStart(2, '0')}`
+}
+
 function SessionsSection() {
   const [activeTab, setActiveTab] = useState(0)
   const tabs = ['AI/ML', 'Mobile', 'Fullstack', 'Miscellaneous']
@@ -79,7 +95,11 @@ function SessionsSection() {
       <ul className="grid w-5/6 grid-cols-1 gap-10 py-7">
         {combinedSpeakerData
           .filter((session) => session.track === tabs[activeTab])
-          .sort((a, b) => (a.sessionTime < b.sessionTime ? -1 : 1))
+          .sort((a, b) => {
+            const timeA = convertTo24Hour(a.sessionTime)
+            const timeB = convertTo24Hour(b.sessionTime)
+            return timeA < timeB ? -1 : 1
+          })
           .map((session) => (
             <li key={session.id}>
               <SessionCard
