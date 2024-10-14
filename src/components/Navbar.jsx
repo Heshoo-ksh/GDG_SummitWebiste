@@ -32,6 +32,9 @@ function Navbar() {
       sections.forEach((section) => {
         const target = document.querySelector(`#${section.id}`)
 
+        // Check if the target element exists
+        if (!target) return
+
         // Get the bounding rectangle of the section
         const rect = target.getBoundingClientRect()
 
