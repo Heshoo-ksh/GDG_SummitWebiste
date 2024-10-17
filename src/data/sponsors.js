@@ -1,8 +1,7 @@
 import LittleCaesars from '@/assets/images/sponsors/Little Caesars.webp'
-import AKKODiS from '@/assets/images/sponsors/AKKODiS.webp'
+import AKKODiS from '@/assets/images/sponsors/Akkodis.webp'
 import AXIOM from '@/assets/images/sponsors/AXIOM.webp'
 import SpinDance from '@/assets/images/sponsors/SpinDance.Webp'
-
 
 export const sponsorsData = [
   {
