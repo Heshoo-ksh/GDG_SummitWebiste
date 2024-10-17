@@ -1,7 +1,7 @@
 import LittleCaesars from '@/assets/images/sponsors/Little Caesars.webp'
 import AKKODiS from '@/assets/images/sponsors/Akkodis.webp'
 import AXIOM from '@/assets/images/sponsors/AXIOM.webp'
-import SpinDance from '@/assets/images/sponsors/SpinDance.Webp'
+import SpinDance from '@/assets/images/sponsors/SpinDance.webp'
 
 export const sponsorsData = [
   {
@@ -31,5 +31,5 @@ export const sponsorsData = [
     logo: AKKODiS,
     desc: `As part of the Adecco Group, the worldwide leader in talent advisory and solutions, Akkodis is a dynamic company poised to lead in the rapidly evolving fields of technology and engineering. With a strong international presence, Akkodis tailors its services to meet local needs while fostering innovation through collaboration in the areas of Talent, Academy, Consulting and Solutions. Committed to sustainability and talent development, Akkodis integrates IT and engineering expertise, delivering com`,
     url: 'https://littlecaesars.com/en-us/',
-  }
+  },
 ]
