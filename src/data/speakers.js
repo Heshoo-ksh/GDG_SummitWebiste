@@ -72,8 +72,8 @@ export const SpeakersData = [
     bio: 'Sage Murakishi is the Director, Data Scientist at Little Caesars Enterprises where he leads and optimizes reporting, analytics, and data science projects. As a data storyteller, Sage utilizes everything from basic statistics to automated machine learning to explain why it happened, what will happen, and even how to make it happen. He has experience using analytics in QSR, insurance, finance, healthcare, and retail. \nSage holds a Bachelor of Arts in Political Science from Michigan State University and a Master of Science Predictive Analytics from Northwestern University.',
     twitter: null,
     url: 'https://www.linkedin.com/in/sage-murakishi-09a844103/',
-    organization: 'Little Caesars Enterprises',
-    position: 'Director, Data Scientist at Little Caesars Pizza',
+    organization: 'Little Caesars',
+    position: 'Director, Data Scientist',
     session: {
       title: 'So you wanna be a data scientist',
       abstract:
@@ -139,7 +139,7 @@ export const SpeakersData = [
     twitter: 'Vikram_Tiwari',
     url: 'https://vikramtiwari.com',
     organization: 'Assembled',
-    position: 'Lead ML Engineer',
+    position: 'Lead Machine Learning Engineer & ML GDE',
     session: {
       title:
         'Evaluating the Evaluators - Navigating the complexities of GenAI metrics',
@@ -158,14 +158,14 @@ export const SpeakersData = [
     name: 'Keith Bourne',
     email: 'keithebourne@gmail.com',
     avatar: KeithBourne,
-    bio: 'Keith Bourne is a Staff LLM Data Scientist at TIFIN, a company at the forefront of AI innovation in wealth management. With over a decade of experience in data analytics and machine learning, Keith has worked on diverse projects across companies ranging from startups to Fortune 50 organizations.\n\n\nKeith recently authored a book for Packt Publishing called "Unlocking Data with Generative AI and RAG", showcasing his expertise in advanced AI techniques, particularly Retrieval-Augmented Generation (RAG). His work focuses on leveraging cutting-edge AI technologies to revolutionize the wealth management sector.\n\n\nHolding an MBA from Babson College with a focus on technology entrepreneurship and marketing, as well as a Master of Applied Data Science from the University of Michigan, Keith brings a unique blend of business acumen and technical prowess to his role. His background includes significant contributions to AI innovation across various industries, including healthcare, where he developed sophisticated AI platforms incorporating advanced techniques like foundation model fine-tuning.',
+    bio: 'Keith Bourne is a senior generative AI data scientist at Johnson & Johnson, a global leader in the pharmaceutical industry at the forefront of AI innovation. With over a decade of experience in data analytics, machine learning, and generative AI, Keith has worked on diverse projects across companies ranging from startups to Fortune 50 organizations.\n\nKeith recently authored a book for Packt Publishing called “Unlocking Data with Generative AI and RAG” that has reached into the top 50 AI books on Amazon and showcases his expertise in advanced AI techniques, particularly Retrieval-Augmented Generation (RAG). The book contains numerous code labs and information about implementing RAG in the enterprise. It also addresses advanced topics like Agentic RAG and multi-modal RAG.\n\nThroughout his career, Keith has held various leadership positions in high-growth startup environments, including Senior Generative AI Data Scientist, Staff LLM Data Scientist, Senior Software Engineer, Marketing Director, and Chief Operations Officer. This diverse experience allows him to approach AI and data science challenges with a holistic view of an organization’s strategic direction.\n\nHis work at Johnson & Johnson focuses on leveraging cutting-edge AI technologies to revolutionize the pharmaceutical industry, where he has developed sophisticated AI platforms incorporating advanced techniques like foundation model training and fine-tuning.',
     twitter: 'keithbourne',
     url: 'https://tifin.com/',
-    organization: 'TIFIN',
-    position: 'Senior Generative AI Data Scientist',
+    organization: 'Johnson & Johnson',
+    position: 'Generative AI Data Scientist',
     session: {
       title:
-        'Building and Evaluating a Retrieval Augmented Generation (RAG) Pipeline to Land a Job!',
+        'Workshop: Building and Evaluating a Retrieval Augmented Generation (RAG) Pipeline to Land a Job!',
       abstract:
         'I recently completed an interview process, including a coding exercise, for a popular job in tech, Generative AI Data Scientist. In this coding workshop, we will use this experience for the backdrop to step through how to build and evaluate a RAG pipeline in a fun and educational way!',
       description:
@@ -211,7 +211,8 @@ export const SpeakersData = [
     organization: 'Freudenberg e-Power System',
     position: 'Data Analyst Programmer',
     session: {
-      title: 'Application of Machine Learning Models to Predict Heart Disease',
+      title:
+        'Workshop: Application of Machine Learning Models to Predict Heart Disease',
       abstract:
         'The backbone of this study is a dataset from a study of heart disease dataset. This hands-on workshop will dive into the basics of application of Machine Learning Algorithms to delve into the potential of building ML & DL Models from scratch to predict the presence or absence of heart diseases.',
       description:
@@ -274,8 +275,8 @@ export const SpeakersData = [
     bio: "Krissie is a dynamic speaker and tech professional based in Detroit, MI. With a background in fashion design, she has seamlessly transitioned into UX/UI design and front-end development. As an instructor at Journi and Wayne State University, she empowers the next generation by teaching app design and development. A graduate of the Apple Developer Academy and MSU, she has been recognized for her innovative app, Gone Fishin', and serves on the board of the Hendricks Foundation, where she mentors young women in tech. Currently pursuing an MBA at the Quantic School of Business, Krissie is dedicated to making technology accessible and inspiring future leaders in the field.",
     twitter: null,
     url: null,
-    organization: 'Kris K Designs LLC',
-    position: 'UX UI Designer',
+    organization: 'JOURNi',
+    position: 'Design Instructor',
     session: {
       title: 'Government Contracting',
       abstract:
@@ -347,7 +348,7 @@ export const SpeakersData = [
     twitter: 'godfreynolan',
     url: 'http://riis.com/blog',
     organization: 'RIIS LLC',
-    position: 'Founder & President',
+    position: 'President',
     session: {
       title: 'Introduction to RAG with LangChain and Gemini',
       abstract:
@@ -362,13 +363,13 @@ export const SpeakersData = [
   },
   {
     id: 15,
-    name: 'Dario A Lencina Talarico',
+    name: 'Dario Lencina Talarico',
     email: 'darioalessandrolencina@gmail.com',
     avatar: DarioALencina,
     bio: "YouTube Partner\n\n\nI talk mainly about Rust, Networking, and the Software Industry: [@dario.lencina](https://www.youtube.com/channel/UCGdzZBypBRfqWj1Bgananjw)\n\n\n May Mobility\n- Software & Infrastructure: A key player in developing the core software and infrastructure that powers May Mobility's cutting-edge autonomous vehicles.\n- Security: Architected the Public Key Infrastructure and User Authentication systems that secure both vehicles and employee access across all apps.\n- Tele-Assist: Leading the Tele-Assist team, I\u2019m pushing the boundaries of remote vehicle assistance, making autonomy more reliable and accessible.\n\n\n Cruise Automation\n- Founding Member: As a founding member of Cruise's Remote Assistance team, I contributed extensively to the C++, Go, and JavaScript codebase, driving the future of autonomous vehicles.\n\n\n General Motors (8 Years)\n- MyChevrolet App: Created the app that lets you remote start your car from your phone. [App Store](https://apps.apple.com/us/app/mychevrolet/id398596699)\n- OTA Updates: Developed the web app enabling over-the-air updates for all GM vehicles with OnStar.",
     twitter: null,
     url: 'https://www.linkedin.com/in/darioalessandro',
-    organization: 'Security Union',
+    organization: 'May Mobility',
     position: 'Staff Software Engineer',
     session: {
       title: 'Bye WebSockets and WebRTC! Boost Web Comms with WebTransport',
@@ -412,8 +413,8 @@ export const SpeakersData = [
     bio: "Nathan Labenz, founder and former CEO of Waymark, is a technology entrepreneur and distinguished artificial intelligence analyst.  With a background in science and a keen eye for innovation, Nathan led Waymark from its inception to its status as a trailblazer in generative AI-powered content creation. \n\n\nCurrently, he hosts 'The Cognitive Revolution' podcast (cognitiverevolution.ai), where he explores the transformative impact of artificial intelligence on work, life, society, and culture. Through his insightful conversations with notable builders, researchers, and investors, Nathan helps business, policy, and academic leaders stay up to date with AI developments and implications.",
     twitter: 'labenz',
     url: 'https://www.nathanlabenz.com',
-    organization: '-',
-    position: 'Founder & AI R&D @Waymark',
+    organization: 'Waymark',
+    position: 'Founder',
     session: {
       title:
         'In-App AI Automation: Building Software that Uses AI to Do It for You',
@@ -435,8 +436,8 @@ export const SpeakersData = [
     bio: "Scott has been involved with Flutter since September of 2017, shortly after its first Alpha release. Professionally, he's the founder of Good Dog Apps, and his involvement in the Flutter Community is extensive. He is also a strong advocate for the adoption of Big/Black/Old dogs (BBO), he & his partner have rescued multiple older Pitbulls who've been severely abused/neglected/abandoned.",
     twitter: 'scottstoll2017',
     url: null,
-    organization: 'Flutter Community',
-    position: '',
+    organization: 'Good Dog Apps',
+    position: 'Founder / Flutter Application Developer',
     session: {
       title: 'Controlling App Screens Remotely with RFW and Gemini AI',
       abstract: 'Controlling App Screens Remotely with RFW and Gemini AI',
