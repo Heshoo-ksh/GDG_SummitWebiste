@@ -18,6 +18,8 @@ import ChrisDemars from '@/assets/images/speakers/Chris Demars.jpg'
 import AliElSharif from '@/assets/images/speakers/Ali El-Sharif.jpeg'
 import Vikashagrawal from '@/assets/images/speakers/Vikash Agrawal.webp'
 import ScottStoll from '@/assets/images/speakers/Scott Stoll.png'
+import NavSingh from '@/assets/images/speakers/Nav Singh.webp'
+import AnkitaSood from '@/assets/images/speakers/Ankita Sood.jpeg'
 
 export const SpeakersData = [
   {
@@ -488,7 +490,7 @@ export const SpeakersData = [
       description:
         "Have you ever rewatched a shaky video over and over again trying to make out details? We'll talk about how AI can augment user experiences and reduce ambiguity by adding context and missing information. This session will explore the possibilities of integrating AI with traditional user experience principles.",
       tags: ['javascript', 'frontend', 'mongodb', 'next'],
-      track: 'Miscellaneous',
+      track: 'Fullstack',
       time: '03:30',
       room: 'TBD',
     },
@@ -512,6 +514,56 @@ export const SpeakersData = [
       tags: ['Flutter', 'Dart', 'Mobile', 'Testing', 'UI'],
       track: 'Fullstack',
       time: '10:30',
+      room: 'TBD',
+    },
+  },
+  {
+    id: 22,
+    name: 'Nav Singh',
+    email: 'mailto:navcommunity24@gmail.com',
+    avatar: NavSingh,
+    bio: 'Google Developer Expert for Android, Organizer at GDG-Montreal, and writes articles about Android and Kotlin.',
+    twitter: null,
+    url: 'https://www.linkedin.com/in/navczydev/',
+    organization: 'Manulife',
+    position: 'Sr Mobile Software Engineer',
+    session: {
+      title: 'Mastering Fragments & Compose Interoperability: Bridging the Gap',
+      abstract:
+        'Throughout this talk, we will examine various strategies to integrate compose into fragments and vice versa in Android applications.\n- Introduction to Fragments\n- Composables in Fragments\n- Fragments in Compose [AndroidViewBinding, AndroidFragment]\n- Composables in Navigation with Fragments [NavGraph]',
+      description:
+        "This session will discuss how to integrate Jetpack Compose into Fragments and vice versa within Android applications.\nGet the most out of both frameworks while maintaining compatibility and enhancing your app.\nYou'll learn:\n\t-Fragments: Review the fundamentals and understand their relevance today.\n\t-Using Composables in Fragments: Enhance flexibility and UI consistency with Composables in Fragments.\n\t-Integrate traditional Fragments into Compose-based projects with AndroidViewBinding and AndroidFragment.\n\t-Using Composables in Navigation with Fragments\n\t-Discover how to achieve Compose-Fragment interoperability and future-proof your Android apps with modern UI design patterns in this session!",
+      tags: [
+        'Android',
+        'Compose',
+        'Fragment',
+        'Kotlin',
+        'Tooling',
+        'AndroidStudio',
+      ],
+      track: 'Mobile',
+      time: '11:30',
+      room: 'TBD',
+    },
+  },
+  {
+    id: 23,
+    name: 'Ankita Sood',
+    email: 'ankita.s33@gmail.com',
+    avatar: AnkitaSood,
+    bio: "Ankita is currently adulting in Austin, Texas - where she is also learning how to survive the aggressive heat and increasing rent prices. Depending on the weather, she can be found outdoors hiking, biking, paddle boarding, trying to pet other peoples' dogs OR staying indoors reading a book. She has an avid interest in all things Design and Angular. She's been a frontend engineer all her adult working life, which is approximately either 10 years or 100 years, because she has lost sense of time since the pandemic.",
+    twitter: null,
+    url: 'https://www.linkedin.com/in/soodankita/',
+    organization: 'Secureworks',
+    position: 'Front-end Engineer',
+    session: {
+      title: 'Mastering Data Flow in Modern Angular',
+      abstract: '',
+      description:
+        'Angular’s latest features revolutionize data flow, elevating the developer experience. Whether you are a seasoned Angular architect or a fresh-faced developer, this talk will equip you with the knowledge and best practices to make your components communicate in perfect harmony.\n\nAngular is constantly evolving, and with it comes a powerful set of tools for managing data flow. Sharing data between components is a core challenge in Angular development. In this session, we’ll dive deep into the various mechanisms Angular offers for sharing data between components. We will delve into architectural patterns and best practices that ensure your data flow remains organized, efficient, and easy to maintain as your app grows. Key takeaways: \n\t- Comprehensive overview of data sharing options within angular components depending on their relation to one another. \n\t- Gain a deeper understanding of which data sharing option to choose in different scenarios. \n\t- Discover the differences between traditional and modern Angular data sharing methods, learning how to choose the most effective approach for each scenario.',
+      tags: ['Angular', 'Frontend'],
+      track: 'Fullstack',
+      time: '3:30',
       room: 'TBD',
     },
   },

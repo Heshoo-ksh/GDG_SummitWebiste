@@ -9,7 +9,7 @@ export const organizersData = [
     avatar: DaveKoziel,
     organization: 'Little Caesars',
     position: 'GDG Organizer',
-    url: 'https://gdg.community.dev/u/mrejqp/',
+    url: 'https://www.linkedin.com/in/davekoziol/',
   },
   {
     id: 2,
