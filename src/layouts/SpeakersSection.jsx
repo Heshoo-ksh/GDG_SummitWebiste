@@ -4,6 +4,13 @@ import { SpeakerProvider } from '@/components/speakers/SpeakerContext'
 import { SpeakersData } from '@/data/speakers'
 
 function SpeakersSection() {
+
+  const uniqueSpeakers = SpeakersData.filter(
+    (speaker, index, self) =>
+      index === self.findIndex((s) => s.email === speaker.email)
+  )
+
+
   return (
     <SpeakerProvider>
       <section
@@ -21,7 +28,7 @@ function SpeakersSection() {
           />
         </div>
         <div className="mt-32 grid grid-cols-1 items-stretch gap-20 sm:grid-cols-2 lg:mt-36 lg:grid-cols-3 xl:grid-cols-4">
-          {SpeakersData.map((speaker, index) => (
+          {uniqueSpeakers.map((speaker, index) => (
             <div key={index}>
               <SpeakerCard
                 id={speaker.id}

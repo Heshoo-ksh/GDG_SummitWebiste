@@ -20,6 +20,9 @@ import Vikashagrawal from '@/assets/images/speakers/Vikash Agrawal.webp'
 import ScottStoll from '@/assets/images/speakers/Scott Stoll.png'
 import NavSingh from '@/assets/images/speakers/Nav Singh.webp'
 import AnkitaSood from '@/assets/images/speakers/Ankita Sood.jpeg'
+import SaamerMansoor from '@/assets/images/speakers/Saamer Mansoor.jpeg'
+import BlaineOania from '@/assets/images/speakers/Blaine Oania.webp'
+import JennaRitten from '@/assets/images/speakers/Jenna Ritten.webp'
 
 export const SpeakersData = [
   {
@@ -378,7 +381,7 @@ export const SpeakersData = [
       abstract:
         'Transform your web apps with WebTransport and HTTP/3, delivering better performance and reliability than traditional WebSockets and WebRTC.',
       description:
-        ' Bye WebSockets and WebRTC! Boost Web Comms with WebTransport WebTransport offers a new way to communicate over the web with better performance and reduced latency. This session will cover how it leverages HTTP/3 and what advantages it has over older technologies like WebRTC. We will delve into code examples, use cases, and the scenarios where WebTransport can replace traditional communication methods.',
+        'Bye WebSockets and WebRTC! Boost Web Comms with WebTransport WebTransport offers a new way to communicate over the web with better performance and reduced latency. This session will cover how it leverages HTTP/3 and what advantages it has over older technologies like WebRTC. We will delve into code examples, use cases, and the scenarios where WebTransport can replace traditional communication methods.',
       tags: ['Rust', 'rustlang', 'webtransport', 'http3', 'networking'],
       track: 'Fullstack',
       time: '11:30',
@@ -504,7 +507,7 @@ export const SpeakersData = [
     twitter: null,
     url: 'https://www.linkedin.com/in/ben-jacques-aiml',
     organization: 'SpinDance',
-    position: '',
+    position: 'Director of Engineering',
     session: {
       title: 'The Holy Grail: How Flutter Helped Us Hit 100% Test Coverage',
       abstract:
@@ -564,6 +567,108 @@ export const SpeakersData = [
       tags: ['Angular', 'Frontend'],
       track: 'Fullstack',
       time: '3:30',
+      room: 'TBD',
+    },
+  },
+  {
+    id: 24,
+    name: 'Saamer Mansoor',
+    email: 'mailto:i@saamer.me',
+    avatar: SaamerMansoor,
+    bio: 'Saamer Mansoor is the founder of BeAware, building AI powered tools for the Deaf & Hard of Hearing, & for the institutions that serve them.\n\nSince 2021, Saamer has developed several groundbreaking tools for the Deaf and Hard of Hearing community. One of his most notable creations is the “Deaf Assistant”, iOS & Android apps focused on improving safety and communication for Deaf individuals in their daily lives. The app is highly recommended, and has garnered a global user base of over 10,000 active users, who on average use the app three times a day.\n\nAdditional tools can be found on the website, like ConferenceCaptioning.com , a tool that can convert any live in-person event to be accessible for the Deaf in Seconds. Or “Family Gatherings”, which allows inclusion of Deaf family members.\n\nBeyond his development work, Saamer is a prolific scientific technical writer and speaker. He has published numerous articles and produced videos on accessibility topics, and he has spoken at several international tech events. Through these efforts, he aims to spread a love for inclusion and foster synergies with people around the world',
+    twitter: 'saamerm',
+    url: 'https://linkedin.com/in/saamer',
+    organization: 'BeAware Deaf Assistant',
+    position: 'Founder',
+    session: {
+      title: 'If you want to make a money making app, don’t start by coding',
+      abstract:
+        'Practical tips and advice for aspiring entrepreneurs on what to do if they want to build an app, from a tech founder who has built and published over 50 apps.\nWe will talk about the Product Development cycle, Customer discovery, Design tools, Marketing tricks, and IndieHacking',
+      description:
+        "Are you an aspiring entrepreneur looking to build and launch your own app? Join us at Michigan DevFest for an invaluable session with a seasoned tech founder who has successfully built and published over 50 apps. In this talk, you’ll gain practical advice and actionable tips on how to navigate the journey from idea to launch.\n\nWe’ll dive deep into the essentials of the **Product Development Cycle**, guiding you through the key stages from concept to completion. Learn how to effectively conduct **Customer Discovery** to ensure your app meets real market needs, and explore the best **Design Tools** that can help bring your vision to life.\n\nBut building an app is just the beginning. Our speaker will also share **Marketing Tricks** that can give your app the visibility it needs to succeed and offer insights into the world of **IndieHacking**, where you’ll learn how to bootstrap and grow your project with limited resources.\n\nWhether you're just starting out or looking to refine your strategy, this session will provide you with the knowledge and confidence to take your app from idea to reality.",
+      tags: [
+        'Figma',
+        'Sketch',
+        'Html',
+        'CSS',
+        'Javascript',
+        'Marketing',
+        'User Research',
+        'User Experience',
+        'SEO',
+        'Google Ads',
+        'Startups',
+        'Grants',
+        'Michigan',
+      ],
+      track: 'Miscellaneous',
+      time: '9:30',
+      room: 'TBD',
+    },
+  },
+  {
+    id: 25,
+    name: 'Blaine Oania',
+    email: 'mailto:blaine.oania@gmail.com',
+    avatar: BlaineOania,
+    bio: "Blaine holds a B.S. in Computer Science from Wayne State and currently work as a Software Controls Research Engineer at Ford, where he blend his love for technology with real-world applications. Due to his love for Detroit and great experiences at WSU, he returned to his Alma Mater where he is currently completing his Masters in Robotics and Intelligent Control.\n\nOutside of work and studies, he loves discovering great places to enjoy food and drinks, particularly the ones with great seats. He's also a fan of beautiful leatherwork and collects watches due to their craftsmanship and attention to detail. For the same reasons, he also carries a passion for coffee and tea. Having taken specialty classes in both, he hopes to one day settle down above his own little shop.\n\nAn avid programmer from a young age, Blaine also likes to participate in programming competitions, host educational workshops, and empower the younger generation to take up coding. Inspired by his mentors, he places a large emphasis on expanding the developer community, particularly in Robotics. Some of his most notable events have been HackDearborn 2024 and the Reverse Science Fair by the Science Policy Network of Detroit. Through these events, he garnered interest in robotics from secondary school students, peers, industry leaders, and politicians.\n\nWhen he's not programming or pursuing his interests, you can usually find him riding his motorcycle downtown or relaxing in a cozy café.",
+    twitter: '',
+    url: 'https://www.linkedin.com/in/bktmo',
+    organization: 'Ford',
+    position: 'Software Controls Research Engineer',
+    session: {
+      title: 'Workshop: How to train your robot!',
+      abstract:
+        " Unlock the world of robotics with our ROS2 workshop! Master the fundamentals, then dive into programming a robot arm to bring your concepts to life. You'll also develop algorithms for autonomous vehicles in simulation, followed by practical insights on deploying your projects in the real world.",
+      description:
+        "# How to train your robot!\n\nJoin us for an engaging workshop focused on robotics development using **ROS2**! This hands-on experience is designed for both beginners and seasoned engineers eager to expand their skills. You’ll gain practical knowledge in programming robot arms, creating autonomous vehicles, and deploying projects in real-world scenarios. This workshop combines essential theory with interactive exercises, making it a perfect opportunity to **learn**, **collaborate**, and **create** in the cross-disciplinary field of robotics.\n\n## Agenda\n\n### Robotics: The Kitchen Sink 🛠️\n\t- **Why Robotics?** Discover the beauty of robotics as a blend of electrical, mechanical, and software engineering. It’s like the Swiss Army knife of engineering - just without the corkscrew!\n\n### Fundamentals of ROS2 🤖\n\t- **What even is ROS?** Spoiler: it's not a dance move. Get an overview of the middleware, applications, and capabilities.\n\t- **How do I start?** Boot up an Ubuntu distribution, learn the basics of bash, and make your first workspace!\n\t- **What is a topic anyway?** Deploy your first node, examine your robot network, and start passing notes!\n\n### Programming Robot Arms ✋\n\t- **Wait, I didn't sign up for a math class!** *Too bad!* Brush up on kinematics and transformations, then get a glimpse of the mechanics and controls of a robot arm.\n\t- **Embracing arms!:** *Get it?* Write and test code to control a robot arm in real time using the MoveIt2 library.\n\n### Autonomous Vehicle Algorithms 🚗== 🐢\n\t- **SLAM? Like a dunk?:** Learn the basics of how autonomous vehicles percieve and navigate, *no hoops required.*\\n\t- **Time for a laser show!** Create and visualize LiDAR point clouds, parse message data, and make your first map.\n\t- **Save the turtles!** Create and simulate algorithms for vehicle navigation and decision-making by guiding your new virtual friend to the ocean.\n\n### Concluding Remarks 🎉\n\t- **So how do I do this?** *It's easy!* Learn next steps for making your own robot and strategies for moving from simulation to reality. Robots don't build themselves!\n\t- **But where should I begin??:** Get beginner-friendly projects so that you can start your own adventures! Think of it as your robotics starter kit - no assembly required!\n\t- **Q&A:** Something we missed? Want a more detailed explanation of something we went through? *Puzzling over the meaning of life?* Time to get those questions answered!",
+      tags: ['ROS2', 'Linux', 'Ubuntu', 'Robotics', 'Autonomous Mobility'],
+      track: 'Fullstack',
+      time: '11:30',
+      room: 'TBD',
+    },
+  },
+  {
+    id: 26,
+    name: 'Jenna Ritten',
+    email: 'jritten@umich.edu',
+    avatar: JennaRitten,
+    bio: 'Jenna is Lead Architect for InnerSource@IBM and the Chief Developer Advocate for IBM Developer Advocacy. She also serves as COMPES Chair for COMPES Detroit. She works on expanding the reach of open source technologies to global developer communities. Her areas of interest include hackathons, design-thinking workshops, NLU/NLP, gamified learning, Blockchain, and Serverless. Jenna is an advocate for non-traditional people in tech, much like herself, and provides support by building and fostering communities for underrepresented people in tech.',
+    twitter: null,
+    url: 'https://www.linkedin.com/in/jritten/',
+    organization: 'IBM',
+    position: 'Chief Developer Advocate & Lead Architect',
+    session: {
+      title: 'Womxn in Tech Panel',
+      abstract:
+        'Join us as we spotlight the powerful role of women in technology. This panel will feature inspiring stories of overcoming challenges, driving innovation, and shaping a more inclusive tech landscape. Gain insights, build connections, and leave empowered to push boundaries in your career!',
+      description:
+        'This panel offers an opportunity for everyone in tech to learn from the experiences of Google Women Techmakers who are driving change in the industry. We’ll discuss strategies for overcoming obstacles, fostering diversity, and creating inclusive environments where all voices are heard. Whether you’re an ally, a mentor, or someone navigating your own career path, you’ll gain valuable insights on how to build a more equitable and innovative tech community.',
+      tags: ['Technology'],
+      track: 'Miscellaneous',
+      time: '11:30',
+      room: 'TBD',
+    },
+  },
+  {
+    id: 27,
+    name: 'Ben Jacques',
+    email: 'ben.jacques@spindance.com',
+    avatar: BenJacques,
+    bio: 'With a dynamic professional journey spanning over a decade, Ben Jacques has worked with a range of companies to help them leverage the power of connected technology and IoT.',
+    twitter: null,
+    url: 'https://www.linkedin.com/in/ben-jacques-aiml',
+    organization: 'SpinDance',
+    position: 'Director of Engineering',
+    session: {
+      title: 'The Holy Grail: How Flutter Helped Us Hit 100% Test Coverage ',
+      abstract:
+        'Testing is hard, but the right developer tooling makes it easier. In this talk, we share how Flutter made testing for us more efficient and helped us achieve 100% test coverage.',
+      description:
+        "In this talk, we’ll dive into our journey towards reaching 100% test coverage in our Flutter projects, sharing the strategies and tools we used to achieve this goal. You'll also learn how automated testing in Flutter can simplify complex workflows and reduce the maintenance burden for future updates.",
+      tags: ['Flutter', 'Dart', 'Mobile', 'Testing', 'UI'],
+      track: 'Mobile',
+      time: '10:30',
       room: 'TBD',
     },
   },
