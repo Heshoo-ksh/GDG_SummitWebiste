@@ -1,36 +1,51 @@
-import HishamOdeh from '@/assets/images/dev/Hisham Odeh.png'
+import Hisham_Odeh from '@/assets/images/dev/Hisham_Odeh.jpg'
 import TejasVaity from '@/assets/images/dev/Tejas Vaity.jpg'
 import MohamadAlabudi from '@/assets/images/dev/Mohamad Alabudi.jpg'
 import RahulVarmaAlluri from '@/assets/images/dev/Rahul Varma Alluri.jpg'
 import JuanLinaresOrihuela from '@/assets/images/dev/Juan Linares Orihuela.jpg'
-import HebaSayed from '@/assets/images/dev/Heba Sayed.jpg'
+import Heba_Sayed from '@/assets/images/dev/Heba_Sayed.jpg'
 import SohanKetireddy from '@/assets/images/dev/Sohan Ketireddy.png'
 import AbhijayDas from '@/assets/images/dev/Abhijay Das.jpg'
+import IrwinPatcharaput from '@/assets/images/dev/Irwin Patcharaput.jpeg'
 
 export const devTeamData = [
   {
     id: 1,
     name: 'Hisham Odeh',
+    bio: '',
     linkedin: 'https://www.linkedin.com/in/hisham-odeh-4611081b0',
     github: 'https://github.com/Heshoo-ksh',
     university: 'University Of Michigan - Dearborn',
     organization: 'Ancor Automotive',
     position: 'Junior Software Engineer And Student',
-    avatar: HishamOdeh,
+    avatar: Hisham_Odeh,
   },
   {
     id: 2,
     name: 'Mohamad Alabudi',
+    bio: '',
     linkedin: 'https://www.linkedin.com/in/malabudi',
     github: 'https://malabudi.github.io/',
     avatar: MohamadAlabudi,
-    university: 'University of Michigan - Dearborn',
+    university: 'University of Michigan Dearborn',
     organization: '',
     position: 'Student',
   },
   {
+    id: 3,
+    name: 'Heba Sayed',
+    bio: '',
+    linkedin: 'https://www.linkedin.com/in/heba-sayed6/',
+    github: 'https://github.com/hebz26',
+    university: 'University Of Michigan Dearborn',
+    organization: '',
+    position: 'Student',
+    avatar: Heba_Sayed,
+  },
+  {
     id: 8,
     name: 'Rahul Varma Alluri',
+    bio: '',
     linkedin: 'https://www.linkedin.com/in/rahul-alluri/',
     github: 'https://github.com/RahulAlluriUmd',
     university: 'University Of Michigan Dearborn',
@@ -39,18 +54,9 @@ export const devTeamData = [
     avatar: RahulVarmaAlluri,
   },
   {
-    id: 3,
-    name: 'Heba Sayed',
-    linkedin: 'https://www.linkedin.com/in/heba-sayed6/',
-    github: 'https://github.com/hebz26',
-    university: 'University Of Michigan Dearborn',
-    organization: '',
-    position: 'Student',
-    avatar: HebaSayed,
-  },
-  {
     id: 4,
     name: 'Tejas Vaity',
+    bio: '',
     linkedin: 'www.linkedin.com/in/tejas-vaity-832972147',
     github: 'https://github.com/Tej619',
     university: 'University of Michigan Dearborn',
@@ -61,6 +67,7 @@ export const devTeamData = [
   {
     id: 5,
     name: 'Juan Linares Orihuela',
+    bio: '',
     linkedin: 'https://www.linkedin.com/in/juanlinaresorihuela/',
     github: 'https://github.com/JuanLinaresOrihuela',
     university: 'Georgia Institute of Technology',
@@ -71,21 +78,34 @@ export const devTeamData = [
   {
     id: 6,
     name: 'Abhijay Das',
+    bio: '',
     linkedin: 'https://www.linkedin.com/in/abhijaydas/',
     github: 'https://github.com/abhijaythethinker',
     university: 'University Of Michigan Dearborn',
     organization: '',
-    position: 'Undergraduate Student',
+    position: 'Student',
     avatar: AbhijayDas,
   },
   {
     id: 7,
     name: 'Sohan Ketireddy',
+    bio: '',
     linkedin: 'https://www.linkedin.com/in/sohan-k',
     github: 'https://github.com/sohank1',
     university: 'University Of Michigan Dearborn',
     organization: '',
-    position: 'Undergraduate Student',
+    position: 'Student',
     avatar: SohanKetireddy,
+  },
+  {
+    id: 7,
+    name: 'Irwin Patcharaput',
+    bio: '',
+    linkedin: 'https://www.linkedin.com/in/irwinpatcharaput/',
+    github: 'https://github.com/irwinpp',
+    university: 'University Of Michigan Dearborn',
+    organization: '',
+    position: 'Student',
+    avatar: IrwinPatcharaput,
   },
 ]

@@ -23,11 +23,21 @@ function SessionCard({
     }
   }
 
-  const startTime = format(parse(sessionTime, 'HH:mm', new Date()), 'h:mm')
-  const endTime = format(
-    addHours(parse(sessionTime, 'HH:mm', new Date()), 1),
-    'h:mm'
-  )
+  let startTime, endTime
+
+  if (sessionTime.includes('-')) {
+    const [startStr, endStr] = sessionTime.split('-').map((str) => str.trim())
+    const parsedStartTime = parse(startStr, 'h:mm', new Date())
+    const parsedEndTime = parse(endStr, 'h:mm', new Date())
+
+    startTime = format(parsedStartTime, 'h:mm')
+    endTime = format(parsedEndTime, 'h:mm')
+  } else {
+    const parsedStartTime = parse(sessionTime, 'h:mm', new Date())
+
+    startTime = format(parsedStartTime, 'h:mm')
+    endTime = format(addHours(parsedStartTime, 1), 'h:mm')
+  }
 
   return (
     <div className="rounded-xl border bg-white shadow-lg transition duration-200 hover:shadow-2xl">
