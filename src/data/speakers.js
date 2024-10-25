@@ -23,6 +23,8 @@ import AnkitaSood from '@/assets/images/speakers/Ankita Sood.jpeg'
 import SaamerMansoor from '@/assets/images/speakers/Saamer Mansoor.jpeg'
 import BlaineOania from '@/assets/images/speakers/Blaine Oania.webp'
 import JennaRitten from '@/assets/images/speakers/Jenna Ritten.webp'
+import AlonsodelArte from '@/assets/images/speakers/Alonso del Arte.jpeg'
+import MariamMohamed from '@/assets/images/speakers/Mariam Mohamed.webp'
 
 export const SpeakersData = [
   {
@@ -44,7 +46,7 @@ export const SpeakersData = [
       tags: ['AI Agents', 'Google Cloud', 'AI'],
       track: 'AI/ML',
       time: '10:30',
-      room: 'TBD',
+      room: 'Pizza Treat',
     },
   },
   {
@@ -66,7 +68,7 @@ export const SpeakersData = [
       tags: ['Misc'],
       track: 'Miscellaneous',
       time: '02:30',
-      room: 'TBD',
+      room: 'Reserve n Ready',
     },
   },
   {
@@ -88,7 +90,7 @@ export const SpeakersData = [
       tags: ['Misc'],
       track: 'Miscellaneous',
       time: '09:30',
-      room: 'TBD',
+      room: 'Reserve n Ready',
     },
   },
   {
@@ -110,7 +112,7 @@ export const SpeakersData = [
       tags: [],
       track: 'AI/ML',
       time: '11:30',
-      room: 'TBD',
+      room: 'Pizza Treat',
     },
   },
   {
@@ -132,7 +134,7 @@ export const SpeakersData = [
       tags: ['SSDLC', 'Secure design', 'Copilot', 'LLM'],
       track: 'AI/ML',
       time: '01:30',
-      room: 'TBD',
+      room: 'Pizza Treat',
     },
   },
   {
@@ -155,7 +157,7 @@ export const SpeakersData = [
       tags: ['generativeai', 'genai', 'gemini', 'gemma', 'bias', 'ethics'],
       track: 'AI/ML',
       time: '03:30',
-      room: 'TBD',
+      room: 'Pizza Treat',
     },
   },
   {
@@ -202,7 +204,7 @@ export const SpeakersData = [
       ],
       track: 'AI/ML',
       time: '09:30',
-      room: 'TBD',
+      room: 'Innovation',
     },
   },
   {
@@ -225,7 +227,7 @@ export const SpeakersData = [
       tags: ['Python', 'Jupyter Notebook'],
       track: 'AI/ML',
       time: '02:30',
-      room: 'TBD',
+      room: 'Innovation',
     },
   },
   {
@@ -247,7 +249,7 @@ export const SpeakersData = [
       tags: ['Technology'],
       track: 'Miscellaneous',
       time: '11:30',
-      room: 'TBD',
+      room: 'Reserve n Ready',
     },
   },
   {
@@ -261,15 +263,15 @@ export const SpeakersData = [
     organization: 'Apple Developer Academy',
     position: 'Coding Mentor',
     session: {
-      title: 'Accessibility Matters - Getting Started with SwiftCharts',
+      title: 'Getting Started with SwiftCharts',
       abstract:
         'Accessibility ensures all users, including those with disabilities, can access and use technology effectively. This talk will show how integrating accessibility from the start boosts user experience, expands your audience, and drives innovation.',
       description:
-        'This talk will explain why accessibility should be a part of the development process and not just an afterthought. We will go over some accessibility features such as \n\t-Dynamic Text, \n\t-Dark mode support \n\t-Minimum contrast ratio with some online tools to check \n\t-Sim Daltonism to go over the different types of color blindness \n\t-Voice Over activity \n\t-Some iOS resources to start coding for accessibility.',
+        'Bring your data to life with SwiftCharts, Apple’s iOS framework for stunning, interactive visualizations.\nIn this session, learn how to create customizable charts with ease, master best practices, and unlock the full potential 	of data-driven design. Elevate your apps with SwiftCharts!',
       tags: ['#SwiftUI', '#Swift', '#iOSDevelopment', '#Accessibility'],
       track: 'Mobile',
       time: '09:30',
-      room: 'TBD',
+      room: 'Hot n Ready',
     },
   },
   {
@@ -291,7 +293,7 @@ export const SpeakersData = [
       tags: [],
       track: 'Miscellaneous',
       time: '01:30',
-      room: 'TBD',
+      room: 'Reserve n Ready',
     },
   },
   {
@@ -312,7 +314,7 @@ export const SpeakersData = [
       tags: [],
       track: 'Miscellaneous',
       time: '10:30',
-      room: 'TBD',
+      room: 'Reserve n Ready',
     },
   },
   {
@@ -341,7 +343,7 @@ export const SpeakersData = [
       ],
       track: 'Fullstack',
       time: '01:30',
-      room: 'TBD',
+      room: 'Hot n Ready',
     },
   },
   {
@@ -363,7 +365,7 @@ export const SpeakersData = [
       tags: ['LLM', 'Python', 'RAG'],
       track: 'AI/ML',
       time: '02:30',
-      room: 'TBD',
+      room: 'Pizza Treat',
     },
   },
   {
@@ -377,15 +379,16 @@ export const SpeakersData = [
     organization: 'May Mobility',
     position: 'Staff Software Engineer',
     session: {
-      title: 'Bye WebSockets and WebRTC! Boost Web Comms with WebTransport',
+      title:
+        'Bye WebSockets and WebRTC! Boost Web Comms with Rust, QUIC, WebTransport and HTTP3!',
       abstract:
         'Transform your web apps with WebTransport and HTTP/3, delivering better performance and reliability than traditional WebSockets and WebRTC.',
       description:
         'Bye WebSockets and WebRTC! Boost Web Comms with WebTransport WebTransport offers a new way to communicate over the web with better performance and reduced latency. This session will cover how it leverages HTTP/3 and what advantages it has over older technologies like WebRTC. We will delve into code examples, use cases, and the scenarios where WebTransport can replace traditional communication methods.',
       tags: ['Rust', 'rustlang', 'webtransport', 'http3', 'networking'],
       track: 'Fullstack',
-      time: '11:30',
-      room: 'TBD',
+      time: '02:30',
+      room: 'Hot n Ready',
     },
   },
   {
@@ -407,7 +410,7 @@ export const SpeakersData = [
       tags: ['ai', 'llm', 'amazon', 'aws', 'amazonq', 'ai&ml'],
       track: 'AI/ML',
       time: '01:30',
-      room: 'TBD',
+      room: 'Pizza Pizza',
     },
   },
   {
@@ -430,7 +433,7 @@ export const SpeakersData = [
       tags: ['AI'],
       track: 'AI/ML',
       time: '09:30',
-      room: 'TBD',
+      room: 'Pizza Treat',
     },
   },
   {
@@ -444,14 +447,14 @@ export const SpeakersData = [
     organization: 'Good Dog Apps',
     position: 'Founder / Flutter Application Developer',
     session: {
-      title: 'Controlling App Screens Remotely with RFW and Gemini AI',
+      title: 'Controlling App Screens Remotely with RFW and Gemini AI ',
       abstract: 'Controlling App Screens Remotely with RFW and Gemini AI',
       description:
         'This isn\'t a generic "get started with AI in Flutter" talk.\n\nImagine being able to dictate to the computer what you want it to do and have it immediately create those changes in your Flutter app. This talk uses the Remote Flutter Widgets and Google Generative AI packages, along with Windows Speech to Text for dictation. The LLM then returns a JSON formatted widget tree that can be used by RFW to inject the new screen into the very next frame.',
       tags: ['AI', 'Flutter'],
       track: 'AI/ML',
       time: '03:30',
-      room: 'TBD',
+      room: 'Pizza Pizza',
     },
   },
   {
@@ -473,7 +476,7 @@ export const SpeakersData = [
       tags: ['Responsible AI; Machine Learning; AI Fairness'],
       track: 'AI/ML',
       time: '10:30',
-      room: 'TBD',
+      room: 'Pizza Pizza',
     },
   },
   {
@@ -487,7 +490,8 @@ export const SpeakersData = [
     organization: 'DigitalOcean',
     position: '',
     session: {
-      title: 'Close Encounters of the Data Kind: Exploring UX in AI Systems',
+      title:
+        'Close Encounters of the Data Kind: Exploring UFO Sightings with MongoDB and NextJS',
       abstract:
         'Have you ever rewatched a shaky video over and over, trying to make out details? In this talk, we explore how AI can enhance the user experience by adding missing information and reducing ambiguity.',
       description:
@@ -495,7 +499,7 @@ export const SpeakersData = [
       tags: ['javascript', 'frontend', 'mongodb', 'next'],
       track: 'Fullstack',
       time: '03:30',
-      room: 'TBD',
+      room: 'Reserve n Ready',
     },
   },
   {
@@ -517,7 +521,7 @@ export const SpeakersData = [
       tags: ['Flutter', 'Dart', 'Mobile', 'Testing', 'UI'],
       track: 'Fullstack',
       time: '10:30',
-      room: 'TBD',
+      room: 'Hot n Ready',
     },
   },
   {
@@ -546,7 +550,7 @@ export const SpeakersData = [
       ],
       track: 'Mobile',
       time: '11:30',
-      room: 'TBD',
+      room: 'Hot n Ready',
     },
   },
   {
@@ -567,7 +571,7 @@ export const SpeakersData = [
       tags: ['Angular', 'Frontend'],
       track: 'Fullstack',
       time: '3:30',
-      room: 'TBD',
+      room: 'Hot n Ready',
     },
   },
   {
@@ -603,7 +607,7 @@ export const SpeakersData = [
       ],
       track: 'Miscellaneous',
       time: '9:30',
-      room: 'TBD',
+      room: 'Pizza Pizza',
     },
   },
   {
@@ -624,8 +628,8 @@ export const SpeakersData = [
         "# How to train your robot!\n\nJoin us for an engaging workshop focused on robotics development using **ROS2**! This hands-on experience is designed for both beginners and seasoned engineers eager to expand their skills. You’ll gain practical knowledge in programming robot arms, creating autonomous vehicles, and deploying projects in real-world scenarios. This workshop combines essential theory with interactive exercises, making it a perfect opportunity to **learn**, **collaborate**, and **create** in the cross-disciplinary field of robotics.\n\n## Agenda\n\n### Robotics: The Kitchen Sink 🛠️\n\t- **Why Robotics?** Discover the beauty of robotics as a blend of electrical, mechanical, and software engineering. It’s like the Swiss Army knife of engineering - just without the corkscrew!\n\n### Fundamentals of ROS2 🤖\n\t- **What even is ROS?** Spoiler: it's not a dance move. Get an overview of the middleware, applications, and capabilities.\n\t- **How do I start?** Boot up an Ubuntu distribution, learn the basics of bash, and make your first workspace!\n\t- **What is a topic anyway?** Deploy your first node, examine your robot network, and start passing notes!\n\n### Programming Robot Arms ✋\n\t- **Wait, I didn't sign up for a math class!** *Too bad!* Brush up on kinematics and transformations, then get a glimpse of the mechanics and controls of a robot arm.\n\t- **Embracing arms!:** *Get it?* Write and test code to control a robot arm in real time using the MoveIt2 library.\n\n### Autonomous Vehicle Algorithms 🚗== 🐢\n\t- **SLAM? Like a dunk?:** Learn the basics of how autonomous vehicles percieve and navigate, *no hoops required.*\\n\t- **Time for a laser show!** Create and visualize LiDAR point clouds, parse message data, and make your first map.\n\t- **Save the turtles!** Create and simulate algorithms for vehicle navigation and decision-making by guiding your new virtual friend to the ocean.\n\n### Concluding Remarks 🎉\n\t- **So how do I do this?** *It's easy!* Learn next steps for making your own robot and strategies for moving from simulation to reality. Robots don't build themselves!\n\t- **But where should I begin??:** Get beginner-friendly projects so that you can start your own adventures! Think of it as your robotics starter kit - no assembly required!\n\t- **Q&A:** Something we missed? Want a more detailed explanation of something we went through? *Puzzling over the meaning of life?* Time to get those questions answered!",
       tags: ['ROS2', 'Linux', 'Ubuntu', 'Robotics', 'Autonomous Mobility'],
       track: 'Fullstack',
-      time: '11:30',
-      room: 'TBD',
+      time: '11:30 - 01:00',
+      room: 'Innovation',
     },
   },
   {
@@ -647,7 +651,7 @@ export const SpeakersData = [
       tags: ['Technology'],
       track: 'Miscellaneous',
       time: '11:30',
-      room: 'TBD',
+      room: 'Reserve n Ready',
     },
   },
   {
@@ -669,7 +673,116 @@ export const SpeakersData = [
       tags: ['Flutter', 'Dart', 'Mobile', 'Testing', 'UI'],
       track: 'Mobile',
       time: '10:30',
-      room: 'TBD',
+      room: 'Hot n Ready',
+    },
+  },
+  {
+    id: 28,
+    name: 'Alonso del Arte',
+    email: 'alonso.delarte@gmail.com',
+    avatar: AlonsodelArte,
+    bio: "I'm the author of the Java unit testing framework testframe.org, which will eventually be easier for artificial intelligence to understand than either JUnit or TestNG. In my spare time, I'm a photographer and a composer of orchestral music.",
+    twitter: 'alonsodelarte',
+    url: 'https://alonsodelarte.com/java/index.html',
+    organization: 'Testframe.org',
+    position: 'Software Engineer',
+    session: {
+      title:
+        'Test-driven development and functional programming: Scala and JUnit',
+      abstract: '',
+      description:
+        'JUnit is best known as a testing framework for Java, which is an object-oriented programming language which has had functional features added. But JUnit can be very well used for Scala, which was designed as hybrid OOP/functional right off the bat. JUnit turns out to be surprisingly well-suited for testing Scala, provided one is aware of the need to test functions passed as parameters and other consequences of functions being "first class citizens."\n\nI intend to demonstrate this with a simple implementation of the Euclidean GCD algorithm on 32- or 64-bit signed integers. Technically, the algorithm requires a function meeting certain requirements, and infinitely many functions are possible. In practice, however, the absolute value function is the most practical choice, and many people assume it is the only choice possible. So I intend to demonstrate TDD on an implementation of Euclidean GCD using functions specified at runtime, which may or may not be valid choices.',
+      tags: ['Java', 'Frameworks', 'JUnit', 'Scala', 'TDD'],
+      track: 'AI/ML',
+      time: '2:30',
+      room: 'Pizza Pizza',
+    },
+  },
+  {
+    id: 29,
+    name: 'Scott Stoll',
+    email: 'scottstoll2017@gmail.com',
+    avatar: ScottStoll,
+    bio: "Scott has been involved with Flutter since September of 2017, shortly after its first Alpha release. Professionally, he's the founder of Good Dog Apps, and his involvement in the Flutter Community is extensive. He is also a strong advocate for the adoption of Big/Black/Old dogs (BBO), he & his partner have rescued multiple older Pitbulls who've been severely abused/neglected/abandoned.",
+    twitter: 'scottstoll2017',
+    url: null,
+    organization: 'Good Dog Apps',
+    position: 'Founder / Flutter Application Developer',
+    session: {
+      title: 'Controlling App Screens Remotely with RFW and Gemini AI',
+      abstract: 'Controlling App Screens Remotely with RFW and Gemini AI',
+      description:
+        'This isn\'t a generic "get started with AI in Flutter" talk.\n\nImagine being able to dictate to the computer what you want it to do and have it immediately create those changes in your Flutter app. This talk uses the Remote Flutter Widgets and Google Generative AI packages, along with Windows Speech to Text for dictation. The LLM then returns a JSON formatted widget tree that can be used by RFW to inject the new screen into the very next frame.',
+      tags: ['AI', 'Flutter'],
+      track: 'Mobile',
+      time: '03:30',
+      room: 'Pizza Pizza',
+    },
+  },
+  {
+    id: 30,
+    name: 'Ben Jacques',
+    email: 'ben.jacques@spindance.com',
+    avatar: BenJacques,
+    bio: 'With a dynamic professional journey spanning over a decade, Ben Jacques has worked with a range of companies to help them leverage the power of connected technology and IoT.',
+    twitter: null,
+    url: 'https://www.linkedin.com/in/ben-jacques-aiml',
+    organization: 'SpinDance',
+    position: 'Director of Engineering',
+    session: {
+      title:
+        'Workshop: One Code Base to Rule Them All. A Hands on Introduction to Flutter!',
+      abstract: '',
+      description:
+        'This hands-on introduction to Flutter will guide participants through the foundational concepts of the Flutter framework, including its core architecture, developer tooling, its dependency ecosystem, and how it abstracts platform-specific code. Along the way, you’ll be building your own Lord of the Rings themed demo application. So make sure to bring a laptop (Windows, Linux, or Mac…Flutter don’t care) and be prepared to forge the one app to rule them all.',
+      tags: ['Flutter', 'Dart', 'Mobile', 'UI'],
+      track: 'Fullstack',
+      time: '01:30',
+      room: 'Innovation',
+    },
+  },
+  {
+    id: 31,
+    name: 'Ben Jacques',
+    email: 'ben.jacques@spindance.com',
+    avatar: BenJacques,
+    bio: 'With a dynamic professional journey spanning over a decade, Ben Jacques has worked with a range of companies to help them leverage the power of connected technology and IoT.',
+    twitter: null,
+    url: 'https://www.linkedin.com/in/ben-jacques-aiml',
+    organization: 'SpinDance',
+    position: 'Director of Engineering',
+    session: {
+      title:
+        'Workshop: One Code Base to Rule Them All. A Hands on Introduction to Flutter! ',
+      abstract: '',
+      description:
+        'This hands-on introduction to Flutter will guide participants through the foundational concepts of the Flutter framework, including its core architecture, developer tooling, its dependency ecosystem, and how it abstracts platform-specific code. Along the way, you’ll be building your own Lord of the Rings themed demo application. So make sure to bring a laptop (Windows, Linux, or Mac…Flutter don’t care) and be prepared to forge the one app to rule them all.',
+      tags: ['Flutter', 'Dart', 'Mobile', 'UI'],
+      track: 'Mobile',
+      time: '01:30',
+      room: 'Innovation',
+    },
+  },
+  {
+    id: 32,
+    name: 'Mariam Mohamed',
+    email: '',
+    avatar: MariamMohamed,
+    bio: 'Mariam is the Director of Digital Experience at DTE, where she began her career 13 years ago as a student programmer. She oversees the full product lifecycle of self-service platforms—ideation, design, development, delivery, and monitoring—across web, mobile, and IVR, ensuring customer satisfaction. Passionate about using technology and analytics to optimize business processes, she’s also a strong advocate for STEM, particularly for women and underserved communities, and mentors young professionals early in their careers.',
+    twitter: null,
+    url: 'https://www.linkedin.com/in/mariamm1/',
+    organization: 'DTE',
+    position: 'Director of Digital Experience',
+    session: {
+      title: 'Womxn in Tech Panel',
+      abstract:
+        'Join us as we spotlight the powerful role of women in technology. This panel will feature inspiring stories of overcoming challenges, driving innovation, and shaping a more inclusive tech landscape. Gain insights, build connections, and leave empowered to push boundaries in your career!',
+      description:
+        'This panel offers an opportunity for everyone in tech to learn from the experiences of Google Women Techmakers who are driving change in the industry. We’ll discuss strategies for overcoming obstacles, fostering diversity, and creating inclusive environments where all voices are heard. Whether you’re an ally, a mentor, or someone navigating your own career path, you’ll gain valuable insights on how to build a more equitable and innovative tech community.',
+      tags: ['Technology'],
+      track: 'Miscellaneous',
+      time: '11:30',
+      room: 'Reserve n Ready',
     },
   },
 ]
