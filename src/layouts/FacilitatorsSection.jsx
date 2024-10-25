@@ -18,9 +18,14 @@ function FacilitatorsSection() {
           className="h-12 md:h-14 lg:h-16"
         />
       </div>
-      <div className="mt-32 grid grid-cols-1 items-stretch gap-20 sm:grid-cols-2 lg:mt-36 lg:grid-cols-3 xl:grid-cols-4">
+      <div className="mt-32 flex flex-wrap justify-center gap-20 sm:mt-36">
         {facilitatorsData.map((facilitator) => (
-          <GenericCard key={facilitator.id} {...facilitator} />
+          <div
+            key={facilitator.id}
+            className="flex w-full justify-center sm:w-1/2 md:w-2/5 lg:w-1/3 xl:w-1/4"
+          >
+            <GenericCard {...facilitator} />
+          </div>
         ))}
       </div>
     </section>
