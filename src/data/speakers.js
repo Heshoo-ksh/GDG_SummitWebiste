@@ -25,6 +25,7 @@ import BlaineOania from '@/assets/images/speakers/Blaine Oania.webp'
 import JennaRitten from '@/assets/images/speakers/Jenna Ritten.webp'
 import AlonsodelArte from '@/assets/images/speakers/Alonso del Arte.jpeg'
 import MariamMohamed from '@/assets/images/speakers/Mariam Mohamed.webp'
+import JonathanTower from '@/assets/images/speakers/Jonathan Tower.webp'
 
 export const SpeakersData = [
   {
@@ -321,7 +322,7 @@ export const SpeakersData = [
     id: 13,
     name: 'Jonathan "J." Tower',
     email: 'jonathantower@gmail.com',
-    avatar: JohnThompson,
+    avatar: JonathanTower,
     bio: "Jonathan, or J as he's known to friends, is a husband, a father, and the owner of Trailhead Technology Partners, a custom software consulting company with employees all around the world. He is also a 10-time Microsoft MVP in .NET and frequently speaks at software meetups and conferences. He doesn't mind too much because he loves sharing what he\u2019s learned, and it also gives him an excuse to visit any nearby National Parks, a passion of his, proven by the fact that he's currently made it to 58 of the 63 parks.\n\n\nJ also has a passion for building community and has served on several non-profit boards over the years as a result. Currently, J sits on the SoftwareGR board, a non-profit trade organization dedicated to building the software industry in West Michigan. He also runs Beer City Code, a software conference, and has served as president on that board for over a decade. J loves hiking, reading, photography, and trying to see all the best picture nominees before the Oscars ceremony.",
     twitter: 'jtowermi',
     url: 'http://trailheadtechnology.com',
