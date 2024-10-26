@@ -18,7 +18,7 @@ export const facilitatorsData = [
     name: 'Juan Linares Orihuela',
     avatar: JuanLinaresOrihuela,
     bio: `After transitioning into tech, I became a software engineer driven by a passion for using data to solve problems and build innovative software. As I pursue my Master’s in Data Analytics at Georgia Tech, I continually seek new opportunities to learn and make a meaningful impact in the tech world.`,
-    organization: 'CODE313',
+    organization: '',
     position: 'Software Engineer ',
   },
   {
