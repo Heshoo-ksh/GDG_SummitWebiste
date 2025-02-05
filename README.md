@@ -1,4 +1,4 @@
-# Michigan DevFest 2023
+# GDG Summit Website 
 
 ## To Run
 
