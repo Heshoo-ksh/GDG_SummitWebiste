@@ -4,12 +4,10 @@ import { SpeakerProvider } from '@/components/speakers/SpeakerContext'
 import { SpeakersData } from '@/data/speakers'
 
 function SpeakersSection() {
-
   const uniqueSpeakers = SpeakersData.filter(
     (speaker, index, self) =>
       index === self.findIndex((s) => s.email === speaker.email)
   )
-
 
   return (
     <SpeakerProvider>
@@ -18,7 +16,7 @@ function SpeakersSection() {
         className="flex flex-col justify-center px-8 sm:px-10 md:px-14 lg:px-16"
       >
         <div className="flex w-full justify-between pt-6 sm:pt-8 md:pt-12 lg:pt-14">
-          <header className="font-russell text-4xl md:text-5xl lg:text-6xl">
+          <header className="text-center font-russell  text-4xl md:text-5xl lg:text-6xl">
             Speakers
           </header>
           <img

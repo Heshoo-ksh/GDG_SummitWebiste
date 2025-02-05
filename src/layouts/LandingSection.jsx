@@ -22,21 +22,24 @@ function LandingSection() {
             <img className="w-3/4" src={date} alt="Date and Red Circle" />
 
             <p className="text-justify text-sm font-normal lg:text-base xl:text-lg">
-              The Detroit and Ann Arbor Google Developer Groups (GDG) are
-              teaming up once again to bring you the 9th Michigan DevFest on
-              October 26, 2024, at the Little Caesar&apos;s Global. With our
-              10th DevFest, we aim to put together a great day of networking and
-              knowledge sharing for all involved.
+              GDG Detroit in partnership with Black Tech Saturdays, COMPASS, NSBE Detroit, Clixie AI, Think
+              Technologies, DTE Energy, and Grand Circus is hosting a day of
+              learning, gathering, and celebrating Detroit&apos;s tech
+              ecosystem. This large-scale, in-person summit at Michigan Central
+              Station will offer a full day on the latest advancements in tech
+              and transformative impact of AI on industries. Content will be
+              provided by local tech and business leaders, Google, Google
+              Developer Experts, including a Build with AI workshop.
             </p>
             <a
-              href="https://www.eventbrite.com/e/michigan-devfest-2024-tickets-1002088352237?aff=erelexpmlt"
+              href="https://events.eventnoire.com/e/black-tech-saturdays-3?utm_source=affiliate&utm_name=GDG-Link&utm_campaign=GDG-Link&utm_id=679934b71770480eb6a500120a1e60ce"
               target="_blank"
               className="flex items-center rounded bg-sky-900 px-8 py-5 text-primary-400 shadow-xl transition delay-75 duration-100 ease-in-out hover:-translate-y-1 hover:scale-110 hover:cursor-pointer"
               rel="noreferrer"
             >
               {' '}
               <FaTicketAlt className="mr-3" />
-              GET TICKETS
+              Register
             </a>
           </div>
         </div>
