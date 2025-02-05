@@ -11,12 +11,11 @@ function Navbar() {
   const sections = useMemo(
     () => [
       { id: 'landing', text: 'Landing' },
-      { id: 'speakers', text: 'Speakers' },
-      { id: 'sessions', text: 'Sessions' },
       { id: 'location', text: 'Location' },
+      { id: 'sessions', text: 'Stages' },
+      { id: 'speakers', text: 'Speakers' },
       { id: 'sponsors', text: 'Sponsors' },
       { id: 'organizers', text: 'Organizers' },
-      { id: 'facilitators', text: 'Facilitators' },
       { id: 'devteam', text: 'Dev Team' },
     ],
     []
