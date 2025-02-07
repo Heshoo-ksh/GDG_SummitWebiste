@@ -1,51 +1,89 @@
-import LittleCaesars from '@/assets/images/sponsors/Little Caesars.webp'
-import AKKODiS from '@/assets/images/sponsors/Akkodis.webp'
-import AXIOM from '@/assets/images/sponsors/AXIOM.webp'
-import SpinDance from '@/assets/images/sponsors/SpinDance.webp'
-import MongoDB from '@/assets/images/sponsors/MongoDB.webp'
-import RIIS from '@/assets/images/sponsors/RIIS.webp'
+import COMPASSDetroit from '@/assets/images/sponsors/COMPASS Detroit.webp'
+import BlackTechSaturdays from '@/assets/images/sponsors/Black Tech Saturdays.webp'
+import Google from '@/assets/images/sponsors/Google.webp'
+import NSBE from '@/assets/images/sponsors/NSBE.webp'
+import ClixieAI from '@/assets/images/sponsors/Clixie AI.webp'
+import GDGDetroit from '@/assets/images/sponsors/GDG Detroit.webp'
+import GrandCircus from '@/assets/images/sponsors/Grand Circus.webp'
+import ThinkTechnologies from '@/assets/images/sponsors/Think Technologies.webp'
+import DTE from '@/assets/images/sponsors/DTE.webp'
+import BirminghamAngels from '@/assets/images/sponsors/Birmingham Angels.webp'
 
 export const sponsorsData = [
   {
     id: 1,
-    name: 'Little Caesars',
-    logo: LittleCaesars,
-    desc: `Headquartered in Detroit, Michigan, Little Caesars was founded by Mike and Marian Ilitch in 1959 as a single, family-owned restaurant. Today Little Caesars is the third largest pizza chain in the world with stores in each of the 50 U.S. states and 27 countries and territories.`,
-    url: 'https://littlecaesars.com/en-us/',
+    name: 'COMPASS Detroit',
+    logo: COMPASSDetroit,
+    desc: 'The Collective of Minority Professionals and STEAM Societies (formerly COMPES) was formed in 2000 as an initiative between the NSBE, SHPE, and SWE Detroit professional chapters. The mission of this collaborative partnership is to support the local Detroit community in upskilling, career growth, networking, and to provide access to new opportunities.',
+    url: 'https://compesdetroit.wixsite.com/compes2023',
   },
   {
     id: 2,
-    name: 'AXIOM',
-    logo: AXIOM,
-    desc: `Axiom reinvents log management for high-scale engineering. Handle massive data volumes with ease while significantly reducing costs, leveraging cloud-native architecture and a thoughtful approach to data management.`,
-    url: 'https://axiom.co/',
+    name: 'Black Tech Saturdays',
+    logo: BlackTechSaturdays,
+    desc: `Vision: Bridging divides, creating opportunity, and empowering Black tech communities nationwide to close the racial wealth gap through tech-focused meetups, training, workshops, and advocacy.
+    
+Mission: We strategically empower Black tech communities nationwide to drive economic growth, close the wealth gap, and diversify the tech industry. Through our initiatives, we catalyze measurable outcomes, fostering a future where prosperity is accessible to all.`,
+    url: 'https://www.blacktechsaturdays.com/',
   },
   {
     id: 3,
-    name: 'RIIS',
-    logo: RIIS,
-    desc: `RIIS LLC is a mobile and web development company that specializes in creating drone applications.`,
-    url: 'https://www.riis.com/',
+    name: 'Google',
+    logo: Google,
+    desc: `Our mission is to organize the world’s information and make it universally accessible and useful.
+
+We are committed to significantly improving the lives of as many people as possible by protecting users, building belonging, expanding opportunity, responding to crises, and advancing sustainability.`,
+    url: 'https://www.google.com/',
   },
   {
     id: 4,
-    name: 'SpinDance',
-    logo: SpinDance,
-    desc: `SpinDance, trusted leaders in tech, looking to simplify the complex and connect the physical to the invisible. Every day, we partner with many kinds of organizations to build and manage the software that powers today's smart devices. Our services guide you to discover a value-driven IoT project that aligns with your company's vision and goals. And our end-to-end approach and tech stack help you develop a state-of-the-art IoT solution, one that offers data-driven innovation at its finest.`,
-    url: 'https://spindance.com/',
+    name: 'NSBE Detroit',
+    logo: NSBE,
+    desc: `Representing Black Engineers in Detroit. NSBE Detroit Professionals strive to increase technical awareness, encourage scholastic achievement, and stimulate enthusiasm in the black engineering community of Detroit. NSBE's mission is to increase the number of culturally responsible Black engineers who excel academically, succeed professionally and positively impact the community. The NSBE Professionals inspire the next generation of technical professionals, and serve as a catalyst for transform`,
+    url: 'https://nsbedetroitprofessionals.org/',
   },
   {
     id: 5,
-    name: 'AKKODiS',
-    logo: AKKODiS,
-    desc: `As part of the Adecco Group, the worldwide leader in talent advisory and solutions, Akkodis is a dynamic company poised to lead in the rapidly evolving fields of technology and engineering. With a strong international presence, Akkodis tailors its services to meet local needs while fostering innovation through collaboration in the areas of Talent, Academy, Consulting and Solutions. Committed to sustainability and talent development, Akkodis integrates IT and engineering expertise, delivering com`,
-    url: 'https://www.akkodis.com/',
+    name: 'Clixie AI',
+    logo: ClixieAI,
+    desc: `Experience next-level video engagement with our AI-powered platform - Use our no-code platform to quickly transform ordinary video and audio files into interactive experiences with quizzes, chapters, bookmarks, and more!`,
+    url: 'https://www.clixie.ai/',
   },
   {
     id: 6,
-    name: 'MongoDB',
-    logo: MongoDB,
-    desc: `Build applications on the industry's first developer data platform. From AI-powered and event-driven apps to edge use cases and search, build fast and at the scale users demand.`,
-    url: 'https://www.mongodb.com/',
+    name: 'GDG Detroit',
+    logo: GDGDetroit,
+    desc: `The Detroit Google Developers Group is an inclusive group that meets monthly online and in downtown Detroit to help educate and provide networking opportunities for software developers in the Detroit area.`,
+    url: 'https://gdg.community.dev/gdg-detroit/',
+  },
+  {
+    id: 7,
+    name: 'Grand Circus',
+    logo: GrandCircus,
+    desc: `Grand Circus is a premier coding bootcamp and talent development powerhouse under Dexian. For over a decade, we have proudly equipped over 4,000 students with cutting-edge skills in programming and technology, preparing them to thrive in an ever-evolving digital landscape.
+
+In late 2022, Grand Circus joined forces with Dexian, a leader in staffing, IT, and workforce solutions. This partnership enables us to deliver comprehensive training programs and innovative workforce solutions.`,
+    url: 'https://grandcircus.co/',
+  },
+  {
+    id: 8,
+    name: 'Think Technologies',
+    logo: ThinkTechnologies,
+    desc: `Think Technologies stands at the intersection of technology, creativity, and community. Rooted in the principles of innovation, collaboration, and curiosity, we are dedicated to pioneering solutions that redefine the boundaries of possibility in both the technological and creative realms. Our mission extends beyond industry transformation, aiming to empower small businesses, creatives, and communities alike with accessible, cutting-edge AI-driven tools and insights.`,
+    url: 'https://www.think-technologies.com/',
+  },
+  {
+    id: 9,
+    name: 'DTE Energy',
+    logo: DTE,
+    desc: `DTE Energy (NYSE: DTE) is a Detroit-based diversified energy company involved in the development and management of energy-related businesses and services nationwide. Its operating units include an electric company serving 2.3 million customers in Southeast Michigan and a natural gas company serving 1.3 million customers in Michigan. The DTE portfolio also includes non-utility businesses focused on industrial energy services, renewable natural gas, and energy marketing and trading.`,
+    url: 'https://www.dteenergy.com/',
+  },
+  {
+    id: 10,
+    name: 'Birmingham Angels',
+    logo: BirminghamAngels,
+    desc: `BIRMINGHAM ANGELS IS A DRIVEN VENTURE GROUP COMPRISED OF EXPERIENCED BUSINESS BUILDERS, DIE-HARD SERIAL ENTREPRENEURS, DISRUPTERS, INNOVATORS, AND TECHNOLOGISTS. WE ARE MORE THAN JUST TRADITIONAL INVESTORS, WE ARE WILLING TO LOOK DEEPER, WIDER AND BIGGER.`,
+    url: 'https://birminghamangels.org/',
   },
 ]

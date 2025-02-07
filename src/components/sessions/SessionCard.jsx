@@ -72,7 +72,7 @@ function SessionCard({
                   {startTime} - {endTime}
                 </p>
               </div>
-              <div className="flex flex-col items-center justify-center sm:flex-row sm:space-x-2">
+              <div className="flex flex-col items-center justify-center sm:flex-row sm:space-x-1">
                 <p>in</p>
                 <p className="whitespace-nowrap">{sessionRoom}</p>
               </div>
