@@ -29,7 +29,7 @@ function SponsorsSection() {
               <h1 className="text-2xl font-semibold md:text-3xl">
                 {sponsor.name}
               </h1>
-              <p className="overflow-y-scroll text-justify text-sm md:text-base">
+              <p className="overflow-y-scroll whitespace-pre-wrap p-4 text-justify text-sm md:text-base">
                 {sponsor.desc}
               </p>
             </div>
