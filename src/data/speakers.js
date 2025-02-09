@@ -14,6 +14,9 @@ import ScottRichardson from '@assets/images/speakers/Scott Richardson.jpg'
 import TalonaJohnson from '@assets/images/speakers/Talona Johnson.jpg'
 import TylerMcBeath from '@assets/images/speakers/Tyler McBeath.jpeg'
 import TyroneThorpe from '@assets/images/speakers/Tyrone Thorpe.jpeg'
+import AffiaPhillips from '@assets/images/speakers/Affia Phillips.jpg'
+import VictoriaDrozdowski from '@assets/images/speakers/Victoria Drozdowski.jpg'
+import AchshaJones from '@assets/images/speakers/Achsha Jones.jpg'
 
 export const SpeakersData = [
   {
@@ -327,7 +330,6 @@ export const SpeakersData = [
     id: 15,
     name: 'Affia Phillips',
     email: '',
-    // eslint-disable-next-line no-undef
     avatar: AffiaPhillips,
     bio: '',
     twitter: null,
@@ -393,7 +395,6 @@ export const SpeakersData = [
     id: 18,
     name: 'Victoria Drozdowski',
     email: 'victoria.drozdowski@dynatrace.com',
-    // eslint-disable-next-line no-undef
     avatar: VictoriaDrozdowski,
     bio: '',
     twitter: null,
@@ -416,7 +417,6 @@ export const SpeakersData = [
     id: 19,
     name: 'Achsha Jones',
     email: 'achsha@trytripslip.com',
-    // eslint-disable-next-line no-undef
     avatar: AchshaJones,
     bio: '',
     twitter: null,
