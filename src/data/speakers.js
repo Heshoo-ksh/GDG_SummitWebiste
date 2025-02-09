@@ -17,6 +17,7 @@ import TyroneThorpe from '@assets/images/speakers/Tyrone Thorpe.jpeg'
 import AffiaPhillips from '@assets/images/speakers/Affia Phillips.jpg'
 import VictoriaDrozdowski from '@assets/images/speakers/Victoria Drozdowski.jpg'
 import AchshaJones from '@assets/images/speakers/Achsha Jones.jpg'
+import CiaraCade from '@assets/images/speakers/Ciara Cade.jpg'
 
 export const SpeakersData = [
   {
@@ -88,14 +89,13 @@ export const SpeakersData = [
   {
     id: 4,
     name: 'Ciara Cade',
-    email: 'Jim.Mason@LCECorp.com',
-    // eslint-disable-next-line no-undef
+    email: '',
     avatar: CiaraCade,
     bio: '',
     twitter: null,
     url: '',
-    organization: 'Little Caesars',
-    position: 'VP, Customer and IT Systems Support',
+    organization: '',
+    position: '',
     session: {
       title: 'Speed Networking 1 & 2 Facilitator',
       abstract: null,
