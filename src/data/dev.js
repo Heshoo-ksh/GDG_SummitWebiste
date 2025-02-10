@@ -9,7 +9,7 @@ export const devTeamData = [
     github: 'https://github.com/Heshoo-ksh',
     university: 'University Of Michigan - Dearborn',
     organization: 'Ancor Automotive',
-    position: 'Junior Software Engineer And Student',
+    position: 'Junior Software Engineer',
     avatar: Hisham_Odeh,
   },
 ]
