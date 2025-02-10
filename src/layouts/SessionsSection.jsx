@@ -22,7 +22,13 @@ const convertTo24Hour = (time) => {
 
 function SessionsSection() {
   const [activeTab, setActiveTab] = useState(0)
-  const tabs = ['Build with AI', 'COMPES', 'Venture313', 'Workshops']
+  const tabs = [
+    'Open Innovation',
+    'COMPES', //Update to Professional Development - Will need to update the track name as well in the .js file
+    'Venture313', //Update to Founders & Funders - Will need to update the track name as well in the .js file
+    'Detroit Ecosystem',
+    'Breakout Sessions',
+  ]
 
   let combinedSpeakerData = []
 
