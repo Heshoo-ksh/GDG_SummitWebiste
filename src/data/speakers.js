@@ -1,12 +1,53 @@
+//
 import ChristinaDrake from '@/assets/images/speakers/Christina Drake.jpg'
 import DianeBouis from '@/assets/images/speakers/Diane Bouis.jpg'
 import CrystalBrown from '@/assets/images/speakers/Crystal Brown.jpg'
+
 import defaultprofile from '@/assets/images/speakers/default profile.png'
 
-
-
+/* EMTPY SPEAKER FOR COPY/PASTE */
+// {
+//   id: 0,
+//   name: '',
+//   email: '',
+//   avatar: defaultprofile,
+//   bio: '',
+//   twitter: null,
+//   url: '',
+//   organization: '',
+//   position: '',
+//   session: {
+//     title: '',
+//     abstract: '',
+//     description: '',
+//     tags: [],
+//     track: '',
+//     time: '00:00',
+//     room: '',
+//   },
+// },
 
 export const SpeakersData = [
+  {
+    id: 0,
+    name: '',
+    email: '',
+    avatar: defaultprofile,
+    bio: '',
+    twitter: null,
+    url: '',
+    organization: '',
+    position: '',
+    session: {
+      title: '',
+      abstract: '',
+      description: '',
+      tags: [],
+      track: '',
+      time: '00:00',
+      room: '',
+    },
+  },
   {
     id: 1,
     name: 'Brittni Abiolu',
@@ -20,9 +61,9 @@ export const SpeakersData = [
     session: {
       title: 'MFF Accelerator with Gener8r',
       abstract: 'Info is not available',
-      description: 'Info is not available' ,
+      description: 'Info is not available',
       tags: [],
-      track: 'Venture313',
+      track: 'Founders & Funders',
       time: '12:55',
       room: '(1st Floor) Venture Stage',
     },
@@ -40,9 +81,9 @@ export const SpeakersData = [
     session: {
       title: 'MFF Accelerator with Gener8r',
       abstract: 'Info is not available',
-      description:'Info is not available',
+      description: 'Info is not available',
       tags: [],
-      track: 'Venture313',
+      track: 'Founders & Funders',
       time: '12:55',
       room: '(1st Floor) Venture Stage',
     },
@@ -59,10 +100,10 @@ export const SpeakersData = [
     position: 'Info is not available',
     session: {
       title: 'Venture 101: Why Venture is Important',
-      abstract:'Info is not available',
+      abstract: 'Info is not available',
       description: 'Info is not available',
       tags: [],
-      track: 'Venture313',
+      track: 'Founders & Funders',
       time: '11:45',
       room: '(1st Floor) Venture Stage',
     },
@@ -83,7 +124,7 @@ export const SpeakersData = [
       description:
         'Life Science is a high risk high reward industry to invest in. How does our landscape compare to our neighbors and nationally? What can we do to increase the long-term success of this industry here?',
       tags: [],
-      track: 'Venture313',
+      track: 'Founders & Funders',
       time: '3:05',
       room: '(1st Floor) Venture Stage',
     },
@@ -101,12 +142,12 @@ export const SpeakersData = [
     session: {
       title: 'Life Sciences',
       abstract: 'Info is not available',
-      description:'It’s hard.. yes, that doesn’t mean you’re wrong. We’re often made to feel as founders that if you’re not funded or in the spotlight, you’re wrong. That’s not necessarily the case. The session would talk about the things we don’t normally talk about - the gray areas and non traditional pivots that are vital to your startup journey and success.',
+      description:
+        'It’s hard.. yes, that doesn’t mean you’re wrong. We’re often made to feel as founders that if you’re not funded or in the spotlight, you’re wrong. That’s not necessarily the case. The session would talk about the things we don’t normally talk about - the gray areas and non traditional pivots that are vital to your startup journey and success.',
       tags: [],
-      track: 'Venture313',
+      track: 'Founders & Funders',
       time: '3:05',
       room: '(1st Floor) Venture Stage',
     },
   },
 ]
-
