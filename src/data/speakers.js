@@ -37,9 +37,9 @@ export const SpeakersData = [
       description:
         "Are you a software engineer who believes technical prowess alone guarantees success? Do you think writing flawless code is the sole key to success in software engineering?\nThis talk challenges that notion, highlighting two often-underestimated skills vital for career advancement: building a strong professional network and mastering computer networks. We'll explore the reasons why these skills are indispensable, exploring the ways a strong network opens doors to opportunities and how troubleshooting network issues empowers engineers. Discover unexpected parallels between these seemingly unrelated domains, as we draw connections between nurturing professional relationships and constructing efficient network infrastructure.\nYou will walk away with practical insights to accelerate your career growth, whether you're a seasoned engineer or just starting out.",
       tags: ['Misc'],
-      track: 'COMPES',
+      track: 'Professional Development',
       time: '10:45',
-      room: 'Reserve n Ready',
+      room: 'Compass Stage and Common Area',
     },
   },
   {
@@ -59,9 +59,9 @@ export const SpeakersData = [
       description:
         'Are you a software engineer who believes technical prowess alone guarantees success? Do you think writing flawless code is the sole key to success in software engineering?\nThis talk challenges that notion, highlighting two often-underestimated skills vital for career advancement: building a strong professional network and mastering computer networks. We\'ll explore the reasons why these skills are indispensable, exploring the ways a strong network opens doors to opportunities and how troubleshooting network issues empowers engineers. Discover unexpected parallels between these seemingly unrelated domains, as we draw connections between nurturing professional relationships and constructing efficient network infrastructure.\nYou will walk away with practical insights to accelerate your career growth, whether you\'re a seasoned engineer or just starting out.',
       tags: ['Technology'],
-      track: 'COMPES',
+      track: 'Professional Development',
       time: '10:45',
-      room: 'Reserve n Ready',
+      room: 'Compass Stage and Common Area',
     },
   },
   {
@@ -81,9 +81,9 @@ export const SpeakersData = [
       description:
         'How to Government Contract as a Tech Professional\n\nIntroduction\nBriefly introduce yourself and your background in tech and government contracting.\nExplain why government contracting is a valuable opportunity for tech professionals.\n\nUnderstanding Government Contracts\nDefine what government contracting is and its significance in the tech industry.\nDiscuss the types of government contracts available (e.g., federal, state, local) and sectors involved (software development, cybersecurity, etc.).\n\nGetting Started\nExplain the qualifications and skills needed to pursue government contracts.\nDiscuss the importance of certifications (e.g., SBA 8(a), HUBZone, etc.) and how they can enhance opportunities.\n\nFinding Opportunities\nShare resources for locating government contracts (e.g., SAM.gov, FedBizOpps).\nDiscuss networking opportunities, such as government contractor fairs and industry conferences.\n\nNavigating the Proposal Process\nOutline the steps to create a compelling proposal, including understanding requirements and tailoring your approach.\nShare tips on pricing strategies and project management.\n\nBuilding Relationships\nDiscuss the importance of establishing relationships with government agencies and other contractors.\nShare best practices for networking and collaboration.\n\nCase Studies and Success Stories\nHighlight examples of tech professionals or companies successfully contracting with the government.\nDiscuss the impact of their work and any lessons learned.\n\nQ&A Session\nOpen the floor for questions and engage with the audience to address their concerns and interests.\n\nConclusion\nSummarize key points and encourage attendees to explore government contracting as a viable career path.\nProvide your contact information or resources for further learning.',
       tags: [],
-      track: 'COMPES',
+      track: 'Professional Development',
       time: '10:45',
-      room: 'Reserve n Ready',
+      room: 'Compass Stage and Common Area',
     },
   },
   {
@@ -91,20 +91,20 @@ export const SpeakersData = [
     name: 'Ciara Cade',
     email: '',
     avatar: CiaraCade,
-    bio: '',
+    bio: 'I’m Ciara Cade, a social entrepreneur, professional development influencer, and aspiring software engineer. I’m a senior at the University of Michigan, studying Computer Science, with a passion for building innovative solutions in big tech and fintech. ',
     twitter: null,
-    url: '',
-    organization: '',
-    position: '',
+    url: 'https://www.linkedin.com/in/ciaracade/',
+    organization: 'University of Michigan',
+    position: 'Social entrepreneur',
     session: {
       title: 'Speed Networking 1 & 2 Facilitator',
       abstract: null,
       description:
         '',
       tags: [],
-      track: 'COMPES',
+      track: 'Professional Development',
       time: '10:45',
-      room: 'Reserve n Ready',
+      room: 'Compass Stage and Common Area',
     },
   },
   {
@@ -124,9 +124,9 @@ export const SpeakersData = [
       description:
         "",
       tags: [],
-      track: 'COMPES',
+      track: 'Professional Development',
       time: '11:15',
-      room: 'Pizza Pizza',
+      room: 'Compass Stage and Common Area',
     },
   },
   {
@@ -146,9 +146,9 @@ export const SpeakersData = [
       description:
         '',
       tags: ['Misc'],
-      track: 'COMPES',
+      track: 'Professional Development',
       time: '10:45',
-      room: 'Reserve n Ready',
+      room: 'Compass Stage and Common Area',
     },
   },
   {
@@ -159,8 +159,8 @@ export const SpeakersData = [
     bio: 'Oneika Mobley is a veteran public relations practitioner. She is the Vice President and Associate Director of Community Development & ESG Communications at The Huntington National Bank. Oneika is on the board of directors of the Torch of Wisdom Foundation, Inc. in Southfield, Michigan, serving as Community Programs Director. Her civic work also includes leading a weekly English as a Second Language (ESL) conversation class, and serving as a board member of the Communications Commission representing the Greater Detroit District of the United Methodist Church - Michigan Conference. In addition to serving in these and many other areas, Oneikas true passion is supporting fine arts - from performing to visual arts. She loves collecting original fine artwork and avidly supports emerging and established artists. Oneika received a Bachelor of Science degree in Speech Communications and Theater from Tennessee State University and now resides in Northville, MI.',
     twitter: null,
     url: 'https://www.linkedin.com/in/oneikamobley/',
-    organization: 'n/a',
-    position: '-',
+    organization: 'Huntington National Bank',
+    position: 'Vice President',
     session: {
       title: 'Art & Generational Wealth presented by Compass Detroit',
       abstract:
@@ -168,9 +168,9 @@ export const SpeakersData = [
       description:
         '',
       tags: [],
-      track: 'COMPES',
+      track: 'Professional Development',
       time: '11:15',
-      room: 'Reserve n Ready',
+      room: 'Compass Stage and Common Area',
     },
   },
   {
@@ -181,8 +181,8 @@ export const SpeakersData = [
     bio: 'I am a Pontiac native who specializes in mixed media. I relocated to Detroit after becoming a member of the Detroit Fine Arts Breakfast Club. Since joining, I\'ve secured numerous sold-out exhibitions and sold over 150 works. My pieces have created an inventive demand for collectors to purchase more emergent work. In 2024, I was awarded the Gucci Changemakers Siren Art Wall and commissioned to be part of the University of Michigan’s permanent collection. I engage with my community by collaborating, collecting, and curating other artists\' work.',
     twitter: null,
     url: 'www.oshunwilliams.com',
-    organization: 'Detroit Black Arts',
-    position: '-',
+    organization: 'Mitten Made Originals LLC',
+    position: 'Artist',
     session: {
       title: 'Art & Generational Wealth presented by Compass Detroit',
       abstract:
@@ -190,9 +190,9 @@ export const SpeakersData = [
       description:
         '',
       tags: [],
-      track: 'COMPES',
+      track: 'Professional Development',
       time: '11:15',
-      room: 'Reserve n Ready',
+      room: 'Compass Stage and Common Area',
     },
   },
   {
@@ -212,9 +212,9 @@ export const SpeakersData = [
       description:
         '',
       tags: [],
-      track: 'COMPES',
+      track: 'Professional Development',
       time: '11:45',
-      room: 'Reserve n Ready',
+      room: 'Compass Stage and Common Area',
     },
   },
   {
@@ -234,9 +234,9 @@ export const SpeakersData = [
       description:
         '',
       tags: [],
-      track: 'COMPES',
+      track: 'Professional Development',
       time: '11:45',
-      room: 'Reserve n Ready',
+      room: 'Compass Stage and Common Area',
     },
   },
   {
@@ -256,9 +256,9 @@ export const SpeakersData = [
       description:
         '',
       tags: [],
-      track: 'COMPES',
+      track: 'Professional Development',
       time: '11:45',
-      room: 'Reserve n Ready',
+      room: 'Compass Stage and Common Area',
     },
   },
   {
@@ -277,9 +277,9 @@ export const SpeakersData = [
       description:
         '',
       tags: [],
-      track: 'COMPES',
+      track: 'Professional Development',
       time: '2:00',
-      room: 'Reserve n Ready',
+      room: 'Compass Stage and Common Area',
     },
   },
   {
@@ -299,9 +299,9 @@ export const SpeakersData = [
       description:
         '',
       tags: [],
-      track: 'COMPES',
+      track: 'Professional Development',
       time: '2:00',
-      room: 'Reserve n Ready',
+      room: 'Compass Stage and Common Area',
     },
   },
   {
@@ -321,21 +321,21 @@ export const SpeakersData = [
       description:
         '',
       tags: [],
-      track: 'COMPES',
+      track: 'Professional Development',
       time: '02:30',
-      room: 'Reserve n Ready',
+      room: 'Compass Stage and Common Area',
     },
   },
   {
     id: 15,
     name: 'Affia Phillips',
-    email: '',
+    email: 'askp648@gmail.com',
     avatar: AffiaPhillips,
-    bio: '',
+    bio: 'Afia Phillips has over 20 years of experience in the Information Security field. As a highly respected transformational IT executive, Afia has extensive experience in building and leading global cyber security organizations and ensuring development of programs that align with the strategic goals and ambitions of the business. She is a part of the Little Caesar Enterprises Strategic Planning Committee and works closely with the other members of the senior executive team to create a brand, vision, and mission that elevates the security organization to be a strategic business partner. She promotes a security culture that enables risk-based decisions in support of achieving business objectives and outcomes, excels at developing and retaining high-performance teams and has proven ability to improve quality and efficiency, identify and mitigate risks, and reduce costs.',
     twitter: null,
-    url: '-',
-    organization: '-',
-    position: '-',
+    url: 'https://www.linkedin.com/in/afia-phillips-8664b77/',
+    organization: 'Little Caesar\'s Pizza',
+    position: 'Chief Information Security Officer',
     session: {
       title: 'Women in Tech Panel presented by Think Technologies',
       abstract:
@@ -343,9 +343,9 @@ export const SpeakersData = [
       description:
         'This panel offers an opportunity for everyone in tech to learn from the experiences of Google Women Techmakers who are driving change in the industry. We’ll discuss strategies for overcoming obstacles, fostering diversity, and creating inclusive environments where all voices are heard. Whether you’re an ally, a mentor, or someone navigating your own career path, you’ll gain valuable insights on how to build a more equitable and innovative tech community.',
       tags: ['Technology'],
-      track: 'COMPES',
+      track: 'Professional Development',
       time: '03:00',
-      room: 'Reserve n Ready',
+      room: 'Compass Stage and Common Area',
     },
   },
   {
@@ -364,9 +364,9 @@ export const SpeakersData = [
       description:
         'This panel offers an opportunity for everyone in tech to learn from the experiences of Google Women Techmakers who are driving change in the industry. We’ll discuss strategies for overcoming obstacles, fostering diversity, and creating inclusive environments where all voices are heard. Whether you’re an ally, a mentor, or someone navigating your own career path, you’ll gain valuable insights on how to build a more equitable and innovative tech community.',
       tags: ['Technology'],
-      track: 'COMPES',
+      track: 'Professional Development',
       time: '03:00',
-      room: 'Reserve n Ready',
+      room: 'Compass Stage and Common Area',
     },
   },
   {
@@ -374,7 +374,7 @@ export const SpeakersData = [
     name: 'Meagan Ward',
     email: 'Mentor@meaganward.co',
     avatar: MeaganWard,
-    bio: 'Meagan Ward is a dynamic leader in diplomacy and economic development, leveraging her role as a Diplomatic Speaker of the U.S. Embassies & Consulates to spearhead global initiatives that revolutionize women\'s entrepreneurship. At the forefront of international activism, Meagan collaborates with government officials, corporations, and ecosystem leaders in the U.S., Japan, and beyond to create community infrastructure and elite programming worldwide, sharing her vision on U.S. Diplomatic trips. Throughout her career, Meagan has empowered women to elevate their careers and influence by teaching them how to leverage their goals to effect change. Her work emphasizes the heightened importance of empowering girls and women, bringing her vision of redefining female empowerment to a global audience. As the founder of Femology, Detroit’s first women-centered co-working facility, Meagan transformed how women business owners viewed themselves and their community. Initially a shared office space, Femology is now a force for economic development in Michigan, in partnership with Michigan Central, where Meagan serves as the Community Builder in Residence, developing programs and resources for women in business. Co-founding femUniti Inc. in Japan, Meagan expanded her influence globally. femUniti\'s mission is to empower women by creating inclusive communities and spaces that support personal and professional growth, aiming to bridge cultural gaps and provide resources for women leaders and entrepreneurs. Meagan serves on advisory boards, including Western Michigan University’s Young Alumni, SEEN Magazine, Reparation Generation, and co-chair of Michigan Tech Week. Since founding her branding 1 agency in college, Meagan has played a pivotal role in elevating consumer packaged goods (CPG) companies to national prominence and facilitating their acquisition. Guided by her mantra, "Daily determination determines destiny," she consistently makes a profound impact. Powerfully poised in entrepreneurial activism and global empowerment, Meagan Ward is an incomparable impact leader, strategist, and branding maven, consistently positioning women for greatness in business and life. She crafts her life\'s work around empowering women to elevate their careers while staying authentic to their inner compass. Meagan\'s own North Star is her role as a Mother and Wife. Building the Ward family with unwavering focus, Meagan defies odds in her personal walk of faith, commitment, and family honor.',
+    bio: 'Meagan Ward is a dynamic leader in diplomacy and economic development, leveraging her role as a Diplomatic Speaker of the U.S. Embassies & Consulates to spearhead global initiatives that revolutionize women\'s entrepreneurship. At the forefront of international activism, Meagan collaborates with government officials, corporations, and ecosystem leaders in the U.S., Japan, and beyond to create community infrastructure and elite programming worldwide, sharing her vision on U.S. Diplomatic trips.',
     twitter: null,
     url: 'https://www.femology.com/',
     organization: 'Femology',
@@ -386,9 +386,9 @@ export const SpeakersData = [
       description:
         'This panel offers an opportunity for everyone in tech to learn from the experiences of Google Women Techmakers who are driving change in the industry. We’ll discuss strategies for overcoming obstacles, fostering diversity, and creating inclusive environments where all voices are heard. Whether you’re an ally, a mentor, or someone navigating your own career path, you’ll gain valuable insights on how to build a more equitable and innovative tech community.',
       tags: ['Technology'],
-      track: 'COMPES',
+      track: 'Professional Development',
       time: '03:00',
-      room: 'Reserve n Ready',
+      room: 'Compass Stage and Common Area',
     },
   },
   {
@@ -396,11 +396,11 @@ export const SpeakersData = [
     name: 'Victoria Drozdowski',
     email: 'victoria.drozdowski@dynatrace.com',
     avatar: VictoriaDrozdowski,
-    bio: '',
+    bio: 'With expertise in client management, data analysis, and driving business outcomes, I have led complex projects for Fortune 10 to middle-market organizations, delivering actionable insights and fostering collaboration to achieve impactful results.',
     twitter: null,
-    url: '',
+    url: 'https://www.linkedin.com/in/vababinchak/',
     organization: 'Dynatrace',
-    position: '',
+    position: 'Data Analytics Consultant, Business Insights',
     session: {
       title: 'Women in Tech Panel presented by Think Technologies',
       abstract:
@@ -408,9 +408,9 @@ export const SpeakersData = [
       description:
         'This panel offers an opportunity for everyone in tech to learn from the experiences of Google Women Techmakers who are driving change in the industry. We’ll discuss strategies for overcoming obstacles, fostering diversity, and creating inclusive environments where all voices are heard. Whether you’re an ally, a mentor, or someone navigating your own career path, you’ll gain valuable insights on how to build a more equitable and innovative tech community.',
       tags: ['Technology'],
-      track: 'COMPES',
+      track: 'Professional Development',
       time: '3:00',
-      room: 'Reserve n Ready',
+      room: 'Compass Stage and Common Area',
     },
   },
   {
@@ -418,11 +418,11 @@ export const SpeakersData = [
     name: 'Achsha Jones',
     email: 'achsha@trytripslip.com',
     avatar: AchshaJones,
-    bio: '',
+    bio: 'As an Entrepreneur, I pride myself on leveraging the intersectionality of my areas of expertise (Sales, Food, Transportation, Real Estate and Safety & Compliance) to grow my network and to add value to those that I encounter. As a Native and Current Detroiter, I love sharing and telling stories from my perspective as it relates to parenthood, marriage, entrepreneurship and the aforementioned areas of expertise.',
     twitter: null,
-    url: '',
+    url: 'https://www.linkedin.com/in/achshasoandso/',
     organization: 'TripSlip',
-    position: '',
+    position: 'CEO & Co-Founder',
     session: {
       title: 'Women in Tech Panel presented by Think Technologies',
       abstract:
@@ -430,21 +430,21 @@ export const SpeakersData = [
       description:
         'This panel offers an opportunity for everyone in tech to learn from the experiences of Google Women Techmakers who are driving change in the industry. We’ll discuss strategies for overcoming obstacles, fostering diversity, and creating inclusive environments where all voices are heard. Whether you’re an ally, a mentor, or someone navigating your own career path, you’ll gain valuable insights on how to build a more equitable and innovative tech community.',
       tags: ['Technology'],
-      track: 'COMPES',
+      track: 'Professional Development',
       time: '3:00',
-      room: 'Reserve n Ready',
+      room: 'Compass Stage and Common Area',
     },
   },
   {
     id: 20,
     name: 'Angela Richardson',
-    email: '',
+    email: 'angela.rene.richardson@gmail.com',
     avatar: AngelaRichardson,
     bio: '',
     twitter: null,
-    url: '',
-    organization: 'Altair Engineering',
-    position: '',
+    url: 'https://www.linkedin.com/in/angelamrichardson/',
+    organization: 'Board.org',
+    position: 'Membership Director',
     session: {
       title: 'From Black History to Black Legacy: The Lasting Impact of Membership in NSBE presented by Compass Detroit',
       abstract:
@@ -452,9 +452,9 @@ export const SpeakersData = [
       description:
         '',
       tags: [],
-      track: 'COMPES',
+      track: 'Professional Development',
       time: '10:45',
-      room: 'Reserve n Ready',
+      room: 'Compass Stage and Common Area',
     },
   },
 ]
