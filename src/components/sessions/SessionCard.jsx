@@ -64,7 +64,22 @@ function SessionCard({
             <h3 className="font-bold md:text-xl lg:text-2xl xl:text-3xl">
               {sessionTitle}
             </h3>
-            <p className="text-gray-700">by {speakers.join(' & ')}</p>
+            <p className="text-gray-700">
+              by{' '}
+              {speakers.map(
+                (s, i) =>
+                  `${s}${
+                    /* if last name, nothing comes after */
+                    i === speakers.length - 1
+                      ? ''
+                      : /* if second-to-last name, add an & */
+                        i !== speakers.length - 2
+                        ? ','
+                        : ', &'
+                  } `
+              )}
+            </p>
+
             <div className="mt-2.5 flex items-center space-x-4 text-sm sm:space-x-2 sm:text-base">
               <div className="flex flex-col items-center justify-center sm:flex-row sm:space-x-2">
                 <p>at</p>

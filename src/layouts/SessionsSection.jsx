@@ -24,8 +24,8 @@ function SessionsSection() {
   const [activeTab, setActiveTab] = useState(0)
   const tabs = [
     'Open Innovation',
-    'COMPES', //Update to Professional Development - Will need to update the track name as well in the .js file
-    'Founders & Funders', 
+    'Professional Development',
+    'Founders & Funders',
     'Detroit Ecosystem',
     'Breakout Sessions',
   ]
