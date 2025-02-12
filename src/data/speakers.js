@@ -478,6 +478,18 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
 
   // funders and founders
   {
+import defaultprofile from '@/assets/images/speakers/default profile.png'
+import BryannaGrant from '@/assets/images/speakers/Bryanna Grant.png'
+import DavidBloom from '@/assets/images/speakers/David Bloom.jpg'
+import DeWayneWilliams from '@/assets/images/speakers/DeWayne Williams.jpg'
+import DrSabrinaJackson from '@/assets/images/speakers/Dr Sabrina Jackson.jpeg'
+import EdFowler from '@/assets/images/speakers/Ed Fowler.jpeg'
+
+
+
+export const SpeakersData = [
+  {
+    id: 1,
     name: 'Brittni Abiolu',
     email: '',
     avatar: defaultAvatar,
@@ -489,6 +501,11 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
       description: '',
       track: 'Founders & Funders',
       time: '12:55',
+      abstract: 'Info is not available',
+      description: 'Info is not available' ,
+      tags: [],
+      track: 'Founders & Funders',
+      time: '11:15',
       room: '(1st Floor) Venture Stage',
     },
   },
@@ -504,6 +521,11 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
       description: '',
       track: 'Founders & Funders',
       time: '12:55',
+      abstract: 'Info is not available',
+      description:'Info is not available',
+      tags: [],
+      track: 'Founders & Funders',
+      time: '11:15',
       room: '(1st Floor) Venture Stage',
     },
   },
@@ -517,6 +539,10 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     session: {
       title: 'Venture 101: Why Venture is Important',
       description: '',
+      track: 'Founders & Funders',
+      abstract:'Info is not available',
+      description: 'Info is not available',
+      tags: [],
       track: 'Founders & Funders',
       time: '11:45',
       room: '(1st Floor) Venture Stage',
@@ -534,6 +560,8 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
       description:
         'Life Science is a high risk high reward industry to invest in. How does our landscape compare to our neighbors and nationally? What can we do to increase the long-term success of this industry here?',
       track: 'Founders & Funders',
+      tags: [],
+      track: 'Founders & Funders',
       time: '3:05',
       room: '(1st Floor) Venture Stage',
     },
@@ -550,10 +578,136 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
       description:
         'It’s hard.. yes, that doesn’t mean you’re wrong. We’re often made to feel as founders that if you’re not funded or in the spotlight, you’re wrong. That’s not necessarily the case. The session would talk about the things we don’t normally talk about - the gray areas and non traditional pivots that are vital to your startup journey and success.',
       track: 'Founders & Funders',
+      abstract: 'Info is not available',
+      description:'It’s hard.. yes, that doesn’t mean you’re wrong. We’re often made to feel as founders that if you’re not funded or in the spotlight, you’re wrong. That’s not necessarily the case. The session would talk about the things we don’t normally talk about - the gray areas and non traditional pivots that are vital to your startup journey and success.',
+      tags: [],
+      track: 'Founders & Funders',
       time: '3:05',
       room: '(1st Floor) Venture Stage',
     },
   },
+  {
+    id: 6,
+    name: 'Bryanna Grant',
+    email: 'yanagrant@hustleandbrand.com',
+    avatar: BryannaGrant,
+    bio: 'Yana Grant is a seasoned career strategist with experience at leading companies like Lockheed Martin, Meta, LinkedIn, and NBCUniversal. As the founder of Hustle and Brand, Yana has helped countless high school and college students navigate the transition from campus to career. With expertise in LinkedIn optimization, resume crafting, and professional branding, she empowers students to unlock opportunities like internships, post-graduation programs, and meaningful careers. Her journey began at Long Beach Poly High, where she dedicated her lunch breaks to building a relationship with her career counselor—a commitment that led to scholarship recommendations and opportunities. This early focus on networking and personal branding opened doors to internships across the country during her time at Howard University and immediately after graduation. Passionate about equipping the next generation for success, Yana brings practical advice and a relatable approach to every session, inspiring both students and parents to embrace LinkedIn as a powerful tool for growth and achievement.',
+    twitter: null,
+    url: 'hustleandbrand.com',
+    organization: 'Hustle and Brand',
+    position: '',
+    session: {
+      title: 'Maximizing LinkedIn for Campus-to-Career Success:Empowering Students and Parents',
+      abstract: 'High school and college students, along with their parents, will gain actionable insights in this engaging session on using LinkedIn as a powerful tool for career exploration, development, and success. Whether preparing for college, searching for internships, or pursuing post-graduation opportunities, this talk will provide a roadmap for turning passions into professions.',
+      description:'How to create eye-catching LinkedIn profiles that showcase skills, extracurricular activities, and goals. Ways to explore career paths and identify opportunities like internships and rotational programs that align with interests. Practical tips for networking with industry professionals, alumni, and recruiters to build meaningful connections. Parents will also learn how to support their students in leveraging LinkedIn for academic and career growth, ensuring they’re prepared for the journey from education to a fulfilling career. Join us to uncover the tools to succeed in today’s competitive world!',
+      tags: [],
+      track: 'Founders & Funders',
+      time: '10:45',
+      room: '(1st Floor) Woodward',
+    },
+  },
+  {
+    id: 7,
+    name: 'Dr.Sabrina Jackson',
+    email: 'info@sabrinajackson.com',
+    avatar: DrSabrinaJackson,
+    bio: 'Dr. Sabrina Jackson is known as “The People Expert”. She is the creator of Essential Colors a personality assessment model designed to help people understand how they are wired and then how to effectively work with those wired differently. An award winning speaker seen on Fox 2 News weekly with Mental Health Mondays.',
+    twitter: null,
+    url: 'www.essentialcolors.com',
+    organization: 'Essential Colors',
+    position: '',
+    session: {
+      title: 'The People Principle',
+      abstract: 'Info not available',
+      description:'Session will help the participants learn their personality style in a very interactive and engaging session',
+      tags: [],
+      track: 'Founders & Funders',
+      time: '11:45',
+      room: '(1st Floor) Woodward',
+    },
+  },
+  {
+    id: 8,
+    name: 'Dawn Batts',
+    email: 'Info not available',
+    avatar: defaultprofile,
+    bio: 'Info not available',
+    twitter: null,
+    url: 'Info not available',
+    organization: 'Info not available',
+    position: '',
+    session: {
+      title: 'Angel Investing 101',
+      abstract: 'Info not available',
+      description:'Info not available',
+      tags: [],
+      track: 'Founders & Funders',
+      time: '1:00',
+      room: '(1st Floor) Woodward',
+    },
+  },
+  {
+    id: 9,
+    name: 'David Bloom',
+    email: 'david@pointeangels.com',
+    avatar: DavidBloom,
+    bio: 'For my part, I will run a #3 Workshop on Angel Investing, provided the event attracts enough Accredited Investors for it to make sense. I will ll tightly moderate a fireside, or participate in a tightly-moderated #2 Panel discussion, but prefer not to join a "shooting gallery" Q&A&A&A session. The default is #1, Prof.Bloom at the podium - here is my Delve Deep-Dive on Angel-Added Value. https://www.factotem.com/bloom/educator/ ',
+    twitter: null,
+    url: 'https://www.linkedin.com/company/pointe-angels/',
+    organization: 'Pointe Angels',
+    position: '',
+    session: {
+      title: 'Angel Investing in 2025, the "Valley of Death"',
+      abstract: 'Info not available',
+      description:"The Mini - Angel Investing in 2025, the 'Valley of Death,' and how Angels engage to help founders across The Macro - Michigan's Innovation Ecosystem, how connectors (like you) create webs of value that retain Innovation. The Campaign - Michigan Angel Tax Credits - Michigan can be an Ecosystem or a Farm System - Angels make the difference.",
+      tags: [],
+      track: 'Founders & Funders',
+      time: '1:00',
+      room: '(1st Floor) Woodward',
+    },
+  },
+  {
+    id: 10,
+    name: 'DeWayne Williams',
+    email: 'dwilliams@etg10.com',
+    avatar: DeWayneWilliams,
+    bio: 'As a seasoned technology consultant and entrepreneur with a strong background in wireless technologies, including 5G, and network security and as the founder of Essential Technology Group LLC, DeWayne has demonstrated a commitment to supporting and empowering underrepresented founders. My extensive experience in team building, IT consulting, and advanced networking solutions has made me a trusted advisor and mentor to many. My dedication to economic empowerment and mentorship is evident through his active involvement in initiatives aimed at supporting underrepresented groups such as being a Mentor in Residence for Venturewell, Milestone Capital and simalar programs. I have a proven track record of helping founders navigate the challenges of entrepreneurship, providing them with the guidance and resources needed to succeed in their startup Journey. With a passion for fostering diversity and inclusion, I have continued to make a significant impact by mentoring and supporting underrepresented founders, helping them overcome systemic barriers and achieve their entrepreneurial goals.',
+    twitter: null,
+    url: 'www.etg10.com',
+    organization: 'Essential Technology Group',
+    position: '',
+    session: {
+      title: 'Mentorship and Support for Underrepresented Founders',
+      abstract: 'Info not available',
+      description:'As a mentor and supporter of underrepresented founders, I would like to discuss the importance of mentorship and provide strategies for supporting and empowering underrepresented entrepreneurs.',
+      tags: [],
+      track: 'Founders & Funders',
+      time: '1:00',
+      room: '(1st Floor) Woodward',
+    },
+  },
+  {
+    id: 11,
+    name: 'Ed Fowler',
+    email: 'ed@detroitlandmark.com',
+    avatar: EdFowler,
+    bio: 'Ed Fowler is a visionary entrepreneur and real estate developer with a passion for innovation and community impact. As the Founder and CEO of FBrothers & Company, Inc. (FBC), Ed leads the creation of intelligent software solutions for the PropTech and ConstructionTech industries. He is also a partner at Detroit Landmark Development, a company dedicated to building smart, high-quality, and affordable residences that transform communities. With expertise spanning technology, real estate, and construction, Ed is committed to driving progress through innovative tools, sustainable housing solutions, and community-driven projects. FBrothers & Company, Inc: https://fbc.nyc/ ',
+    twitter: null,
+    url: 'https://www.linkedin.com/in/fbrothers/',
+    organization: 'Detroit Landmark Development Corp',
+    position: '',
+    session: {
+      title: 'Smart Homes, Smarter Communities: Transforming Affordable Housing in Detroit',
+      abstract: 'Info not available',
+      description:'Explore how smart home automation is transforming affordable housing in Detroit, paving the way for modern, connected living. Through the lens of the Weston Hall project, this session delves into the integration of innovative technologies—such as smart locks, thermostats, and the tenant-focused PropertyDek platform—that enhance energy efficiency, simplify property management, and elevate tenant experiences. Discover how these advancements improve quality of life while setting a new benchmark for urban housing. Attendees will leave with a deeper understanding of implementation challenges, measurable impacts, and the emerging trends shaping the future of smart, sustainable communities over the next 3–5 years. Weston Hall Project: https://thewestonhall.com/ PropertyDek: https://propertydek.com/ ',
+      tags: [],
+      track: 'Founders & Funders',
+      time: '3:00',
+      room: '(1st Floor) Woodward',
+    },
+  },
+  
+
 ]
 
 // gives ID to each speaker automatically
