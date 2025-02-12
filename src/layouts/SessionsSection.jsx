@@ -23,9 +23,9 @@ const convertTo24Hour = (time) => {
 function SessionsSection() {
   const [activeTab, setActiveTab] = useState(0)
   const tabs = [
-    'Open Innovation',
-    'COMPES', //Update to Professional Development - Will need to update the track name as well in the .js file
-    'Founders & Funders', 
+    'Open Innovation', // formerly Build with AI
+    'Professional Development', // formerly COMPASS
+    'Founders & Funders', // formerly Venture313
     'Detroit Ecosystem',
     'Breakout Sessions',
   ]
