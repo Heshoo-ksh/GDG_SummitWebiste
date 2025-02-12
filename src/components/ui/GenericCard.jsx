@@ -1,15 +1,6 @@
 import PropTypes from 'prop-types'
 
-import TwitterHandle from '@/components/ui/TwitterHandle'
-
-const GenericCard = ({
-  name,
-  twitter,
-  avatar,
-  organization,
-  position,
-  onOpen,
-}) => {
+const GenericCard = ({ name, avatar, organization, onOpen }) => {
   return (
     <div
       className={`relative mx-auto mb-16 w-full max-w-xs ${
@@ -26,15 +17,13 @@ const GenericCard = ({
               className="h-full w-full rounded-full object-cover shadow-md"
               alt={name}
             />
-            {twitter && <TwitterHandle handle={twitter} />}
           </div>
         </div>
-        <div className="mb-4 mt-28 h-20 px-2">
+        <div className="mb-6 mt-28 h-16 px-2">
           <h1 className="text-center text-lg font-semibold text-sky-900">
             {name}
           </h1>
           <h3 className="text-center text-base text-sky-900">{organization}</h3>
-          <p className="text-center text-sm text-sky-900">{position}</p>
         </div>
       </div>
     </div>
