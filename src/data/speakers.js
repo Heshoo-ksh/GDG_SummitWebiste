@@ -20,7 +20,7 @@ import EdFowler from '@/assets/images/speakers/Ed Fowler.jpeg'
 
 //'Professional Development'
 import AdamZientarski from '@/assets/images/speakers/Adam Zientarski.png'
-import AngelaRichardson from '@/assets/images/speakers/Angela Richardson.jpeg'
+import AngelaRichardson from '@/assets/images/speakers/Angela Richardson.jpg'
 import AsalynCoachman from '@/assets/images/speakers/Asalyn Coachman.jpg'
 import BrianSmith from '@/assets/images/speakers/Adam Zientarski.png'
 import EddieCargor from '@/assets/images/speakers/Eddie Cargor.jpg'
