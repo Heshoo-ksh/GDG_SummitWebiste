@@ -23,7 +23,7 @@ const convertTo24Hour = (time) => {
 function SessionsSection() {
   const [activeTab, setActiveTab] = useState(0)
   const tabs = [
-    'Innovation', // formerly Open Innovation -> formerly Build with AI
+    'Open Innovation', // formerly Build with AI
     'Professional Development', // formerly COMPASS
     'Founders & Funders', // formerly Venture313
     'Detroit Ecosystem',
