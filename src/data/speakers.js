@@ -12,6 +12,11 @@ import HajjFlemings from '@/assets/images/speakers/Hajj Flemings.jpg'
 import ChristinaDrake from '@/assets/images/speakers/Christina Drake.jpg'
 import DianeBouis from '@/assets/images/speakers/Diane Bouis.jpg'
 import CrystalBrown from '@/assets/images/speakers/Crystal Brown.jpg'
+import BryannaGrant from '@/assets/images/speakers/Bryanna Grant.png'
+import DavidBloom from '@/assets/images/speakers/David Bloom.jpg'
+import DeWayneWilliams from '@/assets/images/speakers/DeWayne Williams.jpg'
+import DrSabrinaJackson from '@/assets/images/speakers/Dr Sabrina Jackson.jpeg'
+import EdFowler from '@/assets/images/speakers/Ed Fowler.jpeg'
 
 import defaultAvatar from '@/assets/images/speakers/default profile.png'
 
@@ -475,21 +480,7 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
       room: '(3rd Floor) Google Build with AI Stage',
     },
   },
-
-  // funders and founders
   {
-import defaultprofile from '@/assets/images/speakers/default profile.png'
-import BryannaGrant from '@/assets/images/speakers/Bryanna Grant.png'
-import DavidBloom from '@/assets/images/speakers/David Bloom.jpg'
-import DeWayneWilliams from '@/assets/images/speakers/DeWayne Williams.jpg'
-import DrSabrinaJackson from '@/assets/images/speakers/Dr Sabrina Jackson.jpeg'
-import EdFowler from '@/assets/images/speakers/Ed Fowler.jpeg'
-
-
-
-export const SpeakersData = [
-  {
-    id: 1,
     name: 'Brittni Abiolu',
     email: '',
     avatar: defaultAvatar,
@@ -500,11 +491,7 @@ export const SpeakersData = [
       title: 'MFF Accelerator with Gener8r',
       description: '',
       track: 'Founders & Funders',
-      time: '12:55',
-      abstract: 'Info is not available',
-      description: 'Info is not available' ,
-      tags: [],
-      track: 'Founders & Funders',
+      abstract: '',
       time: '11:15',
       room: '(1st Floor) Venture Stage',
     },
@@ -520,11 +507,7 @@ export const SpeakersData = [
       title: 'MFF Accelerator with Gener8r',
       description: '',
       track: 'Founders & Funders',
-      time: '12:55',
-      abstract: 'Info is not available',
-      description:'Info is not available',
-      tags: [],
-      track: 'Founders & Funders',
+      abstract: '',
       time: '11:15',
       room: '(1st Floor) Venture Stage',
     },
@@ -540,10 +523,7 @@ export const SpeakersData = [
       title: 'Venture 101: Why Venture is Important',
       description: '',
       track: 'Founders & Funders',
-      abstract:'Info is not available',
-      description: 'Info is not available',
-      tags: [],
-      track: 'Founders & Funders',
+      abstract: '',
       time: '11:45',
       room: '(1st Floor) Venture Stage',
     },
@@ -559,8 +539,6 @@ export const SpeakersData = [
       title: 'Life Science Ecosystems in Michigan and beyond',
       description:
         'Life Science is a high risk high reward industry to invest in. How does our landscape compare to our neighbors and nationally? What can we do to increase the long-term success of this industry here?',
-      track: 'Founders & Funders',
-      tags: [],
       track: 'Founders & Funders',
       time: '3:05',
       room: '(1st Floor) Venture Stage',
@@ -578,16 +556,12 @@ export const SpeakersData = [
       description:
         'It’s hard.. yes, that doesn’t mean you’re wrong. We’re often made to feel as founders that if you’re not funded or in the spotlight, you’re wrong. That’s not necessarily the case. The session would talk about the things we don’t normally talk about - the gray areas and non traditional pivots that are vital to your startup journey and success.',
       track: 'Founders & Funders',
-      abstract: 'Info is not available',
-      description:'It’s hard.. yes, that doesn’t mean you’re wrong. We’re often made to feel as founders that if you’re not funded or in the spotlight, you’re wrong. That’s not necessarily the case. The session would talk about the things we don’t normally talk about - the gray areas and non traditional pivots that are vital to your startup journey and success.',
-      tags: [],
-      track: 'Founders & Funders',
+      abstract: '',
       time: '3:05',
       room: '(1st Floor) Venture Stage',
     },
   },
   {
-    id: 6,
     name: 'Bryanna Grant',
     email: 'yanagrant@hustleandbrand.com',
     avatar: BryannaGrant,
@@ -597,17 +571,18 @@ export const SpeakersData = [
     organization: 'Hustle and Brand',
     position: '',
     session: {
-      title: 'Maximizing LinkedIn for Campus-to-Career Success:Empowering Students and Parents',
-      abstract: 'High school and college students, along with their parents, will gain actionable insights in this engaging session on using LinkedIn as a powerful tool for career exploration, development, and success. Whether preparing for college, searching for internships, or pursuing post-graduation opportunities, this talk will provide a roadmap for turning passions into professions.',
-      description:'How to create eye-catching LinkedIn profiles that showcase skills, extracurricular activities, and goals. Ways to explore career paths and identify opportunities like internships and rotational programs that align with interests. Practical tips for networking with industry professionals, alumni, and recruiters to build meaningful connections. Parents will also learn how to support their students in leveraging LinkedIn for academic and career growth, ensuring they’re prepared for the journey from education to a fulfilling career. Join us to uncover the tools to succeed in today’s competitive world!',
-      tags: [],
+      title:
+        'Maximizing LinkedIn for Campus-to-Career Success:Empowering Students and Parents',
+      abstract:
+        'High school and college students, along with their parents, will gain actionable insights in this engaging session on using LinkedIn as a powerful tool for career exploration, development, and success. Whether preparing for college, searching for internships, or pursuing post-graduation opportunities, this talk will provide a roadmap for turning passions into professions.',
+      description:
+        'How to create eye-catching LinkedIn profiles that showcase skills, extracurricular activities, and goals. Ways to explore career paths and identify opportunities like internships and rotational programs that align with interests. Practical tips for networking with industry professionals, alumni, and recruiters to build meaningful connections. Parents will also learn how to support their students in leveraging LinkedIn for academic and career growth, ensuring they’re prepared for the journey from education to a fulfilling career. Join us to uncover the tools to succeed in today’s competitive world!',
       track: 'Founders & Funders',
       time: '10:45',
       room: '(1st Floor) Woodward',
     },
   },
   {
-    id: 7,
     name: 'Dr.Sabrina Jackson',
     email: 'info@sabrinajackson.com',
     avatar: DrSabrinaJackson,
@@ -619,18 +594,17 @@ export const SpeakersData = [
     session: {
       title: 'The People Principle',
       abstract: 'Info not available',
-      description:'Session will help the participants learn their personality style in a very interactive and engaging session',
-      tags: [],
+      description:
+        'Session will help the participants learn their personality style in a very interactive and engaging session',
       track: 'Founders & Funders',
       time: '11:45',
       room: '(1st Floor) Woodward',
     },
   },
   {
-    id: 8,
     name: 'Dawn Batts',
     email: 'Info not available',
-    avatar: defaultprofile,
+    avatar: defaultAvatar,
     bio: 'Info not available',
     twitter: null,
     url: 'Info not available',
@@ -639,15 +613,13 @@ export const SpeakersData = [
     session: {
       title: 'Angel Investing 101',
       abstract: 'Info not available',
-      description:'Info not available',
-      tags: [],
+      description: 'Info not available',
       track: 'Founders & Funders',
       time: '1:00',
       room: '(1st Floor) Woodward',
     },
   },
   {
-    id: 9,
     name: 'David Bloom',
     email: 'david@pointeangels.com',
     avatar: DavidBloom,
@@ -659,15 +631,14 @@ export const SpeakersData = [
     session: {
       title: 'Angel Investing in 2025, the "Valley of Death"',
       abstract: 'Info not available',
-      description:"The Mini - Angel Investing in 2025, the 'Valley of Death,' and how Angels engage to help founders across The Macro - Michigan's Innovation Ecosystem, how connectors (like you) create webs of value that retain Innovation. The Campaign - Michigan Angel Tax Credits - Michigan can be an Ecosystem or a Farm System - Angels make the difference.",
-      tags: [],
+      description:
+        "The Mini - Angel Investing in 2025, the 'Valley of Death,' and how Angels engage to help founders across The Macro - Michigan's Innovation Ecosystem, how connectors (like you) create webs of value that retain Innovation. The Campaign - Michigan Angel Tax Credits - Michigan can be an Ecosystem or a Farm System - Angels make the difference.",
       track: 'Founders & Funders',
       time: '1:00',
       room: '(1st Floor) Woodward',
     },
   },
   {
-    id: 10,
     name: 'DeWayne Williams',
     email: 'dwilliams@etg10.com',
     avatar: DeWayneWilliams,
@@ -679,15 +650,14 @@ export const SpeakersData = [
     session: {
       title: 'Mentorship and Support for Underrepresented Founders',
       abstract: 'Info not available',
-      description:'As a mentor and supporter of underrepresented founders, I would like to discuss the importance of mentorship and provide strategies for supporting and empowering underrepresented entrepreneurs.',
-      tags: [],
+      description:
+        'As a mentor and supporter of underrepresented founders, I would like to discuss the importance of mentorship and provide strategies for supporting and empowering underrepresented entrepreneurs.',
       track: 'Founders & Funders',
       time: '1:00',
       room: '(1st Floor) Woodward',
     },
   },
   {
-    id: 11,
     name: 'Ed Fowler',
     email: 'ed@detroitlandmark.com',
     avatar: EdFowler,
@@ -697,17 +667,16 @@ export const SpeakersData = [
     organization: 'Detroit Landmark Development Corp',
     position: '',
     session: {
-      title: 'Smart Homes, Smarter Communities: Transforming Affordable Housing in Detroit',
+      title:
+        'Smart Homes, Smarter Communities: Transforming Affordable Housing in Detroit',
       abstract: 'Info not available',
-      description:'Explore how smart home automation is transforming affordable housing in Detroit, paving the way for modern, connected living. Through the lens of the Weston Hall project, this session delves into the integration of innovative technologies—such as smart locks, thermostats, and the tenant-focused PropertyDek platform—that enhance energy efficiency, simplify property management, and elevate tenant experiences. Discover how these advancements improve quality of life while setting a new benchmark for urban housing. Attendees will leave with a deeper understanding of implementation challenges, measurable impacts, and the emerging trends shaping the future of smart, sustainable communities over the next 3–5 years. Weston Hall Project: https://thewestonhall.com/ PropertyDek: https://propertydek.com/ ',
-      tags: [],
+      description:
+        'Explore how smart home automation is transforming affordable housing in Detroit, paving the way for modern, connected living. Through the lens of the Weston Hall project, this session delves into the integration of innovative technologies—such as smart locks, thermostats, and the tenant-focused PropertyDek platform—that enhance energy efficiency, simplify property management, and elevate tenant experiences. Discover how these advancements improve quality of life while setting a new benchmark for urban housing. Attendees will leave with a deeper understanding of implementation challenges, measurable impacts, and the emerging trends shaping the future of smart, sustainable communities over the next 3–5 years. Weston Hall Project: https://thewestonhall.com/ PropertyDek: https://propertydek.com/ ',
       track: 'Founders & Funders',
       time: '3:00',
       room: '(1st Floor) Woodward',
     },
   },
-  
-
 ]
 
 // gives ID to each speaker automatically
