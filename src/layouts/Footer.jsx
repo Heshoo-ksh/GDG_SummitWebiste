@@ -1,56 +1,47 @@
 function Footer() {
   return (
-    <footer className="flex h-28 flex-col items-center justify-center bg-gray-100 text-black">
-      <h2 className="mb-3">Contact us</h2>
+    <footer className="flex h-28 flex-col items-center justify-center bg-gray-100 pe-[90px] text-black">
+      <h2 className="mt-5 w-full text-center font-russell text-5xl">
+        Contact us
+      </h2>
       <div className="flex space-x-4">
+        {/* LinkedIn Button */}
         <button
           type="button"
-          className="mb-2 inline-block rounded-full bg-white p-3 text-xs font-medium uppercase leading-normal text-black shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+          className="mb-2 inline-block rounded-full bg-white p-3 shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
           onClick={() =>
             window.open(
-              'https://twitter.com/intent/tweet?text=I%27m%20attending%20Google%20Developer%20Groups%20GDG%20Detroit%20w%2F%20Michigan%20DevFest%20on%20Dec%202.',
+              'https://www.linkedin.com/company/compass-detroit',
               '_blank'
             )
           }
         >
           <svg
-            viewBox="0 0 16 17"
-            fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            role="img-alt"
-            alt="XIcon"
-            data-testid="XIcon"
-            title=""
-            aria-hidden="true"
-            color="currentColor"
+            viewBox="0 0 448 512"
+            className="h-6 w-6 fill-current"
           >
-            <path
-              d="M9.51664 6.79444L15.3449 0.0195312H13.9638L8.90311 5.90209L4.86115 0.0195312H0.199219L6.31146 8.915L0.199219 16.0195H1.58041L6.92464 9.80735L11.1933 16.0195H15.8552L9.5163 6.79444H9.51664ZM7.62491 8.99337L7.00561 8.10758L2.07808 1.05927H4.19951L8.17609 6.74748L8.79538 7.63327L13.9645 15.0271H11.843L7.62491 8.99371V8.99337Z"
-              fill="currentColor"
-            ></path>
+            <path d="M100.28 448H7.4V148.9h92.88zm-46.49-339C24.09 109 0 84.81 0 55.12 0 25.41 24.09 0 53.79 0s53.79 25.41 53.79 55.12c0 29.69-24.08 53.88-53.79 53.88zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.6V448h-92.78V148.9h89.1v40.8h1.3c12.4-23.5 42.5-48.3 87.3-48.3 93.4 0 110.6 61.5 110.6 141.3V448z" />
           </svg>
         </button>
 
+        {/* Instagram Button */}
         <button
           type="button"
-          className="mb-2 inline-block rounded-full bg-white p-3 text-xs font-medium uppercase leading-normal text-black shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+          className="mb-2 inline-block rounded-full bg-white p-3 shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
           onClick={() =>
             window.open(
-              'https://www.linkedin.com/shareArticle?mini=true&url=https://gdg.community.dev/e/m8hffb/',
+              'https://www.instagram.com/blacktechsaturdays',
               '_blank'
             )
           }
         >
           <svg
-            className="h-5 w-5 fill-current"
-            role="img-alt"
-            viewBox="0 0 256 256"
             xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+            className="h-6 w-6 fill-current"
           >
-            <g>
-              <path d="M218.123122,218.127392 L180.191928,218.127392 L180.191928,158.724263 C180.191928,144.559023 179.939053,126.323993 160.463756,126.323993 C140.707926,126.323993 137.685284,141.757585 137.685284,157.692986 L137.685284,218.123441 L99.7540894,218.123441 L99.7540894,95.9665207 L136.168036,95.9665207 L136.168036,112.660562 L136.677736,112.660562 C144.102746,99.9650027 157.908637,92.3824528 172.605689,92.9280076 C211.050535,92.9280076 218.138927,118.216023 218.138927,151.114151 L218.123122,218.127392 Z M56.9550587,79.2685282 C44.7981969,79.2707099 34.9413443,69.4171797 34.9391618,57.260052 C34.93698,45.1029244 44.7902948,35.2458562 56.9471566,35.2436736 C69.1040185,35.2414916 78.9608713,45.0950217 78.963054,57.2521493 C78.9641017,63.090208 76.6459976,68.6895714 72.5186979,72.8184433 C68.3913982,76.9473153 62.7929898,79.26748 56.9550587,79.2685282 M75.9206558,218.127392 L37.94995,218.127392 L37.94995,95.9665207 L75.9206558,95.9665207 L75.9206558,218.127392 Z M237.033403,0.0182577091 L18.8895249,0.0182577091 C8.57959469,-0.0980923971 0.124827038,8.16056231 -0.001,18.4706066 L-0.001,237.524091 C0.120519052,247.839103 8.57460631,256.105934 18.8895249,255.9977 L237.033403,255.9977 C247.368728,256.125818 255.855922,247.859464 255.999,237.524091 L255.999,18.4548016 C255.851624,8.12438979 247.363742,-0.133792868 237.033403,0.000790807055"></path>
-            </g>
+            <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9S160.5 370.9 224.1 370.9 339 319.6 339 255.9 287.7 141 224.1 141zm0 189.6c-41.3 0-74.7-33.4-74.7-74.7s33.4-74.7 74.7-74.7 74.7 33.4 74.7 74.7-33.4 74.7-74.7 74.7zm146.4-194.3c0 14.9-12.1 27-27 27-14.9 0-27-12.1-27-27s12.1-27 27-27c14.9 0 27 12.1 27 27zm76.1 27.2c-.1-55.2-4.5-98.4-25.9-119.8-21.3-21.3-49.5-24.7-104.8-24.7H150.3c-55.2 0-83.5 3.5-104.8 24.7-21.4 21.4-25.8 64.6-25.9 119.8v111.8c.1 55.2 4.5 98.4 25.9 119.8 21.3 21.3 49.5 24.7 104.8 24.7h111.8c55.2 0 83.5-3.5 104.8-24.7 21.4-21.4 25.8-64.6 25.9-119.8V169.1zM398.8 338c0 39.7-9.2 47.9-16.7 53.7-11.5 8.2-24.1 10.1-47.8 10.1H112.7c-23.7 0-36.3-1.9-47.8-10.1-7.5-5.8-16.7-14-16.7-53.7V169.1c0-39.7 9.2-47.9 16.7-53.7 11.5-8.2 24.1-10.1 47.8-10.1h211.6c23.7 0 36.3 1.9 47.8 10.1 7.5 5.8 16.7 14 16.7 53.7v168.9z" />
           </svg>
         </button>
       </div>
