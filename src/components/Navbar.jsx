@@ -17,6 +17,7 @@ function Navbar() {
       { id: 'sponsors', text: 'Partners' },
       //  { id: 'organizers', text: 'Organizers' },
       { id: 'devteam', text: 'Dev Team' },
+      { id: 'contactUs', text: 'Contact Us' },
     ],
     []
   )

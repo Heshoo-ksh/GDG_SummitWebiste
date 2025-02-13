@@ -1,6 +1,9 @@
 function Footer() {
   return (
-    <footer className="flex h-28 flex-col items-center justify-center bg-gray-100 pe-[90px] text-black">
+    <footer
+      id="contactUs"
+      className="flex h-28 flex-col items-center justify-center bg-gray-100 pe-[90px] text-black"
+    >
       <h2 className="mt-5 w-full text-center font-russell text-5xl">
         Contact us
       </h2>
