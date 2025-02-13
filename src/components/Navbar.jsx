@@ -12,10 +12,10 @@ function Navbar() {
     () => [
       { id: 'landing', text: 'Landing' },
       { id: 'location', text: 'Location' },
-      { id: 'sessions', text: 'Stages' },
+      { id: 'sessions', text: 'Sessions' },
       { id: 'speakers', text: 'Speakers' },
-      { id: 'sponsors', text: 'Sponsors' },
-      { id: 'organizers', text: 'Organizers' },
+      { id: 'sponsors', text: 'Partners' },
+      //  { id: 'organizers', text: 'Organizers' },
       { id: 'devteam', text: 'Dev Team' },
     ],
     []
