@@ -8,7 +8,7 @@ import GrandCircus from '@/assets/images/sponsors/Grand Circus.webp'
 import ThinkTechnologies from '@/assets/images/sponsors/Think Technologies.png'
 import DTE from '@/assets/images/sponsors/DTE.png'
 import BirminghamAngels from '@/assets/images/sponsors/Birmingham Angels.webp'
-import CCS from '@/assets/images/sponsors/CCS-logo.webp'
+import CCS from '@/assets/images/sponsors/ccs.png'
 import IBM from '@/assets/images/sponsors/IBM.webp'
 
 export const sponsorsData = [
