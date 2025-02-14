@@ -15,7 +15,7 @@ function Navbar() {
       { id: 'sessions', text: 'Sessions' },
       { id: 'speakers', text: 'Speakers' },
       { id: 'sponsors', text: 'Partners' },
-      //  { id: 'organizers', text: 'Organizers' },
+      { id: 'organizers', text: 'Job Board' },
       { id: 'devteam', text: 'Dev Team' },
       { id: 'contactUs', text: 'Contact Us' },
     ],
