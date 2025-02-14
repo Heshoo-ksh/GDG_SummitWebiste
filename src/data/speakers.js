@@ -41,6 +41,24 @@ import AchshaJones from '@/assets/images/speakers/Achsha Jones.jpg'
 import CiaraCade from '@/assets/images/speakers/Ciara Cade.jpg'
 
 // breakout sessions
+import BriannaBryant from '@/assets/images/speakers/Brianna Bryant.jpeg'
+import SharanKalwani from '@/assets/images/speakers/Sharan Kalwani.jpg'
+import MoniqueMansfield from '@/assets/images/speakers/Monique Mansfield.jpg'
+import MattalynnDarden from '@/assets/images/speakers/Mattalynn Darden.jpeg'
+import RicardoONeal from "@/assets/images/speakers/Ricardo O'Neal.jpg"
+import KamrySteger from '@/assets/images/speakers/Kamry Steger.jpeg'
+import GraceMoore from '@/assets/images/speakers/Grace Moore.jpg'
+import AmberLewis from '@/assets/images/speakers/Amber Lewis.jpeg'
+import GerardAllen from '@/assets/images/speakers/Gerard Allen.jpg'
+import TatianaJackson from '@/assets/images/speakers/Tatiana Jackson.jpg'
+import DanielEasterly from '@/assets/images/speakers/Daniel Easterly.jpg'
+import DavidWalker from '@/assets/images/speakers/David Walker.jpeg'
+import MaggieVarney from '@/assets/images/speakers/Maggie Varney.jpg'
+import BethSavoldelli from '@/assets/images/speakers/Beth Savoldelli.png'
+import HienLam from '@/assets/images/speakers/Hien Lam.png'
+import MichaelPolk from '@/assets/images/speakers/Michael Polk.jpeg'
+import DerienStephens from '@/assets/images/speakers/Derien Stephens.jpeg'
+import DeavondreJones from '@/assets/images/speakers/Deavondre Jones.jpeg'
 
 import DefaultAvatar from '@/assets/images/speakers/default profile.png'
 
@@ -51,6 +69,7 @@ const rawData = [
     avatar: DefaultAvatar,
     bio: '',
     url: '',
+    twitter: null,
     organization: '',
     session: {
       title:
@@ -67,6 +86,7 @@ const rawData = [
     email: '',
     avatar: DefaultAvatar,
     bio: '',
+    twitter: null,
     url: '',
     organization: '',
     session: {
@@ -93,6 +113,7 @@ Etienne began his career as a back-end developer in the late nineties, pivoting 
 • Senior developer on the NinaTM Mobile speech recognition SDK at Nuance Communications.
 
 With over 25 years of experience, Etienne remains a dedicated community member, actively mentoring startups, developers, and students. He lives in Montreal, Canada, with his wife and daughter and is fluent in both French and English.`,
+    twitter: null,
     url: '',
     organization: 'Google Developper Expert / Kanastruk Services Conseils Inc.',
     session: {
@@ -110,6 +131,7 @@ With over 25 years of experience, Etienne remains a dedicated community member, 
     email: '',
     avatar: DefaultAvatar,
     bio: '',
+    twitter: null,
     url: '',
     organization: 'Google',
     session: {
@@ -134,6 +156,7 @@ Known for her innovative approach and storytelling in design, Hoda excels in cre
 Hoda has earned recognition at prestigious events like the IEEE International Conference on Smart Mobility (SM 2024), UbiComp/ISWC 2024, and the Ars Electronica Festival for Art, Technology, and Society (2023). In 2024, she received the MC-3 Challenge Award and Scholarship from the Michigan Colleges Alliance for her work in leveraging technology to meet human-centric design needs. 
 
 With a passion for innovation and inclusive design, Hoda is driven to push the boundaries of what’s possible and reshape the future of user experience.`,
+    twitter: null,
     url: 'https://www.linkedin.com/in/hoda-solati/',
     organization: 'BraunAbility',
     session: {
@@ -157,6 +180,7 @@ This session will delve into the research, challenges, and design innovations th
     bio: `Shima Solati is an innovative and award-winning UX/UI researcher and designer at BraunAbility, where she focuses on enhancing accessibility through innovation and user-centered design. With a master’s degree in User Experience Design from the College for Creative Studies, along with bachelor’s and master’s degrees in design specializing in fashion and textiles, she brings a multidisciplinary approach to solving complex design challenges. Her work seamlessly blends creativity with cutting-edge technologies to develop intuitive and inclusive solutions.
 
 Shima has a diverse background spanning VR, AR, robotics, and accessibility-focused design, making her a versatile expert in both immersive and assistive technologies. Her experience extends beyond accessibility, as she has worked on robotics-driven UX at KUKA Robotics, immersive experiences at the Augmented Reality Center (ARC) Lab, and automotive innovation at General Motors and Ford. Her expertise has been recognized at international conferences, including the IEEE International Conference on Smart Mobility (2024), UbiComp/ISWC (2024), and Ars Electronica (2023). She has received the Michigan Colleges Alliance Award (2024) and the CCS Excellence in UX Graduate Studies Award (2024). Additionally, she was shortlisted for the Car Design News Awards 2024 in the “AI Explorer” and “Undiscovered Talent” categories, as well as the Global Creative Graduate Showcase 2024.`,
+    twitter: null,
     url: 'linkedin.com/in/shima-solati',
     organization: 'BraunAbility',
     session: {
@@ -182,6 +206,7 @@ This session will delve into the research, challenges, and design innovations th
 As an entrepreneur working within the tech-industry, I see many cutting-edge breakthroughs happening on a daily basis; many of which have the potential to change how we live and interact with the world around us. What I have not seen much of is how we are preparing our youth (specifically within Detroit) how to take advantage of these technologies so that they aren't left behind. It has become my prerogative to teach these digital literacy skills to more young people throughout Detroit and the surrounding area to better equip them for their careers ahead.
 
 I have a team of developers that work alongside me to maintain projects for local businesses, design solutions, provide analytical data for storytelling, and teach each of these skills to our youth. I am hopeful that I will be given an opportunity to work alongside some of the awesome vendors listed above and help to edify our youth.`,
+    twitter: null,
     url: 'www.webdroid.online',
     organization: 'Webdroid, LLC',
     session: {
@@ -206,6 +231,7 @@ Students will create a program that will rank their top 5 favorite artists. Stud
     email: '',
     avatar: DefaultAvatar,
     bio: '',
+    twitter: null,
     url: '',
     organization: 'Google',
     session: {
@@ -223,6 +249,7 @@ Students will create a program that will rank their top 5 favorite artists. Stud
     email: '',
     avatar: DefaultAvatar,
     bio: '',
+    twitter: null,
     url: '',
     organization: 'Google',
     session: {
@@ -240,6 +267,7 @@ Students will create a program that will rank their top 5 favorite artists. Stud
     email: '',
     avatar: DefaultAvatar,
     bio: '',
+    twitter: null,
     url: '',
     organization: 'Google',
     session: {
@@ -257,6 +285,7 @@ Students will create a program that will rank their top 5 favorite artists. Stud
     email: '',
     avatar: CullenJones,
     bio: '',
+    twitter: null,
     url: 'https://www.linkedin.com/in/cullenjones41/',
     organization: 'Speedo / Sprint41',
     session: {
@@ -274,6 +303,7 @@ Students will create a program that will rank their top 5 favorite artists. Stud
     email: '',
     avatar: DefaultAvatar,
     bio: '',
+    twitter: null,
     url: '',
     organization: '',
     session: {
@@ -290,6 +320,7 @@ Students will create a program that will rank their top 5 favorite artists. Stud
     email: '',
     avatar: DefaultAvatar,
     bio: '',
+    twitter: null,
     url: '',
     organization: '',
     session: {
@@ -305,6 +336,7 @@ Students will create a program that will rank their top 5 favorite artists. Stud
     email: 'brandon@aphid.com',
     avatar: BrandonCooper,
     bio: `Brandon Cooper is an internet technology businessman, CEO and co-founder of Aphid. Brandon specializes in Artificial Intelligence, Machine/Deep Learning, and Blockchain technology. Brandon has been nominated for top tech leader awards and has been featured on Forbes, CBS, NBC, Techstars, AfroTech, TedX, and more.`,
+    twitter: null,
     url: 'www.aphid.com',
     organization: 'Aphid',
     session: {
@@ -321,6 +353,7 @@ Students will create a program that will rank their top 5 favorite artists. Stud
     email: 'info@cynthiarespert.com',
     avatar: CynthiaRespert,
     bio: '',
+    twitter: null,
     url: 'https://linkedin.com/in/cynthiarespert',
     organization: 'AI BuildHER Academy / REBRANDX',
     session: {
@@ -337,6 +370,7 @@ Students will create a program that will rank their top 5 favorite artists. Stud
     email: '',
     avatar: DefaultAvatar,
     bio: '',
+    twitter: null,
     url: '',
     organization: '',
     session: {
@@ -355,6 +389,7 @@ Students will create a program that will rank their top 5 favorite artists. Stud
     bio: `Hajj Flemings is a global brand technologist who operates at the intersection of technology, branding, and culture. As the CEO and Founder of REBRANDX, he has spearheaded transformative initiatives through his companies—Rebrand Cities, RapVS.AI, Prompt Camp, and Modern Athlete—which empower communities and businesses through cutting-edge technologies. His work, featured in CNN’s Black in America 4: The New Promised Land: Silicon Valley, has inspired over 2.5 million viewers by championing diversity in tech and empowering Black entrepreneurs. Through Rebrand Cities, Hajj has helped over 2,000 small businesses across 10 U.S. cities and three countries close the digital divide in ways deeply embedded in culture.
 
 Globally, Hajj’s influence extends to AI innovation and cultural transformation. Representing the U.S. on trade missions to Portugal and Italy, he has bridged technology and creativity to position AI as a driver of human potential. As the author of The Brand YU Life and the forthcoming AI is a Remix (Q3 2025), he explores the evolving relationship between human-centric AI, creativity, and culture. He is also the co- founder of CXOMPLEX, Michigan’s most diverse AI community. With offices in Detroit and Miami, Hajj continues to inspire a global audience, shaping the digital age with vision, innovation, and human-centered design.`,
+    twitter: null,
     url: 'https://linkedin.com/in/hajjflemings',
     organization: 'CXOMPLEX',
     session: {
@@ -371,6 +406,7 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
     email: '',
     avatar: DefaultAvatar,
     bio: '',
+    twitter: null,
     url: '',
     organization: '',
     session: {
@@ -387,6 +423,7 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
     email: '',
     avatar: DefaultAvatar,
     bio: '',
+    twitter: null,
     url: '',
     organization: '',
     session: {
@@ -402,6 +439,7 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
     email: '',
     avatar: DefaultAvatar,
     bio: '',
+    twitter: null,
     url: '',
     organization: 'Athlytic',
     session: {
@@ -418,6 +456,7 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
     email: 'JustAir',
     avatar: DefaultAvatar,
     bio: '',
+    twitter: null,
     url: '',
     organization: '',
     session: {
@@ -434,6 +473,7 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
     email: '',
     avatar: DefaultAvatar,
     bio: '',
+    twitter: null,
     url: '',
     organization: 'Hush',
     session: {
@@ -450,6 +490,7 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
     email: '',
     avatar: DefaultAvatar,
     bio: '',
+    twitter: null,
     url: '',
     organization: 'Google',
     session: {
@@ -472,6 +513,7 @@ I am a software developer with a diverse background in software exploitation, ma
 Additionally, I am a Google Developer Expert, Docker Captain, and Kubeflow Community member.
 
 Currently I am working as Chief Lead Analyst for Updata in Canada.`,
+    twitter: null,
     url: 'https://www.linkedin.com/in/davidcardozo/',
     organization: 'Updata',
     session: {
@@ -492,6 +534,7 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     email: '',
     avatar: DefaultAvatar,
     bio: '',
+    twitter: null,
     url: '',
     organization: 'Google',
     session: {
@@ -508,6 +551,7 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     email: '',
     avatar: DefaultAvatar,
     bio: '',
+    twitter: null,
     url: '',
     organization: 'Michign Founders Fund',
     session: {
@@ -525,6 +569,7 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     email: '',
     avatar: DefaultAvatar,
     bio: '',
+    twitter: null,
     url: '',
     organization: 'Michign Founders Fund',
     session: {
@@ -542,6 +587,7 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     email: 'christinad@renvcf.com',
     avatar: ChristinaDrake,
     bio: '',
+    twitter: null,
     url: '',
     organization: 'Renaissance Venture Capital',
     session: {
@@ -558,6 +604,7 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     email: 'dbouis@umich.edu',
     avatar: DianeBouis,
     bio: "Diane is the US Director for MedTech World, a Venture Partner at Neovate.VC and Consulting COO at a Medical Device company. Besides her global roles, she is a staunch Midwest startup ecosystem advocate and advisor and investor in Michigan biomedical startups. She previously served as US Director for MedTech Innovator, the largest medtech accelerator in the world. Diane has extensive experience managing startup portfolios through prior roles as Innovation Manager at the University of Michigan's Innovation Partnerships Startup Incubator and as an innovation consultant with The Inovo Group. She is a frequent speaker on medtech/ biotech/ health-tech innovation, investment and go to market strategy, incubators and accelerators, mentorship, leadership and growing diverse teams. Diane has lived and worked on three continents, speaks six languages, holds a PhD from the University of Groningen, Netherlands and an MBA from the University of Michigan Ross School of Business.",
+    twitter: null,
     url: 'https://www.linkedin.com/in/diane-bouis/',
     organization: 'BullsView Ventures',
     session: {
@@ -574,6 +621,7 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     email: 'crystal.brown@circnova.com',
     avatar: CrystalBrown,
     bio: '',
+    twitter: null,
     url: 'https://www.circnova.com/',
     organization: 'CircNova',
     session: {
@@ -593,7 +641,6 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     twitter: null,
     url: 'hustleandbrand.com',
     organization: 'Hustle and Brand',
-    position: '',
     session: {
       title:
         'Maximizing LinkedIn for Campus-to-Career Success:Empowering Students and Parents',
@@ -614,7 +661,6 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     twitter: null,
     url: 'www.essentialcolors.com',
     organization: 'Essential Colors',
-    position: '',
     session: {
       title: 'The People Principle',
       abstract: 'Info not available',
@@ -633,7 +679,6 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     twitter: null,
     url: 'Info not available',
     organization: 'Info not available',
-    position: '',
     session: {
       title: 'Angel Investing 101',
       abstract: 'Info not available',
@@ -651,7 +696,6 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     twitter: null,
     url: 'https://www.linkedin.com/company/pointe-angels/',
     organization: 'Pointe Angels',
-    position: '',
     session: {
       title: 'Angel Investing in 2025, the "Valley of Death"',
       abstract: 'Info not available',
@@ -670,7 +714,6 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     twitter: null,
     url: 'www.etg10.com',
     organization: 'Essential Technology Group',
-    position: '',
     session: {
       title: 'Mentorship and Support for Underrepresented Founders',
       abstract: 'Info not available',
@@ -689,7 +732,6 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     twitter: null,
     url: 'https://www.linkedin.com/in/fbrothers/',
     organization: 'Detroit Landmark Development Corp',
-    position: '',
     session: {
       title:
         'Smart Homes, Smarter Communities: Transforming Affordable Housing in Detroit',
@@ -712,7 +754,6 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     twitter: '',
     url: 'http://linkedin.com/in/brian-smith-a405477',
     organization: 'Tuskegee Airmen Museum and Flight School',
-    position: 'Customer Engineer Specialist',
     session: {
       title:
         'From Black History to Black Legacy: The Lasting Impact of Membership in NSBE presented by Compass Detroit',
@@ -733,7 +774,6 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     twitter: null,
     url: 'http://www.linkedin.com/in/zurielseven',
     organization: 'Altair Engineering',
-    position: 'Senior Specialist in Training Development',
     session: {
       title:
         'Lighting Talk 1: From Black History to Black Legacy: The Lasting Impact of Membership in NSBE ',
@@ -755,7 +795,6 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     twitter: null,
     url: 'http://linkedin.com/in/tyler-mcbeath-913b54102',
     organization: 'NSBE Detroit Professionals/Ford Motor Company',
-    position: 'Product Development Engineer',
     session: {
       title:
         'From Black History to Black Legacy: The Lasting Impact of Membership in NSBE presented by Compass Detroit',
@@ -777,7 +816,6 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     twitter: null,
     url: 'https://www.linkedin.com/in/ciaracade/',
     organization: 'University of Michigan',
-    position: 'Social entrepreneur',
     session: {
       title: 'Speed Networking 1 & 2 Facilitator',
       abstract: null,
@@ -796,7 +834,6 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     twitter: null,
     url: 'linkedin.com/in/talona-johnson',
     organization: 'General Motors',
-    position: 'Cadillac International Product Manager',
     session: {
       title: 'Supercharge Your Network: Harnessing the POWER of Collaboration',
       abstract: '',
@@ -815,7 +852,6 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     twitter: null,
     url: 'https://www.linkedin.com/in/kirsten-jordan-01b47898/',
     organization: 'NSBE DETROIT PROFESSIONALS',
-    position: 'Crash Safety Engineer',
     session: {
       title:
         'From Black History to Black Legacy: The Lasting Impact of Membership in NSBE | Art & Generational Wealth Talk hosted by NSBE',
@@ -835,7 +871,6 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     twitter: null,
     url: 'https://www.linkedin.com/in/oneikamobley/',
     organization: 'Huntington National Bank',
-    position: 'Vice President',
     session: {
       title: 'Art & Generational Wealth presented by Compass Detroit',
       abstract: '',
@@ -854,7 +889,6 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     twitter: null,
     url: 'www.oshunwilliams.com',
     organization: 'Mitten Made Originals LLC',
-    position: 'Artist',
     session: {
       title: 'Art & Generational Wealth presented by Compass Detroit',
       abstract: '',
@@ -873,7 +907,6 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     twitter: null,
     url: 'https://www.linkedin.com/in/asalyncoachman/',
     organization: 'Prudential Advisors',
-    position: 'Financial Advisor',
     session: {
       title: 'Creating Black Wealth Hosted By Prudential',
       abstract: '',
@@ -892,7 +925,6 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     twitter: null,
     url: 'https://www.linkedin.com/in/drcargor/',
     organization: 'Prudential Advisors',
-    position: 'Financial Professional',
     session: {
       title: 'Creating Black Wealth Hosted By Prudential ',
       abstract: '',
@@ -911,7 +943,6 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     twitter: null,
     url: 'https://www.prudential.com/advisor/tyrone-thorpe',
     organization: 'Prudential Advisors',
-    position: 'Financial Advisor',
     session: {
       title: 'Creating Black Wealth Hosted By Prudential',
       abstract: '',
@@ -930,7 +961,6 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     twitter: null,
     url: 'www.linkedin.com/in/kevin-lewis-jr',
     organization: '3M Company',
-    position: 'Professional Engineer and a Project Management Professional,',
     session: {
       title: 'Innovation Principles',
       abstract: '',
@@ -949,7 +979,6 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     twitter: null,
     url: 'https://www.linkedin.com/in/lem-cartman-bshcl-mha-b80920152/ ; https://weincconsulting.com/',
     organization: 'WE Inc',
-    position: 'Founder',
     session: {
       title: 'Resume Review 1&2 Facilitator',
       abstract: '',
@@ -968,7 +997,6 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     twitter: null,
     url: 'https://detroitledger.tech',
     organization: 'Detroit Ledger Technologies',
-    position: 'CEO',
     session: {
       title: 'The State of Crypto and Blockchain',
       abstract: '',
@@ -987,7 +1015,6 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     twitter: null,
     url: 'https://www.linkedin.com/in/afia-phillips-8664b77/',
     organization: "Little Caesar's Pizza",
-    position: 'Chief Information Security Officer',
     session: {
       title: 'Women in Tech Panel presented by Think Technologies',
       abstract:
@@ -1008,7 +1035,6 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     twitter: null,
     url: 'https://www.linkedin.com/in/iamjazlee?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
     organization: 'VETTED',
-    position: 'Founder & CEO',
     session: {
       title: 'Women in Tech Panel presented by Think Technologies',
       abstract:
@@ -1029,7 +1055,6 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     twitter: null,
     url: 'https://www.femology.com/',
     organization: 'Femology',
-    position: 'Founder',
     session: {
       title: 'Women in Tech Panel presented by Think Technologies',
       abstract:
@@ -1050,7 +1075,6 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     twitter: null,
     url: 'https://www.linkedin.com/in/vababinchak/',
     organization: 'Dynatrace',
-    position: 'Data Analytics Consultant, Business Insights',
     session: {
       title: 'Women in Tech Panel presented by Think Technologies',
       abstract:
@@ -1071,7 +1095,6 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     twitter: null,
     url: 'https://www.linkedin.com/in/achshasoandso/',
     organization: 'TripSlip',
-    position: 'CEO & Co-Founder',
     session: {
       title: 'Women in Tech Panel presented by Think Technologies',
       abstract:
@@ -1092,7 +1115,6 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     twitter: null,
     url: 'https://www.linkedin.com/in/angelamrichardson/',
     organization: 'Board.org',
-    position: 'Membership Director',
     session: {
       title:
         'From Black History to Black Legacy: The Lasting Impact of Membership in NSBE presented by Compass Detroit',
@@ -1102,20 +1124,19 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
       room: 'Compass Stage and Common Area',
     },
   },
-  //
   {
     name: 'Brianna Bryant',
-    email: '',
-    avatar: DefaultAvatar,
-    bio: '',
+    email: 'brianna.bryant@ppmi.org',
+    avatar: BriannaBryant,
+    bio: 'Brianna leads as the Detroit and Wayne County Regional Community organizer for Planned Parenthood Advocates of Michigan. She graduated in 2023 with a degree in Women and Gender studies and Applied Arts. Brianna believes in inspiring the intersectionality of creativity and community for all. She stands at the forefront of advocating for women of color and gender minorities rights through the lens of community organizing, photography, documentary, and other multimedia art forms. Her expertise falls within uplifting Black and Brown liberation and joy in each project and organizing efforts. For her intersections of social justice, art, and digital storytelling she has been featured in the Detroit Institute of Arts, TED Countdown, Bill and Melinda Gates Foundation, and in Forbes 30 Under 30 2019 Summit.',
     twitter: null,
-    url: '',
-    organization: '',
-    position: '',
+    url: 'https://www.linkedin.com/in/brianna-bryant-304698194/',
+    organization: 'Revolutionizing Organizing',
     session: {
       title:
         'Tech for Effective Community Organizing: Leveraging Innovation of the Past & Future',
-      description: '',
+      description:
+        'In a new time and age technology has been the hot tool for social justice activist in Detroit and all across the world. This proposed session will take new and formal tech savvy folks and interested community organizers into the world of tools we untilize to make the work possible. From viral videos being posted for calls to action down to messaging apps we use to organize data, calls to action, and education is crucial. We will go over the tools, stragizes, platforms that we use and what about this tech that need to be revolutionized. This workshop will allow us to host a think tank sessions to collab on ways we can improve tech for community organizing. We will go over organizing 101 that walks through the pre, during, and post parts of utilizing tech in this work.',
       track: 'Breakout Sessions',
       time: '10:45',
       room: '(2nd Floor) Michigan',
@@ -1123,16 +1144,27 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
   },
   {
     name: 'Sharan Kalwani',
-    email: '',
-    avatar: DefaultAvatar,
-    bio: '',
+    email: 'sharan.kalwani@ieee.org',
+    avatar: SharanKalwani,
+    bio: `A seasoned scientific, technical and computing professional, Sharan has spent over 25+ years’ experience in high performance computing, engineering applications simulation, benchmarking, networking, operations and project management.
+
+He is a senior member of IEEE, ACM, He has published a book on the topic: "UNIX and TCP/IP network security" " ISBN: 1581430213; and is now working on his second text, about a new computer programming language. He also serves as one of the writers/editors of the Sections monthly newsletter - Wavelengths. He has also served as Vice-Chair of IEEE Sustech 2022, IEEE SusTech 2021 Global Conferences. He is the recipient of:
+
+* 2018 IEEE MGA Achievement award,
+* 2021 IEEE Region 4 Jack Sherman award
+* 2022 Robert Neff Section award
+* 2023 IEEE Region 4 Outstanding Service Award
+* 2024 Engineering Society of Detroit (ESD) Anne O. Fletcher Award
+
+for his various contributions towards technical activities.`,
     twitter: null,
-    url: '',
-    organization: '',
-    position: '',
+    url: 'https://www.linkedin.com/in/sharankalwani',
+    organization: 'DataSwing LLC',
     session: {
       title: 'Internet of Things 101',
-      description: '',
+      description: `The IoT has infiltrated homes/businesses/center of activity all around the world in the form of smart thermostats, smart speakers, and more. There are also a number of innovative IoT applications doing more than just making people’s lives easier or helping them play their favorite songs.
+
+In this session, we will explore the many different ways IoT impacts practically every second of our lives. This talk is also intended to serve as an introduction to IoT, in order to help open up this new field of applications to a wider audience.`,
       track: 'Breakout Sessions',
       time: '10:45',
       room: '(1st Floor) Rosa Parks',
@@ -1140,16 +1172,26 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
   },
   {
     name: 'Monique Mansfield',
-    email: '',
-    avatar: DefaultAvatar,
-    bio: '',
+    email: 'moniquemansfield2@gmail.com',
+    avatar: MoniqueMansfield,
+    bio: 'As a communications and digital media professional with over 10 years of experience, I have had the privilege to produce, capture and edit numerous videos for Congressional leaders, State Senators, the City of the Detroit and for small businesses including the Apple Developer Academy, Fit4Life Michigan and many other organizations.',
     twitter: null,
-    url: '',
-    organization: '',
-    position: '',
+    url: 'https://www.linkedin.com/in/moniquemansfield/',
+    organization: 'Mansfield Media Group',
     session: {
       title: 'Video & Content Editing',
-      description: '',
+      description: `This hands-on workshop will allow participants to dive deep into the art of video editing! Whether you're a beginner or looking to sharpen your skills, this session will cover the essentials of transforming raw footage into polished, professional-quality videos.
+
+Objectives include:
+Navigate Editing Software: Get familiar with key tools and features in popular video editing platforms (like Adobe Premiere Pro, Final Cut Pro, or DaVinci Resolve).
+Understand the Editing Process: Master techniques like cutting, trimming, sequencing, and transitioning to create smooth, engaging videos.
+Enhance Your Storytelling: Learn how to shape your narrative with pacing, sound design, and visual effects that complement the story you're telling.
+Add Finishing Touches: From color correction to sound mixing, explore how to perfect your video for final delivery.
+Tips for Efficiency: Streamline your workflow with shortcuts, tips, and tricks to save time without sacrificing quality.
+
+By the end of the workshop, you'll be able to take your footage and turn it into a compelling video that
+captures your audience’s attention. Don’t miss out on the chance to elevate your video editing game and
+gain confidence in your creative process!`,
       track: 'Breakout Sessions',
       time: '10:45',
       room: '(3rd Floor) Mack',
@@ -1157,17 +1199,17 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
   },
   {
     name: 'Mattalynn Darden',
-    email: '',
-    avatar: DefaultAvatar,
-    bio: '',
+    email: 'christie.sullivan018@gmail.com',
+    avatar: MattalynnDarden,
+    bio: 'Mattalynn Darden is a cybersecurity professional and educator with a passion for empowering businesses and individuals to navigate the digital landscape securely. With over 4 years of experience in offensive security and incident response, she specializes in helping small businesses enhance their cybersecurity posture. As a mentor and instructor with Black Girls Hack, Mattalynn develops workshops on cybersecurity fundamentals and bug bounty hunting, equipping others with the tools and knowledge to succeed in the field. She is committed to fostering secure practices for a safer online world.',
     twitter: null,
-    url: '',
-    organization: '',
-    position: '',
+    url: 'https://linkedin.com/in/mattalynn-darden',
+    organization: 'Mattie D LLC',
     session: {
       title:
         'Small Business, Big Security: Cybersecurity Essentials for Protecting Your Online Presence',
-      description: '',
+      description:
+        'In today’s digital-first world, small businesses are prime targets for cyberattacks. This workshop empowers entrepreneurs with essential cybersecurity knowledge, including recognizing threats, securing systems, and protecting customer data. Learn practical steps to safeguard your online presence—from password policies to website security—and gain insight into tools and resources tailored for small businesses. Walk away with an actionable roadmap to fortify your business against cyber risks and build trust with your customers.',
       track: 'Breakout Sessions',
       time: '10:45',
       room: '(3rd Floor) Brush',
@@ -1176,12 +1218,11 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
   {
     name: "Ricardo O'Neal",
     email: '',
-    avatar: DefaultAvatar,
+    avatar: RicardoONeal,
     bio: '',
     twitter: null,
     url: '',
-    organization: '',
-    position: '',
+    organization: 'Kikcit',
     session: {
       title: 'Branding Matters: 10 Reasons Why Branding Matters',
       description: '',
@@ -1192,17 +1233,19 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
   },
   {
     name: 'Kamry Steger',
-    email: '',
-    avatar: DefaultAvatar,
-    bio: '',
+    email: 'stegeragency@gmail.com',
+    avatar: KamrySteger,
+    bio: `I am a passionate advocate for inclusion with experience leading a nonprofit that provides services for children with disabilities. As a mother to a child with a disability, I have a personal connection to the challenges faced by this community, which fuels my commitment to creating accessible solutions. My organization is currently building an all-inclusive playground and resource center, reflecting my dedication to breaking barriers.
+
+I’ve also engaged in tech-focused initiatives, exploring ways to merge technology and accessibility. Through events and collaborations, I’ve sought to address the digital divide and ensure that advancements in technology empower individuals with disabilities. My recognition by prominent platforms like Essence Magazine further highlights my role as an advocate for change, particularly at the intersection of inclusion and innovation.`,
     twitter: null,
-    url: '',
-    organization: '',
-    position: '',
+    url: 'Hipsmichigan.org',
+    organization: 'HIPS (Hidden in Plain Sight) of Michigan',
     session: {
       title:
         'Innovating for an Inclusive Future: Creating with the Disabled In Mind',
-      description: '',
+      description:
+        'Detroit, a city with a rich history of innovation and resilience, is home to approximately 117,000 residents with disabilities, constituting 17.6% of its population. As technology becomes increasingly integral to daily life, ensuring that these advancements are accessible to all Detroiters is paramount. This session will explore the unique challenges and opportunities present in Detroit, focusing on how the tech community can collaborate to create inclusive solutions that empower individuals with disabilities.',
       track: 'Breakout Sessions',
       time: '11:45',
       room: '(1st Floor) Rosa Parks',
@@ -1210,16 +1253,18 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
   },
   {
     name: 'Jacquelene Barnes',
-    email: '',
+    email: 'jacquelene@techtowndetroit.org',
     avatar: DefaultAvatar,
-    bio: '',
+    bio: `As a young professional with non-profit and corporate experience, I have seen and experienced so much that can encourage and inspire people from different walks of life and with different experiences.
+
+As a program manager at TechTown Detroit I have the knowledge of our programs and resources to share and connect founders to support their business success. I have also hosted events and workshops at TechTown to uplift and support founders preparedness through their journeys. As a board member at New Enterprise Forum I have the experience of coaching business owners and supporting their development as they grow and scale and seek capital.`,
     twitter: null,
     url: '',
-    organization: '',
-    position: '',
+    organization: 'TechTown Detroit',
     session: {
       title: 'Articulating Business Milestones for Growth',
-      description: '',
+      description:
+        'As a panelist or panel moderator I can share resources from TechTown and facilitate a conversation with other ecosystem resources and how we all can and have collaborated to uplift founders in the Metro- Detroit Ecosystem.',
       track: 'Breakout Sessions',
       time: '11:45',
       room: '(3rd Floor) Mack',
@@ -1227,16 +1272,18 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
   },
   {
     name: 'Grace Moore',
-    email: '',
-    avatar: DefaultAvatar,
-    bio: '',
+    email: 'mooregracepro@gmail.com',
+    avatar: GraceMoore,
+    bio: `Grace Moore brings a wealth of expertise in technology and finance, with a career that includes serving as a Network Administrator and over 20 years of leadership in highly regulated industries such as finance and casino management. In her role as a Network Administrator, Grace was responsible for managing secure network infrastructures, overseeing system integrity, and implementing effective cybersecurity protocols to protect sensitive data.
+
+Currently, as the CEO of a financial services firm, Grace applies her technical and leadership skills to ensure robust data protection and compliance with industry regulations. Her deep understanding of the intersection between technology and financial operations has been instrumental in navigating today’s complex cybersecurity challenges.`,
     twitter: null,
-    url: '',
-    organization: '',
-    position: '',
+    url: 'https://www.linkedin.com/in/gracemoore313',
+    organization: 'Transitional Finance',
     session: {
       title: 'Personal Cybersecurity',
-      description: '',
+      description:
+        'We are a financial services firm. Creating a personal cybersecurity toolkit is imperative to individuals doing business online. The session will encourage attendees to implement cybersecurity into their daily actions online. We give them a clear, practical way to enhance their online safety, in turn, protecting their finances.',
       track: 'Breakout Sessions',
       time: '11:45',
       room: '(3rd Floor) Brush',
@@ -1244,16 +1291,18 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
   },
   {
     name: 'Amber Lewis',
-    email: '',
-    avatar: DefaultAvatar,
-    bio: '',
+    email: 'amber@socialnthecity.com',
+    avatar: AmberLewis,
+    bio: `In rare and audacious form, Amber Lewis is the radiating socialite, digital powerhouse and artist whose unparalleled nature and social media prowess has elevated the essence and true narrative of the city of Detroit while living her life out loud as Social N The City.
+
+Her ability to transcend the depths of her unconventional advertising acumen and innate gift of conscious human connection across professional and personal platforms has poised her profoundly as Detroit’s CEO — the multifaceted woman and creative whose voice is heard, presence is felt and whose transparent spirit is infectious in every room she enters.`,
     twitter: null,
-    url: '',
-    organization: '',
-    position: '',
+    url: 'https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav',
+    organization: 'Social N The City',
     session: {
       title: 'Branding Break Throughs for Effective Storytelling',
-      description: '',
+      description:
+        'Your work deserves to be seen, but building a personal brand as a CEO can feel overwhelming. In this session, we’ll break through the mindset blocks that keep you from sharing your story and highlight how to establish the themes that make your brand authentic and impactful. We’ll also touch on how AI tools can enhance your workflow, but the focus will be on giving you the confidence and strategies to showcase your leadership in a way that feels genuine and effortless.',
       track: 'Breakout Sessions',
       time: '1:00',
       room: '(2nd Floor) Michigan',
@@ -1261,13 +1310,12 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
   },
   {
     name: 'Gerrard Allen',
-    email: '',
-    avatar: DefaultAvatar,
+    email: 'gerrard@gerrardallen.com',
+    avatar: GerardAllen,
     bio: '',
     twitter: null,
     url: '',
-    organization: '',
-    position: '',
+    organization: 'Gerrard W Allen',
     session: {
       title: 'Leveraging AI for Creative Work',
       description: '',
@@ -1278,16 +1326,16 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
   },
   {
     name: 'Tatiana Jackson',
-    email: '',
-    avatar: DefaultAvatar,
-    bio: '',
+    email: 'tatiana@therealculture.com',
+    avatar: TatianaJackson,
+    bio: 'I am the Chief Culture Strategist & Executive Content Producer at Real Culture, a Black woman-owned media company that highlights the stories of individuals shaping art, fashion, health, and lifestyle. My work has consistently increased engagement and reach by 300% for brands and organizations. Notable accomplishments include managing marketing campaigns for major events and initiatives that empower underrepresented voices and foster connections between communities and brands.',
     twitter: null,
-    url: '',
-    organization: '',
-    position: '',
+    url: 'https://www.linkedin.com/in/tatiana-simone-jackson-93a36693/',
+    organization: 'Real Culture',
     session: {
       title: 'Storytelling for Cultural Preservation',
-      description: '',
+      description:
+        'This session will explore the intersection of technology and media as powerful tools for cultural preservation, innovation, and community building. Drawing from my experience leading marketing campaigns for over 150 events nationwide and collaborating with global brands like Disney+ and Blumhouse, I will share actionable strategies for leveraging technology to tell authentic stories and create lasting impact. The talk will also highlight case studies from my work at Real Culture, a platform dedicated to amplifying diverse voices through multimedia storytelling and strategic initiatives.',
       track: 'Breakout Sessions',
       time: '1:00',
       room: '(3rd Floor) Mack',
@@ -1295,16 +1343,25 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
   },
   {
     name: 'Daniel Easterly',
-    email: '',
-    avatar: DefaultAvatar,
-    bio: '',
+    email: 'wecannbe@gmail.com',
+    avatar: DanielEasterly,
+    bio: `Daniel Easterly is a seasoned entrepreneur, technologist, and advocate for economic equity. As the Founder and CEO of the 40 Acres App, he is revolutionizing ownership through blockchain technology, empowering Black and Brown communities to build generational wealth and thrive in the digital economy.
+
+Daniel’s expertise spans multiple industries, including cybersecurity, real estate, fintech, and education. He gained invaluable experience in cybersecurity while working with industry leaders such as McAfee and Fortinet, where he focused on securing digital environments for businesses and individuals. His work in real estate with Keller Williams provided him with a deep understanding of property markets and the systemic barriers to ownership that marginalized communities face. At Intuit, he furthered his knowledge of fintech, contributing to innovative solutions that address financial inequities.
+
+As the founder of WeCannBe, Daniel is also spearheading educational initiatives to demystify blockchain technology and prepare communities for the future of financial systems. Through WeCannBe, he aims to bridge the knowledge gap and create a workforce ready to thrive in a blockchain-enabled economy.
+
+Daniel is the author of *A New Nation Inside of a Nation: The Age of Technology and the Black Dollar*, a thought-provoking book that highlights the intersection of technology, economic empowerment, and cultural resilience.
+
+With a passion for innovation and social impact, Daniel is committed to empowering communities, positioning Detroit as a hub for technological equity, and inspiring others to create a more inclusive digital economy.`,
     twitter: null,
-    url: '',
-    organization: '',
-    position: '',
+    url: 'https://www.linkedin.com/in/danielqeasterly/',
+    organization: 'WeCannBe/ 40 Acres App',
     session: {
       title: 'Blockchain for Community',
-      description: '',
+      description: `In this transformative session, Daniel Easterly, a visionary technologist and social Finance innovator, will discuss the groundbreaking 40 Acres App—a blockchain-enabled platform revolutionizing ownership for Black and Brown communities. By integrating tokenized real estate and a digital asset marketplace, the app fosters generational wealth and empowers communities to thrive in the digital economy.
+
+Drawing from his acclaimed book, A New Nation Inside of a Nation: The Age of Technology and the Black Dollar, Daniel will set the historical and cultural context, emphasizing the significance of financial empowerment as a form of modern liberation. The session will explore the intersection of technology, economic equity, and cultural resilience, providing a roadmap for how communities can reclaim and sustain ownership in the digital age.`,
       track: 'Breakout Sessions',
       time: '1:00',
       room: '(3rd Floor) Brush',
@@ -1312,16 +1369,16 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
   },
   {
     name: 'David Walker',
-    email: '',
-    avatar: DefaultAvatar,
-    bio: '',
+    email: 'dwalker@bodmanlaw.com',
+    avatar: DavidWalker,
+    bio: 'I am a business attorney that works exclusively for start-up and small business owners. I have been practicing in corporate law for 27 years and am licensed in Michigan and Georgia. I also own a water bottling and distribution company called StarWalker Industries who owns a brand called Positivity Alkaline Water. I love helping entrepreneurs move along their journey.',
     twitter: null,
-    url: '',
-    organization: '',
-    position: '',
+    url: 'https://www.linkedin.com/company/bodman-plc/',
+    organization: 'Bodman PLC',
     session: {
       title: 'Legal Business Formation',
-      description: '',
+      description:
+        'This session is for founders who are ready to legally form their business. It will confirm the mental mindset of being an entrepreneur as well as how to legally structure a business. The speaker is Detroit Business Attorney David M. Walker, Esq., member at Bodman PLC and owner of Positivity Alkaline Water.',
       track: 'Breakout Sessions',
       time: '2:00',
       room: '(2nd Floor) Michigan',
@@ -1329,16 +1386,23 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
   },
   {
     name: 'Maggie Varney',
-    email: '',
-    avatar: DefaultAvatar,
-    bio: '',
+    email: 'maggie@wigs4kids.org',
+    avatar: MaggieVarney,
+    bio: `Maggie Varney is a licensed cosmetologist who has been in the beauty industry for over 50 years and has been a successful business owner and entrepreneur for over 35 years. Maggie runs two establishments; Maggie’s Wigs 4 Kids of Michigan, a nonprofit, and Go Green, a socially responsible and eco-friendly full-service salon.
+
+As a Michigan certified technician of the Creating a Total Image program and a facilitator for the American Cancer Society’s Look Good, Feel Better program, Maggie volunteers her time and talent to teach cancer patients how to deal with the appearance-related side effects of chemotherapy & radiation.
+
+Maggie noticed a need to help young people and families in their struggle with health challenges causing hair loss. Utilizing her passion and expertise in the beauty industry, along with her business development experience, Maggie founded Maggie’s Wigs 4 Kids of Michigan in October 2003. Maggie’s Wigs 4 Kids of Michigan provides wigs & support services at no charge to Michigan children experiencing hair loss as a result of illness and treatment.
+
+In 2020, the organization opened a NEW Wellness Center to further assist the children of Michigan. The nonprofit offers therapy, nutrition and self-empowerment through self-image activities. Field trips and counseling on an individual, group and family basis are also provided at no charge in addition to an Enchanted Tea Room, massage, nail care, skin care, nutrition, fitness and raised therapy garden. The organization is also involved in a VR 4 Kids Program where wig recipients receive virtual reality headsets to help with pain management, relaxation & meditation. Maggie has recently worked with state legislators to recognize the need for a child to have a wig and secured funding through an enhancement grant.`,
     twitter: null,
-    url: '',
+    url: 'https://www.linkedin.com/in/maggievarney/',
     organization: '',
-    position: '',
     session: {
       title: 'XR Studio',
-      description: '',
+      description: `Maggie's Wigs 4 Kids, VR 4 Kids Program powered by XR Impact Network. We partner with exceptional leaders and organizations to bridge the gap— and enable access to VR for under-resourced youth communities through curated multi-partner VR programs.
+
+Objective of program: Improve the health and well-being of children referred from 8 pediatric hospitals across Michigan served at MW4K, including those facing pediatric cancer, by evaluating the qualitative impact of best-fit virtual reality therapy and wellness solutions.`,
       track: 'Breakout Sessions',
       time: '2:00',
       room: '(1st Floor) Rosa Parks',
@@ -1346,16 +1410,23 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
   },
   {
     name: 'Beth Savoldelli',
-    email: '',
-    avatar: DefaultAvatar,
-    bio: '',
+    email: 'beth@xrimpactnetwork.com',
+    avatar: BethSavoldelli,
+    bio: `Beth Savoldelli was born in Detroit, graduated from MSU and is honored to partner with MW4K to bring a technology-based, pioneering social impact program to her home town.
+
+She is a social impact entrepreneur on a mission to enable more patients access to effective wellness and therapeutic XR/VR-- empowering them to navigate gaps in care, improve their quality of life, and support their well-being.
+
+She has a deep, personal understanding of the patient perspective as a cancer survivor and advocate and directly relevant professional experience navigating multiple stakeholder interests, building effective strategic relationships, and creating collaborative initiatives designed to benefit all.
+
+Beth’s passion lies in translating a vision into strategy, action, and outcomes. Specifically, by initiating and leading results-oriented, collaborative VR opportunities and projects that bring impactful patient initiatives to life.`,
     twitter: null,
-    url: '',
-    organization: '',
-    position: '',
+    url: 'http://www.xrimpactnetwork.com',
+    organization: 'XR Impact Network',
     session: {
       title: 'XR Studio',
-      description: '',
+      description: `Maggie's Wigs 4 Kids, VR 4 Kids Program powered by XR Impact Network. We partner with exceptional leaders and organizations to bridge the gap— and enable access to VR for under-resourced youth communities through curated multi-partner VR programs.
+
+Objective of program: Improve the health and well-being of children referred from 8 pediatric hospitals across Michigan served at MW4K, including those facing pediatric cancer, by evaluating the qualitative impact of best-fit virtual reality therapy and wellness solutions.`,
       track: 'Breakout Sessions',
       time: '2:00',
       room: '(1st Floor) Rosa Parks',
@@ -1363,16 +1434,31 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
   },
   {
     name: 'Hien Lam',
-    email: '',
-    avatar: DefaultAvatar,
-    bio: '',
+    email: 'hien@huckfinch.com',
+    avatar: HienLam,
+    bio: `As co-owner of Huck Finch Studio and Grabbag Studio, I help tech companies and startups transform their complex ideas into clear, compelling messages that drive growth. Huck Finch Studio creates bold, experiential web designs for established tech companies, while Grabbag Studio specializes in helping early-stage startups build brands that attract funding through focused brand sprints and strategic messaging.
+
+My speaking experience includes delivering actionable workshops at The Lean Startup Conference, Zingtrain, the American Medical Association, and AIGA. Each session equips participants with practical frameworks they can implement immediately to better connect with their audiences and differentiate themselves in competitive markets.`,
     twitter: null,
-    url: '',
-    organization: '',
-    position: '',
+    url: 'www.grabbag.studio',
+    organization: 'Grabbag Studio',
     session: {
       title: 'Crafting Your User Persona',
-      description: '',
+      description: `Session Description:
+Most user personas end up as idealized profiles collecting dust. This hands-on workshop shows you how to transform static personas into dynamic tools that drive real results. You'll learn how to craft positioning and messaging that deeply resonates with each specific persona, turning abstract audience understanding into concrete business outcomes.
+
+Key Takeaways:
+• Transform traditional personas into actionable tools for business growth
+• Master the three essential personas: the check writer, the champion, and the end user
+• Develop precise positioning that addresses your audience's core needs and goals
+• Create a messaging framework that maps directly to buying signals, improving engagement and
+conversion rates
+
+Session Format:
+This interactive workshop combines focused presentation with real-time exercises. Participants will work on their own persona development and messaging strategies, leaving with a practical framework they can implement immediately.
+
+Why It Matters:
+Even exceptional products fail when they don't connect with their audience. This session bridges that gap by teaching you how to create messaging that's both deeply relevant and distinctly yours. You'll gain the tools to craft communications that build trust, drive action, and set your brand apart in today's competitive landscape.`,
       track: 'Breakout Sessions',
       time: '2:00',
       room: '(3rd Floor) Mack',
@@ -1380,16 +1466,16 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
   },
   {
     name: 'Michael Polk',
-    email: '',
-    avatar: DefaultAvatar,
-    bio: '',
+    email: 'michael@stockpal.ai',
+    avatar: MichaelPolk,
+    bio: 'I have founded a company that helps people take control of their data. I have also created a pathway for people to be able to monetize this data once they have control over it.',
     twitter: null,
-    url: '',
-    organization: '',
-    position: '',
+    url: 'https://www.linkedin.com/in/himhim/',
+    organization: 'Stock Pal, Inc.',
     session: {
       title: 'The Financial Power of Personal Data',
-      description: '',
+      description:
+        'Educate people on the financial power of their personal data.',
       track: 'Breakout Sessions',
       time: '2:00',
       room: '(3rd Floor) Brush',
@@ -1397,16 +1483,16 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
   },
   {
     name: 'Derien Stephens',
-    email: '',
-    avatar: DefaultAvatar,
-    bio: '',
+    email: 'hello@careerstack.co',
+    avatar: DerienStephens,
+    bio: 'I am a former non-technical founder and coding bootcamp graduate turned Product Manager. I have over a decade of experience working in tech and VC-backed startups and would like to share my view on how others can be empowered to build and test their ideas without being developers or using low-code/no-code tools.',
     twitter: null,
-    url: '',
-    organization: '',
-    position: '',
+    url: 'careerstack.co',
+    organization: 'CareerStack',
     session: {
       title: 'Low Code MVP Prototypes',
-      description: '',
+      description:
+        'I will demonstrate how the audience can prototype and deploy working custom code MVPs in less than 30 minutes - even if they have no technical background.',
       track: 'Breakout Sessions',
       time: '3:00',
       room: '(2nd Floor) Michigan',
@@ -1414,16 +1500,24 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
   },
   {
     name: 'Deavondre "DJ" Jones',
-    email: '',
-    avatar: DefaultAvatar,
-    bio: '',
+    email: 'deavondrejones@gmail.com',
+    avatar: DeavondreJones,
+    bio: `Deavondre Jones is a visionary entrepreneur and founder of DanceSpire, a groundbreaking platform that combines performance artistry with transformative personal development. With a background as a dancer and educator, Deavondre has innovatively fused art, technology, and business to create unique experiences that inspire and empower individuals. During the pandemic, he leveraged his expertise to transition DanceSpire from a traditional service model into a scalable SaaS platform, achieving a Monthly Recurring Revenue (MRR) of $5,000 and engaging hundreds of users.
+
+Over the past three years, Deavondre has deepened his knowledge of AI technology, studying its development and application across industries. He has utilized AI to design automated workflows, streamline content creation, and develop cutting-edge tools for his programs. As the creator of Scale Studio, Deavondre now helps service-based entrepreneurs harness AI to scale their businesses effectively, bridging the gap between innovation and accessibility in Detroit’s tech ecosystem.`,
     twitter: null,
-    url: '',
-    organization: '',
-    position: '',
+    url: 'https://www.linkedin.com/in/deavondrejones/',
+    organization: 'DanceSpire/TechTown',
     session: {
       title: 'Scale Studio',
-      description: '',
+      description: `Join me for an engaging session where I’ll share insights from Scale Studio, a groundbreaking program helping service-based entrepreneurs transition to scalable, tech-enabled models. Drawing from my journey as an entrepreneur, artist, and program creator, we’ll explore how AI can streamline operations, enhance creativity, and enable sustainable growth.
+
+This session will provide actionable strategies, including how to:
+• Use AI to develop innovative products and workflows.
+• Transition from traditional service models to scalable subscription-based platforms.
+• Build a roadmap for operational efficiency and market expansion.
+
+Whether you’re a founder, early-career professional, or creative entrepreneur, this session will equip you with the tools and mindset to embrace technology and drive measurable impact. Together, we’ll demystify AI’s role in scaling businesses and shaping the future of Detroit’s innovation ecosystem.`,
       track: 'Breakout Sessions',
       time: '3:00',
       room: '(1st Floor) Rosa Parks',
@@ -1437,7 +1531,6 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     twitter: null,
     url: '',
     organization: '',
-    position: '',
     session: {
       title: 'Funding Gap in Midwest',
       description: '',
