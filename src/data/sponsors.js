@@ -8,6 +8,8 @@ import GrandCircus from '@/assets/images/sponsors/Grand Circus.webp'
 import ThinkTechnologies from '@/assets/images/sponsors/Think Technologies.png'
 import DTE from '@/assets/images/sponsors/DTE.png'
 import BirminghamAngels from '@/assets/images/sponsors/Birmingham Angels.webp'
+import CCS from '@/assets/images/sponsors/CCS-logo.webp'
+import IBM from '@/assets/images/sponsors/IBM.webp'
 
 export const sponsorsData = [
   {
@@ -81,9 +83,23 @@ In late 2022, Grand Circus joined forces with Dexian, a leader in staffing, IT, 
   },
   {
     id: 10,
+    name: 'College for Creative Studies',
+    logo: CCS,
+    desc: `CCS provides students a rigorous and innovative education aligned with industry requirements. Our graduates are innovators, problem solvers and futurists who are prepared for a career, not just a job. CCS alumni know success. They are entrepreneurs. They are working artists. Fortune 500 companies hire them. The stories you will watch here are a testament to the impact CCS alumni are making in the art/design world. All of them dared to dream big. Let their stories inspire you.`,
+    url: 'https://www.ccsdetroit.edu/',
+  },
+  {
+    id: 11,
     name: 'Birmingham Angels',
     logo: BirminghamAngels,
     desc: `BIRMINGHAM ANGELS IS A DRIVEN VENTURE GROUP COMPRISED OF EXPERIENCED BUSINESS BUILDERS, DIE-HARD SERIAL ENTREPRENEURS, DISRUPTERS, INNOVATORS, AND TECHNOLOGISTS. WE ARE MORE THAN JUST TRADITIONAL INVESTORS, WE ARE WILLING TO LOOK DEEPER, WIDER AND BIGGER.`,
     url: 'https://birminghamangels.org/',
+  },
+  {
+    id: 12,
+    name: 'IBM',
+    logo: IBM,
+    desc: `The mission of IBM is to be a catalyst that makes the world work better. We aim to have a positive impact globally, and in the communities where we operate, through business ethics, environmental commitment and responsible technology. For over a century, IBM been at the forefront of technological innovation. Beginning in the earliest days of computing, IBM has blended intelligence, innovation and science to improve business, society and the human experience.`,
+    url: 'https://www.ibm.com/us-en',
   },
 ]
