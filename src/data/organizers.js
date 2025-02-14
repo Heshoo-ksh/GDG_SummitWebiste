@@ -1,4 +1,4 @@
-import CCS from '@/assets/images/sponsors/CCS-logo.webp'
+import CCS from '@/assets/images/sponsors/ccs.png'
 import IBM from '@/assets/images/sponsors/IBM.webp'
 import Google from '@/assets/images/sponsors/Google.webp'
 import GrandCircus from '@/assets/images/sponsors/Grand Circus.webp'
