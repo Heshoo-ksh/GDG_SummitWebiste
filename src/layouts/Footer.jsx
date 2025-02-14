@@ -9,10 +9,8 @@ function Footer() {
       </h2>
       <div className="flex space-x-4">
         {/* LinkedIn Button */}
-        {/* LinkedIn Button */}
         <button
           type="button"
-          className="mb-2 inline-block rounded-full bg-white p-3 shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
           className="mb-2 inline-block rounded-full bg-white p-3 shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
           onClick={() =>
             window.open(
@@ -24,8 +22,6 @@ function Footer() {
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 448 512"
-            className="h-6 w-6 fill-current"
             viewBox="0 0 448 512"
             className="h-6 w-6 fill-current"
           >
@@ -35,10 +31,8 @@ function Footer() {
         </button>
 
         {/* Instagram Button */}
-        {/* Instagram Button */}
         <button
           type="button"
-          className="mb-2 inline-block rounded-full bg-white p-3 shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
           className="mb-2 inline-block rounded-full bg-white p-3 shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
           onClick={() =>
             window.open(
@@ -50,8 +44,6 @@ function Footer() {
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 448 512"
-            className="h-6 w-6 fill-current"
             viewBox="0 0 448 512"
             className="h-6 w-6 fill-current"
           >
