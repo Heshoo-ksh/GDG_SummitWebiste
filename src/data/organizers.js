@@ -1,8 +1,8 @@
 import CCS from '@/assets/images/sponsors/ccs.png'
 import IBM from '@/assets/images/sponsors/IBM.webp'
 import Google from '@/assets/images/sponsors/Google.webp'
-import GrandCircus from '@/assets/images/sponsors/Grand Circus.webp'
-import DTE from '@/assets/images/sponsors/DTE.png'
+import GrandCircus from '@/assets/images/organizers/gc.png'
+import DTE from '@/assets/images/organizers/DTE.png'
 
 
 export const organizersData = [
