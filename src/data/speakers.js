@@ -8,6 +8,8 @@ import BrandonCooper from '@/assets/images/speakers/Brandon Cooper.jpg'
 import CynthiaRespert from '@/assets/images/speakers/Cynthia Respert.jpg'
 import HajjFlemings from '@/assets/images/speakers/Hajj Flemings.jpg'
 
+import NareshJasotani from "@assets/images/speakers/NareshJasotani.jpg"
+
 // funders and founders
 import ChristinaDrake from '@/assets/images/speakers/Christina Drake.jpg'
 import DianeBouis from '@/assets/images/speakers/Diane Bouis.jpg'
@@ -49,7 +51,7 @@ const rawData = [
     email: '',
     avatar: defaultAvatar,
     bio: '',
-    url: '',
+    url: 'https://www.linkedin.com/in/brent-feniak-4a62953b/',
     organization: '',
     session: {
       title:
@@ -75,7 +77,7 @@ const rawData = [
         'The cloud is transforming industries. Stay ahead of the curve by investing in your Google Cloud skills. Join Brent Fenaik and Rachel Francois in conversation who will showcase how Google Cloud Learning Services can help you gain in-demand expertise, advance your career, and drive innovation in your business.',
       track: 'Open Innovation',
       time: '10:45',
-      room: 'Google Build with AI Stage',
+      room: '(3rd floor) Google Build with AI Stage',
     },
   },
   {
@@ -109,7 +111,7 @@ With over 25 years of experience, Etienne remains a dedicated community member, 
     email: '',
     avatar: defaultAvatar,
     bio: '',
-    url: '',
+    url: 'https://www.linkedin.com/in/asim-w/',
     organization: 'Google',
     session: {
       title: "Introduction to AI Literacy with Google's Code Next",
@@ -203,9 +205,9 @@ Students will create a program that will rank their top 5 favorite artists. Stud
   {
     name: 'Naresh Jasotani',
     email: '',
-    avatar: defaultAvatar,
+    avatar: NareshJasotani,
     bio: '',
-    url: '',
+    url: 'https://www.linkedin.com/in/naresh-r-jasotani/',
     organization: 'Google',
     session: {
       title:
@@ -222,7 +224,7 @@ Students will create a program that will rank their top 5 favorite artists. Stud
     email: '',
     avatar: defaultAvatar,
     bio: '',
-    url: '',
+    url: 'https://www.linkedin.com/in/nilesh-patel/',
     organization: 'Google',
     session: {
       title:
@@ -239,7 +241,7 @@ Students will create a program that will rank their top 5 favorite artists. Stud
     email: '',
     avatar: defaultAvatar,
     bio: '',
-    url: '',
+    url: 'https://www.linkedin.com/in/rajeevgrover/',
     organization: 'Google',
     session: {
       title:
@@ -370,7 +372,7 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
     email: '',
     avatar: defaultAvatar,
     bio: '',
-    url: '',
+    url: 'https://www.linkedin.com/in/westleyamicaiii/',
     organization: '',
     session: {
       title:
@@ -401,7 +403,7 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
     email: '',
     avatar: defaultAvatar,
     bio: '',
-    url: '',
+    url: 'https://www.linkedin.com/in/ashton-keys-67941aba/',
     organization: 'Athlytic',
     session: {
       title:
@@ -414,11 +416,11 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
   },
   {
     name: 'Darren Riley',
-    email: 'JustAir',
+    email: '',
     avatar: defaultAvatar,
     bio: '',
-    url: '',
-    organization: '',
+    url: 'https://www.linkedin.com/in/darrenrashaunriley/',
+    organization: 'JustAir Solutions',
     session: {
       title:
         'The Future of Detroit & Beyond: AI, Community, and the Startup Ecosystem',
