@@ -1,4 +1,5 @@
 import Hisham_Odeh from '@/assets/images/dev/Hisham_Odeh.jpg'
+import JesusOrozco from '@/assets/images/dev/Jesus Orozco.jpg'
 
 export const devTeamData = [
   {
@@ -11,5 +12,16 @@ export const devTeamData = [
     organization: 'Ancor Automotive',
     position: 'Junior Software Engineer',
     avatar: Hisham_Odeh,
+  },
+  {
+    id: 2,
+    name: 'Jesus Orozco',
+    bio: '',
+    linkedin: 'https://www.linkedin.com/in/eisaa-rice/',
+    github: 'https://github.com/eisaa-rice',
+    university: 'University Of Michigan - Dearborn',
+    organization: '',
+    position: 'Senior',
+    avatar: JesusOrozco,
   },
 ]

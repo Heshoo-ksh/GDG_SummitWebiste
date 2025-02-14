@@ -1,4 +1,4 @@
-//innovation
+// innovation
 import EtienneCaron from '@/assets/images/speakers/Etienne Caron.png'
 import HodaSolati from '@/assets/images/speakers/Hoda Solati.jpg'
 import ShimaSolati from '@/assets/images/speakers/Shima Solati.jpg'
@@ -18,7 +18,7 @@ import DeWayneWilliams from '@/assets/images/speakers/DeWayne Williams.jpg'
 import DrSabrinaJackson from '@/assets/images/speakers/Dr Sabrina Jackson.jpeg'
 import EdFowler from '@/assets/images/speakers/Ed Fowler.jpeg'
 
-//'Professional Development'
+//professional development
 import AdamZientarski from '@/assets/images/speakers/Adam Zientarski.png'
 import AngelaRichardson from '@/assets/images/speakers/Angela Richardson.jpg'
 import AsalynCoachman from '@/assets/images/speakers/Asalyn Coachman.jpg'
@@ -40,14 +40,15 @@ import VictoriaDrozdowski from '@/assets/images/speakers/Victoria Drozdowski.jpg
 import AchshaJones from '@/assets/images/speakers/Achsha Jones.jpg'
 import CiaraCade from '@/assets/images/speakers/Ciara Cade.jpg'
 
-import defaultAvatar from '@/assets/images/speakers/default profile.png'
+// breakout sessions
+
+import DefaultAvatar from '@/assets/images/speakers/default profile.png'
 
 const rawData = [
-  // innovation
   {
     name: 'Brent Fenaik',
     email: '',
-    avatar: defaultAvatar,
+    avatar: DefaultAvatar,
     bio: '',
     url: '',
     organization: '',
@@ -64,7 +65,7 @@ const rawData = [
   {
     name: 'Rachel Francois',
     email: '',
-    avatar: defaultAvatar,
+    avatar: DefaultAvatar,
     bio: '',
     url: '',
     organization: '',
@@ -107,7 +108,7 @@ With over 25 years of experience, Etienne remains a dedicated community member, 
   {
     name: 'Asim Williams',
     email: '',
-    avatar: defaultAvatar,
+    avatar: DefaultAvatar,
     bio: '',
     url: '',
     organization: 'Google',
@@ -203,7 +204,7 @@ Students will create a program that will rank their top 5 favorite artists. Stud
   {
     name: 'Naresh Jasotani',
     email: '',
-    avatar: defaultAvatar,
+    avatar: DefaultAvatar,
     bio: '',
     url: '',
     organization: 'Google',
@@ -220,7 +221,7 @@ Students will create a program that will rank their top 5 favorite artists. Stud
   {
     name: 'Nilesh Patel',
     email: '',
-    avatar: defaultAvatar,
+    avatar: DefaultAvatar,
     bio: '',
     url: '',
     organization: 'Google',
@@ -237,7 +238,7 @@ Students will create a program that will rank their top 5 favorite artists. Stud
   {
     name: 'Raj Grover',
     email: '',
-    avatar: defaultAvatar,
+    avatar: DefaultAvatar,
     bio: '',
     url: '',
     organization: 'Google',
@@ -271,7 +272,7 @@ Students will create a program that will rank their top 5 favorite artists. Stud
   {
     name: 'Jacob Smith',
     email: '',
-    avatar: defaultAvatar,
+    avatar: DefaultAvatar,
     bio: '',
     url: '',
     organization: '',
@@ -287,7 +288,7 @@ Students will create a program that will rank their top 5 favorite artists. Stud
   {
     name: 'Chris Assigbe',
     email: '',
-    avatar: defaultAvatar,
+    avatar: DefaultAvatar,
     bio: '',
     url: '',
     organization: '',
@@ -334,7 +335,7 @@ Students will create a program that will rank their top 5 favorite artists. Stud
   {
     name: "De'Lon Dixon",
     email: '',
-    avatar: defaultAvatar,
+    avatar: DefaultAvatar,
     bio: '',
     url: '',
     organization: '',
@@ -368,7 +369,7 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
   {
     name: 'Westley Amica',
     email: '',
-    avatar: defaultAvatar,
+    avatar: DefaultAvatar,
     bio: '',
     url: '',
     organization: '',
@@ -384,7 +385,7 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
   {
     name: '',
     email: '',
-    avatar: defaultAvatar,
+    avatar: DefaultAvatar,
     bio: '',
     url: '',
     organization: '',
@@ -399,7 +400,7 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
   {
     name: 'Ashton Keys',
     email: '',
-    avatar: defaultAvatar,
+    avatar: DefaultAvatar,
     bio: '',
     url: '',
     organization: 'Athlytic',
@@ -415,7 +416,7 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
   {
     name: 'Darren Riley',
     email: 'JustAir',
-    avatar: defaultAvatar,
+    avatar: DefaultAvatar,
     bio: '',
     url: '',
     organization: '',
@@ -431,7 +432,7 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
   {
     name: 'Mykolas Rambus',
     email: '',
-    avatar: defaultAvatar,
+    avatar: DefaultAvatar,
     bio: '',
     url: '',
     organization: 'Hush',
@@ -447,7 +448,7 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
   {
     name: 'Rachel Francois',
     email: '',
-    avatar: defaultAvatar,
+    avatar: DefaultAvatar,
     bio: '',
     url: '',
     organization: 'Google',
@@ -463,7 +464,7 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
   {
     name: 'David Cardozo',
     email: 'david.cardozo@me.com',
-    avatar: defaultAvatar,
+    avatar: DefaultAvatar,
     bio: `I am a Machine Learning Scientist and technologist, with a primary focus on utilizing cutting-edge technologies like Jax/Flax, Docker, Kubeflow, and TensorFlow to create impactful products that address complex challenges. I am a seasoned infrastructure architect and cloud developer with expertise in GCP (Google Cloud Platform) and Azure. I specialize in deploying MLOps (Machine Learning Operations) solutions using Kubeflow.
 
 I am a software developer with a diverse background in software exploitation, math, information security, open-source development, and DevOps practices. I have extensive experience in these areas, and I am particularly passionate about community engagement and leadership in ML communities both in Canada and Colombia.
@@ -489,7 +490,7 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
   {
     name: 'Michael Jenkins',
     email: '',
-    avatar: defaultAvatar,
+    avatar: DefaultAvatar,
     bio: '',
     url: '',
     organization: 'Google',
@@ -505,7 +506,7 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
   {
     name: 'Brittni Abiolu',
     email: '',
-    avatar: defaultAvatar,
+    avatar: DefaultAvatar,
     bio: '',
     url: '',
     organization: 'Michign Founders Fund',
@@ -522,7 +523,7 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
   {
     name: 'Rishi Mogdal',
     email: '',
-    avatar: defaultAvatar,
+    avatar: DefaultAvatar,
     bio: '',
     url: '',
     organization: 'Michign Founders Fund',
@@ -627,7 +628,7 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
   {
     name: 'Dawn Batts',
     email: 'Info not available',
-    avatar: defaultAvatar,
+    avatar: DefaultAvatar,
     bio: 'Info not available',
     twitter: null,
     url: 'Info not available',
@@ -1099,6 +1100,350 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
       track: 'Professional Development',
       time: '10:45',
       room: 'Compass Stage and Common Area',
+    },
+  },
+  //
+  {
+    name: 'Brianna Bryant',
+    email: '',
+    avatar: DefaultAvatar,
+    bio: '',
+    twitter: null,
+    url: '',
+    organization: '',
+    position: '',
+    session: {
+      title:
+        'Tech for Effective Community Organizing: Leveraging Innovation of the Past & Future',
+      description: '',
+      track: 'Breakout Sessions',
+      time: '10:45',
+      room: '(2nd Floor) Michigan',
+    },
+  },
+  {
+    name: 'Sharan Kalwani',
+    email: '',
+    avatar: DefaultAvatar,
+    bio: '',
+    twitter: null,
+    url: '',
+    organization: '',
+    position: '',
+    session: {
+      title: 'Internet of Things 101',
+      description: '',
+      track: 'Breakout Sessions',
+      time: '10:45',
+      room: '(1st Floor) Rosa Parks',
+    },
+  },
+  {
+    name: 'Monique Mansfield',
+    email: '',
+    avatar: DefaultAvatar,
+    bio: '',
+    twitter: null,
+    url: '',
+    organization: '',
+    position: '',
+    session: {
+      title: 'Video & Content Editing',
+      description: '',
+      track: 'Breakout Sessions',
+      time: '10:45',
+      room: '(3rd Floor) Mack',
+    },
+  },
+  {
+    name: 'Mattalynn Darden',
+    email: '',
+    avatar: DefaultAvatar,
+    bio: '',
+    twitter: null,
+    url: '',
+    organization: '',
+    position: '',
+    session: {
+      title:
+        'Small Business, Big Security: Cybersecurity Essentials for Protecting Your Online Presence',
+      description: '',
+      track: 'Breakout Sessions',
+      time: '10:45',
+      room: '(3rd Floor) Brush',
+    },
+  },
+  {
+    name: "Ricardo O'Neal",
+    email: '',
+    avatar: DefaultAvatar,
+    bio: '',
+    twitter: null,
+    url: '',
+    organization: '',
+    position: '',
+    session: {
+      title: 'Branding Matters: 10 Reasons Why Branding Matters',
+      description: '',
+      track: 'Breakout Sessions',
+      time: '11:45',
+      room: '(2nd Floor) Michigan',
+    },
+  },
+  {
+    name: 'Kamry Steger',
+    email: '',
+    avatar: DefaultAvatar,
+    bio: '',
+    twitter: null,
+    url: '',
+    organization: '',
+    position: '',
+    session: {
+      title:
+        'Innovating for an Inclusive Future: Creating with the Disabled In Mind',
+      description: '',
+      track: 'Breakout Sessions',
+      time: '11:45',
+      room: '(1st Floor) Rosa Parks',
+    },
+  },
+  {
+    name: 'Jacquelene Barnes',
+    email: '',
+    avatar: DefaultAvatar,
+    bio: '',
+    twitter: null,
+    url: '',
+    organization: '',
+    position: '',
+    session: {
+      title: 'Articulating Business Milestones for Growth',
+      description: '',
+      track: 'Breakout Sessions',
+      time: '11:45',
+      room: '(3rd Floor) Mack',
+    },
+  },
+  {
+    name: 'Grace Moore',
+    email: '',
+    avatar: DefaultAvatar,
+    bio: '',
+    twitter: null,
+    url: '',
+    organization: '',
+    position: '',
+    session: {
+      title: 'Personal Cybersecurity',
+      description: '',
+      track: 'Breakout Sessions',
+      time: '11:45',
+      room: '(3rd Floor) Brush',
+    },
+  },
+  {
+    name: 'Amber Lewis',
+    email: '',
+    avatar: DefaultAvatar,
+    bio: '',
+    twitter: null,
+    url: '',
+    organization: '',
+    position: '',
+    session: {
+      title: 'Branding Break Throughs for Effective Storytelling',
+      description: '',
+      track: 'Breakout Sessions',
+      time: '1:00',
+      room: '(2nd Floor) Michigan',
+    },
+  },
+  {
+    name: 'Gerrard Allen',
+    email: '',
+    avatar: DefaultAvatar,
+    bio: '',
+    twitter: null,
+    url: '',
+    organization: '',
+    position: '',
+    session: {
+      title: 'Leveraging AI for Creative Work',
+      description: '',
+      track: 'Breakout Sessions',
+      time: '1:00',
+      room: '(1st Floor) Rosa Parks',
+    },
+  },
+  {
+    name: 'Tatiana Jackson',
+    email: '',
+    avatar: DefaultAvatar,
+    bio: '',
+    twitter: null,
+    url: '',
+    organization: '',
+    position: '',
+    session: {
+      title: 'Storytelling for Cultural Preservation',
+      description: '',
+      track: 'Breakout Sessions',
+      time: '1:00',
+      room: '(3rd Floor) Mack',
+    },
+  },
+  {
+    name: 'Daniel Easterly',
+    email: '',
+    avatar: DefaultAvatar,
+    bio: '',
+    twitter: null,
+    url: '',
+    organization: '',
+    position: '',
+    session: {
+      title: 'Blockchain for Community',
+      description: '',
+      track: 'Breakout Sessions',
+      time: '1:00',
+      room: '(3rd Floor) Brush',
+    },
+  },
+  {
+    name: 'David Walker',
+    email: '',
+    avatar: DefaultAvatar,
+    bio: '',
+    twitter: null,
+    url: '',
+    organization: '',
+    position: '',
+    session: {
+      title: 'Legal Business Formation',
+      description: '',
+      track: 'Breakout Sessions',
+      time: '2:00',
+      room: '(2nd Floor) Michigan',
+    },
+  },
+  {
+    name: 'Maggie Varney',
+    email: '',
+    avatar: DefaultAvatar,
+    bio: '',
+    twitter: null,
+    url: '',
+    organization: '',
+    position: '',
+    session: {
+      title: 'XR Studio',
+      description: '',
+      track: 'Breakout Sessions',
+      time: '2:00',
+      room: '(1st Floor) Rosa Parks',
+    },
+  },
+  {
+    name: 'Beth Savoldelli',
+    email: '',
+    avatar: DefaultAvatar,
+    bio: '',
+    twitter: null,
+    url: '',
+    organization: '',
+    position: '',
+    session: {
+      title: 'XR Studio',
+      description: '',
+      track: 'Breakout Sessions',
+      time: '2:00',
+      room: '(1st Floor) Rosa Parks',
+    },
+  },
+  {
+    name: 'Hien Lam',
+    email: '',
+    avatar: DefaultAvatar,
+    bio: '',
+    twitter: null,
+    url: '',
+    organization: '',
+    position: '',
+    session: {
+      title: 'Crafting Your User Persona',
+      description: '',
+      track: 'Breakout Sessions',
+      time: '2:00',
+      room: '(3rd Floor) Mack',
+    },
+  },
+  {
+    name: 'Michael Polk',
+    email: '',
+    avatar: DefaultAvatar,
+    bio: '',
+    twitter: null,
+    url: '',
+    organization: '',
+    position: '',
+    session: {
+      title: 'The Financial Power of Personal Data',
+      description: '',
+      track: 'Breakout Sessions',
+      time: '2:00',
+      room: '(3rd Floor) Brush',
+    },
+  },
+  {
+    name: 'Derien Stephens',
+    email: '',
+    avatar: DefaultAvatar,
+    bio: '',
+    twitter: null,
+    url: '',
+    organization: '',
+    position: '',
+    session: {
+      title: 'Low Code MVP Prototypes',
+      description: '',
+      track: 'Breakout Sessions',
+      time: '3:00',
+      room: '(2nd Floor) Michigan',
+    },
+  },
+  {
+    name: 'Deavondre "DJ" Jones',
+    email: '',
+    avatar: DefaultAvatar,
+    bio: '',
+    twitter: null,
+    url: '',
+    organization: '',
+    position: '',
+    session: {
+      title: 'Scale Studio',
+      description: '',
+      track: 'Breakout Sessions',
+      time: '3:00',
+      room: '(1st Floor) Rosa Parks',
+    },
+  },
+  {
+    name: 'Doron York',
+    email: '',
+    avatar: DefaultAvatar,
+    bio: '',
+    twitter: null,
+    url: '',
+    organization: '',
+    position: '',
+    session: {
+      title: 'Funding Gap in Midwest',
+      description: '',
+      track: 'Breakout Sessions',
+      time: '3:00',
+      room: '(3rd Floor) Brush',
     },
   },
 ]
