@@ -45,7 +45,7 @@ import BriannaBryant from '@/assets/images/speakers/Brianna Bryant.jpeg'
 import SharanKalwani from '@/assets/images/speakers/Sharan Kalwani.jpg'
 import MoniqueMansfield from '@/assets/images/speakers/Monique Mansfield.jpg'
 import MattalynnDarden from '@/assets/images/speakers/Mattalynn Darden.jpeg'
-import RicardoONeal from "@/assets/images/speakers/Ricardo O'Neal.jpg"
+import RicardoONeal from '@/assets/images/speakers/Ricardo ONeal.jpg'
 import KamrySteger from '@/assets/images/speakers/Kamry Steger.jpeg'
 import GraceMoore from '@/assets/images/speakers/Grace Moore.jpg'
 import AmberLewis from '@/assets/images/speakers/Amber Lewis.jpeg'
