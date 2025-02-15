@@ -56,7 +56,7 @@ import TyroneThorpe from '@/assets/images/speakers/Tyrone Thorpe.jpeg'
 import AffiaPhillips from '@/assets/images/speakers/Affia Phillips.jpg'
 import VictoriaDrozdowski from '@/assets/images/speakers/Victoria Drozdowski.jpg'
 import AchshaJones from '@/assets/images/speakers/Achsha Jones.jpg'
-import CiaraCade from '@/assets/images/speakers/Ciara Cade.jpg'
+//import CiaraCade from '@/assets/images/speakers/Ciara Cade.jpg'
 import Erika from '@/assets/images/speakers/erika.jpeg'
 import TzuPore from '@/assets/images/speakers/TzuPore.jpeg'
 import IanWashington from '@/assets/images/speakers/IanWashington.jpeg'
@@ -1153,7 +1153,8 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     session: {
       title: 'The State of Crypto and Blockchain',
       abstract: '',
-      description: 'The State of Crypto & Blockchain 2025 will bring attendees up-to-date on the fast paced Web3 ecosystem in Michigan and the United States and explore how advancements in the space over the past years allowed blockchain to integrate with other technologies, enable new business models, and allow communities to organize in more resilient and accountable ways.',
+      description:
+        'The State of Crypto & Blockchain 2025 will bring attendees up-to-date on the fast paced Web3 ecosystem in Michigan and the United States and explore how advancements in the space over the past years allowed blockchain to integrate with other technologies, enable new business models, and allow communities to organize in more resilient and accountable ways.',
       tags: [],
       track: 'Professional Development',
       time: '2:30-2:55',
@@ -1285,8 +1286,7 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     url: 'https://www.linkedin.com/in/erika-m-lewis/',
     organization: 'The Erika Monaé Group, LLC',
     session: {
-      title:
-      'Resume Review presented by Compass Detroit',
+      title: 'Resume Review presented by Compass Detroit',
       description: '',
       track: 'Professional Development',
       time: '10:45-11:10',
@@ -1317,16 +1317,15 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     twitter: null,
     url: 'https://www.linkedin.com/in/tzuporeart/',
     organization: 'EMS Contemporary',
-  session: {
-    title: 'The Value and Importance of Collecting Fine Art',
-    abstract: '',
-    description: '',
-    tags: [],
-    track: 'Professional Development',
-    time: '11:45-12:10',
-    room: 'Compass Stage and Common Area',
-  },
-
+    session: {
+      title: 'The Value and Importance of Collecting Fine Art',
+      abstract: '',
+      description: '',
+      tags: [],
+      track: 'Professional Development',
+      time: '11:45-12:10',
+      room: 'Compass Stage and Common Area',
+    },
   },
   {
     name: 'Ian Washington',
@@ -1335,16 +1334,15 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     twitter: null,
     url: 'https://www.linkedin.com/in/iankwashington/',
     organization: 'Grand Circus',
-  session: {
-    title: 'Alternative Pathways to a Tech Career presented by Grand Circus',
-    abstract: '',
-    description: '',
-    tags: [],
-    track: 'Professional Development',
-    time: '1:00-1:55',
-    room: 'Compass Stage and Common Area',
-  },
-
+    session: {
+      title: 'Alternative Pathways to a Tech Career presented by Grand Circus',
+      abstract: '',
+      description: '',
+      tags: [],
+      track: 'Professional Development',
+      time: '1:00-1:55',
+      room: 'Compass Stage and Common Area',
+    },
   },
 
   {
