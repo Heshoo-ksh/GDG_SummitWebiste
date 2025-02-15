@@ -40,7 +40,7 @@ import RainyHamilton from '@/assets/images/speakers/Rainy Hamilton.jpeg'
 import AdamZientarski from '@/assets/images/speakers/Adam Zientarski.png'
 import AngelaRichardson from '@/assets/images/speakers/Angela Richardson.jpg'
 import AsalynCoachman from '@/assets/images/speakers/Asalyn Coachman.jpg'
-import BrianSmith from '@/assets/images/speakers/Adam Zientarski.png'
+import BrianSmith from '@/assets/images/speakers/Brian Smith.jpeg'
 import EddieCargor from '@/assets/images/speakers/Eddie Cargor.jpg'
 import JazLee from '@/assets/images/speakers/Jaz Lee.jpeg'
 import KevinLewis from '@/assets/images/speakers/Kevin Lewis Jr..jpg'
@@ -56,7 +56,10 @@ import TyroneThorpe from '@/assets/images/speakers/Tyrone Thorpe.jpeg'
 import AffiaPhillips from '@/assets/images/speakers/Affia Phillips.jpg'
 import VictoriaDrozdowski from '@/assets/images/speakers/Victoria Drozdowski.jpg'
 import AchshaJones from '@/assets/images/speakers/Achsha Jones.jpg'
-import CiaraCade from '@/assets/images/speakers/Ciara Cade.jpg'
+//import CiaraCade from '@/assets/images/speakers/Ciara Cade.jpg'
+import Erika from '@/assets/images/speakers/erika.jpeg'
+import TzuPore from '@/assets/images/speakers/TzuPore.jpeg'
+import IanWashington from '@/assets/images/speakers/IanWashington.jpeg'
 
 // Futures & Frontiers
 import BriannaBryant from '@/assets/images/speakers/Brianna Bryant.jpeg'
@@ -861,22 +864,22 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
   //------------------------//
 
   {
-    name: 'Bryan Smith',
+    name: 'Brian Smith',
     email: 'brsmith@tuskegeemuseum.org',
     avatar: BrianSmith,
-    bio: 'Dr. Bryan R. Smith was the first African-American to earn a PhD in Biomedical Engineering at Wayne State University retired from GDLS where his cutting-edge research in improving combat vehicles served our armed forces for many years. Brian currently serves as President/CEO of the Tuskegee Airmen National Museum, driving both administrative and practical outcomes for both the general public as well as for students learning at the institution. Dr. Smith frequently lectures on the legacy of the Tuskegee Airmen speaking on their formation, combat experiences and what the Airmen contributed to America during and after WWII. He has been both developer and instructor for several aviation learning opportunities across Southeastern Michigan and is the recipient of several awards for those programs. Dr. Smith was appointed by Gov. Gretchen Whitmer to the Michigan Aeronautics Commission and currently serves as chair of the General Aviation Committee of the Michigan Aeronautics Commission, sharing supervisory responsibility for all aeronautics within the state.',
+    bio: 'Dr. Brian R. Smith was the first African-American to earn a PhD in Biomedical Engineering at Wayne State University retired from GDLS where his cutting-edge research in improving combat vehicles served our armed forces for many years. Brian currently serves as President/CEO of the Tuskegee Airmen National Museum, driving both administrative and practical outcomes for both the general public as well as for students learning at the institution. Dr. Smith frequently lectures on the legacy of the Tuskegee Airmen speaking on their formation, combat experiences and what the Airmen contributed to America during and after WWII. He has been both developer and instructor for several aviation learning opportunities across Southeastern Michigan and is the recipient of several awards for those programs. Dr. Smith was appointed by Gov. Gretchen Whitmer to the Michigan Aeronautics Commission and currently serves as chair of the General Aviation Committee of the Michigan Aeronautics Commission, sharing supervisory responsibility for all aeronautics within the state.',
     twitter: '',
     url: 'http://linkedin.com/in/brian-smith-a405477',
     organization: 'Tuskegee Airmen Museum and Flight School',
     session: {
       title:
-        'From Black History to Black Legacy: The Lasting Impact of Membership in NSBE presented by Compass Detroit',
+        'From Black History to Black Legacy: The Lasting Impact of Membership in NSBE presented by NSBE Detroit',
       abstract:
         'Are you a software engineer who believes technical prowess alone guarantees success?\nThis talk challenges that notion, highlighting two often-underestimated skills vital for career advancement: building a strong professional network and mastering computer networks.',
       description:
         "Are you a software engineer who believes technical prowess alone guarantees success? Do you think writing flawless code is the sole key to success in software engineering?\nThis talk challenges that notion, highlighting two often-underestimated skills vital for career advancement: building a strong professional network and mastering computer networks. We'll explore the reasons why these skills are indispensable, exploring the ways a strong network opens doors to opportunities and how troubleshooting network issues empowers engineers. Discover unexpected parallels between these seemingly unrelated domains, as we draw connections between nurturing professional relationships and constructing efficient network infrastructure.\nYou will walk away with practical insights to accelerate your career growth, whether you're a seasoned engineer or just starting out.",
       track: 'Professional Development',
-      time: '10:45',
+      time: '10:45-11:10',
       room: 'Compass Stage and Common Area',
     },
   },
@@ -890,7 +893,7 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     organization: 'Altair Engineering',
     session: {
       title:
-        'Lighting Talk 1: From Black History to Black Legacy: The Lasting Impact of Membership in NSBE ',
+        'From Black History to Black Legacy: The Lasting Impact of Membership in NSBE presented by NSBE Detroit',
       abstract:
         'Are you a software engineer who believes technical prowess alone guarantees success?\nThis talk challenges that notion, highlighting two often-underestimated skills vital for career advancement: building a strong professional network and mastering computer networks.',
       description:
@@ -911,7 +914,7 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     organization: 'NSBE Detroit Professionals/Ford Motor Company',
     session: {
       title:
-        'From Black History to Black Legacy: The Lasting Impact of Membership in NSBE presented by Compass Detroit',
+        'From Black History to Black Legacy: The Lasting Impact of Membership in NSBE presented by NSBE Detroit',
       abstract:
         'We’ll explore the types of contracts available, essential qualifications, how to find opportunities, crafting compelling proposals, and building relationships. Unlock the potential of government contracts to elevate your tech career.',
       description:
@@ -922,24 +925,24 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
       room: 'Compass Stage and Common Area',
     },
   },
-  {
-    name: 'Ciara Cade',
-    email: '',
-    avatar: CiaraCade,
-    bio: 'I’m Ciara Cade, a social entrepreneur, professional development influencer, and aspiring software engineer. I’m a senior at the University of Michigan, studying Computer Science, with a passion for building innovative solutions in big tech and fintech. ',
-    twitter: null,
-    url: 'https://www.linkedin.com/in/ciaracade/',
-    organization: 'University of Michigan',
-    session: {
-      title: 'Speed Networking 1 & 2 Facilitator',
-      abstract: null,
-      description: '',
-      tags: [],
-      track: 'Professional Development',
-      time: '10:45',
-      room: 'Compass Stage and Common Area',
-    },
-  },
+  // {
+  //   name: 'Ciara Cade',
+  //   email: '',
+  //   avatar: CiaraCade,
+  //   bio: 'I’m Ciara Cade, a social entrepreneur, professional development influencer, and aspiring software engineer. I’m a senior at the University of Michigan, studying Computer Science, with a passion for building innovative solutions in big tech and fintech. ',
+  //   twitter: null,
+  //   url: 'https://www.linkedin.com/in/ciaracade/',
+  //   organization: 'University of Michigan',
+  //   session: {
+  //     title: 'Speed Networking 1 & 2 Facilitator',
+  //     abstract: null,
+  //     description: '',
+  //     tags: [],
+  //     track: 'Professional Development',
+  //     time: '10:45',
+  //     room: 'Compass Stage and Common Area',
+  //   },
+  // },
   {
     name: 'Talona Johnson',
     email: 'talona.johnson@gmail.com',
@@ -954,7 +957,7 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
       description: '',
       tags: [],
       track: 'Professional Development',
-      time: '11:15',
+      time: '11:15-11:40',
       room: 'Compass Stage and Common Area',
     },
   },
@@ -968,7 +971,7 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     organization: 'NSBE DETROIT PROFESSIONALS',
     session: {
       title:
-        'From Black History to Black Legacy: The Lasting Impact of Membership in NSBE | Art & Generational Wealth Talk hosted by NSBE',
+        'From Black History to Black Legacy: The Lasting Impact of Membership in NSBE presented by NSBE Detroit',
       abstract: '',
       description: '',
       tags: ['Misc'],
@@ -976,6 +979,15 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
       time: '10:45',
       room: 'Compass Stage and Common Area',
     },
+    // session: {
+    //   title: 'The Value and Importance of Collecting Fine Art',
+    //   abstract: '',
+    //   description: '',
+    //   tags: ['Misc'],
+    //   track: 'Professional Development',
+    //   time: '11:45-12:10',
+    //   room: 'Compass Stage and Common Area',
+    // },
   },
   {
     name: 'Oneika Mobley',
@@ -986,12 +998,12 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     url: 'https://www.linkedin.com/in/oneikamobley/',
     organization: 'Huntington National Bank',
     session: {
-      title: 'Art & Generational Wealth presented by Compass Detroit',
+      title: 'The Value and Importance of Collecting Fine Art',
       abstract: '',
       description: '',
       tags: [],
       track: 'Professional Development',
-      time: '11:15',
+      time: '11:45-12:10',
       room: 'Compass Stage and Common Area',
     },
   },
@@ -1004,12 +1016,12 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     url: 'www.oshunwilliams.com',
     organization: 'Mitten Made Originals LLC',
     session: {
-      title: 'Art & Generational Wealth presented by Compass Detroit',
+      title: 'The Value and Importance of Collecting Fine Art',
       abstract: '',
       description: '',
       tags: [],
       track: 'Professional Development',
-      time: '11:15',
+      time: '11:45-12:10',
       room: 'Compass Stage and Common Area',
     },
   },
@@ -1026,7 +1038,7 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
       abstract: '',
       description: '',
       tags: [],
-      track: 'Professional Development',
+      track: 'Founders & Funders',
       time: '11:45',
       room: 'Compass Stage and Common Area',
     },
@@ -1044,7 +1056,7 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
       abstract: '',
       description: '',
       tags: [],
-      track: 'Professional Development',
+      track: 'Founders & Funders',
       time: '11:45',
       room: 'Compass Stage and Common Area',
     },
@@ -1081,7 +1093,7 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
       description: '',
       tags: [],
       track: 'Professional Development',
-      time: '2:00',
+      time: '2:00-2:25',
       room: 'Compass Stage and Common Area',
     },
   },
@@ -1094,14 +1106,41 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     url: 'https://www.linkedin.com/in/lem-cartman-bshcl-mha-b80920152/ ; https://weincconsulting.com/',
     organization: 'WE Inc',
     session: {
-      title: 'Resume Review 1&2 Facilitator',
+      title: 'Speed Mentoring presented by Compass Detroit',
       abstract: '',
       description: '',
       tags: [],
       track: 'Professional Development',
-      time: '2:00',
+      time: '2:00-2:25',
       room: 'Compass Stage and Common Area',
     },
+    // session: {
+    //   title: 'Speed Mentoring presented by Compass Detroit',
+    //   abstract: '',
+    //   description: '',
+    //   tags: [],
+    //   track: 'Professional Development',
+    //   time: '2:30-2:55',
+    //   room: 'Compass Stage and Common Area',
+    // },
+    // session: {
+    //   title: 'Speed Mentoring presented by Compass Detroit',
+    //   abstract: '',
+    //   description: '',
+    //   tags: [],
+    //   track: 'Professional Development',
+    //   time: '3:00-3:25',
+    //   room: 'Compass Stage and Common Area',
+    // },
+    // session: {
+    //   title: 'Speed Mentoring presented by Compass Detroit',
+    //   abstract: '',
+    //   description: '',
+    //   tags: [],
+    //   track: 'Professional Development',
+    //   time: '3:30-3:55',
+    //   room: 'Compass Stage and Common Area',
+    // },
   },
   {
     name: 'Adam Zientarski',
@@ -1114,15 +1153,16 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     session: {
       title: 'The State of Crypto and Blockchain',
       abstract: '',
-      description: '',
+      description:
+        'The State of Crypto & Blockchain 2025 will bring attendees up-to-date on the fast paced Web3 ecosystem in Michigan and the United States and explore how advancements in the space over the past years allowed blockchain to integrate with other technologies, enable new business models, and allow communities to organize in more resilient and accountable ways.',
       tags: [],
       track: 'Professional Development',
-      time: '02:30',
+      time: '2:30-2:55',
       room: 'Compass Stage and Common Area',
     },
   },
   {
-    name: 'Affia Phillips',
+    name: 'Afia Phillips',
     email: 'askp648@gmail.com',
     avatar: AffiaPhillips,
     bio: 'Afia Phillips has over 20 years of experience in the Information Security field. As a highly respected transformational IT executive, Afia has extensive experience in building and leading global cyber security organizations and ensuring development of programs that align with the strategic goals and ambitions of the business. She is a part of the Little Caesar Enterprises Strategic Planning Committee and works closely with the other members of the senior executive team to create a brand, vision, and mission that elevates the security organization to be a strategic business partner. She promotes a security culture that enables risk-based decisions in support of achieving business objectives and outcomes, excels at developing and retaining high-performance teams and has proven ability to improve quality and efficiency, identify and mitigate risks, and reduce costs.',
@@ -1137,7 +1177,7 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
         'This panel offers an opportunity for everyone in tech to learn from the experiences of Google Women Techmakers who are driving change in the industry. We’ll discuss strategies for overcoming obstacles, fostering diversity, and creating inclusive environments where all voices are heard. Whether you’re an ally, a mentor, or someone navigating your own career path, you’ll gain valuable insights on how to build a more equitable and innovative tech community.',
       tags: ['Technology'],
       track: 'Professional Development',
-      time: '03:00',
+      time: '3:00-3:55',
       room: 'Compass Stage and Common Area',
     },
   },
@@ -1231,13 +1271,80 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     organization: 'Board.org',
     session: {
       title:
-        'From Black History to Black Legacy: The Lasting Impact of Membership in NSBE presented by Compass Detroit',
+        'From Black History to Black Legacy: The Lasting Impact of Membership in NSBE presented by NSBE Detroit',
       description: '',
       track: 'Professional Development',
       time: '10:45',
       room: 'Compass Stage and Common Area',
     },
   },
+  {
+    name: 'Erika Monaé',
+    avatar: Erika,
+    bio: '',
+    twitter: null,
+    url: 'https://www.linkedin.com/in/erika-m-lewis/',
+    organization: 'The Erika Monaé Group, LLC',
+    session: {
+      title: 'Resume Review presented by Compass Detroit',
+      description: '',
+      track: 'Professional Development',
+      time: '10:45-11:10',
+      room: 'Compass Stage and Common Area',
+    },
+    // session: {
+    //   title:
+    //   'Resume Review 2 presented by Compass Detroit',
+    //   description: '',
+    //   track: 'Professional Development',
+    //   time: '11:15-11:40',
+    //   room: 'Compass Stage and Common Area',
+    // },
+    // session: {
+    //   title:
+    //   'Resume Review 3 presented by Compass Detroit',
+    //   description: '',
+    //   track: 'Professional Development',
+    //   time: '12:15-12:40',
+    //   room: 'Compass Stage and Common Area',
+    // }
+  },
+  {
+    name: 'Tzu Pore',
+    avatar: TzuPore,
+    email: 'eastmadebeast@gmail.com',
+    bio: 'Tzu Poré, educated at the College for Creative Studies in Detroit, Michigan, is an award-winning interdisciplinary artist. His work delves into themes of Black Afro-Caribbean Americana, humanity, and ancient traditions through a contemporary lens. Strong community and family bonds profoundly inform his art.',
+    twitter: null,
+    url: 'https://www.linkedin.com/in/tzuporeart/',
+    organization: 'EMS Contemporary',
+    session: {
+      title: 'The Value and Importance of Collecting Fine Art',
+      abstract: '',
+      description: '',
+      tags: [],
+      track: 'Professional Development',
+      time: '11:45-12:10',
+      room: 'Compass Stage and Common Area',
+    },
+  },
+  {
+    name: 'Ian Washington',
+    avatar: IanWashington,
+    bio: '',
+    twitter: null,
+    url: 'https://www.linkedin.com/in/iankwashington/',
+    organization: 'Grand Circus',
+    session: {
+      title: 'Alternative Pathways to a Tech Career presented by Grand Circus',
+      abstract: '',
+      description: '',
+      tags: [],
+      track: 'Professional Development',
+      time: '1:00-1:55',
+      room: 'Compass Stage and Common Area',
+    },
+  },
+
   {
     name: 'Sharan Kalwani',
     email: 'sharan.kalwani@ieee.org',
