@@ -1,5 +1,6 @@
 import Hisham_Odeh from '@/assets/images/dev/Hisham_Odeh.jpg'
-import JesusOrozco from '@/assets/images/dev/Jesus Orozco.jpg'
+import Rehanashri from '@/assets/images/dev/Rehanashri.jpg'
+import JesusOrozco from '@/assets/images/dev/JesusOrozco.jpg'
 
 export const devTeamData = [
   {
@@ -15,6 +16,18 @@ export const devTeamData = [
   },
   {
     id: 2,
+    name: 'Rehanashri Rastapuramata',
+    bio: '',
+    linkedin: 'https://www.linkedin.com/in/rehanashri/',
+    github: 'https://github.com/Rehanashri',
+    university: 'University Of Michigan - Dearborn',
+    organization: '',
+    position: 'Graduate Student',
+    avatar: Rehanashri,
+  },
+
+  {
+    id: 3,
     name: 'Jesus Orozco',
     bio: '',
     linkedin: 'https://www.linkedin.com/in/eisaa-rice/',
