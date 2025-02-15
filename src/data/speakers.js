@@ -1330,38 +1330,38 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
       room: 'Compass Stage and Common Area',
     },
   },
-  {
-    name: 'Erika Monaé',
-    avatar: Erika,
-    bio: '',
-    twitter: null,
-    url: 'https://www.linkedin.com/in/erika-m-lewis/',
-    organization: 'The Erika Monaé Group, LLC',
-    session: {
-      title:
-      'Resume Review 2 presented by Compass Detroit',
-      description: '',
-      track: 'Professional Development',
-      time: '11:15-11:40',
-      room: 'Compass Stage and Common Area',
-    },
-  },
-  { 
-    name: 'Erika Monaé',
-    avatar: Erika,
-    bio: '',
-    twitter: null,
-    url: 'https://www.linkedin.com/in/erika-m-lewis/',
-    organization: 'The Erika Monaé Group, LLC',
-    session: {
-      title:
-      'Resume Review 3 presented by Compass Detroit',
-      description: '',
-      track: 'Professional Development',
-      time: '12:15-12:40',
-      room: 'Compass Stage and Common Area',
-    },
-  },
+  // {
+  //   name: 'Erika Monaé',
+  //   avatar: Erika,
+  //   bio: '',
+  //   twitter: null,
+  //   url: 'https://www.linkedin.com/in/erika-m-lewis/',
+  //   organization: 'The Erika Monaé Group, LLC',
+  //   session: {
+  //     title:
+  //     'Resume Review 2 presented by Compass Detroit',
+  //     description: '',
+  //     track: 'Professional Development',
+  //     time: '11:15-11:40',
+  //     room: 'Compass Stage and Common Area',
+  //   },
+  // },
+  // { 
+  //   name: 'Erika Monaé',
+  //   avatar: Erika,
+  //   bio: '',
+  //   twitter: null,
+  //   url: 'https://www.linkedin.com/in/erika-m-lewis/',
+  //   organization: 'The Erika Monaé Group, LLC',
+  //   session: {
+  //     title:
+  //     'Resume Review 3 presented by Compass Detroit',
+  //     description: '',
+  //     track: 'Professional Development',
+  //     time: '12:15-12:40',
+  //     room: 'Compass Stage and Common Area',
+  //   },
+  // },
   {
     name: 'Tzu Pore',
     avatar: TzuPore,
