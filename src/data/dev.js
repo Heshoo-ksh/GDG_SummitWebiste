@@ -2,7 +2,7 @@ import Hisham_Odeh from '@/assets/images/dev/Hisham_Odeh.jpg'
 import Rehanashri from '@/assets/images/dev/Rehanashri.jpg'
 import JesusOrozco from '@/assets/images/dev/Jesus Orozco.jpg'
 import AditiDharmadhikari from '@assets/images/dev/Aditi_Dharmadhikari.jpg'
-import Shams from '@assets/images/dev/shams.jpg'
+import Shams from '@assets/images/dev/shams.jpeg'
 
 export const devTeamData = [
   {
