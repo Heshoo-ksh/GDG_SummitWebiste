@@ -21,6 +21,12 @@ import WestleyAmica from '@assets/images/speakers/Westley Amica.jpg'
 import RajGrover from '@assets/images/speakers/Raj Grover.jpg'
 import Jacob from '@assets/images/speakers/jacobsmith.jpg'
 import ChrisAssigbe from '@assets/images/speakers/ChrisAssigbe.jpg'
+import DarrelBass from '@/assets/images/speakers/Darrel Bass.png'
+import Avian from '@/assets/images/speakers/Avian.jpeg'
+import NareshThakur from '@/assets/images/speakers/NareshThakur.jpeg'
+import DavidCardozo from '@/assets/images/speakers/DavidCardozo.jpg'
+import MichaelJenkins from '@/assets/images/speakers/MichaelJenkins.jpeg'
+import Delon from '@/assets/images/speakers/Delon.jpeg'
 
 // funders and founders
 import ChristinaDrake from '@/assets/images/speakers/Christina Drake.jpg'
@@ -480,11 +486,11 @@ Students will create a program that will rank their top 5 favorite artists. Stud
   {
     name: "De'Lon Dixon",
     email: '',
-    avatar: DefaultAvatar,
+    avatar: Delon,
     bio: '',
     twitter: null,
-    url: '',
-    organization: '',
+    url: 'https://www.linkedin.com/in/delon-dixon-ma/',
+    organization: 'Think-Technologies',
     session: {
       title:
         'Agentic Future: AI Agents Fireside Chat & Live Demo presented by Think Technologies & Cxomplex',
@@ -531,13 +537,13 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
     },
   },
   {
-    name: '',
+    name: 'Naresh Thakur',
     email: '',
-    avatar: DefaultAvatar,
+    avatar: NareshThakur,
     bio: '',
     twitter: null,
-    url: '',
-    organization: '',
+    url: 'https://www.linkedin.com/in/naresh-thakur/',
+    organization: 'Avira Digital',
     session: {
       title:
         'Unleashing the Future: Transformative Innovations in AI with watsonx presented by IBM',
@@ -601,7 +607,7 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
   {
     name: 'Rachel Francois',
     email: '',
-    avatar: DefaultAvatar,
+    avatar: Rachel,
     bio: '',
     twitter: null,
     url: '',
@@ -618,7 +624,7 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
   {
     name: 'David Cardozo',
     email: 'david.cardozo@me.com',
-    avatar: DefaultAvatar,
+    avatar: DavidCardozo,
     bio: `I am a Machine Learning Scientist and technologist, with a primary focus on utilizing cutting-edge technologies like Jax/Flax, Docker, Kubeflow, and TensorFlow to create impactful products that address complex challenges. I am a seasoned infrastructure architect and cloud developer with expertise in GCP (Google Cloud Platform) and Azure. I specialize in deploying MLOps (Machine Learning Operations) solutions using Kubeflow.
 
 I am a software developer with a diverse background in software exploitation, math, information security, open-source development, and DevOps practices. I have extensive experience in these areas, and I am particularly passionate about community engagement and leadership in ML communities both in Canada and Colombia.
@@ -645,7 +651,7 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
   {
     name: 'Michael Jenkins',
     email: '',
-    avatar: DefaultAvatar,
+    avatar: MichaelJenkins,
     bio: '',
     twitter: null,
     url: '',
@@ -656,6 +662,40 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
         'Calling all developers, join us for a presentation on the latest in-vehicle features, hardware and software powered by Android, followed by a vehicle demo.',
       track: 'Open Innovation',
       time: '3:30-3:55',
+      room: '(3rd Floor) Build with AI',
+    },
+  },
+  {
+    name: 'Avian Briscoe',
+    email: 'abriscoe@us.ibm.com',
+    avatar: Avian,
+    bio: '',
+    twitter: null,
+    url: 'https://www.linkedin.com/company/ibm/posts/?feedView=all',
+    organization: 'IBM',
+    session: {
+      title: 'Unleashing the Future: Transformative Innovations in AI with watsonx presented by IBM',
+      description:
+        'Calling all developers, join us for a presentation on the latest in-vehicle features, hardware and software powered by Android, followed by a vehicle demo.',
+      track: 'Open Innovation',
+      time: '2:00-2:55',
+      room: '(3rd Floor) Build with AI',
+    },
+  },
+  {
+    name: 'Darrel Bass',
+    email: 'dbass@onevuex.com',
+    avatar: DarrelBass,
+    bio: '',
+    twitter: null,
+    url: 'https://www.linkedin.com/in/darrel-bass-07652818/',
+    organization: 'Bass International Software, LLC',
+    session: {
+      title: 'Unleashing the Future: Transformative Innovations in AI with watsonx presented by IBM',
+      description:
+        'Calling all developers, join us for a presentation on the latest in-vehicle features, hardware and software powered by Android, followed by a vehicle demo.',
+      track: 'Open Innovation',
+      time: '2:00-2:55',
       room: '(3rd Floor) Build with AI',
     },
   },
