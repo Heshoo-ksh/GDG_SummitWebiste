@@ -8,7 +8,16 @@ import BrandonCooper from '@/assets/images/speakers/Brandon Cooper.jpg'
 import CynthiaRespert from '@/assets/images/speakers/Cynthia Respert.jpg'
 import HajjFlemings from '@/assets/images/speakers/Hajj Flemings.jpg'
 
-import NareshJasotani from "@assets/images/speakers/NareshJasotani.jpg"
+import NareshJasotani from "@assets/images/speakers/Naresh Jasotani.jpg"
+import NileshPatel from "@assets/images/speakers/Nilesh Patel.jpg"
+import AsimWilliams from "@assets/images/speakers/Asim Williams.jpg"
+import BrentFenaik from "@assets/images/speakers/Brent Fenaik.jpg"
+import DarrenRiley from "@assets/images/speakers/Darren Riley.jpg"
+import MykolasRambus from "@assets/images/speakers/Mykolas Rambus.jpg"
+import WestleyAmica from "@assets/images/speakers/Westley Amica.jpg"
+import DawnBatts from "@assets/images/speakers/Dawn Batts.jpeg"
+import ArabiaSimeon from "@assets/images/speakers/Arabia Simeon.jpeg"
+import MonicaWheat from "@assets/images/speakers/Monica Wheat.jpeg"
 
 // funders and founders
 import ChristinaDrake from '@/assets/images/speakers/Christina Drake.jpg'
@@ -70,9 +79,9 @@ const rawData = [
   {
     name: 'Brent Fenaik',
     email: '',
-    avatar: DefaultAvatar,
+    avatar: BrentFenaik,
     bio: '',
-    url: '',
+    url: 'https://www.linkedin.com/in/brent-feniak-4a62953b/',
     twitter: null,
     organization: '',
     session: {
@@ -133,10 +142,10 @@ With over 25 years of experience, Etienne remains a dedicated community member, 
   {
     name: 'Asim Williams',
     email: '',
-    avatar: DefaultAvatar,
+    avatar: AsimWilliams,
     bio: '',
     twitter: null,
-    url: '',
+    url: 'https://www.linkedin.com/in/asim-w/',
     organization: 'Google',
     session: {
       title: "Introduction to AI Literacy with Google's Code Next",
@@ -233,10 +242,10 @@ Students will create a program that will rank their top 5 favorite artists. Stud
   {
     name: 'Naresh Jasotani',
     email: '',
-    avatar: DefaultAvatar,
+    avatar: NareshJasotani,
     bio: '',
     twitter: null,
-    url: '',
+    url: 'https://www.linkedin.com/in/naresh-r-jasotani/',
     organization: 'Google',
     session: {
       title:
@@ -251,10 +260,10 @@ Students will create a program that will rank their top 5 favorite artists. Stud
   {
     name: 'Nilesh Patel',
     email: '',
-    avatar: DefaultAvatar,
+    avatar: NileshPatel,
     bio: '',
     twitter: null,
-    url: '',
+    url: 'https://www.linkedin.com/in/nilesh-patel/',
     organization: 'Google',
     session: {
       title:
@@ -269,10 +278,10 @@ Students will create a program that will rank their top 5 favorite artists. Stud
   {
     name: 'Raj Grover',
     email: '',
-    avatar: DefaultAvatar,
+    avatar: RajGrover,
     bio: '',
     twitter: null,
-    url: '',
+    url: 'https://www.linkedin.com/in/rajeevgrover/',
     organization: 'Google',
     session: {
       title:
@@ -408,10 +417,10 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
   {
     name: 'Westley Amica',
     email: '',
-    avatar: DefaultAvatar,
+    avatar: WestleyAmica,
     bio: '',
     twitter: null,
-    url: '',
+    url: 'https://www.linkedin.com/in/westleyamicaiii/',
     organization: '',
     session: {
       title:
@@ -444,7 +453,7 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
     avatar: DefaultAvatar,
     bio: '',
     twitter: null,
-    url: '',
+    url: 'https://www.linkedin.com/in/ashton-keys-67941aba/',
     organization: 'Athlytic',
     session: {
       title:
@@ -457,12 +466,12 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
   },
   {
     name: 'Darren Riley',
-    email: 'JustAir',
-    avatar: DefaultAvatar,
+    email: '',
+    avatar: DarrenRiley,
     bio: '',
     twitter: null,
-    url: '',
-    organization: '',
+    url: 'https://www.linkedin.com/in/darrenrashaunriley/',
+    organization: 'JustAir',
     session: {
       title:
         'The Future of Detroit & Beyond: AI, Community, and the Startup Ecosystem',
@@ -475,10 +484,10 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
   {
     name: 'Mykolas Rambus',
     email: '',
-    avatar: DefaultAvatar,
+    avatar: MykolasRambus,
     bio: '',
     twitter: null,
-    url: '',
+    url: 'https://www.linkedin.com/in/mykolasrambus/',
     organization: 'Hush',
     session: {
       title:
@@ -556,7 +565,7 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     avatar: DefaultAvatar,
     bio: '',
     twitter: null,
-    url: '',
+    url: 'https://www.linkedin.com/in/brittniabiolu/',
     organization: 'Michign Founders Fund',
     position: '',
     session: {
@@ -594,7 +603,7 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     avatar: ChristinaDrake,
     bio: '',
     twitter: null,
-    url: '',
+    url: 'https://www.linkedin.com/in/cdrake-detroitmi/',
     organization: 'Renaissance Venture Capital',
     position: '',
     session: {
@@ -688,10 +697,10 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     id: 8,
     name: 'Dawn Batts',
     email: 'Info not available',
-    avatar: defaultprofile,
+    avatar: DawnBatts,
     bio: 'Info not available',
     twitter: null,
-    url: 'Info not available',
+    url: 'https://www.linkedin.com/in/dawn-batts/',
     organization: '',
     position: '',
     session: {
@@ -1108,10 +1117,10 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     id: 29,
     name: 'Arabia Simeon',
     email: 'Info is not available',
-    avatar: defaultprofile,
+    avatar: ArabiaSimeon,
     bio: 'Info is not available',
     twitter: null,
-    url: 'Info is not available',
+    url: 'https://www.linkedin.com/in/arabiasimeon/',
     organization: '',
     position: '',
     session: {
@@ -1128,10 +1137,10 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     id: 30,
     name: 'Darrell Marshall',
     email: 'Info is not available',
-    avatar: defaultprofile,
+    avatar: DarrellMarshall,
     bio: 'Info is not available',
     twitter: null,
-    url: 'Info is not available',
+    url: 'https://www.linkedin.com/in/darrell-marshall-8aa44699/',
     organization: '',
     position: '',
     session: {
@@ -1307,10 +1316,10 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     id: 39,
     name: 'Monica Wheat',
     email: '',
-    avatar: defaultprofile,
+    avatar: MonicaWheat,
     bio: '',
     twitter: null,
-    url: '',
+    url: 'https://www.linkedin.com/in/monicawheat/',
     organization: '',
     position: '',
     session: {
@@ -1363,9 +1372,6 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
       room: '(1st Floor) Woodward',
     },
   },
-  
-
-
 ]
 
 // gives ID to each speaker automatically
