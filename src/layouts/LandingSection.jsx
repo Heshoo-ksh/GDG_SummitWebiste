@@ -8,7 +8,8 @@ function LandingSection() {
   return (
     <section id="landing" className="mt-16">
       <div className="flex flex-wrap bg-black">
-        <div className="w-full sm:w-1/2">
+        {/* Image portion: now 2/5 on small screens and larger */}
+        <div className="w-full sm:w-3/5">
           <img
             className="w-full"
             src={BHMSummitLogo}
@@ -16,10 +17,11 @@ function LandingSection() {
           />
         </div>
 
-        <div className="flex w-full flex-col justify-between bg-primary-400 sm:w-1/2">
+        {/* Text portion: now 3/5 on small screens and larger */}
+        <div className="flex w-full flex-col justify-between bg-primary-400 sm:w-2/5">
           <div className="flex grow flex-col items-center justify-center space-y-8 p-10 pt-0">
             <img className="w-3/4" src={date} alt="Date and Red Circle" />
-            <h1 className="!mt-0 text-justify text-xl font-semibold lg:text-base xl:text-3xl">
+            <h1 className="!mt-0 text-justify text-xl font-semibold lg:text-base xl:text-2xl">
               Discover the Future of Tech Innovation in Detroit
             </h1>
             <p className="text-justify text-sm font-normal lg:text-base xl:text-lg">
@@ -38,10 +40,9 @@ function LandingSection() {
             <a
               href="https://events.eventnoire.com/e/black-tech-saturdays-3?utm_source=affiliate&utm_name=GDG-Link&utm_campaign=GDG-Link&utm_id=679934b71770480eb6a500120a1e60ce"
               target="_blank"
-              className="flex items-center rounded bg-sky-900 px-8 py-5 text-primary-400 shadow-xl transition delay-75 duration-100 ease-in-out hover:-translate-y-1 hover:scale-110 hover:cursor-pointer"
+              className="mt-1 flex items-center rounded bg-sky-900 px-8 py-5 text-primary-400 shadow-xl transition delay-75 duration-100 ease-in-out hover:-translate-y-1 hover:scale-110 hover:cursor-pointer"
               rel="noreferrer"
             >
-              {' '}
               <FaTicketAlt className="mr-3" />
               Register
             </a>
