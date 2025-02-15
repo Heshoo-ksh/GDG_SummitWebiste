@@ -116,7 +116,7 @@ const rawData = [
     session: {
       title:
         "Welcome & Opening Remarks",
-      description: 'Hear from Alexa Turnage (Black Tech Saturdays), Art Thompson (City of Detroit), Brandi Brown (Gilbert Family Foundation), Carolina Pluszczynski (Michigan Central), Delon Dixon (Think Technology), Hilary Doe (State of Michigan), Jenna Ritten (Compass Detroit), Johnnie Turnage (Black Tech Saturdays), Kirsten Jordan (NSBE Detroit), Rachel Francois (Google), Rishi Moudgil (Michigan Founders Fund), Tim Moore (Clixie AI)',
+      description: 'Hear from Alexa Turnage (Black Tech Saturdays), Art Thompson (City of Detroit), Brandi Brown (Gilbert Family Foundation), Carolina Pluszczynski (Michigan Central), Delon Dixon (Think Technology), Hilary Doe (State of Michigan), Jenna Ritten (Compass Detroit), Johnnie Turnage (Black Tech Saturdays), Kirsten Jordan (NSBE Detroit), Rachel Francois (Google), Rishi Moudgil (Michigan Founders Fund), Tim Moore (Clixie AI)!',
       track: 'Open Innovation',
       time: '10:00-10:35',
       room: '(3rd Floor) Build with AI',
