@@ -55,6 +55,8 @@ import AffiaPhillips from '@/assets/images/speakers/Affia Phillips.jpg'
 import VictoriaDrozdowski from '@/assets/images/speakers/Victoria Drozdowski.jpg'
 import AchshaJones from '@/assets/images/speakers/Achsha Jones.jpg'
 import CiaraCade from '@/assets/images/speakers/Ciara Cade.jpg'
+import Erika from '@/assets/images/speakers/erika.jpeg'
+import TzuPore from '@/assets/images/speakers/TzuPore.jpeg'
 
 // breakout sessions
 import BriannaBryant from '@/assets/images/speakers/Brianna Bryant.jpeg'
@@ -874,7 +876,7 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
       description:
         "Are you a software engineer who believes technical prowess alone guarantees success? Do you think writing flawless code is the sole key to success in software engineering?\nThis talk challenges that notion, highlighting two often-underestimated skills vital for career advancement: building a strong professional network and mastering computer networks. We'll explore the reasons why these skills are indispensable, exploring the ways a strong network opens doors to opportunities and how troubleshooting network issues empowers engineers. Discover unexpected parallels between these seemingly unrelated domains, as we draw connections between nurturing professional relationships and constructing efficient network infrastructure.\nYou will walk away with practical insights to accelerate your career growth, whether you're a seasoned engineer or just starting out.",
       track: 'Professional Development',
-      time: '10:45',
+      time: '10:45-11:10',
       room: 'Compass Stage and Common Area',
     },
   },
@@ -952,7 +954,7 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
       description: '',
       tags: [],
       track: 'Professional Development',
-      time: '11:15',
+      time: '11:15-11:40',
       room: 'Compass Stage and Common Area',
     },
   },
@@ -1236,6 +1238,39 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
       room: 'Compass Stage and Common Area',
     },
   },
+  {
+    name: 'Erika Monaé',
+    avatar: Erika,
+    bio: '',
+    twitter: null,
+    url: 'https://www.linkedin.com/in/erika-m-lewis/',
+    organization: 'The Erika Monaé Group, LLC',
+    session: {
+      title:
+      'Resume Review 1 presented by Compass Detroit',
+      description: '',
+      track: 'Professional Development',
+      time: '10:45-11:10',
+      room: 'Compass Stage and Common Area',
+    },
+    // session: {
+    //   title:
+    //   'Resume Review 2 presented by Compass Detroit',
+    //   description: '',
+    //   track: 'Professional Development',
+    //   time: '11:15-11:40',
+    //   room: 'Compass Stage and Common Area',
+    // },
+  },
+  // {
+  //   name: 'Tzu Pore',
+  //   avatar: TzuPore,
+  //   bio: '',
+  //   twitter: null,
+  //   url: 'https://www.linkedin.com/in/tzuporeart/',
+
+  // },
+
   {
     name: 'Sharan Kalwani',
     email: 'sharan.kalwani@ieee.org',
