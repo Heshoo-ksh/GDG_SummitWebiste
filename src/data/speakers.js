@@ -27,6 +27,7 @@ import NareshThakur from '@/assets/images/speakers/NareshThakur.jpeg'
 import DavidCardozo from '@/assets/images/speakers/DavidCardozo.jpg'
 import MichaelJenkins from '@/assets/images/speakers/MichaelJenkins.jpeg'
 import Delon from '@/assets/images/speakers/Delon.jpeg'
+import Jenna from '@/assets/images/speakers/jenna.jpg'
 
 // funders and founders
 import ChristinaDrake from '@/assets/images/speakers/Christina Drake.jpg'
@@ -104,6 +105,40 @@ import JessicaBlack from '@/assets/images/speakers/Jessica Black.jpg'
 import DefaultAvatar from '@/assets/images/speakers/default profile.png'
 
 const rawData = [
+  {
+    name: 'Jenna Ritten',
+    email: 'jritten@umich.edu',
+    avatar: Jenna,
+    bio: '',
+    url: 'https://www.linkedin.com/in/brent-feniak-4a62953b/',
+    twitter: null,
+    organization: 'IBM',
+    session: {
+      title:
+        "Welcome & Opening Remarks",
+      description: 'Hear from Alexa Turnage (Black Tech Saturdays), Art Thompson (City of Detroit), Brandi Brown (Gilbert Family Foundation), Carolina Pluszczynski (Michigan Central), Delon Dixon (Think Technology), Hilary Doe (State of Michigan), Jenna Ritten (Compass Detroit), Johnnie Turnage (Black Tech Saturdays), Kirsten Jordan (NSBE Detroit), Rachel Francois (Google), Rishi Moudgil (Michigan Founders Fund), Tim Moore (Clixie AI)',
+      track: 'Open Innovation',
+      time: '10:00-10:35',
+      room: '(3rd Floor) Build with AI',
+    },
+  },
+  {
+    name: 'Jenna Ritten',
+    email: 'jritten@umich.edu',
+    avatar: Jenna,
+    bio: '',
+    url: 'https://www.linkedin.com/in/brent-feniak-4a62953b/',
+    twitter: null,
+    organization: 'IBM',
+    session: {
+      title:
+        "Closing Remarks & Prizes",
+      description: '',
+      track: 'Open Innovation',
+      time: '4:00-4:15',
+      room: '(3rd Floor) Build with AI',
+    },
+  },
   {
     name: 'Brent Fenaik',
     email: '',
