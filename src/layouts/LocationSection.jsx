@@ -37,7 +37,7 @@ function LocationSection() {
             className="ml-16 cursor-pointer hover:underline"
             rel="noreferrer"
           >
-            <p className="xl:whitespace-nowrap">Newlab Michigan Central</p>
+            <p className="xl:whitespace-nowrap">Newlab at Michigan Central</p>
             <p className="xl:whitespace-nowrap">
               Newlab Detroit, 2050 15th St, Detroit, MI 48216
             </p>

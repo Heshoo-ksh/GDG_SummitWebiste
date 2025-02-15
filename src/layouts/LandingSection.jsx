@@ -17,9 +17,9 @@ function LandingSection() {
         </div>
 
         <div className="flex w-full flex-col justify-between bg-primary-400 sm:w-1/2">
-          <div className="flex grow flex-col items-center justify-center space-y-8 p-10">
+          <div className="flex grow flex-col items-center justify-center space-y-8 p-10 pt-0">
             <img className="w-3/4" src={date} alt="Date and Red Circle" />
-            <h1 className="text-justify text-xl font-semibold lg:text-base xl:text-3xl">
+            <h1 className="!mt-0 text-justify text-xl font-semibold lg:text-base xl:text-3xl">
               Discover the Future of Tech Innovation in Detroit
             </h1>
             <p className="text-justify text-sm font-normal lg:text-base xl:text-lg">
@@ -34,11 +34,6 @@ function LandingSection() {
               Technologies, this large-scale in-person event at Michigan Central
               Station and New Lab will spotlight the latest advancements in
               technology and the transformative impact of AI on industries.
-              <br />
-              <br />
-              Attendees will engage in hands-on workshops, product demos, and
-              panel discussions with industry leaders, culminating in a lively
-              social hour designed for networking and collaboration.
             </p>
             <a
               href="https://events.eventnoire.com/e/black-tech-saturdays-3?utm_source=affiliate&utm_name=GDG-Link&utm_campaign=GDG-Link&utm_id=679934b71770480eb6a500120a1e60ce"
