@@ -29,9 +29,9 @@ import JoeRobinson  from '@/assets/images/speakers/Joe Robinson.jpeg'
 import OrlettaCaldwell from '@/assets/images/speakers/Orletta Caldwell.jpeg'
 import TimMoore  from '@/assets/images/speakers/Tim Moore.png'
 import PastorVelmaJean  from '@/assets/images/speakers/Pastor Velma Jean.jpg'
-import BriannaBryant from '@/assets/images/speakers/Brianna Bryant.jpg'
+import BriannaBryant1 from '@/assets/images/speakers/Brianna Bryant.jpg'
 import Ricardo from '@/assets/images/speakers/Ricardo.jpg'
-import DerienStephens  from '@/assets/images/speakers/Derien Stephens.jpeg'
+import DerienStephens1  from '@/assets/images/speakers/Derien Stephens.jpeg'
 import AmberLewise from '@/assets/images/speakers/AmberLewise.jpeg'
 import JessicaBlack from '@/assets/images/speakers/Jessica Black.jpg'
 import SheriWashington from '@/assets/images/speakers/Sheri-Washington.jpeg'
@@ -986,7 +986,7 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     id: 23,
     name: 'Brianna Bryant',
     email: 'brianna.bryant@ppmi.org',
-    avatar: BriannaBryant,
+    avatar: BriannaBryant1,
     bio: 'Brianna leads as the Detroit and Wayne County Regional Community organizer for Planned Parenthood Advocates of Michigan. She graduated in 2023 with a degree in Women and Gender studies and Applied Arts. Brianna believes in inspiring the intersectionality of creativity and community for all. She stands at the forefront of advocating for women of color and gender minorities rights through the lens of community organizing, photography, documentary, and other multimedia art forms. Her expertise falls within uplifting Black and Brown liberation and joy in each project and organizing efforts. For her intersections of social justice, art, and digital storytelling she has been featured in the Detroit Institute of Arts, TED Countdown, Bill and Melinda Gates Foundation, and in Forbes 30 Under 30 2019 Summit. Tenia Denard has served in the non profit and project development for over 20 years. Her most recent project served at New Lab help digitally organizing transportation for veterans on a new developing app. Together we have been organizers in Michigan that utilizes tech in so many ways to serve our communities.',
     twitter: null,
     url: 'https://www.linkedin.com/in/brianna-bryant-304698194?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
@@ -1066,7 +1066,7 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     id: 27,
     name: 'Derien Stephens',
     email: 'hello@careerstack.co',
-    avatar: DerienStephens,
+    avatar: DerienStephens1,
     bio: 'I am a former non-technical founder and coding bootcamp graduate turned Product Manager. I have over a decade of experience working in tech and VC-backed startups and would like to share my view on how others can be empowered to build and test their ideas without being developers or using low-code/no-code tools.',
     twitter: null,
     url: 'careerstack.co',
