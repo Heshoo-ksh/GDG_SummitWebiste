@@ -30,6 +30,9 @@ import AsalynCoachman from '@/assets/images/speakers/Asalyn Coachman.jpg'
 import EddieCargor from '@/assets/images/speakers/Eddie Cargor.jpg'
 import TyroneThorpe from '@/assets/images/speakers/Tyrone Thorpe.jpeg'
 import RainyHamilton from '@/assets/images/speakers/Rainy Hamilton.jpeg'
+import Britinni from '@/assets/images/speakers/Britinni.jpeg' 
+import RishiModgal from '@/assets/images/speakers/Rishi Modgal.jpg'
+import DawnBatts from '@/assets/images/speakers/Dawn Batts.png'
 
 
 
@@ -38,8 +41,8 @@ export const SpeakersData = [
     id: 1,
     name: 'Brittni Abiolu',
     email: 'Info is not available',
-    avatar: defaultprofile,
-    bio: 'Info is not available',
+    avatar: Britinni,
+    bio: 'Brittni Abiolu is an entrepreneur, venture builder, investor, and advisor with nearly two decades of experience helping aspiring entrepreneurs start new businesses, obtain capital, develop websites and cloud based applications. She is the Founder/Managing Director, VentureHue Detroit, Michigan, United States.  VentureHue is a venture studio that incubates and accelerates “our own” business ideas and invests in other businesses. The company helps other entrepreneurs scale their business by providing them with access to the services and resources they need to succeed. The company has a network of resources that include investors, lenders, and service providers.',
     twitter: null,
     url: 'Info is not available',
     organization: 'Michign Founders Fund',
@@ -47,7 +50,7 @@ export const SpeakersData = [
     session: {
       title: 'Michigan Founders Fund Pre-Accelerator with gener8tor',
       abstract: 'Info is not available',
-      description: 'Info is not available' ,
+      description: '' ,
       tags: [],
       track: 'Founders & Funders',
       time: '11:15',
@@ -58,16 +61,16 @@ export const SpeakersData = [
     id: 2,
     name: 'Rishi Mogdal',
     email: '',
-    avatar: defaultprofile,
-    bio: 'Info is not available',
+    avatar: RishiModgal,
+    bio: 'Rishi Moudgil is the Executive Director of Michigan Founders Fund, representing founders and investors committed to fostering a thriving, inclusive, and purpose-driven community for high-growth entrepreneurs statewide. His career as a founder, social investor, creator, and educator spans multiple sectors, focusing on shaping equitable opportunities and building lasting social impact.',
     twitter: null,
-    url: 'Info is not available',
+    url: 'https://www.detroitchamber.com/bios/rishi-moudgil/',
     organization: 'Michign Founders Fund',
-    position: '',
+    position: 'Executive Director',
     session: {
       title: 'Michigan Founders Fund Pre-Accelerator with gener8tor',
       abstract: 'Info is not available',
-      description:'Info is not available',
+      description:'',
       tags: [],
       track: 'Founders & Funders',
       time: '11:15',
@@ -179,12 +182,12 @@ export const SpeakersData = [
     id: 8,
     name: 'Dawn Batts',
     email: 'Info not available',
-    avatar: defaultprofile,
-    bio: 'Info not available',
+    avatar: DawnBatts,
+    bio: 'Dr. Dawn Batts has over two decades of experience, analyzing business opportunities, developing and implementing strategic plans, and managing their subsequent operations. Her diverse professional experiences and research have led to her solutions-based approach in addressing the myriad of factors causing economic disparities experienced by women and African Americans. As the CEO of Milestone Growth Capital Institute, Dawn secures and aligns resources to help diverse angel investors and entrepreneurs. Dawn previously served as the Director of Growth Capital for TechTown Detroit and was the curator of their Catalyst Angel Program. She was a co-founder of Commune Angels, a diverse community of investors who funded scalable consumer, enterprise and life science companies that transform lives. Dawn’s unwavering commitment to support angel investors and entrepreneurs in the ecosystem reflects her dedication to fostering collaboration, innovation, and economic growth.',
     twitter: null,
-    url: 'Info not available',
-    organization: '',
-    position: '',
+    url: '',
+    organization: 'Milestone Growth Capital Institute',
+    position: 'CEO',
     session: {
       title: 'Angel Investing 101',
       abstract: 'Info not available',
