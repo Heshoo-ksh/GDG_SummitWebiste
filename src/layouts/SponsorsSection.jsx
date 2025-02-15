@@ -9,9 +9,9 @@ function SponsorsSection() {
     >
       <div className="flex w-full justify-between px-8 sm:px-10 md:px-14 lg:px-16">
         <header className="w-full text-center font-russell text-4xl md:text-5xl lg:text-6xl">
-          Sponsors
+          Partners
         </header>
-        <img src={Kite} alt="Sponsors" className="h-12 md:h-14 lg:h-16" />
+        <img src={Kite} alt="Partners" className="h-12 md:h-14 lg:h-16" />
       </div>
       <div className="mt-8 grid grid-cols-1 gap-8 sm:mt-10 sm:grid-cols-3 sm:gap-10 md:mt-14 md:gap-14 lg:mt-16 lg:gap-16">
         {sponsorsData.map((sponsor) => (

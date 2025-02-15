@@ -1,4 +1,4 @@
-//innovation
+// innovation
 import EtienneCaron from '@/assets/images/speakers/Etienne Caron.png'
 import HodaSolati from '@/assets/images/speakers/Hoda Solati.jpg'
 import ShimaSolati from '@/assets/images/speakers/Shima Solati.jpg'
@@ -14,44 +14,66 @@ import NareshJasotani from "@assets/images/speakers/NareshJasotani.jpg"
 import ChristinaDrake from '@/assets/images/speakers/Christina Drake.jpg'
 import DianeBouis from '@/assets/images/speakers/Diane Bouis.jpg'
 import CrystalBrown from '@/assets/images/speakers/Crystal Brown.jpg'
+import defaultprofile from '@/assets/images/speakers/default profile.png'
 import BryannaGrant from '@/assets/images/speakers/Bryanna Grant.png'
 import DavidBloom from '@/assets/images/speakers/David Bloom.jpg'
 import DeWayneWilliams from '@/assets/images/speakers/DeWayne Williams.jpg'
 import DrSabrinaJackson from '@/assets/images/speakers/Dr Sabrina Jackson.jpeg'
+import BryanCampbell from '@/assets/images/speakers/Bryan Campbell.jpg'
 import EdFowler from '@/assets/images/speakers/Ed Fowler.jpeg'
-
-//'Professional Development'
-import AdamZientarski from '@/assets/images/speakers/Adam Zientarski.png'
-import AngelaRichardson from '@/assets/images/speakers/Angela Richardson.jpg'
+import IdaByrdHill from '@/assets/images/speakers/Ida ByrdHill.png'
+import KeeJones from '@/assets/images/speakers/Kee Jones.jpeg'
+import KatyKelly from '@/assets/images/speakers/Katy Kelly.jpg'
+import BriahnaKnowles from '@/assets/images/speakers/Briahna Knowles.jpeg'
+import EmefaBoamah  from '@/assets/images/speakers/Emefa Boamah.png'
+import DavidBrophy  from '@/assets/images/speakers/David Brophy.jpeg'
+import JoeRobinson  from '@/assets/images/speakers/Joe Robinson.jpeg'
+import OrlettaCaldwell from '@/assets/images/speakers/Orletta Caldwell.jpeg'
+import TimMoore  from '@/assets/images/speakers/Tim Moore.png'
+import PastorVelmaJean  from '@/assets/images/speakers/Pastor Velma Jean.jpg'
+import BriannaBryant from '@/assets/images/speakers/Brianna Bryant.jpg'
+import Ricardo from '@/assets/images/speakers/Ricardo.jpg'
+import DerienStephens  from '@/assets/images/speakers/Derien Stephens.jpeg'
+import AmberLewise from '@/assets/images/speakers/AmberLewise.jpeg'
+import JessicaBlack from '@/assets/images/speakers/Jessica Black.jpg'
+import SheriWashington from '@/assets/images/speakers/Sheri-Washington.jpeg'
+import AsiaWimbushSherrod from '@/assets/images/speakers/Asia Wimbush-Sherrod.jpeg'
+import RobertSimmons from '@/assets/images/speakers/Robert Simmons.png'
 import AsalynCoachman from '@/assets/images/speakers/Asalyn Coachman.jpg'
-import BrianSmith from '@/assets/images/speakers/Adam Zientarski.png'
 import EddieCargor from '@/assets/images/speakers/Eddie Cargor.jpg'
-import JazLee from '@/assets/images/speakers/Jaz Lee.jpeg'
-import KevinLewis from '@/assets/images/speakers/Kevin Lewis Jr..jpg'
-import KirstenJordan from '@/assets/images/speakers/Kirsten Jordan.jpg'
-import LemCartman from '@/assets/images/speakers/Lem Cartman.png'
-import MeaganWard from '@/assets/images/speakers/Meagan Ward.jpg'
-import OneikaMobley from '@/assets/images/speakers/Oneika Mobley.jpg'
-import OshunWilliams from '@/assets/images/speakers/Oshun Williams.jpg'
-import ScottRichardson from '@/assets/images/speakers/Scott Richardson.jpg'
-import TalonaJohnson from '@/assets/images/speakers/Talona Johnson.jpg'
-import TylerMcBeath from '@/assets/images/speakers/Tyler McBeath.jpeg'
 import TyroneThorpe from '@/assets/images/speakers/Tyrone Thorpe.jpeg'
-import AffiaPhillips from '@/assets/images/speakers/Affia Phillips.jpg'
-import VictoriaDrozdowski from '@/assets/images/speakers/Victoria Drozdowski.jpg'
-import AchshaJones from '@/assets/images/speakers/Achsha Jones.jpg'
-import CiaraCade from '@/assets/images/speakers/Ciara Cade.jpg'
+import RainyHamilton from '@/assets/images/speakers/Rainy Hamilton.jpeg'
 
-import defaultAvatar from '@/assets/images/speakers/default profile.png'
+// breakout sessions
+import BriannaBryant from '@/assets/images/speakers/Brianna Bryant.jpeg'
+import SharanKalwani from '@/assets/images/speakers/Sharan Kalwani.jpg'
+import MoniqueMansfield from '@/assets/images/speakers/Monique Mansfield.jpg'
+import MattalynnDarden from '@/assets/images/speakers/Mattalynn Darden.jpeg'
+import RicardoONeal from '@/assets/images/speakers/Ricardo ONeal.jpg'
+import KamrySteger from '@/assets/images/speakers/Kamry Steger.jpeg'
+import GraceMoore from '@/assets/images/speakers/Grace Moore.jpg'
+import AmberLewis from '@/assets/images/speakers/Amber Lewis.jpeg'
+import GerardAllen from '@/assets/images/speakers/Gerard Allen.jpg'
+import TatianaJackson from '@/assets/images/speakers/Tatiana Jackson.jpg'
+import DanielEasterly from '@/assets/images/speakers/Daniel Easterly.jpg'
+import DavidWalker from '@/assets/images/speakers/David Walker.jpeg'
+import MaggieVarney from '@/assets/images/speakers/Maggie Varney.jpg'
+import BethSavoldelli from '@/assets/images/speakers/Beth Savoldelli.png'
+import HienLam from '@/assets/images/speakers/Hien Lam.png'
+import MichaelPolk from '@/assets/images/speakers/Michael Polk.jpeg'
+import DerienStephens from '@/assets/images/speakers/Derien Stephens.jpeg'
+import DeavondreJones from '@/assets/images/speakers/Deavondre Jones.jpeg'
+
+import DefaultAvatar from '@/assets/images/speakers/default profile.png'
 
 const rawData = [
-  // innovation
   {
     name: 'Brent Fenaik',
     email: '',
-    avatar: defaultAvatar,
+    avatar: DefaultAvatar,
     bio: '',
-    url: 'https://www.linkedin.com/in/brent-feniak-4a62953b/',
+    url: '',
+    twitter: null,
     organization: '',
     session: {
       title:
@@ -66,8 +88,9 @@ const rawData = [
   {
     name: 'Rachel Francois',
     email: '',
-    avatar: defaultAvatar,
+    avatar: DefaultAvatar,
     bio: '',
+    twitter: null,
     url: '',
     organization: '',
     session: {
@@ -94,6 +117,7 @@ Etienne began his career as a back-end developer in the late nineties, pivoting 
 • Senior developer on the NinaTM Mobile speech recognition SDK at Nuance Communications.
 
 With over 25 years of experience, Etienne remains a dedicated community member, actively mentoring startups, developers, and students. He lives in Montreal, Canada, with his wife and daughter and is fluent in both French and English.`,
+    twitter: null,
     url: '',
     organization: 'Google Developper Expert / Kanastruk Services Conseils Inc.',
     session: {
@@ -109,9 +133,10 @@ With over 25 years of experience, Etienne remains a dedicated community member, 
   {
     name: 'Asim Williams',
     email: '',
-    avatar: defaultAvatar,
+    avatar: DefaultAvatar,
     bio: '',
-    url: 'https://www.linkedin.com/in/asim-w/',
+    twitter: null,
+    url: '',
     organization: 'Google',
     session: {
       title: "Introduction to AI Literacy with Google's Code Next",
@@ -135,6 +160,7 @@ Known for her innovative approach and storytelling in design, Hoda excels in cre
 Hoda has earned recognition at prestigious events like the IEEE International Conference on Smart Mobility (SM 2024), UbiComp/ISWC 2024, and the Ars Electronica Festival for Art, Technology, and Society (2023). In 2024, she received the MC-3 Challenge Award and Scholarship from the Michigan Colleges Alliance for her work in leveraging technology to meet human-centric design needs. 
 
 With a passion for innovation and inclusive design, Hoda is driven to push the boundaries of what’s possible and reshape the future of user experience.`,
+    twitter: null,
     url: 'https://www.linkedin.com/in/hoda-solati/',
     organization: 'BraunAbility',
     session: {
@@ -158,6 +184,7 @@ This session will delve into the research, challenges, and design innovations th
     bio: `Shima Solati is an innovative and award-winning UX/UI researcher and designer at BraunAbility, where she focuses on enhancing accessibility through innovation and user-centered design. With a master’s degree in User Experience Design from the College for Creative Studies, along with bachelor’s and master’s degrees in design specializing in fashion and textiles, she brings a multidisciplinary approach to solving complex design challenges. Her work seamlessly blends creativity with cutting-edge technologies to develop intuitive and inclusive solutions.
 
 Shima has a diverse background spanning VR, AR, robotics, and accessibility-focused design, making her a versatile expert in both immersive and assistive technologies. Her experience extends beyond accessibility, as she has worked on robotics-driven UX at KUKA Robotics, immersive experiences at the Augmented Reality Center (ARC) Lab, and automotive innovation at General Motors and Ford. Her expertise has been recognized at international conferences, including the IEEE International Conference on Smart Mobility (2024), UbiComp/ISWC (2024), and Ars Electronica (2023). She has received the Michigan Colleges Alliance Award (2024) and the CCS Excellence in UX Graduate Studies Award (2024). Additionally, she was shortlisted for the Car Design News Awards 2024 in the “AI Explorer” and “Undiscovered Talent” categories, as well as the Global Creative Graduate Showcase 2024.`,
+    twitter: null,
     url: 'linkedin.com/in/shima-solati',
     organization: 'BraunAbility',
     session: {
@@ -183,6 +210,7 @@ This session will delve into the research, challenges, and design innovations th
 As an entrepreneur working within the tech-industry, I see many cutting-edge breakthroughs happening on a daily basis; many of which have the potential to change how we live and interact with the world around us. What I have not seen much of is how we are preparing our youth (specifically within Detroit) how to take advantage of these technologies so that they aren't left behind. It has become my prerogative to teach these digital literacy skills to more young people throughout Detroit and the surrounding area to better equip them for their careers ahead.
 
 I have a team of developers that work alongside me to maintain projects for local businesses, design solutions, provide analytical data for storytelling, and teach each of these skills to our youth. I am hopeful that I will be given an opportunity to work alongside some of the awesome vendors listed above and help to edify our youth.`,
+    twitter: null,
     url: 'www.webdroid.online',
     organization: 'Webdroid, LLC',
     session: {
@@ -205,9 +233,10 @@ Students will create a program that will rank their top 5 favorite artists. Stud
   {
     name: 'Naresh Jasotani',
     email: '',
-    avatar: NareshJasotani,
+    avatar: DefaultAvatar,
     bio: '',
-    url: 'https://www.linkedin.com/in/naresh-r-jasotani/',
+    twitter: null,
+    url: '',
     organization: 'Google',
     session: {
       title:
@@ -222,9 +251,10 @@ Students will create a program that will rank their top 5 favorite artists. Stud
   {
     name: 'Nilesh Patel',
     email: '',
-    avatar: defaultAvatar,
+    avatar: DefaultAvatar,
     bio: '',
-    url: 'https://www.linkedin.com/in/nilesh-patel/',
+    twitter: null,
+    url: '',
     organization: 'Google',
     session: {
       title:
@@ -239,9 +269,10 @@ Students will create a program that will rank their top 5 favorite artists. Stud
   {
     name: 'Raj Grover',
     email: '',
-    avatar: defaultAvatar,
+    avatar: DefaultAvatar,
     bio: '',
-    url: 'https://www.linkedin.com/in/rajeevgrover/',
+    twitter: null,
+    url: '',
     organization: 'Google',
     session: {
       title:
@@ -258,6 +289,7 @@ Students will create a program that will rank their top 5 favorite artists. Stud
     email: '',
     avatar: CullenJones,
     bio: '',
+    twitter: null,
     url: 'https://www.linkedin.com/in/cullenjones41/',
     organization: 'Speedo / Sprint41',
     session: {
@@ -273,8 +305,9 @@ Students will create a program that will rank their top 5 favorite artists. Stud
   {
     name: 'Jacob Smith',
     email: '',
-    avatar: defaultAvatar,
+    avatar: DefaultAvatar,
     bio: '',
+    twitter: null,
     url: '',
     organization: '',
     session: {
@@ -289,8 +322,9 @@ Students will create a program that will rank their top 5 favorite artists. Stud
   {
     name: 'Chris Assigbe',
     email: '',
-    avatar: defaultAvatar,
+    avatar: DefaultAvatar,
     bio: '',
+    twitter: null,
     url: '',
     organization: '',
     session: {
@@ -306,6 +340,7 @@ Students will create a program that will rank their top 5 favorite artists. Stud
     email: 'brandon@aphid.com',
     avatar: BrandonCooper,
     bio: `Brandon Cooper is an internet technology businessman, CEO and co-founder of Aphid. Brandon specializes in Artificial Intelligence, Machine/Deep Learning, and Blockchain technology. Brandon has been nominated for top tech leader awards and has been featured on Forbes, CBS, NBC, Techstars, AfroTech, TedX, and more.`,
+    twitter: null,
     url: 'www.aphid.com',
     organization: 'Aphid',
     session: {
@@ -322,6 +357,7 @@ Students will create a program that will rank their top 5 favorite artists. Stud
     email: 'info@cynthiarespert.com',
     avatar: CynthiaRespert,
     bio: '',
+    twitter: null,
     url: 'https://linkedin.com/in/cynthiarespert',
     organization: 'AI BuildHER Academy / REBRANDX',
     session: {
@@ -336,8 +372,9 @@ Students will create a program that will rank their top 5 favorite artists. Stud
   {
     name: "De'Lon Dixon",
     email: '',
-    avatar: defaultAvatar,
+    avatar: DefaultAvatar,
     bio: '',
+    twitter: null,
     url: '',
     organization: '',
     session: {
@@ -356,6 +393,7 @@ Students will create a program that will rank their top 5 favorite artists. Stud
     bio: `Hajj Flemings is a global brand technologist who operates at the intersection of technology, branding, and culture. As the CEO and Founder of REBRANDX, he has spearheaded transformative initiatives through his companies—Rebrand Cities, RapVS.AI, Prompt Camp, and Modern Athlete—which empower communities and businesses through cutting-edge technologies. His work, featured in CNN’s Black in America 4: The New Promised Land: Silicon Valley, has inspired over 2.5 million viewers by championing diversity in tech and empowering Black entrepreneurs. Through Rebrand Cities, Hajj has helped over 2,000 small businesses across 10 U.S. cities and three countries close the digital divide in ways deeply embedded in culture.
 
 Globally, Hajj’s influence extends to AI innovation and cultural transformation. Representing the U.S. on trade missions to Portugal and Italy, he has bridged technology and creativity to position AI as a driver of human potential. As the author of The Brand YU Life and the forthcoming AI is a Remix (Q3 2025), he explores the evolving relationship between human-centric AI, creativity, and culture. He is also the co- founder of CXOMPLEX, Michigan’s most diverse AI community. With offices in Detroit and Miami, Hajj continues to inspire a global audience, shaping the digital age with vision, innovation, and human-centered design.`,
+    twitter: null,
     url: 'https://linkedin.com/in/hajjflemings',
     organization: 'CXOMPLEX',
     session: {
@@ -370,9 +408,10 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
   {
     name: 'Westley Amica',
     email: '',
-    avatar: defaultAvatar,
+    avatar: DefaultAvatar,
     bio: '',
-    url: 'https://www.linkedin.com/in/westleyamicaiii/',
+    twitter: null,
+    url: '',
     organization: '',
     session: {
       title:
@@ -386,8 +425,9 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
   {
     name: '',
     email: '',
-    avatar: defaultAvatar,
+    avatar: DefaultAvatar,
     bio: '',
+    twitter: null,
     url: '',
     organization: '',
     session: {
@@ -401,9 +441,10 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
   {
     name: 'Ashton Keys',
     email: '',
-    avatar: defaultAvatar,
+    avatar: DefaultAvatar,
     bio: '',
-    url: 'https://www.linkedin.com/in/ashton-keys-67941aba/',
+    twitter: null,
+    url: '',
     organization: 'Athlytic',
     session: {
       title:
@@ -416,11 +457,12 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
   },
   {
     name: 'Darren Riley',
-    email: '',
-    avatar: defaultAvatar,
+    email: 'JustAir',
+    avatar: DefaultAvatar,
     bio: '',
-    url: 'https://www.linkedin.com/in/darrenrashaunriley/',
-    organization: 'JustAir Solutions',
+    twitter: null,
+    url: '',
+    organization: '',
     session: {
       title:
         'The Future of Detroit & Beyond: AI, Community, and the Startup Ecosystem',
@@ -433,8 +475,9 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
   {
     name: 'Mykolas Rambus',
     email: '',
-    avatar: defaultAvatar,
+    avatar: DefaultAvatar,
     bio: '',
+    twitter: null,
     url: '',
     organization: 'Hush',
     session: {
@@ -449,8 +492,9 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
   {
     name: 'Rachel Francois',
     email: '',
-    avatar: defaultAvatar,
+    avatar: DefaultAvatar,
     bio: '',
+    twitter: null,
     url: '',
     organization: 'Google',
     session: {
@@ -465,7 +509,7 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
   {
     name: 'David Cardozo',
     email: 'david.cardozo@me.com',
-    avatar: defaultAvatar,
+    avatar: DefaultAvatar,
     bio: `I am a Machine Learning Scientist and technologist, with a primary focus on utilizing cutting-edge technologies like Jax/Flax, Docker, Kubeflow, and TensorFlow to create impactful products that address complex challenges. I am a seasoned infrastructure architect and cloud developer with expertise in GCP (Google Cloud Platform) and Azure. I specialize in deploying MLOps (Machine Learning Operations) solutions using Kubeflow.
 
 I am a software developer with a diverse background in software exploitation, math, information security, open-source development, and DevOps practices. I have extensive experience in these areas, and I am particularly passionate about community engagement and leadership in ML communities both in Canada and Colombia.
@@ -473,6 +517,7 @@ I am a software developer with a diverse background in software exploitation, ma
 Additionally, I am a Google Developer Expert, Docker Captain, and Kubeflow Community member.
 
 Currently I am working as Chief Lead Analyst for Updata in Canada.`,
+    twitter: null,
     url: 'https://www.linkedin.com/in/davidcardozo/',
     organization: 'Updata',
     session: {
@@ -491,8 +536,9 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
   {
     name: 'Michael Jenkins',
     email: '',
-    avatar: defaultAvatar,
+    avatar: DefaultAvatar,
     bio: '',
+    twitter: null,
     url: '',
     organization: 'Google',
     session: {
@@ -507,12 +553,14 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
   {
     name: 'Brittni Abiolu',
     email: '',
-    avatar: defaultAvatar,
+    avatar: DefaultAvatar,
     bio: '',
+    twitter: null,
     url: '',
     organization: 'Michign Founders Fund',
+    position: '',
     session: {
-      title: 'MFF Accelerator with Gener8r',
+      title: 'Michigan Founders Fund Pre-Accelerator with gener8tor',
       abstract: 'Info is not available',
       description: 'Info is not available',
       tags: [],
@@ -524,12 +572,14 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
   {
     name: 'Rishi Mogdal',
     email: '',
-    avatar: defaultAvatar,
+    avatar: DefaultAvatar,
     bio: '',
+    twitter: null,
     url: '',
     organization: 'Michign Founders Fund',
+    position: '',
     session: {
-      title: 'MFF Accelerator with Gener8r',
+      title: 'Michigan Founders Fund Pre-Accelerator with gener8tor',
       abstract: 'Info is not available',
       description: 'Info is not available',
       tags: [],
@@ -543,13 +593,16 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     email: 'christinad@renvcf.com',
     avatar: ChristinaDrake,
     bio: '',
+    twitter: null,
     url: '',
     organization: 'Renaissance Venture Capital',
+    position: '',
     session: {
       title: 'Venture 101: Why Venture is Important',
-      description: '',
+      abstract:'Info is not available',
+      description: 'Info is not available',
+      tags: [],
       track: 'Founders & Funders',
-      abstract: '',
       time: '11:45',
       room: '(1st Floor) Venture Stage',
     },
@@ -559,12 +612,15 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     email: 'dbouis@umich.edu',
     avatar: DianeBouis,
     bio: "Diane is the US Director for MedTech World, a Venture Partner at Neovate.VC and Consulting COO at a Medical Device company. Besides her global roles, she is a staunch Midwest startup ecosystem advocate and advisor and investor in Michigan biomedical startups. She previously served as US Director for MedTech Innovator, the largest medtech accelerator in the world. Diane has extensive experience managing startup portfolios through prior roles as Innovation Manager at the University of Michigan's Innovation Partnerships Startup Incubator and as an innovation consultant with The Inovo Group. She is a frequent speaker on medtech/ biotech/ health-tech innovation, investment and go to market strategy, incubators and accelerators, mentorship, leadership and growing diverse teams. Diane has lived and worked on three continents, speaks six languages, holds a PhD from the University of Groningen, Netherlands and an MBA from the University of Michigan Ross School of Business.",
+    twitter: null,
     url: 'https://www.linkedin.com/in/diane-bouis/',
     organization: 'BullsView Ventures',
+    position: '',
     session: {
       title: 'Life Science Ecosystems in Michigan and beyond',
       description:
         'Life Science is a high risk high reward industry to invest in. How does our landscape compare to our neighbors and nationally? What can we do to increase the long-term success of this industry here?',
+      tags: [],
       track: 'Founders & Funders',
       time: '3:05',
       room: '(1st Floor) Venture Stage',
@@ -575,18 +631,21 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     email: 'crystal.brown@circnova.com',
     avatar: CrystalBrown,
     bio: '',
+    twitter: null,
     url: 'https://www.circnova.com/',
     organization: 'CircNova',
     session: {
-      title: 'Life Sciences',
-      description:
-        'It’s hard.. yes, that doesn’t mean you’re wrong. We’re often made to feel as founders that if you’re not funded or in the spotlight, you’re wrong. That’s not necessarily the case. The session would talk about the things we don’t normally talk about - the gray areas and non traditional pivots that are vital to your startup journey and success.',
+      title: 'Venture 101',
+      abstract: 'Info is not available',
+      description:'It’s hard.. yes, that doesn’t mean you’re wrong. We’re often made to feel as founders that if you’re not funded or in the spotlight, you’re wrong. That’s not necessarily the case. The session would talk about the things we don’t normally talk about - the gray areas and non traditional pivots that are vital to your startup journey and success.',
+      tags: [],
       track: 'Founders & Funders',
       time: '3:05',
       room: '(1st Floor) Venture Stage',
     },
   },
   {
+    id: 6,
     name: 'Bryanna Grant',
     email: 'yanagrant@hustleandbrand.com',
     avatar: BryannaGrant,
@@ -596,18 +655,17 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     organization: 'Hustle and Brand',
     position: '',
     session: {
-      title:
-        'Maximizing LinkedIn for Campus-to-Career Success:Empowering Students and Parents',
-      abstract:
-        'High school and college students, along with their parents, will gain actionable insights in this engaging session on using LinkedIn as a powerful tool for career exploration, development, and success. Whether preparing for college, searching for internships, or pursuing post-graduation opportunities, this talk will provide a roadmap for turning passions into professions.',
-      description:
-        'How to create eye-catching LinkedIn profiles that showcase skills, extracurricular activities, and goals. Ways to explore career paths and identify opportunities like internships and rotational programs that align with interests. Practical tips for networking with industry professionals, alumni, and recruiters to build meaningful connections. Parents will also learn how to support their students in leveraging LinkedIn for academic and career growth, ensuring they’re prepared for the journey from education to a fulfilling career. Join us to uncover the tools to succeed in today’s competitive world!',
+      title: 'LinkedIn Workshop & Prepping for Your Career Change Workshop',
+      abstract: 'High school and college students, along with their parents, will gain actionable insights in this engaging session on using LinkedIn as a powerful tool for career exploration, development, and success. Whether preparing for college, searching for internships, or pursuing post-graduation opportunities, this talk will provide a roadmap for turning passions into professions.',
+      description:'How to create eye-catching LinkedIn profiles that showcase skills, extracurricular activities, and goals. Ways to explore career paths and identify opportunities like internships and rotational programs that align with interests. Practical tips for networking with industry professionals, alumni, and recruiters to build meaningful connections. Parents will also learn how to support their students in leveraging LinkedIn for academic and career growth, ensuring they’re prepared for the journey from education to a fulfilling career. Join us to uncover the tools to succeed in today’s competitive world!',
+      tags: [],
       track: 'Founders & Funders',
       time: '10:45',
       room: '(1st Floor) Woodward',
     },
   },
   {
+    id: 7,
     name: 'Dr.Sabrina Jackson',
     email: 'info@sabrinajackson.com',
     avatar: DrSabrinaJackson,
@@ -619,32 +677,35 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     session: {
       title: 'The People Principle',
       abstract: 'Info not available',
-      description:
-        'Session will help the participants learn their personality style in a very interactive and engaging session',
+      description:'Session will help the participants learn their personality style in a very interactive and engaging session',
+      tags: [],
       track: 'Founders & Funders',
       time: '11:45',
       room: '(1st Floor) Woodward',
     },
   },
   {
+    id: 8,
     name: 'Dawn Batts',
     email: 'Info not available',
-    avatar: defaultAvatar,
+    avatar: defaultprofile,
     bio: 'Info not available',
     twitter: null,
     url: 'Info not available',
-    organization: 'Info not available',
+    organization: '',
     position: '',
     session: {
       title: 'Angel Investing 101',
       abstract: 'Info not available',
-      description: 'Info not available',
+      description:'Info not available',
+      tags: [],
       track: 'Founders & Funders',
       time: '1:00',
       room: '(1st Floor) Woodward',
     },
   },
   {
+    id: 9,
     name: 'David Bloom',
     email: 'david@pointeangels.com',
     avatar: DavidBloom,
@@ -656,14 +717,15 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     session: {
       title: 'Angel Investing in 2025, the "Valley of Death"',
       abstract: 'Info not available',
-      description:
-        "The Mini - Angel Investing in 2025, the 'Valley of Death,' and how Angels engage to help founders across The Macro - Michigan's Innovation Ecosystem, how connectors (like you) create webs of value that retain Innovation. The Campaign - Michigan Angel Tax Credits - Michigan can be an Ecosystem or a Farm System - Angels make the difference.",
+      description:"The Mini - Angel Investing in 2025, the 'Valley of Death,' and how Angels engage to help founders across The Macro - Michigan's Innovation Ecosystem, how connectors (like you) create webs of value that retain Innovation. The Campaign - Michigan Angel Tax Credits - Michigan can be an Ecosystem or a Farm System - Angels make the difference.",
+      tags: [],
       track: 'Founders & Funders',
       time: '1:00',
       room: '(1st Floor) Woodward',
     },
   },
   {
+    id: 10,
     name: 'DeWayne Williams',
     email: 'dwilliams@etg10.com',
     avatar: DeWayneWilliams,
@@ -675,14 +737,15 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     session: {
       title: 'Mentorship and Support for Underrepresented Founders',
       abstract: 'Info not available',
-      description:
-        'As a mentor and supporter of underrepresented founders, I would like to discuss the importance of mentorship and provide strategies for supporting and empowering underrepresented entrepreneurs.',
+      description:'As a mentor and supporter of underrepresented founders, I would like to discuss the importance of mentorship and provide strategies for supporting and empowering underrepresented entrepreneurs.',
+      tags: [],
       track: 'Founders & Funders',
       time: '1:00',
       room: '(1st Floor) Woodward',
     },
   },
   {
+    id: 11,
     name: 'Ed Fowler',
     email: 'ed@detroitlandmark.com',
     avatar: EdFowler,
@@ -692,417 +755,617 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     organization: 'Detroit Landmark Development Corp',
     position: '',
     session: {
-      title:
-        'Smart Homes, Smarter Communities: Transforming Affordable Housing in Detroit',
+      title: 'The Future of Real Estate and Sustainable Housing',
       abstract: 'Info not available',
-      description:
-        'Explore how smart home automation is transforming affordable housing in Detroit, paving the way for modern, connected living. Through the lens of the Weston Hall project, this session delves into the integration of innovative technologies—such as smart locks, thermostats, and the tenant-focused PropertyDek platform—that enhance energy efficiency, simplify property management, and elevate tenant experiences. Discover how these advancements improve quality of life while setting a new benchmark for urban housing. Attendees will leave with a deeper understanding of implementation challenges, measurable impacts, and the emerging trends shaping the future of smart, sustainable communities over the next 3–5 years. Weston Hall Project: https://thewestonhall.com/ PropertyDek: https://propertydek.com/ ',
+      description:'Explore how smart home automation is transforming affordable housing in Detroit, paving the way for modern, connected living. Through the lens of the Weston Hall project, this session delves into the integration of innovative technologies—such as smart locks, thermostats, and the tenant-focused PropertyDek platform—that enhance energy efficiency, simplify property management, and elevate tenant experiences. Discover how these advancements improve quality of life while setting a new benchmark for urban housing. Attendees will leave with a deeper understanding of implementation challenges, measurable impacts, and the emerging trends shaping the future of smart, sustainable communities over the next 3–5 years. Weston Hall Project: https://thewestonhall.com/ PropertyDek: https://propertydek.com/ ',
+      tags: [],
       track: 'Founders & Funders',
       time: '3:00',
       room: '(1st Floor) Woodward',
     },
   },
-
-  //------------------------//
-
   {
-    name: 'Bryan Smith',
-    email: 'brsmith@tuskegeemuseum.org',
-    avatar: BrianSmith,
-    bio: 'Dr. Bryan R. Smith was the first African-American to earn a PhD in Biomedical Engineering at Wayne State University retired from GDLS where his cutting-edge research in improving combat vehicles served our armed forces for many years. Brian currently serves as President/CEO of the Tuskegee Airmen National Museum, driving both administrative and practical outcomes for both the general public as well as for students learning at the institution. Dr. Smith frequently lectures on the legacy of the Tuskegee Airmen speaking on their formation, combat experiences and what the Airmen contributed to America during and after WWII. He has been both developer and instructor for several aviation learning opportunities across Southeastern Michigan and is the recipient of several awards for those programs. Dr. Smith was appointed by Gov. Gretchen Whitmer to the Michigan Aeronautics Commission and currently serves as chair of the General Aviation Committee of the Michigan Aeronautics Commission, sharing supervisory responsibility for all aeronautics within the state.',
-    twitter: '',
-    url: 'http://linkedin.com/in/brian-smith-a405477',
-    organization: 'Tuskegee Airmen Museum and Flight School',
-    position: 'Customer Engineer Specialist',
-    session: {
-      title:
-        'From Black History to Black Legacy: The Lasting Impact of Membership in NSBE presented by Compass Detroit',
-      abstract:
-        'Are you a software engineer who believes technical prowess alone guarantees success?\nThis talk challenges that notion, highlighting two often-underestimated skills vital for career advancement: building a strong professional network and mastering computer networks.',
-      description:
-        "Are you a software engineer who believes technical prowess alone guarantees success? Do you think writing flawless code is the sole key to success in software engineering?\nThis talk challenges that notion, highlighting two often-underestimated skills vital for career advancement: building a strong professional network and mastering computer networks. We'll explore the reasons why these skills are indispensable, exploring the ways a strong network opens doors to opportunities and how troubleshooting network issues empowers engineers. Discover unexpected parallels between these seemingly unrelated domains, as we draw connections between nurturing professional relationships and constructing efficient network infrastructure.\nYou will walk away with practical insights to accelerate your career growth, whether you're a seasoned engineer or just starting out.",
-      track: 'Professional Development',
-      time: '10:45',
-      room: 'Compass Stage and Common Area',
-    },
-  },
-  {
-    name: 'Scott Richardson',
-    email: 'zurielseven@gmail.com',
-    avatar: ScottRichardson,
-    bio: 'W. Scott Richardson is a Senior Specialist in Training Development for FEA at Altair Engineering with a specialty in structural design and optimization. Scott is also a co-founder of Altair s Black Employee Resource Network (ABERN) and serves as the global Community Outreach Lead for that ERG. As a beneficiary of early exposure to STEM through educational programming, including NSBE, Scott has a passion for connecting young people with transformational career opportunities by linking corporate and community interests.',
+    id: 12,
+    name: 'Bryan Campbell',
+    email: 'bryan@xbigtech.com',
+    avatar: BryanCampbell,
+    bio: 'Info not available',
     twitter: null,
-    url: 'http://www.linkedin.com/in/zurielseven',
-    organization: 'Altair Engineering',
-    position: 'Senior Specialist in Training Development',
+    url: 'https://www.linkedin.com/in/bryanlcampbell',
+    organization: 'X Big Tech',
+    position: '',
     session: {
-      title:
-        'Lighting Talk 1: From Black History to Black Legacy: The Lasting Impact of Membership in NSBE ',
-      abstract:
-        'Are you a software engineer who believes technical prowess alone guarantees success?\nThis talk challenges that notion, highlighting two often-underestimated skills vital for career advancement: building a strong professional network and mastering computer networks.',
-      description:
-        "Are you a software engineer who believes technical prowess alone guarantees success? Do you think writing flawless code is the sole key to success in software engineering?\nThis talk challenges that notion, highlighting two often-underestimated skills vital for career advancement: building a strong professional network and mastering computer networks. We'll explore the reasons why these skills are indispensable, exploring the ways a strong network opens doors to opportunities and how troubleshooting network issues empowers engineers. Discover unexpected parallels between these seemingly unrelated domains, as we draw connections between nurturing professional relationships and constructing efficient network infrastructure.\nYou will walk away with practical insights to accelerate your career growth, whether you're a seasoned engineer or just starting out.",
-      tags: ['Technology'],
-      track: 'Professional Development',
-      time: '10:45',
-      room: 'Compass Stage and Common Area',
-    },
-  },
-  {
-    name: 'Tyler McBeath',
-    email: 'tylermcbeath@ymail.com',
-    avatar: TylerMcBeath,
-    bio: 'Tyler McBeath is a Product Development Engineer for Ford Motor Company, where he designs, validates and implements fuel delivery systems into vehicle programs while managing optimization projects throughout the lifecycle. He is also a graduate student at University of Michigan-Dearborn, studying Automotive Systems Engineering with a concentration in Electrical Engineering. He’s a graduate of Wright State University with a Bachelor’s in Mechanical Engineering. He also is a member of National Society of Black Engineers (NSBE) Detroit Professionals and the COMPASS liaison for the chapter.',
-    twitter: null,
-    url: 'http://linkedin.com/in/tyler-mcbeath-913b54102',
-    organization: 'NSBE Detroit Professionals/Ford Motor Company',
-    position: 'Product Development Engineer',
-    session: {
-      title:
-        'From Black History to Black Legacy: The Lasting Impact of Membership in NSBE presented by Compass Detroit',
-      abstract:
-        'We’ll explore the types of contracts available, essential qualifications, how to find opportunities, crafting compelling proposals, and building relationships. Unlock the potential of government contracts to elevate your tech career.',
-      description:
-        'How to Government Contract as a Tech Professional\n\nIntroduction\nBriefly introduce yourself and your background in tech and government contracting.\nExplain why government contracting is a valuable opportunity for tech professionals.\n\nUnderstanding Government Contracts\nDefine what government contracting is and its significance in the tech industry.\nDiscuss the types of government contracts available (e.g., federal, state, local) and sectors involved (software development, cybersecurity, etc.).\n\nGetting Started\nExplain the qualifications and skills needed to pursue government contracts.\nDiscuss the importance of certifications (e.g., SBA 8(a), HUBZone, etc.) and how they can enhance opportunities.\n\nFinding Opportunities\nShare resources for locating government contracts (e.g., SAM.gov, FedBizOpps).\nDiscuss networking opportunities, such as government contractor fairs and industry conferences.\n\nNavigating the Proposal Process\nOutline the steps to create a compelling proposal, including understanding requirements and tailoring your approach.\nShare tips on pricing strategies and project management.\n\nBuilding Relationships\nDiscuss the importance of establishing relationships with government agencies and other contractors.\nShare best practices for networking and collaboration.\n\nCase Studies and Success Stories\nHighlight examples of tech professionals or companies successfully contracting with the government.\nDiscuss the impact of their work and any lessons learned.\n\nQ&A Session\nOpen the floor for questions and engage with the audience to address their concerns and interests.\n\nConclusion\nSummarize key points and encourage attendees to explore government contracting as a viable career path.\nProvide your contact information or resources for further learning.',
+      title: 'Leveraging AI and Innovation for Leadership of the Future',
+      abstract: 'Info not available',
+      description:'How does all the new technologies coexist and what are the overlaps that should be identified if you are looking to be successful in the next wave of innovation.',
       tags: [],
-      track: 'Professional Development',
+      track: 'Detroit Ecosystem',
       time: '10:45',
-      room: 'Compass Stage and Common Area',
+      room: '(3rd Floor) BTS Innovation Cafe ',
     },
   },
   {
-    name: 'Ciara Cade',
+    id: 13,
+    name: 'Ida Byrd-Hill',
+    email: 'business@autoworkz.org',
+    avatar: IdaByrdHill,
+    bio: 'Ida Byrd-Hill is CEO of Automation Workz, a tech reskilling and coaching firm. Automation Workz utilizes data assessment to coach company executives to improve profits by assisting front-liners to complete emerging tech certification training in AI & Data Analytics, Cybersecurity Ops, Internet of Things, Network Engineering and Tech Project Management. Automation Workz landed on the 2022 and 2023 Intelligent.com list of the Top 10 cybersecurity boot camps in the US renowned for a learner completion rate of 75%, graduate average annual salaries of $67,250. Highest graduate has achieved $166,000, after 3 years of employment with 30% of graduates earning over $33.65 per hour. Prior to Automation Workz built a wealth management firm to $620 million in assets to financially empower 2200 individual clients and 10 corporations to become wealthy. She is a graduate of the University of Michigan - Ann Arbor with a BA in Economics and Jack Welch Management Institute at Strayer University with an MBA. Ida Byrd-Hill is a Director of Detroit Regional Chamber of Commerce and a member of the CEO Talent Council.',
+    twitter: null,
+    url: 'https://www.autoworkz.org',
+    organization: 'Automation Workz',
+    position: 'CEO',
+    session: {
+      title: 'Leveraging AI and Innovation for Leadership of the Future',
+      abstract: 'Info not available',
+      description:'Jensen Huang CEO Nvidia states "Software is eating the world, but AI is going to eat software. Every major new technology from electricity to the internet has minted millionaire who were early adopters. Are you going to ride the early AI wave or sit on the sidelines out of fear? This session presents an American economic historical view to shake off your fear and ride the wave.',
+      tags: [],
+      track: 'Detroit Ecosystem',
+      time: '10:45',
+      room: '(3rd Floor) BTS Innovation Cafe ',
+    },
+  },
+  {
+    id: 14,
+    name: 'Kee Jones',
+    email: 'kee@blackgirlai.com',
+    avatar: KeeJones,
+    bio: 'Kee Jones is the Chief Executive Officer of Black Girl Ai, the CoFounder of Including Us in Tech, and the Founder/CEO of RESET. At Black Girl Ai, she empower and inspire girls to become future leaders in the tech industry, equipping them with the skills, knowledge, and opportunities needed to excel in AI. Her passion lies in helping women and young girls learn all things tech-related, fueling their aspirations in the field. As CoFounder of Including Us in Tech, she further extends her mission to promote diversity and inclusion in the technology sector. In her role as Founder/CEO of RESET, Kee helps women conquer and defeat trauma, combining her tech expertise with a deep commitment to emotional healing and empowerment. Currently also serving in the healthcare industry, Kee Jones has accumulated an impressive 25 years of experience in various specialties. Her dedication to healthcare and her commitment to excellence are clear in her work. Before transitioning into tech, Kee worked in education for 10 years, an experience that ignited her drive to establish Visions Academy an online tutoring and enrichment program. Her commitment to education and learning remains unwavering especially when it involves using artificial intelligence ethically and responsibly.',
+    twitter: null,
+    url: 'http://linkedin.com/in/kee-jones-47088386',
+    organization: 'Black Girl Ai',
+    position: 'Chief Executive Officer',
+    session: {
+      title: 'Leveraging AI and Innovation for Leadership of the Future',
+      abstract: 'Info not available',
+      description:'In this session we explore how artificial intelligence is revolutionizing leadership development and shaping the next generation of leaders. The talk delves into the three-pillar approach: Technical fluency Ethical leadership. Human-centric innovation Together we will gain insights into practical AI education frameworks, critical ethical considerations in AI deployment, and strategies for developing leaders who can effectively bridge the human-AI divide.',
+      tags: [],
+      track: 'Detroit Ecosystem',
+      time: '10:45',
+      room: '(3rd Floor) BTS Innovation Cafe ',
+    },
+  },
+  {
+    id: 15,
+    name: 'Katy Kelly',
+    email: 'katy@withsainte.com',
+    avatar: KatyKelly,
+    bio: 'Katy Kelly is the visionary founder and CEO of Sainte, a company on a mission to help people turn trauma into resilience. With a fierce belief that trauma doesn’t have to define someone’s future, Katy has built Sainte to deliver trauma-informed, AI-powered tools that empower people to rebuild and thrive. Combining her drive for innovation with a deep understanding of human needs, Katy leads with heart and purpose, ensuring that Sainte’s solutions don’t just address problems—they create opportunities for transformation. Her work is fueled by a commitment to breaking cycles, building resilience, and proving that everyone deserves a second chance.',
+    twitter: null,
+    url: 'https://www.linkedin.com/in/bryanlcampbell',
+    organization: 'SAINTE',
+    position: 'CEO',
+    session: {
+      title: 'The Power of Personal Experience: Using lived experience to design tools that meet people where they are.',
+      abstract: 'As the founder of Sainte, Katy brings her passion for turning trauma into resilience to the table. She’ll guide the conversation, drawing out the panelists’ expertise and insights to show how empathy, innovation, and lived experience can change lives. Katy’s leadership in trauma-informed care and her drive to create scalable solutions will keep the discussion real and relatable.',
+      description:'This panel brings together an incredible group of people who are dedicated to helping others move beyond trauma and find strength in their comeback stories. We’ll dive into how technology, design, and personal experiences come together to create solutions that don’t just help people recover but give them the tools to thrive. From AI-powered platforms to trauma-informed care, this conversation is about innovation with heart—helping people overcome challenges and build brighter futures.',
+      tags: [],
+      track: 'Detroit Ecosystem',
+      time: '11:45',
+      room: '(3rd Floor) BTS Innovation Cafe ',
+    },
+  },
+  {
+    id: 16,
+    name: 'David Brophy',
+    email: 'djbrophy@umich.edu',
+    avatar: DavidBrophy,
+    bio: "PHD The Ohio State University 1965. MBA University of Detroit 1959. BC St Francis Xavier University 1957. BA St Francis Xavier University 1956. Academic Areas: Finance. David’s research focuses on pricing of private equity and initial public offerings of common stock and characteristics of the venture capital market. He also was the principal investigator on “Prospects for Small Business and Entrepreneurship in the 21st Century,” a White House Conference on Small Business. He also directs the longest running, university based venture capital market intervention for emerging growth comanies (The Midwest Growth Capital Symposium).",
+    twitter: null,
+    url: 'https://michiganross.umich.edu/faculty-research/faculty/david-brophy',
+    organization: 'University of Michigan, Ross',
+    position: 'Director - Office for the Study of Private Equity Finance & Professor Emeritus of Finance',
+    session: {
+      title: 'Lifecycle of a Student Founder presented by Clixie AI',
+      abstract: 'Info not available',
+      description:"Demonstrate how capital is coming back to Michigan after the mass exodus of funders in the 70's and due to declining reliance in West Coast",
+      tags: [],
+      track: 'Detroit Ecosystem',
+      time: '1:00',
+      room: '(3rd Floor) BTS Innovation Cafe ',
+    },
+  },
+  {
+    id: 17,
+    name: 'Briahna Knowles',
+    email: 'briahnaknowles@thehypewellnessgroup.org',
+    avatar: BriahnaKnowles,
+    bio: 'Briahna Knowles is a community health advocate, and mother who has dedicated her time since 2019 to creating lifestyle changes in her community through yoga and personal training. Briahna has a strong enthusiasm for children which has led her to work with Detroit Public Schools Community District, Detroit Parks and Recreation and other non profit organizations. Briahna is the Founder of The Hype Wellness Group and has plans for equity and inclusion for her peers and herself in the wellness industry.',
+    twitter: null,
+    url: 'Www.thehypewellnessgroup.org',
+    organization: 'The Hype Wellness Group',
+    position: '',
+    session: {
+      title: 'Mind, Body & Community Wellness for Success',
+      abstract: 'Info not available',
+      description:'This session we will host a meditation and discuss how prioritizing your wellness will help with your journey within entrepreneurship.',
+      tags: [],
+      track: 'Detroit Ecosystem',
+      time: '2:00',
+      room: '(3rd Floor) BTS Innovation Cafe ',
+    },
+  },
+  {
+    id: 18,
+    name: 'Emefa Boamah',
+    email: 'emefa@emefaboamah.com',
+    avatar: EmefaBoamah,
+    bio: 'Emefa Boamah is a Somatic & Embodiment-based Life and Business Coach dedicated to helping leaders—entrepreneurs, innovators, and change-makers—lead from a place of wholeness rather than depletion. Drawing deeply from her Ewe heritage in Ghana, Emefa blends ancestral wisdom with modern embodiment practices to guide individuals through the complexities of personal and professional growth. This fusion of cultural depth and somatic expertise helps leaders stay grounded, aligned, and resilient in fast-paced, high-pressure environments. With experience working alongside organizations like Black Women in Nonprofit Leadership and Girl Scouts of Northeast Texas, Emefa has supported leaders from diverse backgrounds—including high- achieving professionals, intuitive leaders, and trauma survivors. Her coaching focuses on cultivating authentic leadership styles that emphasize emotional resilience, creative problem-solving, and innovation. Emefa’s approach helps leaders navigate challenges, harness their intuition, and foster inclusive teams that drive forward-thinking solutions.',
+    twitter: null,
+    url: 'https://www.linkedin.com/company/emefa-boamah-embodiment-coaching/',
+    organization: 'Emefa Boamah Embodiment Coaching',
+    position: '',
+    session: {
+      title: 'Mind, Body & Community Wellness for Success',
+      abstract: 'Info not available',
+      description:'In a fast-paced world, the drive for innovation can sometimes come at the cost of our well-being. In this session, Emefa Boamah, a somatic and embodiment-based coach, will explore the critical connection between embodied self-care and effective leadership. Focusing on how leaders can stay grounded and aligned in the midst of rapid change and technological advancements, this interactive workshop will highlight practices that foster physical, emotional, and mental resilience.',
+      tags: [],
+      track: 'Detroit Ecosystem',
+      time: '2:00',
+      room: '(3rd Floor) BTS Innovation Cafe ',
+    },
+  },
+  {
+    id: 19,
+    name: 'Joe Robinson',
+    email: 'joe@werun313.com',
+    avatar: JoeRobinson,
+    bio: "Joe T. Robinson III, Co-Founder of WeRun313, is a renowned leader in the running community, renowned for his expertise in building inclusive and vibrant running communities. A lifelong Detroiter, Joe embodies the city's spirit of resilience and its commitment to fostering a strong sense of community. With 11 marathons completed and a proven track record of inspiring and empowering runners of all levels, Joe's expertise extends beyond personal achievement. As a lululemon ambassador, he champions the global running movement, advocating for the physical, mental, and social benefits of this transformative sport. Recognized for his contributions with the Spirit of Detroit Award and the State of Michigan Award of Recognition, Joe's leadership has been instrumental in cultivating a supportive and inclusive running community in Detroit, demonstrating his unique ability to connect individuals through the shared passion of running. His dedication to empowering runners and fostering a strong sense of community is further evidenced by his 2023 feature in Runner's World magazine, solidifying his position as an influential figure in the running world.",
+    twitter: null,
+    url: 'WeRun313.com',
+    organization: 'WeRun313',
+    position: '',
+    session: {
+      title: 'Mind, Body & Community Wellness for Success',
+      abstract: 'Info not available',
+      description: 'This session will explore the transformative power of community and connectivity within the WeRun313 running movement. We will delve into how this vibrant community fosters a sense of belonging among runners of all levels, from seasoned athletes to casual joggers. We will discuss the unique ways in which WeRun313 leverages running as a catalyst for social interaction, supporting mental and physical well-being, and creating a positive impact within the Detroit community.',
+      tags: [],
+      track: 'Detroit Ecosystem',
+      time: '2:00',
+      room: '(3rd Floor) BTS Innovation Cafe ',
+    },
+  },
+  {
+    id: 20,
+    name: 'Tim Moore',
+    email: 'tmoore@clixiemedia.com',
+    avatar: TimMoore,
+    bio: 'CEO of Clixie AI, Featured Keynote Speaker',
+    twitter: null,
+    url: 'https://www.linkedin.com/company/clixie-media-llc/',
+    organization: 'Clixie AI',
+    position: 'CEO',
+    session: {
+      title: 'Lifecycle of a Student Founder presented by Clixie AI',
+      abstract: 'Info not available',
+      description:'Demonstrate how AI has completely transformed learning via AI Generated Video, Translations and Agency.',
+      tags: [],
+      track: 'Detroit Ecosystem',
+      time: '1:00',
+      room: '(3rd Floor) BTS Innovation Cafe ',
+    },
+  },
+  {
+    id: 21,
+    name: 'Orletta Caldwell',
+    email: 'answers@beyondexisting.com',
+    avatar: OrlettaCaldwell,
+    bio: 'Dr. Orletta Caldwell is a distinguished African nonprofit leader, consultant, and coach with over 35 years of experience in nonprofit management. A proud alumna of Wayne State University, Dr. Caldwell specializes in empowering nonprofits—particularly African American organizations and workforce development initiatives—through strategic planning, organizational sustainability, and compliance. As the founder of Beyond Existing and Urban Nonprofit, she has become a trusted advisor to countless organizations, helping them navigate complex challenges and achieve long-term impact. Dr. Caldwell is also a speaker and educator, committed to equipping leaders with innovative tools and strategies to strengthen their communities and thrive in a competitive landscape.',
+    twitter: null,
+    url: 'https://www.beyondexisting.com',
+    organization: 'Beyond Existing Enterprises and The Urban Nonprofit',
+    position: '',
+    session: {
+      title: 'Funding & Technology for Non-Profits',
+      abstract: 'Info not available',
+      description:'Nonprofits face increasing challenges in sustainability, compliance, and achieving measurable impact. This presentation will empower nonprofit leaders with practical strategies to "go beyond existing" by leveraging technology, innovation, and strategic thinking to enhance organizational effectiveness and community impact. Drawing on expertise from Dr. Orletta Caldwell and insights from platforms like Beyond Existing and Urban Nonprofit, participants will walk away with tools and inspiration to transform their nonprofits into thriving, impactful entities.',
+      tags: [],
+      track: 'Detroit Ecosystem',
+      time: '3:00',
+      room: '(3rd Floor) BTS Innovation Cafe ',
+    },
+  },
+  {
+    id: 22,
+    name: 'Pastor Velma Jean',
+    email: 'velmajeanbenard@yahoo.com',
+    avatar: PastorVelmaJean,
+    bio: 'My name is Velma Jean Overman, and I am writing to express my interest in serving as a panelist at the Belonging Blueprint Black History Summit, hosted by Black Tech Saturdays. It would be an honor to bring my passion for equity, collaboration, and community empowerment to this important conversation, and to share insights gained from my work as a nonprofit leader, community advocate, and speaker. I have been a consistent follower of Black Tech Saturdays (BTS) since its inception, and I deeply admire the work being done to empower Detroit’s Black tech ecosystem and foster belonging within the industry. This summit represents a powerful continuation of that mission, and I am excited about the opportunity to contribute to this effort—not just as a participant, but as a panelist who can provide a unique and meaningful perspective to the dialogue.',
+    twitter: null,
+    url: 'https://www.linkedin.com/in/velma-overman-98a4213a?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAg_vjoBWZI04dVXZkB6DMT6DkkhdhgurNQ&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BlJCMKT95QmufvViJcVkgPw%3D%3D',
+    organization: 'Beyond Existing Enterprises and The Urban Nonprofit',
+    position: '',
+    session: {
+      title: 'Funding & Technology for Non-Profits',
+      abstract: 'Info not available',
+      description:'Nonprofits face increasing challenges in sustainability, compliance, and achieving measurable impact. This presentation will empower nonprofit leaders with practical strategies to "go beyond existing" by leveraging technology, innovation, and strategic thinking to enhance organizational effectiveness and community impact. Drawing on expertise from Dr. Orletta Caldwell and insights from platforms like Beyond Existing and Urban Nonprofit, participants will walk away with tools and inspiration to transform their nonprofits into thriving, impactful entities.',
+      tags: [],
+      track: 'Detroit Ecosystem',
+      time: '3:00',
+      room: '(3rd Floor) BTS Innovation Cafe ',
+    },
+  },
+  {
+    id: 23,
+    name: 'Brianna Bryant',
+    email: 'brianna.bryant@ppmi.org',
+    avatar: BriannaBryant,
+    bio: 'Brianna leads as the Detroit and Wayne County Regional Community organizer for Planned Parenthood Advocates of Michigan. She graduated in 2023 with a degree in Women and Gender studies and Applied Arts. Brianna believes in inspiring the intersectionality of creativity and community for all. She stands at the forefront of advocating for women of color and gender minorities rights through the lens of community organizing, photography, documentary, and other multimedia art forms. Her expertise falls within uplifting Black and Brown liberation and joy in each project and organizing efforts. For her intersections of social justice, art, and digital storytelling she has been featured in the Detroit Institute of Arts, TED Countdown, Bill and Melinda Gates Foundation, and in Forbes 30 Under 30 2019 Summit. Tenia Denard has served in the non profit and project development for over 20 years. Her most recent project served at New Lab help digitally organizing transportation for veterans on a new developing app. Together we have been organizers in Michigan that utilizes tech in so many ways to serve our communities.',
+    twitter: null,
+    url: 'https://www.linkedin.com/in/brianna-bryant-304698194?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+    organization: 'Revolutionizing Organizing',
+    position: '',
+    session: {
+      title: 'Tech for Effective Community Organizing: Leveraging Innovation of the Past & Future',
+      abstract: 'Info not available',
+      description:'In a new time and age technology has been the hot tool for social justice activist in Detroit and all across the world. This proposed session will take new and formal tech savvy folks and interested community organizers into the world of tools we untilize to make the work possible. From viral videos being posted for calls to action down to messaging apps we use to organize data, calls to action, and education is crucial. We will go over the tools, stragizes, platforms that we use and what about this tech that need to be revolutionized. This workshop will allow us to host a think tank sessions to collab on ways we can improve tech for community organizing. We will go over organizing 101 that walks through the pre, during, and post parts of utilizing tech in this work.',
+      tags: [],
+      track: 'Detroit Ecosystem',
+      time: '10:45',
+      room: '(2nd Floor) Michigan',
+    },
+  },
+  {
+    id: 24,
+    name: "Ricardo O'Nealre",
     email: '',
-    avatar: CiaraCade,
-    bio: 'I’m Ciara Cade, a social entrepreneur, professional development influencer, and aspiring software engineer. I’m a senior at the University of Michigan, studying Computer Science, with a passion for building innovative solutions in big tech and fintech. ',
+    avatar: Ricardo,
+    bio: '',
     twitter: null,
-    url: 'https://www.linkedin.com/in/ciaracade/',
-    organization: 'University of Michigan',
-    position: 'Social entrepreneur',
+    url: '',
+    organization: 'KIKCIT',
+    position: '',
     session: {
-      title: 'Speed Networking 1 & 2 Facilitator',
-      abstract: null,
-      description: '',
+      title: 'Branding Matters: 10 Reasons Why Branding Matters',
+      abstract: 'Info not available',
+      description:'Info not available',
       tags: [],
-      track: 'Professional Development',
-      time: '10:45',
-      room: 'Compass Stage and Common Area',
+      track: 'Detroit Ecosystem',
+      time: '11:45',
+      room: '(2nd Floor) Michigan',
     },
   },
   {
-    name: 'Talona Johnson',
-    email: 'talona.johnson@gmail.com',
-    avatar: TalonaJohnson,
-    bio: 'Talona Johnson, Cadillac International product manager at General Motors Company. Talona is a highly accomplished global leader with a strong track record of developing and leading cross-functional teams. She has extensive experience in manufacturing, product development, program management, and product management, which enables her to provide strategic insights that drive exceptional business results. She has led professional development initiatives for the General Motors African Ancestry Network for more than 14 years and raised over $100K for the UNCF Detroit Walk for Education. As a lifetime member of the National Black MBA Association, she was recently elected as the 2025-26 President of the Detroit Chapter. Prior to her role as president, Johnson has served as the Director of the chapter’s Leaders of Tomorrow high school mentoring program, guiding students in leadership, financial literacy, college readiness, and career preparation.',
+    id: 25,
+    name: 'Amber Lewis',
+    email: 'amber@socialnthecity.com',
+    avatar: AmberLewise,
+    bio: 'In rare and audacious form, Amber Lewis is the radiating socialite, digital powerhouse and artist whose unparalleled nature and social media prowess has elevated the essence and true narrative of the city of Detroit while living her life out loud as Social N The City. Her ability to transcend the depths of her unconventional advertising acumen and innate gift of conscious human connection across professional and personal platforms has poised her profoundly as Detroit’s CEO — the multifaceted woman and creative whose voice is heard, presence is felt and whose transparent spirit is infectious in every room she enters.',
     twitter: null,
-    url: 'linkedin.com/in/talona-johnson',
-    organization: 'General Motors',
-    position: 'Cadillac International Product Manager',
+    url: 'https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav',
+    organization: 'Social N The City',
+    position: 'CEO',
     session: {
-      title: 'Supercharge Your Network: Harnessing the POWER of Collaboration',
-      abstract: '',
-      description: '',
+      title: 'Branding Break Throughs for Effective Storytelling',
+      abstract: 'Info not available',
+      description:'Your work deserves to be seen, but building a personal brand as a CEO can feel overwhelming. In this session, we’ll break through the mindset blocks that keep you from sharing your story and highlight how to establish the themes that make your brand authentic and impactful. We’ll also touch on how AI tools can enhance your workflow, but the focus will be on giving you the confidence and strategies to showcase your leadership in a way that feels genuine and effortless.',
       tags: [],
-      track: 'Professional Development',
+      track: 'Detroit Ecosystem',
+      time: '1:00',
+      room: '(2nd Floor) Michigan',
+    },
+  },
+  {
+    id: 26,
+    name: 'David Walker',
+    email: 'tmoore@clixiemedia.com',
+    avatar: defaultprofile,
+    bio: 'I am a business attorney that works exclusively for start-up and small business owners. I have been practicing in corporate law for 27 years and am licensed in Michigan and Georgia. I also own a water bottling and distribution company called StarWalker Industries who owns a brand called Positivity Alkaline Water. I love helping entrepreneurs move along their journey.',
+    twitter: null,
+    url: 'https://www.linkedin.com/company/bodman-plc/',
+    organization: 'Bodman PLC',
+    position: '',
+    session: {
+      title: 'Legal Business Formation',
+      abstract: 'Info not available',
+      description:'This session is for founders who are ready to legally form their business. It will confirm the mental mindset of being an entrepreneur as well as how to legally structure a business. The speaker is Detroit Business Attorney David M. Walker, Esq., member at Bodman PLC and owner of Positivity Alkaline Water.',
+      tags: [],
+      track: 'Detroit Ecosystem',
+      time: '2:00',
+      room: '(2nd Floor) Michigan',
+    },
+  },
+  {
+    id: 27,
+    name: 'Derien Stephens',
+    email: 'hello@careerstack.co',
+    avatar: DerienStephens,
+    bio: 'I am a former non-technical founder and coding bootcamp graduate turned Product Manager. I have over a decade of experience working in tech and VC-backed startups and would like to share my view on how others can be empowered to build and test their ideas without being developers or using low-code/no-code tools.',
+    twitter: null,
+    url: 'careerstack.co',
+    organization: 'CareerStack',
+    position: 'CEO',
+    session: {
+      title: 'Low Code MVP Prototypes',
+      abstract: 'Info not available',
+      description:'I will demonstrate how the audience can prototype and deploy working custom code MVPs in less than 30 minutes - even if they have no technical background.',
+      tags: [],
+      track: 'Detroit Ecosystem',
+      time: '1:00',
+      room: '(2nd Floor) Michigan',
+    },
+  },
+  {
+    id: 28,
+    name: 'Jessica Black',
+    email: 'info@berrycleansoaps.com',
+    avatar: JessicaBlack,
+    bio: 'Founder and CEO of Berry Bot, soap maker. Experience with creating and running companies with a focus on the manufacturing process, distribution, cashflow, and proper teams to drive success.',
+    twitter: null,
+    url: 'www.berrybotsoapmaker.com',
+    organization: 'Berry Bot',
+    position: 'CEO',
+    session: {
+      title: 'Michigan Founders Fund Pre-Accelerator with gener8tor',
+      abstract: 'Info not available',
+      description:'',
+      tags: [],
+      track: 'Detroit Ecosystem',
       time: '11:15',
-      room: 'Compass Stage and Common Area',
+      room: '(1st Floor) Venture 313 Stage',
     },
   },
   {
-    name: 'Kirsten Jordan',
-    email: 'kirstenjms@gmail.com',
-    avatar: KirstenJordan,
-    bio: 'Kirsten Jordan is a Crash Safety Engineer at Ford Motor Company in Dearborn, MI where she assembles and analyzes computer-aided engineering safety models. She holds a Bachelor of Science degree in Industrial and Systems Engineering and a Master of Science in Engineering Management, both from Wayne State University. She sits on the board of the National Society of Black Engineers Detroit Professionals (NSBE), as Chair and has previously served as the NSBE Region IV Professionals Parliamentarian. She is also the Vice-Chair of the Industrial Engineering Junior Advisory Board at Wayne State University. Kirsten is an active member of the Ford Detroit Social Club, Ford African Ancestry Network, and Ford NextGen employee resource groups. Kirsten is a regular volunteer at the Medilodge Nursing Home for Seniors and is currently a very active member of her church. In her spare time, Kirsten enjoys reading, tennis, piano, cooking, traveling and art collecting. She has traveled to several countries including China, Costa Rica, Thailand, Peru, Scotland and even briefly lived in Mexico.',
+    id: 29,
+    name: 'Arabia Simeon',
+    email: 'Info is not available',
+    avatar: defaultprofile,
+    bio: 'Info is not available',
     twitter: null,
-    url: 'https://www.linkedin.com/in/kirsten-jordan-01b47898/',
-    organization: 'NSBE DETROIT PROFESSIONALS',
-    position: 'Crash Safety Engineer',
+    url: 'Info is not available',
+    organization: '',
+    position: '',
     session: {
-      title:
-        'From Black History to Black Legacy: The Lasting Impact of Membership in NSBE | Art & Generational Wealth Talk hosted by NSBE',
-      abstract: '',
-      description: '',
-      tags: ['Misc'],
-      track: 'Professional Development',
-      time: '10:45',
-      room: 'Compass Stage and Common Area',
-    },
-  },
-  {
-    name: 'Oneika Mobley',
-    email: 'omobley318@yahoo.com',
-    avatar: OneikaMobley,
-    bio: 'Oneika Mobley is a veteran public relations practitioner. She is the Vice President and Associate Director of Community Development & ESG Communications at The Huntington National Bank. Oneika is on the board of directors of the Torch of Wisdom Foundation, Inc. in Southfield, Michigan, serving as Community Programs Director. Her civic work also includes leading a weekly English as a Second Language (ESL) conversation class, and serving as a board member of the Communications Commission representing the Greater Detroit District of the United Methodist Church - Michigan Conference. In addition to serving in these and many other areas, Oneikas true passion is supporting fine arts - from performing to visual arts. She loves collecting original fine artwork and avidly supports emerging and established artists. Oneika received a Bachelor of Science degree in Speech Communications and Theater from Tennessee State University and now resides in Northville, MI.',
-    twitter: null,
-    url: 'https://www.linkedin.com/in/oneikamobley/',
-    organization: 'Huntington National Bank',
-    position: 'Vice President',
-    session: {
-      title: 'Art & Generational Wealth presented by Compass Detroit',
-      abstract: '',
-      description: '',
+      title: 'Michigan Founders Fund Pre-Accelerator with gener8tor',
+      abstract: 'Info is not available',
+      description: 'Info is not available' ,
       tags: [],
-      track: 'Professional Development',
+      track: 'Founders & Funders',
       time: '11:15',
-      room: 'Compass Stage and Common Area',
+      room: '(1st Floor) Venture Stage',
     },
   },
   {
-    name: 'Oshun Williams',
-    email: 'mittenmadeusa@gmail.com',
-    avatar: OshunWilliams,
-    bio: "I am a Pontiac native who specializes in mixed media. I relocated to Detroit after becoming a member of the Detroit Fine Arts Breakfast Club. Since joining, I've secured numerous sold-out exhibitions and sold over 150 works. My pieces have created an inventive demand for collectors to purchase more emergent work. In 2024, I was awarded the Gucci Changemakers Siren Art Wall and commissioned to be part of the University of Michigan’s permanent collection. I engage with my community by collaborating, collecting, and curating other artists' work.",
+    id: 30,
+    name: 'Darrell Marshall',
+    email: 'Info is not available',
+    avatar: defaultprofile,
+    bio: 'Info is not available',
     twitter: null,
-    url: 'www.oshunwilliams.com',
-    organization: 'Mitten Made Originals LLC',
-    position: 'Artist',
+    url: 'Info is not available',
+    organization: '',
+    position: '',
     session: {
-      title: 'Art & Generational Wealth presented by Compass Detroit',
-      abstract: '',
-      description: '',
+      title: 'Michigan Founders Fund Pre-Accelerator with gener8tor',
+      abstract: 'Info is not available',
+      description: 'Info is not available' ,
       tags: [],
-      track: 'Professional Development',
+      track: 'Founders & Funders',
       time: '11:15',
-      room: 'Compass Stage and Common Area',
+      room: '(1st Floor) Venture Stage',
     },
   },
   {
+    id: 31,
+    name: 'Matthew Burnett',
+    email: 'Info is not available',
+    avatar: defaultprofile,
+    bio: 'Info is not available',
+    twitter: null,
+    url: 'Info is not available',
+    organization: '',
+    position: '',
+    session: {
+      title: 'Michigan Founders Fund Pre-Accelerator with gener8tor',
+      abstract: 'Info is not available',
+      description: 'Info is not available' ,
+      tags: [],
+      track: 'Founders & Funders',
+      time: '11:15',
+      room: '(1st Floor) Venture Stage',
+    },
+  },
+  {
+    id: 32,
+    name: 'Sheri Washington',
+    email: 'swashington@mml.mobi',
+    avatar: SheriWashington,
+    bio: '30 years in global IT, manufacturing, systems engineering and cyber vigilence.',
+    twitter: null,
+    url: 'https://www.mml.mobi/',
+    organization: 'Michigan Mobility and Logistics',
+    position: '',
+    session: {
+      title: 'Michigan Founders Fund Pre-Accelerator with gener8tor',
+      abstract: 'Info is not available',
+      description: '1.Discuss how customer demand has impacted on-demand delivery market. 2.Amazon effect. 3.New jobs, new tech possibilities' ,
+      tags: [],
+      track: 'Founders & Funders',
+      time: '11:15',
+      room: '(1st Floor) Venture Stage',
+    },
+  },
+  {
+    id: 33,
+    name: 'Asia Wimbush-Sherrod',
+    email: 'asia_m_wimbush-sherrod@whirlpool.com',
+    avatar: AsiaWimbushSherrod,
+    bio: "Asia Wimbush-Sherrod is a transformative leader in diversity, equity, and inclusion (DEI) at Whirlpool Corporation's global headquarters in Benton Harbor, Michigan. As Senior Manager of Global DEI Strategy and Early Career Acquisition, she is reshaping how the company engages with underrepresented talent, bringing 15 years of experience to the role. Asia has led systemic changes in Whirlpool’s DEI efforts, focusing on diverse talent acquisition, mentoring, and providing scholarships for students at Michigan universities.",
+    twitter: null,
+    url: 'https://www.linkedin.com/in/asia-wimbush-sherrod-mba-1926ab1a/',
+    organization: 'Whirlpool Corporation',
+    position: '',
+    session: {
+      title: 'Leveraging AI to Build Equitable Teams and Organizations',
+      abstract: 'Info not available',
+      description:'Demonstrate how AI has completely transformed learning via AI Generated Video, Translations and Agency.',
+      tags: [],
+      track: 'Founders & Funders',
+      time: '1:00',
+      room: '(1st Floor) Venture 313 Stage',
+    },
+  },
+  {
+    id: 34,
+    name: 'Robert Simmons',
+    email: 'robert.simmons@nationalgrid.com',
+    avatar: RobertSimmons,
+    bio: "As a Detroiter raised on Livernois and Tireman, I have been afforded the opportunity to work at the intersection of social impact, community engagement and CSR. As a corporate social responsibility professional with extensive experience in the social sector, I have led teams focused on making a social impact through philanthropy and STEM programming, it’s not just about giving back—it's about fortifying communities and sparking a cycle of enduring growth.",
+    twitter: null,
+    url: 'https://www.linkedin.com/in/robert-simmons-iii-2179957/',
+    organization: 'National Grid',
+    position: '',
+    session: {
+      title: 'Leveraging AI to Build Equitable Teams and Organizations',
+      abstract: 'Info not available',
+      description:'This thought-provoking keynote (or panel) will explore the powerful convergence of artificial intelligence and corporate philanthropy. This session delves into how AI technologies are being harnessed to drive transformative social impact, amplifying the reach and effectiveness of corporate philanthropic efforts across the globe. I will highlight real-world examples of AI-driven initiatives that are addressing critical social challenges, from healthcare and education to environmental sustainability and humanitarian aid. Attendees will gain insights into the innovative ways AI is being used to enhance data analysis, optimize resource allocation, and create more personalized and impactful solutions.',     
+      tags: [],
+      track: 'Founders & Funders',
+      time: '1:00',
+      room: '(1st Floor) Venture 313 Stage',
+    },
+  },
+  {
+    id: 35,
     name: 'Asalyn Coachman',
     email: 'asalyn.coachman@prudential.com',
     avatar: AsalynCoachman,
-    bio: 'Asalyn Coachman is a Financial Advisor who coaches clients to wealth one decision and one dollar at a time. A Harvard University graduate and New York State licensed attorney, she has been working in financial services since 2009 and is affiliated with Prudential and Great Lakes Financial Group. Retirement planning, insurance, savings, debt management, and investments are areas of focus. A frequent public speaker, Asalyn has presented to organizations and industry peers on topics ranging from strategies for single clients, college and estate planning, and legacy creation to general financial knowledge with a focus on debt reduction and wealth accumulation. Quoted frequently in online publications such Insurance News Net and published in Advisor Today, she seeks to demystify the complicated world of money. Asalyn understands the key to financial wealth is not how much money you have, but the decisions you make with your money. She knows personal finance can be confusing and finds people are trying to make good money decisions but are burdened by lack of information or misinformation that prevents them from reaching their maximum financial potential. Guiding clients through a wealth building process, she educates and empowers clients to know what steps to take and why. Working together, clients build more wealth while reducing risk all while sustaining their daily lifestyle. Planning for life sooner and life later. Money drives your lifestyle – more money means more choices to live the life you want. – Asalyn Asalyn currently lives in Lake Orion with her husband and college sweetheart. A Certified Personal Trainer and tennis amateur, she is active in organizations such as the Harvard Club of Detroit, the Baldwin Center of Pontiac, Michigan, where she serves as board treasurer, and the School of Business Administration at Oakland University, where she sits on the Board of Visitors.',
+    bio: 'Asalyn Coachman is a Financial Advisor who coaches clients to wealth one decision and one dollar at a time. A Harvard University graduate and New York State licensed attorney, she has been working in financial services since 2009 and is affiliated with Prudential and Great Lakes Financial Group. Retirement planning, insurance, savings, debt management, and investments are areas of focus. A frequent public speaker, Asalyn has presented to organizations and industry peers on topics ranging from strategies for single clients, college and estate planning, and legacy creation to general financial knowledge with a focus on debt reduction and wealth accumulation. Quoted frequently in online publications such Insurance News Net and published in Advisor Today, she seeks to demystify the complicated world of money. Asalyn understands the key to financial wealth is not how much money you have, but the decisions you make with your money. She knows personal finance can be confusing and finds people are trying to make good money decisions but are burdened by lack of information or misinformation that prevents them from reaching their maximum financial potential.',
     twitter: null,
     url: 'https://www.linkedin.com/in/asalyncoachman/',
     organization: 'Prudential Advisors',
-    position: 'Financial Advisor',
+    position: '',
     session: {
-      title: 'Creating Black Wealth Hosted By Prudential',
-      abstract: '',
-      description: '',
+      title: 'Creating Black Wealth',
+      description:'The proposed session is Cornerstones of Financial Planning. It focuses on four areas of planning in creating Black Wealth centered on Cash Management and Liabilities, Protection, Investments, and Tax and Estate Planning Strategies.',
       tags: [],
-      track: 'Professional Development',
-      time: '11:45',
-      room: 'Compass Stage and Common Area',
+      track: 'Founders & Funders',
+      time: '1:30',
+      room: '(1st Floor) Venture 313 Stage',
     },
   },
   {
+    id: 36,
     name: 'Eddie Cargor',
     email: 'eddie.cargor@prudential.com',
     avatar: EddieCargor,
-    bio: 'I retired as a Human Resource Manager in 2017 after 30 years of service with the State of Michigan and began my career as a Financial professional. I have also owned and operated a tax practice for over 25 years. As a Financial Professional, my primary focus centers on cash management and liabilities, protection, investments, and tax and estate planning. I develop strategies concentrated on wealth  1  accumulation, life insurance and long-term care solutions and robust distribution strategies to mitigate, reduce, or eliminate taxes to help my clients plan for getting to and through retirement without running out of assets.',
+    bio: 'I retired as a Human Resource Manager in 2017 after 30 years of service with the State of Michigan and began my career as a Financial professional. I have also owned and operated a tax practice for over 25 years. As a Financial Professional, my primary focus centers on cash management and liabilities, protection, investments, and tax and estate planning. I develop strategies concentrated on wealth accumulation, life insurance and long-term care solutions and robust distribution strategies to mitigate, reduce, or eliminate taxes to help my clients plan for getting to and through retirement without running out of assets.',
     twitter: null,
     url: 'https://www.linkedin.com/in/drcargor/',
     organization: 'Prudential Advisors',
-    position: 'Financial Professional',
+    position: '',
     session: {
-      title: 'Creating Black Wealth Hosted By Prudential ',
-      abstract: '',
-      description: '',
+      title: 'Creating Black Wealth',
+      abstract: 'Info not available',
+      description:'The proposed session is Cornerstones of Financial Planning. It will focus on 4 areas of planning in creating Black Wealth centered on Cash Management and Liabilities, Protection, Investments, and Tax and Estate Planning Strategies.',
       tags: [],
-      track: 'Professional Development',
-      time: '11:45',
-      room: 'Compass Stage and Common Area',
+      track: 'Founders & Funders',
+      time: '1:30',
+      room: '(1st Floor) Venture 313 Stage',
     },
   },
   {
+    id: 37,
     name: 'Tyrone Thorpe',
     email: 'ty.thorpe@prudential.com',
     avatar: TyroneThorpe,
-    bio: 'Tyrone (Ty) Thorpe is a dedicated financial advisor with a commitment to navigating a path to financial security for his clients and their families. With expertise in investment and insurance strategies, Tyrone believes in taking an integrative planning approach to create tailored solutions that suit each client’s needs and desires. Throughout his career as a financial advisor, Tyrone has been lauded for his ability to deliver excellent customer service and create sustainable methods to achieve financial wellbeing. He previously held leadership and managerial positions which fine-tuned his versatile approach. His innate ability to connect with clients and their families creates an open environment to explore solutions for goals of varying complexity, duration, and scale. Raised by deaf parents, Tyrone is fluent is American Sign Language (ASL). He works with clients who are deaf, bridging the gap between financial planning services and the deaf community. Tyrone is a graduate of the Mike Illitch School of Business at Wayne State University in Detroit, MI where he studied Finance. He lives in the Metro Detroit area with his beautiful wife Alisha and his two children Tyden and Airis. Outside of his financial pursuits, he enjoys being with family, basketball, bowling, and watching Formula 1.',
+    bio: 'Tyrone (Ty) Thorpe is a dedicated financial advisor with a commitment to navigating a path to financial security for his clients and their families. With expertise in investment and insurance strategies, Tyrone believes in taking an integrative planning approach to create tailored solutions that suit each client’s needs and desires. Throughout his career as a financial advisor, Tyrone has been lauded for his ability to deliver excellent customer service and create sustainable methods to achieve financial wellbeing. He previously held leadership and managerial positions which fine-tuned his versatile approach.',
     twitter: null,
     url: 'https://www.prudential.com/advisor/tyrone-thorpe',
     organization: 'Prudential Advisors',
-    position: 'Financial Advisor',
+    position: '',
     session: {
-      title: 'Creating Black Wealth Hosted By Prudential',
-      abstract: '',
-      description: '',
+      title: 'Creating Black Wealth',
+      abstract: 'Info not available',
+      description:'The proposed session is Cornerstones of Financial Planning. It focuses on four areas of planning in creating Black Wealth centered on Cash Management and Liabilities, Protection, Investments, and Tax and Estate Planning Strategies.',
       tags: [],
-      track: 'Professional Development',
-      time: '11:45',
-      room: 'Compass Stage and Common Area',
+      track: 'Founders & Funders',
+      time: '1:00',
+      room: '(1st Floor) Venture 313 Stage',
     },
   },
   {
-    name: 'Kevin Lewis',
-    email: 'dajuan248@gmail.com',
-    avatar: KevinLewis,
-    bio: "Kevin DaJuan Lewis Jr. is a forward-thinking chemical engineer with a proven track record of driving innovation across global organizations like 3M, Ecolab, and Henkel. As both a Professional Engineer and a Project Management Professional, he combines technical knowledge with business acumen to tackle complex challenges. Kevin's passion for continuous improvement positions him at the forefront of innovation, where he transforms ideas into impactful scalable outcomes.",
-    twitter: null,
-    url: 'www.linkedin.com/in/kevin-lewis-jr',
-    organization: '3M Company',
-    position: 'Professional Engineer and a Project Management Professional,',
-    session: {
-      title: 'Innovation Principles',
-      abstract: '',
-      description: '',
-      tags: [],
-      track: 'Professional Development',
-      time: '2:00',
-      room: 'Compass Stage and Common Area',
-    },
-  },
-  {
-    name: 'Lem Cartman',
-    email: 'lemcartman7@gmail.com',
-    avatar: LemCartman,
-    bio: 'Lem Cartman is the founder of WE Inc., a consulting firm rooted in the philosophy "I am because we are." WE Inc. specializes in fostering cross-sector collaboration, bridging the worlds of technology, business, and community to drive sustainable, people-centered impact. With a background in healthcare operations, social determinants of health, and community engagement, Lem has led diverse teams of technologists, business strategists, and community stakeholders to co-create innovative solutions that tackle complex societal challenges. His work focuses on transforming healthcare systems, empowering underserved communities through STEM initiatives, and implementing forward-thinking strategies that address systemic inequities. Lem’s leadership is driven by a commitment to inclusive innovation, ensuring that technology and business solutions serve as catalysts for meaningful and lasting change.',
-    twitter: null,
-    url: 'https://www.linkedin.com/in/lem-cartman-bshcl-mha-b80920152/ ; https://weincconsulting.com/',
-    organization: 'WE Inc',
-    position: 'Founder',
-    session: {
-      title: 'Resume Review 1&2 Facilitator',
-      abstract: '',
-      description: '',
-      tags: [],
-      track: 'Professional Development',
-      time: '2:00',
-      room: 'Compass Stage and Common Area',
-    },
-  },
-  {
-    name: 'Adam Zientarski',
-    email: 'adam@detroitledger.tech',
-    avatar: AdamZientarski,
-    bio: 'Adam is the CEO of Detroit Ledger Technologies, where he is responsible for running the day-to-day operations, financial projections, developing partnerships in the Detroit and across the world, and representing Detroit Ledger Technologies in blockchain network discussions as its governance expert. Adam is also a cofounder of the Detroit Blockchain Center, a 501c3 nonprofit focused on blockchain and digital asset education in Michigan. Prior to co-founding Detroit Ledger Technologies, Adam was the Director of Business Development at Benzinga, a Detroit-based financial tech and media firm. During his time there, he worked in many facets of the business including leading the business development team and organizing conferences.',
-    twitter: null,
-    url: 'https://detroitledger.tech',
-    organization: 'Detroit Ledger Technologies',
-    position: 'CEO',
-    session: {
-      title: 'The State of Crypto and Blockchain',
-      abstract: '',
-      description: '',
-      tags: [],
-      track: 'Professional Development',
-      time: '02:30',
-      room: 'Compass Stage and Common Area',
-    },
-  },
-  {
-    name: 'Affia Phillips',
-    email: 'askp648@gmail.com',
-    avatar: AffiaPhillips,
-    bio: 'Afia Phillips has over 20 years of experience in the Information Security field. As a highly respected transformational IT executive, Afia has extensive experience in building and leading global cyber security organizations and ensuring development of programs that align with the strategic goals and ambitions of the business. She is a part of the Little Caesar Enterprises Strategic Planning Committee and works closely with the other members of the senior executive team to create a brand, vision, and mission that elevates the security organization to be a strategic business partner. She promotes a security culture that enables risk-based decisions in support of achieving business objectives and outcomes, excels at developing and retaining high-performance teams and has proven ability to improve quality and efficiency, identify and mitigate risks, and reduce costs.',
-    twitter: null,
-    url: 'https://www.linkedin.com/in/afia-phillips-8664b77/',
-    organization: "Little Caesar's Pizza",
-    position: 'Chief Information Security Officer',
-    session: {
-      title: 'Women in Tech Panel presented by Think Technologies',
-      abstract:
-        'Join us as we spotlight the powerful role of women in technology. This panel will feature inspiring stories of overcoming challenges, driving innovation, and shaping a more inclusive tech landscape. Gain insights, build connections, and leave empowered to push boundaries in your career!',
-      description:
-        'This panel offers an opportunity for everyone in tech to learn from the experiences of Google Women Techmakers who are driving change in the industry. We’ll discuss strategies for overcoming obstacles, fostering diversity, and creating inclusive environments where all voices are heard. Whether you’re an ally, a mentor, or someone navigating your own career path, you’ll gain valuable insights on how to build a more equitable and innovative tech community.',
-      tags: ['Technology'],
-      track: 'Professional Development',
-      time: '03:00',
-      room: 'Compass Stage and Common Area',
-    },
-  },
-  {
-    name: 'Jaz Lee',
-    email: 'jaz@withvetted.com',
-    avatar: JazLee,
-    bio: 'Jaz Lee is the founder and CEO of VETTED, a tech-driven recruiting and workforce development firm based in Detroit. Passionate about increasing access and exposure to opportunities in technology, she empowers individuals to find their fit. With over a decade of experience guiding Fortune 500 companies through digital transformations, Jaz brings a wealth of expertise and a human-centered approach to workforce innovation. Her efforts redefine the future of work by prioritizing upskilling humans in emerging technologies & soft skills, to ensure everyone can find their place in tech.',
-    twitter: null,
-    url: 'https://www.linkedin.com/in/iamjazlee?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
-    organization: 'VETTED',
-    position: 'Founder & CEO',
-    session: {
-      title: 'Women in Tech Panel presented by Think Technologies',
-      abstract:
-        'Join us as we spotlight the powerful role of women in technology. This panel will feature inspiring stories of overcoming challenges, driving innovation, and shaping a more inclusive tech landscape. Gain insights, build connections, and leave empowered to push boundaries in your career!',
-      description:
-        'This panel offers an opportunity for everyone in tech to learn from the experiences of Google Women Techmakers who are driving change in the industry. We’ll discuss strategies for overcoming obstacles, fostering diversity, and creating inclusive environments where all voices are heard. Whether you’re an ally, a mentor, or someone navigating your own career path, you’ll gain valuable insights on how to build a more equitable and innovative tech community.',
-      tags: ['Technology'],
-      track: 'Professional Development',
-      time: '03:00',
-      room: 'Compass Stage and Common Area',
-    },
-  },
-  {
-    name: 'Meagan Ward',
-    email: 'Mentor@meaganward.co',
-    avatar: MeaganWard,
-    bio: "Meagan Ward is a dynamic leader in diplomacy and economic development, leveraging her role as a Diplomatic Speaker of the U.S. Embassies & Consulates to spearhead global initiatives that revolutionize women's entrepreneurship. At the forefront of international activism, Meagan collaborates with government officials, corporations, and ecosystem leaders in the U.S., Japan, and beyond to create community infrastructure and elite programming worldwide, sharing her vision on U.S. Diplomatic trips.",
-    twitter: null,
-    url: 'https://www.femology.com/',
-    organization: 'Femology',
-    position: 'Founder',
-    session: {
-      title: 'Women in Tech Panel presented by Think Technologies',
-      abstract:
-        'Join us as we spotlight the powerful role of women in technology. This panel will feature inspiring stories of overcoming challenges, driving innovation, and shaping a more inclusive tech landscape. Gain insights, build connections, and leave empowered to push boundaries in your career!',
-      description:
-        'This panel offers an opportunity for everyone in tech to learn from the experiences of Google Women Techmakers who are driving change in the industry. We’ll discuss strategies for overcoming obstacles, fostering diversity, and creating inclusive environments where all voices are heard. Whether you’re an ally, a mentor, or someone navigating your own career path, you’ll gain valuable insights on how to build a more equitable and innovative tech community.',
-      tags: ['Technology'],
-      track: 'Professional Development',
-      time: '03:00',
-      room: 'Compass Stage and Common Area',
-    },
-  },
-  {
-    name: 'Victoria Drozdowski',
-    email: 'victoria.drozdowski@dynatrace.com',
-    avatar: VictoriaDrozdowski,
-    bio: 'With expertise in client management, data analysis, and driving business outcomes, I have led complex projects for Fortune 10 to middle-market organizations, delivering actionable insights and fostering collaboration to achieve impactful results.',
-    twitter: null,
-    url: 'https://www.linkedin.com/in/vababinchak/',
-    organization: 'Dynatrace',
-    position: 'Data Analytics Consultant, Business Insights',
-    session: {
-      title: 'Women in Tech Panel presented by Think Technologies',
-      abstract:
-        'Join us as we spotlight the powerful role of women in technology. This panel will feature inspiring stories of overcoming challenges, driving innovation, and shaping a more inclusive tech landscape. Gain insights, build connections, and leave empowered to push boundaries in your career!',
-      description:
-        'This panel offers an opportunity for everyone in tech to learn from the experiences of Google Women Techmakers who are driving change in the industry. We’ll discuss strategies for overcoming obstacles, fostering diversity, and creating inclusive environments where all voices are heard. Whether you’re an ally, a mentor, or someone navigating your own career path, you’ll gain valuable insights on how to build a more equitable and innovative tech community.',
-      tags: ['Technology'],
-      track: 'Professional Development',
-      time: '3:00',
-      room: 'Compass Stage and Common Area',
-    },
-  },
-  {
-    name: 'Achsha Jones',
-    email: 'achsha@trytripslip.com',
-    avatar: AchshaJones,
-    bio: 'As an Entrepreneur, I pride myself on leveraging the intersectionality of my areas of expertise (Sales, Food, Transportation, Real Estate and Safety & Compliance) to grow my network and to add value to those that I encounter. As a Native and Current Detroiter, I love sharing and telling stories from my perspective as it relates to parenthood, marriage, entrepreneurship and the aforementioned areas of expertise.',
-    twitter: null,
-    url: 'https://www.linkedin.com/in/achshasoandso/',
-    organization: 'TripSlip',
-    position: 'CEO & Co-Founder',
-    session: {
-      title: 'Women in Tech Panel presented by Think Technologies',
-      abstract:
-        'Join us as we spotlight the powerful role of women in technology. This panel will feature inspiring stories of overcoming challenges, driving innovation, and shaping a more inclusive tech landscape. Gain insights, build connections, and leave empowered to push boundaries in your career!',
-      description:
-        'This panel offers an opportunity for everyone in tech to learn from the experiences of Google Women Techmakers who are driving change in the industry. We’ll discuss strategies for overcoming obstacles, fostering diversity, and creating inclusive environments where all voices are heard. Whether you’re an ally, a mentor, or someone navigating your own career path, you’ll gain valuable insights on how to build a more equitable and innovative tech community.',
-      tags: ['Technology'],
-      track: 'Professional Development',
-      time: '3:00',
-      room: 'Compass Stage and Common Area',
-    },
-  },
-  {
-    name: 'Angela Richardson',
-    email: 'angela.rene.richardson@gmail.com',
-    avatar: AngelaRichardson,
+    id: 38,
+    name: 'Shane Kelly',
+    email: '',
+    avatar: defaultprofile,
     bio: '',
     twitter: null,
-    url: 'https://www.linkedin.com/in/angelamrichardson/',
-    organization: 'Board.org',
-    position: 'Membership Director',
+    url: '',
+    organization: '',
+    position: '',
     session: {
-      title:
-        'From Black History to Black Legacy: The Lasting Impact of Membership in NSBE presented by Compass Detroit',
+      title: 'V313 Fireside Chat',
+      abstract: 'Info not available',
       description: '',
-      track: 'Professional Development',
-      time: '10:45',
-      room: 'Compass Stage and Common Area',
+      tags: [],
+      track: 'Founders & Funders',
+      time: '2:00',
+      room: '(1st Floor) Venture 313 Stage',
     },
   },
+  {
+    id: 39,
+    name: 'Monica Wheat',
+    email: '',
+    avatar: defaultprofile,
+    bio: '',
+    twitter: null,
+    url: '',
+    organization: '',
+    position: '',
+    session: {
+      title: 'V313 Fireside Chat',
+      abstract: 'Info not available',
+      description: '',
+      tags: [],
+      track: 'Founders & Funders',
+      time: '2:00',
+      room: '(1st Floor) Venture 313 Stage',
+    },
+  },
+  {
+    id: 40,
+    name: 'Cathy Mott',
+    email: '',
+    avatar: defaultprofile,
+    bio: '',
+    twitter: null,
+    url: '',
+    organization: '',
+    position: '',
+    session: {
+      title: 'Thriving in the Digital Age: The Power of Emotional Intelligence',
+      abstract: 'Info not available',
+      description: '',
+      tags: [],
+      track: 'Founders & Funders',
+      time: '2:00',
+      room: '(1st Floor) Woodward ',
+    },
+  },
+  {
+    id: 41,
+    name: 'Rainy Hamilton',
+    email: 'znorthover@hamilton-anderson.com',
+    avatar: RainyHamilton,
+    bio: 'Rainy Hamilton Jr., FAIA, NOMA is a proud Detroiter, Cass Tech graduate, and alumnus of the University of Detroit Mercy School of Architecture. As president and principal-in-charge of Hamilton Anderson Associates (HAA), Rainy has led the firm for over 30 years, growing it into one of the largest Black-owned architecture firms in the United States, with a team of up to 75 professionals. HAA’s legacy is built on a foundation of diversity, inclusion, and personal development, with many of its alumni going on to do amazing things, including owning their own firms.',
+    twitter: null,
+    url: 'http://hamilton-anderson.com/',
+    organization: 'Hamilton Anderson Associates',
+    position: '',
+    session: {
+      title: 'The Future of Real Estate and Sustainable Housing',
+      abstract: '',
+      description: '2 percent of architects across the nation are African American. Rainy Hamilton is the owner of Hamilton Anderson Associates and pioneered projects throughout Detroit and in Vegas, Massachusetts, Puerto Rico, Atlanta and etc. He runs a firm that employed a very diverse team and has mentored and supported the growth of many architects that have gone on to be apart of the 2 percent. Technology is a major part of the architecture landscape and we owe it to the culture to start showcasing the representation we do have right here in The D. Would love to have Rainy and possibly a few others on the team sit on a panel. It would be awesome to put together a panel with a black developer and construction company as well. It will yield impactful insight into a world most don’t realize we have some owners within and need more. We are open to support and show up in whatever capacity Black Tech Saturdays believes would serve the community best.',
+      tags: [],
+      track: 'Founders & Funders',
+      time: '3:00',
+      room: '(1st Floor) Woodward',
+    },
+  },
+  
+
+
 ]
 
 // gives ID to each speaker automatically

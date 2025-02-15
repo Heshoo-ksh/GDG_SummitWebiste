@@ -10,7 +10,7 @@ function SpeakersSection() {
     (speaker, index, self) =>
       // WARNING: if there are multiple speakers with no names, only the first will be rendered. i hope this does not matter later in production as every speaker should eventually have a name
       index === self.findIndex((s) => s.name === speaker.name) // changed from email to name
-  )
+  ).sort((a, b) => a.name.localeCompare(b.name))
 
   // use to only render speakers that have a picture
   // const picturedSpeakers = uniqueSpeakers.filter(
