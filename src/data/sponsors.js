@@ -8,8 +8,11 @@ import GrandCircus from '@/assets/images/sponsors/Grand Circus.webp'
 import ThinkTechnologies from '@/assets/images/sponsors/Think Technologies.png'
 import DTE from '@/assets/images/sponsors/DTE.png'
 import BirminghamAngels from '@/assets/images/sponsors/Birmingham Angels.webp'
-import CCS from '@/assets/images/sponsors/ccs.png'
+import CCS from '@/assets/images/sponsors/CCS-logo.png'
 import IBM from '@/assets/images/sponsors/IBM.webp'
+import MichiganCentral from '@/assets/images/sponsors/MichiganCentralLogo.png'
+import RocketCommunityFund from '@/assets/images/sponsors/RocketCommunityLogo.png'
+import Venture313 from '@/assets/images/sponsors/Venture313Logo.png'
 
 export const sponsorsData = [
   {
@@ -101,5 +104,26 @@ In late 2022, Grand Circus joined forces with Dexian, a leader in staffing, IT, 
     logo: IBM,
     desc: `The mission of IBM is to be a catalyst that makes the world work better. We aim to have a positive impact globally, and in the communities where we operate, through business ethics, environmental commitment and responsible technology. For over a century, IBM been at the forefront of technological innovation. Beginning in the earliest days of computing, IBM has blended intelligence, innovation and science to improve business, society and the human experience.`,
     url: 'https://www.ibm.com/us-en',
+  },
+  {
+    id: 13,
+    name: 'Michigan Central',
+    logo: MichiganCentral,
+    desc: `Michigan Central is a 30-acre tech and cultural hub where leaders, thinkers, communities, and creators come together to accelerate bold ideas and technologies that shape our collective future. So far we've welcomed over 200k people to The Station, grown to 130+ startups at Newlab, opened ground floor and tower spaces to tenants like Ford, Google Code Next and Yellow Light Coffee & Donuts, supported 200+ small businesses, created learning opportunities for 1k+ students, and so much more.`,
+    url: 'https://michigancentral.com/',
+  },
+  {
+    id: 14,
+    name: 'Rocket Community Fund',
+    logo: RocketCommunityFund,
+    desc: `The Rocket Community Fund was created to harness the incredible power of our organization and find innovative ways to make an impact in each of our home communities. Through our investments, we believe we can create value not only for our business but for everyone else.`,
+    url: 'https://www.rocketcommunityfund.org/',
+  },
+  {
+    id: 15,
+    name: 'Venture 313',
+    logo: Venture313,
+    desc: `Venture 313 is part of the Gilbert Family Foundation and Rocket Community Fund’s joint $500 million commitment to build economic opportunity in Detroit neighborhoods. Through Venture 313, we are excited to create a mindset shift in the Detroit community that will get more Detroiters in the game and building successful businesses that lead to long-term generational wealth.`,
+    url: 'https://venture313.org/',
   },
 ]
