@@ -28,6 +28,7 @@ import DavidCardozo from '@/assets/images/speakers/DavidCardozo.jpg'
 import MichaelJenkins from '@/assets/images/speakers/MichaelJenkins.jpeg'
 import Delon from '@/assets/images/speakers/Delon.jpeg'
 import Jenna from '@/assets/images/speakers/jenna.jpg'
+import AshtonKeys from '@/assets/images/speakers/AshtonKeys.png'
 
 // funders and founders
 import ChristinaDrake from '@/assets/images/speakers/Christina Drake.jpg'
@@ -114,9 +115,9 @@ const rawData = [
     twitter: null,
     organization: 'IBM',
     session: {
-      title:
-        "Welcome & Opening Remarks",
-      description: 'Hear from Alexa Turnage (Black Tech Saturdays), Art Thompson (City of Detroit), Brandi Brown (Gilbert Family Foundation), Carolina Pluszczynski (Michigan Central), Delon Dixon (Think Technology), Hilary Doe (State of Michigan), Jenna Ritten (Compass Detroit), Johnnie Turnage (Black Tech Saturdays), Kirsten Jordan (NSBE Detroit), Rachel Francois (Google), Rishi Moudgil (Michigan Founders Fund), Tim Moore (Clixie AI)!',
+      title: 'Welcome & Opening Remarks',
+      description:
+        'Hear from Alexa Turnage (Black Tech Saturdays), Art Thompson (City of Detroit), Brandi Brown (Gilbert Family Foundation), Carolina Pluszczynski (Michigan Central), Delon Dixon (Think Technology), Hilary Doe (State of Michigan), Jenna Ritten (Compass Detroit), Johnnie Turnage (Black Tech Saturdays), Kirsten Jordan (NSBE Detroit), Rachel Francois (Google), Rishi Moudgil (Michigan Founders Fund), Tim Moore (Clixie AI)!',
       track: 'Open Innovation',
       time: '10:00-10:35',
       room: '(3rd Floor) Build with AI',
@@ -131,8 +132,7 @@ const rawData = [
     twitter: null,
     organization: 'IBM',
     session: {
-      title:
-        "Closing Remarks & Prizes",
+      title: 'Closing Remarks & Prizes',
       description: '',
       track: 'Open Innovation',
       time: '4:00-4:15',
@@ -440,7 +440,7 @@ Students will create a program that will rank their top 5 favorite artists. Stud
     name: 'Cullen Jones',
     email: '',
     avatar: CullenJones,
-    bio: '',
+    bio: 'Cullen Jones, 2x Olympian, 4x Olympic Medalist, and the first Black American swimmer to hold a world record, will share his inspiring story as the Innovation Summit Keynote Speaker, presented by Compass Detroit. ',
     twitter: null,
     url: 'https://www.linkedin.com/in/cullenjones41/',
     organization: 'Speedo / Sprint41',
@@ -594,8 +594,8 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
   {
     name: 'Ashton Keys',
     email: '',
-    avatar: DefaultAvatar,
-    bio: '',
+    avatar: AshtonKeys,
+    bio: 'Ashton Keys is the Co-Founder and CEO at Athlytic. Ashton Keys attended Michigan State University. I am a founder that is committed to solving challenging problems, innovating, and changing the world around me. I use a combination of empathy, a drive to understand the need of humans, and continuous prototyping to always ensure that I am solving the right problem and developing a great strategy and vision for a solution.',
     twitter: null,
     url: 'https://www.linkedin.com/in/ashton-keys-67941aba/',
     organization: 'Athlytic',
@@ -712,7 +712,8 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     url: 'https://www.linkedin.com/company/ibm/posts/?feedView=all',
     organization: 'IBM',
     session: {
-      title: 'Unleashing the Future: Transformative Innovations in AI with watsonx presented by IBM',
+      title:
+        'Unleashing the Future: Transformative Innovations in AI with watsonx presented by IBM',
       description:
         'Calling all developers, join us for a presentation on the latest in-vehicle features, hardware and software powered by Android, followed by a vehicle demo.',
       track: 'Open Innovation',
@@ -729,7 +730,8 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     url: 'https://www.linkedin.com/in/darrel-bass-07652818/',
     organization: 'Bass International Software, LLC',
     session: {
-      title: 'Unleashing the Future: Transformative Innovations in AI with watsonx presented by IBM',
+      title:
+        'Unleashing the Future: Transformative Innovations in AI with watsonx presented by IBM',
       description:
         'Calling all developers, join us for a presentation on the latest in-vehicle features, hardware and software powered by Android, followed by a vehicle demo.',
       track: 'Open Innovation',
