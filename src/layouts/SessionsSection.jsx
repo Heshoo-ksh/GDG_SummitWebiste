@@ -27,7 +27,7 @@ function SessionsSection() {
     'Professional Development',
     'Founders & Funders',
     'Detroit Ecosystem',
-    'Futures $ Frontiers',
+    'Futures & Frontiers',
   ]
 
   let combinedSpeakerData = []
