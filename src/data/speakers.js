@@ -7,7 +7,7 @@ import CullenJones from '@/assets/images/speakers/Cullen Jones.jpg'
 import BrandonCooper from '@/assets/images/speakers/Brandon Cooper.jpg'
 import CynthiaRespert from '@/assets/images/speakers/Cynthia Respert.jpg'
 import HajjFlemings from '@/assets/images/speakers/Hajj Flemings.jpg'
-
+import Rachel from '@/assets/images/speakers/Rachel.jpg'
 import NareshJasotani from '@assets/images/speakers/Naresh Jasotani.jpg'
 import NileshPatel from '@assets/images/speakers/Nilesh Patel.jpg'
 import AsimWilliams from '@assets/images/speakers/Asim Williams.jpg'
@@ -19,6 +19,8 @@ import WestleyAmica from '@assets/images/speakers/Westley Amica.jpg'
 //import ArabiaSimeon from '@assets/images/speakers/Arabia Simeon.jpeg'
 //import MonicaWheat from '@assets/images/speakers/Monica Wheat.jpeg'
 import RajGrover from '@assets/images/speakers/Raj Grover.jpg'
+import Jacob from '@assets/images/speakers/jacobsmith.jpg'
+import ChrisAssigbe from '@assets/images/speakers/ChrisAssigbe.jpg'
 
 // funders and founders
 import ChristinaDrake from '@/assets/images/speakers/Christina Drake.jpg'
@@ -59,7 +61,7 @@ import Erika from '@/assets/images/speakers/erika.jpeg'
 import TzuPore from '@/assets/images/speakers/TzuPore.jpeg'
 import IanWashington from '@/assets/images/speakers/IanWashington.jpeg'
 
-// breakout sessions
+// Futures & Frontiers
 import BriannaBryant from '@/assets/images/speakers/Brianna Bryant.jpeg'
 import SharanKalwani from '@/assets/images/speakers/Sharan Kalwani.jpg'
 import MoniqueMansfield from '@/assets/images/speakers/Monique Mansfield.jpg'
@@ -197,10 +199,10 @@ const rawData = [
   {
     name: 'Rachel Francois',
     email: '',
-    avatar: DefaultAvatar,
-    bio: '',
+    avatar: Rachel,
+    bio: 'Rachel Francois is a Program Manager at Google, based in New York, with a focus on global partnerships and developer ecosystems. She has been with Google since March 2021, where she designs and implements programs such as the Google Developer Student Clubs Solution Challenge, which encourages students to address real-world problems using Google technologies',
     twitter: null,
-    url: '',
+    url: 'https://clay.earth/profile/rachel-francois-b563ba1b',
     organization: '',
     session: {
       title:
@@ -235,7 +237,7 @@ With over 25 years of experience, Etienne remains a dedicated community member, 
       description:
         'This is a Build with AI hands-on workshop with Google Developer Expert Etienne Caron. Please bring a charged laptop and/or power cord in order to participate.|',
       track: 'Open Innovation',
-      time: '11:15-11:40',
+      time: '10:45-11:40',
       room: '(2nd Floor) Chene',
     },
   },
@@ -414,8 +416,8 @@ Students will create a program that will rank their top 5 favorite artists. Stud
   {
     name: 'Jacob Smith',
     email: '',
-    avatar: DefaultAvatar,
-    bio: '',
+    avatar: Jacob,
+    bio: 'Jacob Evan Smith is a Detroit-based connector, community organizer, and visual artist. He is a lifelong Michigander, graduated from the Stephen M. Ross School of Business at the University of Michigan, and has lived in Detroit since 2012. In his role as Community Director for Altimetrik, a global technology firm headquartered in Michigan, Smith runs a digital business accelerator program called Collider in downtown Detroit. He produces and/or hosts a number of recurring community projects, including the Coalition Series, connecting Black and/or Jewish Detroiters over food, art, and music; The Returning Citizen, a success storytelling platform for the formerly incarcerated; and various panels and workshops encouraging productively uncomfortable conversations about othering and belonging within the Metro-Detroit community. As a visual artist, his practice is rooted in interactive design that invites adults to play. His work has been featured at several galleries, including 46 Gallery in Pontiac and Disco Walls in Hamtramck. Several of his illustrations were published in the book Tear Drops and Balloons by singer/songwriter Mike Posner. ',
     twitter: null,
     url: '',
     organization: '',
@@ -424,15 +426,15 @@ Students will create a program that will rank their top 5 favorite artists. Stud
         'V313 Mobility Lighting Talk | Lighting Talk Android Automotive: Cars with Google Built-In',
       description: '',
       track: 'Open Innovation',
-      time: '1:00',
+      time: '1:00-1:25',
       room: '(2nd Floor) Chene',
     },
   },
   {
     name: 'Chris Assigbe',
     email: '',
-    avatar: DefaultAvatar,
-    bio: '',
+    avatar: ChrisAssigbe,
+    bio: 'Experienced Tech professional, I am very passionate about every aspect of technology. I enjoy every opportunity to learn new things in general, and in Tech particularly. I also constantly challenge myself in staying up-to-date in the field. I love solving problems, and pride myself in always pushing myself to think outside of the box in doing so. I consider myself to be very lucky to have the chance to do something I love daily.',
     twitter: null,
     url: '',
     organization: '',
@@ -561,7 +563,7 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
         'The Future of Detroit & Beyond: AI, Community, and the Startup Ecosystem',
       description: '',
       track: 'Open Innovation',
-      time: '2:45',
+      time: '3:00-3:45',
       room: '(3rd Floor) Build with AI',
     },
   },
@@ -578,7 +580,7 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
         'The Future of Detroit & Beyond: AI, Community, and the Startup Ecosystem',
       description: '',
       track: 'Open Innovation',
-      time: '2:45',
+      time: '3:00-3:45',
       room: '(3rd Floor) Build with AI',
     },
   },
@@ -595,7 +597,7 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
         'The Future of Detroit & Beyond: AI, Community, and the Startup Ecosystem',
       description: '',
       track: 'Open Innovation',
-      time: '2:45',
+      time: '3:00-3:45',
       room: '(3rd Floor) Build with AI',
     },
   },
@@ -612,7 +614,7 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
         'The Future of Detroit & Beyond: AI, Community, and the Startup Ecosystem',
       description: '',
       track: 'Open Innovation',
-      time: '2:45',
+      time: '3:00-3:45',
       room: '(3rd Floor) Build with AI',
     },
   },
@@ -639,7 +641,7 @@ Workshop will focus on learning on how to design, train, test, and deploy a hard
 
 This is a Build with AI hands-on workshop with Google Developer Expert David Cardozo. Please bring a charged laptop and/or power cord in order to participate.`,
       track: 'Open Innovation',
-      time: '3:00',
+      time: '3:00-3:55',
       room: '(2nd Floor) Chene',
     },
   },
@@ -656,7 +658,7 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
       description:
         'Calling all developers, join us for a presentation on the latest in-vehicle features, hardware and software powered by Android, followed by a vehicle demo.',
       track: 'Open Innovation',
-      time: '3:30',
+      time: '3:30-3:55',
       room: '(3rd Floor) Build with AI',
     },
   },
@@ -1368,7 +1370,7 @@ for his various contributions towards technical activities.`,
       description: `The IoT has infiltrated homes/businesses/center of activity all around the world in the form of smart thermostats, smart speakers, and more. There are also a number of innovative IoT applications doing more than just making people’s lives easier or helping them play their favorite songs.
 
 In this session, we will explore the many different ways IoT impacts practically every second of our lives. This talk is also intended to serve as an introduction to IoT, in order to help open up this new field of applications to a wider audience.`,
-      track: 'Breakout Sessions',
+      track: 'Futures & Frontiers',
       time: '10:45',
       room: '(1st Floor) Rosa Parks',
     },
@@ -1395,7 +1397,7 @@ Tips for Efficiency: Streamline your workflow with shortcuts, tips, and tricks t
 By the end of the workshop, you'll be able to take your footage and turn it into a compelling video that
 captures your audience’s attention. Don’t miss out on the chance to elevate your video editing game and
 gain confidence in your creative process!`,
-      track: 'Breakout Sessions',
+      track: 'Futures & Frontiers',
       time: '10:45',
       room: '(3rd Floor) Mack',
     },
@@ -1413,7 +1415,7 @@ gain confidence in your creative process!`,
         'Small Business, Big Security: Cybersecurity Essentials for Protecting Your Online Presence',
       description:
         'In today’s digital-first world, small businesses are prime targets for cyberattacks. This workshop empowers entrepreneurs with essential cybersecurity knowledge, including recognizing threats, securing systems, and protecting customer data. Learn practical steps to safeguard your online presence—from password policies to website security—and gain insight into tools and resources tailored for small businesses. Walk away with an actionable roadmap to fortify your business against cyber risks and build trust with your customers.',
-      track: 'Breakout Sessions',
+      track: 'Futures & Frontiers',
       time: '10:45',
       room: '(3rd Floor) Brush',
     },
@@ -1433,7 +1435,7 @@ I’ve also engaged in tech-focused initiatives, exploring ways to merge technol
         'Innovating for an Inclusive Future: Creating with the Disabled In Mind',
       description:
         'Detroit, a city with a rich history of innovation and resilience, is home to approximately 117,000 residents with disabilities, constituting 17.6% of its population. As technology becomes increasingly integral to daily life, ensuring that these advancements are accessible to all Detroiters is paramount. This session will explore the unique challenges and opportunities present in Detroit, focusing on how the tech community can collaborate to create inclusive solutions that empower individuals with disabilities.',
-      track: 'Breakout Sessions',
+      track: 'Futures & Frontiers',
       time: '11:45',
       room: '(1st Floor) Rosa Parks',
     },
@@ -1452,7 +1454,7 @@ As a program manager at TechTown Detroit I have the knowledge of our programs an
       title: 'Articulating Business Milestones for Growth',
       description:
         'As a panelist or panel moderator I can share resources from TechTown and facilitate a conversation with other ecosystem resources and how we all can and have collaborated to uplift founders in the Metro- Detroit Ecosystem.',
-      track: 'Breakout Sessions',
+      track: 'Futures & Frontiers',
       time: '11:45',
       room: '(3rd Floor) Mack',
     },
@@ -1471,7 +1473,7 @@ Currently, as the CEO of a financial services firm, Grace applies her technical 
       title: 'Personal Cybersecurity',
       description:
         'We are a financial services firm. Creating a personal cybersecurity toolkit is imperative to individuals doing business online. The session will encourage attendees to implement cybersecurity into their daily actions online. We give them a clear, practical way to enhance their online safety, in turn, protecting their finances.',
-      track: 'Breakout Sessions',
+      track: 'Futures & Frontiers',
       time: '11:45',
       room: '(3rd Floor) Brush',
     },
@@ -1487,7 +1489,7 @@ Currently, as the CEO of a financial services firm, Grace applies her technical 
     session: {
       title: 'Leveraging AI for Creative Work',
       description: '',
-      track: 'Breakout Sessions',
+      track: 'Futures & Frontiers',
       time: '1:00',
       room: '(1st Floor) Rosa Parks',
     },
@@ -1504,7 +1506,7 @@ Currently, as the CEO of a financial services firm, Grace applies her technical 
       title: 'Storytelling for Cultural Preservation',
       description:
         'This session will explore the intersection of technology and media as powerful tools for cultural preservation, innovation, and community building. Drawing from my experience leading marketing campaigns for over 150 events nationwide and collaborating with global brands like Disney+ and Blumhouse, I will share actionable strategies for leveraging technology to tell authentic stories and create lasting impact. The talk will also highlight case studies from my work at Real Culture, a platform dedicated to amplifying diverse voices through multimedia storytelling and strategic initiatives.',
-      track: 'Breakout Sessions',
+      track: 'Futures & Frontiers',
       time: '1:00',
       room: '(3rd Floor) Mack',
     },
@@ -1530,7 +1532,7 @@ With a passion for innovation and social impact, Daniel is committed to empoweri
       description: `In this transformative session, Daniel Easterly, a visionary technologist and social Finance innovator, will discuss the groundbreaking 40 Acres App—a blockchain-enabled platform revolutionizing ownership for Black and Brown communities. By integrating tokenized real estate and a digital asset marketplace, the app fosters generational wealth and empowers communities to thrive in the digital economy.
 
 Drawing from his acclaimed book, A New Nation Inside of a Nation: The Age of Technology and the Black Dollar, Daniel will set the historical and cultural context, emphasizing the significance of financial empowerment as a form of modern liberation. The session will explore the intersection of technology, economic equity, and cultural resilience, providing a roadmap for how communities can reclaim and sustain ownership in the digital age.`,
-      track: 'Breakout Sessions',
+      track: 'Futures & Frontiers',
       time: '1:00',
       room: '(3rd Floor) Brush',
     },
@@ -1554,7 +1556,7 @@ In 2020, the organization opened a NEW Wellness Center to further assist the chi
       description: `Maggie's Wigs 4 Kids, VR 4 Kids Program powered by XR Impact Network. We partner with exceptional leaders and organizations to bridge the gap— and enable access to VR for under-resourced youth communities through curated multi-partner VR programs.
 
 Objective of program: Improve the health and well-being of children referred from 8 pediatric hospitals across Michigan served at MW4K, including those facing pediatric cancer, by evaluating the qualitative impact of best-fit virtual reality therapy and wellness solutions.`,
-      track: 'Breakout Sessions',
+      track: 'Futures & Frontiers',
       time: '2:00',
       room: '(1st Floor) Rosa Parks',
     },
@@ -1578,7 +1580,7 @@ Beth’s passion lies in translating a vision into strategy, action, and outcome
       description: `Maggie's Wigs 4 Kids, VR 4 Kids Program powered by XR Impact Network. We partner with exceptional leaders and organizations to bridge the gap— and enable access to VR for under-resourced youth communities through curated multi-partner VR programs.
 
 Objective of program: Improve the health and well-being of children referred from 8 pediatric hospitals across Michigan served at MW4K, including those facing pediatric cancer, by evaluating the qualitative impact of best-fit virtual reality therapy and wellness solutions.`,
-      track: 'Breakout Sessions',
+      track: 'Futures & Frontiers',
       time: '2:00',
       room: '(1st Floor) Rosa Parks',
     },
@@ -1610,7 +1612,7 @@ This interactive workshop combines focused presentation with real-time exercises
 
 Why It Matters:
 Even exceptional products fail when they don't connect with their audience. This session bridges that gap by teaching you how to create messaging that's both deeply relevant and distinctly yours. You'll gain the tools to craft communications that build trust, drive action, and set your brand apart in today's competitive landscape.`,
-      track: 'Breakout Sessions',
+      track: 'Futures & Frontiers',
       time: '2:00',
       room: '(3rd Floor) Mack',
     },
@@ -1627,7 +1629,7 @@ Even exceptional products fail when they don't connect with their audience. This
       title: 'The Financial Power of Personal Data',
       description:
         'Educate people on the financial power of their personal data.',
-      track: 'Breakout Sessions',
+      track: 'Futures & Frontiers',
       time: '2:00',
       room: '(3rd Floor) Brush',
     },
@@ -1652,7 +1654,7 @@ This session will provide actionable strategies, including how to:
 • Build a roadmap for operational efficiency and market expansion.
 
 Whether you’re a founder, early-career professional, or creative entrepreneur, this session will equip you with the tools and mindset to embrace technology and drive measurable impact. Together, we’ll demystify AI’s role in scaling businesses and shaping the future of Detroit’s innovation ecosystem.`,
-      track: 'Breakout Sessions',
+      track: 'Futures & Frontiers',
       time: '3:00',
       room: '(1st Floor) Rosa Parks',
     },
@@ -1668,7 +1670,7 @@ Whether you’re a founder, early-career professional, or creative entrepreneur,
     session: {
       title: 'Funding Gap in Midwest',
       description: '',
-      track: 'Breakout Sessions',
+      track: 'Futures & Frontiers',
       time: '3:00',
       room: '(3rd Floor) Brush',
     },
