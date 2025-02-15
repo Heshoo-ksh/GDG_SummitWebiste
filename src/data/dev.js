@@ -1,6 +1,6 @@
 import Hisham_Odeh from '@/assets/images/dev/Hisham_Odeh.jpg'
 import Rehanashri from '@/assets/images/dev/Rehanashri.jpg'
-import JesusOrozco from '@/assets/images/dev/JesusOrozco.jpg'
+import JesusOrozco from '@/assets/images/dev/Jesus Orozco.jpg'
 
 export const devTeamData = [
   {
