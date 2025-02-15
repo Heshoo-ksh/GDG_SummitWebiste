@@ -215,7 +215,7 @@ const rawData = [
       title: 'Angel Investing 101',
       abstract: '',
       description:
-      'The Mini - Angel Investing in 2025, the "Valley of Death," and how Angels engage to help founders across The Macro - Michigan Innovation Ecosystem, how connectors (like you) create webs of value that retain Innovation. The Campaign - Michigan Angel Tax Credits - Michigan can be an Ecosystem or a Farm System - Angels make the difference tag',
+        'The Mini - Angel Investing in 2025, the "Valley of Death," and how Angels engage to help founders across The Macro - Michigan Innovation Ecosystem, how connectors (like you) create webs of value that retain Innovation. The Campaign - Michigan Angel Tax Credits - Michigan can be an Ecosystem or a Farm System - Angels make the difference tag',
       track: 'Founders & Funders',
       time: '1:00-1:25',
       room: '(1st Floor) Woodward',
@@ -444,10 +444,11 @@ Students will create a program that will rank their top 5 favorite artists. Stud
     name: 'Cullen Jones',
     email: '',
     avatar: CullenJones,
-    bio: 'Cullen Jones, 2x Olympian, 4x Olympic Medalist, and the first Black American swimmer to hold a world record, will share his inspiring story as the Innovation Summit Keynote Speaker, presented by Compass Detroit. ',
+    bio: 'Cullen Jones, 2x Olympian, 4x Olympic Medalist, and the first Black American swimmer to hold a world record, will share his inspiring story as the Innovation Summit Keynote Speaker, presented by Compass Detroit.',
     twitter: null,
     url: 'https://www.linkedin.com/in/cullenjones41/',
-    organization: 'Speedo / Sprint41',
+    organization:
+      'Sr.Manager of Sports Marketing & Philanthropy at Speedo & CEO of Sprint41',
     session: {
       title:
         'Innovation Summit Keynote Speaker Cullen Jones presented by Compass Detroit',
@@ -871,8 +872,7 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     url: 'hustleandbrand.com',
     organization: 'Hustle and Brand',
     session: {
-      title:
-        'LinkedIn Workshop & Prepping for Your Career Change Workshop',
+      title: 'LinkedIn Workshop & Prepping for Your Career Change Workshop',
       abstract:
         'High school and college students, along with their parents, will gain actionable insights in this engaging session on using LinkedIn as a powerful tool for career exploration, development, and success. Whether preparing for college, searching for internships, or pursuing post-graduation opportunities, this talk will provide a roadmap for turning passions into professions.',
       description:
@@ -945,8 +945,7 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     url: 'https://www.linkedin.com/in/fbrothers/',
     organization: 'Detroit Landmark Development Corp',
     session: {
-      title:
-        'The Future of Real Estate and Sustainable Housing',
+      title: 'The Future of Real Estate and Sustainable Housing',
       abstract: 'Info not available',
       description:
         'Explore how smart home automation is transforming affordable housing in Detroit, paving the way for modern, connected living. Through the lens of the Weston Hall project, this session delves into the integration of innovative technologies—such as smart locks, thermostats, and the tenant-focused PropertyDek platform—that enhance energy efficiency, simplify property management, and elevate tenant experiences. Discover how these advancements improve quality of life while setting a new benchmark for urban housing. Attendees will leave with a deeper understanding of implementation challenges, measurable impacts, and the emerging trends shaping the future of smart, sustainable communities over the next 3–5 years. Weston Hall Project: https://thewestonhall.com/ PropertyDek: https://propertydek.com/ ',
@@ -1120,7 +1119,7 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
       room: 'Compass Stage and Common Area',
     },
   },
-  
+
   {
     name: 'Kevin Lewis',
     email: 'dajuan248@gmail.com',
