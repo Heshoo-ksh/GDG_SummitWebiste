@@ -18,7 +18,7 @@ function LocationSection() {
           </div>
           <div className="ml-16">
             <p className="whitespace-nowrap">Saturday, Febuary 15th, 2025 </p>
-            <p>9:00 AM - 5:00 PM</p>
+            <p>10:00 AM - 4:00 PM</p>
           </div>
         </div>
 
