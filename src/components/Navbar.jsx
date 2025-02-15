@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { FaBars } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
+import compassLogo from '@/assets/images/compass_gray.png'
 
 function Navbar() {
   const [activeLink, setActiveLink] = useState('landing')
@@ -13,9 +14,9 @@ function Navbar() {
       { id: 'landing', text: 'Landing' },
       { id: 'location', text: 'Location' },
       { id: 'sessions', text: 'Sessions' },
-      { id: 'speakers', text: 'Speakers' },
       { id: 'sponsors', text: 'Partners' },
       { id: 'organizers', text: 'Job Board' },
+      { id: 'speakers', text: 'Speakers' },
       { id: 'devteam', text: 'Dev Team' },
       { id: 'contactUs', text: 'Contact Us' },
     ],
@@ -23,33 +24,23 @@ function Navbar() {
   )
 
   useEffect(() => {
-    // Function to set the active link based on scroll position
+    // Track which section is most in view (IoU)
     const handleScroll = () => {
-      // Initialize the active section and its IoU
       let activeIoU = 0
-
-      // For each section
       sections.forEach((section) => {
         const target = document.querySelector(`#${section.id}`)
-
-        // Check if the target element exists
         if (!target) return
 
-        // Get the bounding rectangle of the section
         const rect = target.getBoundingClientRect()
-
-        // Calculate the intersection height
         const intersectionHeight = Math.max(
           0,
           Math.min(rect.bottom, window.innerHeight) - Math.max(rect.top, 0)
         )
 
-        // Calculate the IoU
         const IoU =
           intersectionHeight /
           (rect.height + window.innerHeight - intersectionHeight)
 
-        // If this section's IoU is higher than the current active section's IoU, update the active section
         if (IoU > activeIoU) {
           setActiveLink(section.id)
           activeIoU = IoU
@@ -57,10 +48,7 @@ function Navbar() {
       })
     }
 
-    // Attach the scroll event listener
     window.addEventListener('scroll', handleScroll)
-
-    // Clean up the event listener when the component unmounts
     return () => {
       window.removeEventListener('scroll', handleScroll)
     }
@@ -75,17 +63,13 @@ function Navbar() {
   }
 
   useEffect(() => {
-    // Function to close the nav when the user clicks outside of it
+    // Close nav if user clicks outside
     const handleClickOutside = (event) => {
       if (navRef.current && !navRef.current.contains(event.target)) {
         setIsNavVisible(false)
       }
     }
-
-    // Attach the click event listener
     document.addEventListener('click', handleClickOutside)
-
-    // Clean up the event listener when the component unmounts
     return () => {
       document.removeEventListener('click', handleClickOutside)
     }
@@ -94,18 +78,32 @@ function Navbar() {
   return (
     <nav
       ref={navRef}
-      className={`fixed left-0 top-0 z-10 w-full p-4 ${
+      className={`fixed left-0 top-0 z-10 flex w-full items-center justify-between p-4 ${
         activeLink === 'landing'
           ? 'bg-primary-400 text-sky-900'
           : 'bg-white shadow-lg'
       }`}
     >
-      <button
-        className="rounded border-2 px-4 lg:hidden"
-        onClick={() => setIsNavVisible(!isNavVisible)}
-      >
-        <FaBars className="h-10" />
-      </button>
+      {/* Logo & hamburger (mobile) */}
+      <div className="flex items-center space-x-4">
+        {/* Wrap the logo in a Link to scroll to the 'landing' section */}
+        <Link
+          to="#landing"
+          onClick={(event) => handleNavigation(event, 'landing')}
+          className="cursor-pointer"
+        >
+          <img src={compassLogo} alt="Compass Logo" className="h-10 w-auto" />
+        </Link>
+
+        <button
+          className="rounded border-2 px-4 lg:hidden"
+          onClick={() => setIsNavVisible(!isNavVisible)}
+        >
+          <FaBars className="h-6 w-6" />
+        </button>
+      </div>
+
+      {/* Navigation links */}
       <ul
         className={`flex flex-col space-y-4 overflow-hidden lg:flex-row lg:justify-end lg:space-x-2 lg:space-y-0 lg:px-4 lg:py-2 ${
           isNavVisible ? 'h-full' : 'h-0 lg:h-full'

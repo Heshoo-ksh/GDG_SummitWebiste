@@ -27,16 +27,26 @@ function SessionCard({
 
   if (sessionTime.includes('-')) {
     const [startStr, endStr] = sessionTime.split('-').map((str) => str.trim())
-    const parsedStartTime = parse(startStr, 'h:mm', new Date())
-    const parsedEndTime = parse(endStr, 'h:mm', new Date())
+    let parsedStartTime = parse(startStr, 'h:mm', new Date())
+    let parsedEndTime = parse(endStr, 'h:mm', new Date())
 
-    startTime = format(parsedStartTime, 'h:mm')
-    endTime = format(parsedEndTime, 'h:mm')
+    // If the parsed hour is less than 9, assume it's in the PM (add 12 hours)
+    if (parsedStartTime.getHours() < 9) {
+      parsedStartTime = addHours(parsedStartTime, 12)
+    }
+    if (parsedEndTime.getHours() < 9) {
+      parsedEndTime = addHours(parsedEndTime, 12)
+    }
+
+    startTime = format(parsedStartTime, 'h:mm a')
+    endTime = format(parsedEndTime, 'h:mm a')
   } else {
-    const parsedStartTime = parse(sessionTime, 'h:mm', new Date())
-
-    startTime = format(parsedStartTime, 'h:mm')
-    endTime = format(addHours(parsedStartTime, 1), 'h:mm')
+    let parsedStartTime = parse(sessionTime, 'h:mm', new Date())
+    if (parsedStartTime.getHours() < 9) {
+      parsedStartTime = addHours(parsedStartTime, 12)
+    }
+    startTime = format(parsedStartTime, 'h:mm a')
+    endTime = format(addHours(parsedStartTime, 1), 'h:mm a')
   }
 
   return (

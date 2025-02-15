@@ -15,9 +15,9 @@ function Home() {
       <LandingSection />
       <LocationSection />
       <SessionsSection />
-      <SpeakersSection />
       <SponsorsSection />
       <OrganizersSection />
+      <SpeakersSection />
       <DevTeamSection />
       <Footer />
     </main>
