@@ -44,7 +44,7 @@ import VictoriaDrozdowski from '@/assets/images/speakers/Victoria Drozdowski.jpg
 import AchshaJones from '@/assets/images/speakers/Achsha Jones.jpg'
 import CiaraCade from '@/assets/images/speakers/Ciara Cade.jpg'
 
-// breakout sessions
+// Futures & Frontiers
 import BriannaBryant from '@/assets/images/speakers/Brianna Bryant.jpeg'
 import SharanKalwani from '@/assets/images/speakers/Sharan Kalwani.jpg'
 import MoniqueMansfield from '@/assets/images/speakers/Monique Mansfield.jpg'
@@ -1245,7 +1245,7 @@ for his various contributions towards technical activities.`,
       description: `The IoT has infiltrated homes/businesses/center of activity all around the world in the form of smart thermostats, smart speakers, and more. There are also a number of innovative IoT applications doing more than just making people’s lives easier or helping them play their favorite songs.
 
 In this session, we will explore the many different ways IoT impacts practically every second of our lives. This talk is also intended to serve as an introduction to IoT, in order to help open up this new field of applications to a wider audience.`,
-      track: 'Breakout Sessions',
+      track: 'Futures & Frontiers',
       time: '10:45',
       room: '(1st Floor) Rosa Parks',
     },
@@ -1272,7 +1272,7 @@ Tips for Efficiency: Streamline your workflow with shortcuts, tips, and tricks t
 By the end of the workshop, you'll be able to take your footage and turn it into a compelling video that
 captures your audience’s attention. Don’t miss out on the chance to elevate your video editing game and
 gain confidence in your creative process!`,
-      track: 'Breakout Sessions',
+      track: 'Futures & Frontiers',
       time: '10:45',
       room: '(3rd Floor) Mack',
     },
@@ -1290,7 +1290,7 @@ gain confidence in your creative process!`,
         'Small Business, Big Security: Cybersecurity Essentials for Protecting Your Online Presence',
       description:
         'In today’s digital-first world, small businesses are prime targets for cyberattacks. This workshop empowers entrepreneurs with essential cybersecurity knowledge, including recognizing threats, securing systems, and protecting customer data. Learn practical steps to safeguard your online presence—from password policies to website security—and gain insight into tools and resources tailored for small businesses. Walk away with an actionable roadmap to fortify your business against cyber risks and build trust with your customers.',
-      track: 'Breakout Sessions',
+      track: 'Futures & Frontiers',
       time: '10:45',
       room: '(3rd Floor) Brush',
     },
@@ -1310,7 +1310,7 @@ I’ve also engaged in tech-focused initiatives, exploring ways to merge technol
         'Innovating for an Inclusive Future: Creating with the Disabled In Mind',
       description:
         'Detroit, a city with a rich history of innovation and resilience, is home to approximately 117,000 residents with disabilities, constituting 17.6% of its population. As technology becomes increasingly integral to daily life, ensuring that these advancements are accessible to all Detroiters is paramount. This session will explore the unique challenges and opportunities present in Detroit, focusing on how the tech community can collaborate to create inclusive solutions that empower individuals with disabilities.',
-      track: 'Breakout Sessions',
+      track: 'Futures & Frontiers',
       time: '11:45',
       room: '(1st Floor) Rosa Parks',
     },
@@ -1329,7 +1329,7 @@ As a program manager at TechTown Detroit I have the knowledge of our programs an
       title: 'Articulating Business Milestones for Growth',
       description:
         'As a panelist or panel moderator I can share resources from TechTown and facilitate a conversation with other ecosystem resources and how we all can and have collaborated to uplift founders in the Metro- Detroit Ecosystem.',
-      track: 'Breakout Sessions',
+      track: 'Futures & Frontiers',
       time: '11:45',
       room: '(3rd Floor) Mack',
     },
@@ -1348,7 +1348,7 @@ Currently, as the CEO of a financial services firm, Grace applies her technical 
       title: 'Personal Cybersecurity',
       description:
         'We are a financial services firm. Creating a personal cybersecurity toolkit is imperative to individuals doing business online. The session will encourage attendees to implement cybersecurity into their daily actions online. We give them a clear, practical way to enhance their online safety, in turn, protecting their finances.',
-      track: 'Breakout Sessions',
+      track: 'Futures & Frontiers',
       time: '11:45',
       room: '(3rd Floor) Brush',
     },
@@ -1364,7 +1364,7 @@ Currently, as the CEO of a financial services firm, Grace applies her technical 
     session: {
       title: 'Leveraging AI for Creative Work',
       description: '',
-      track: 'Breakout Sessions',
+      track: 'Futures & Frontiers',
       time: '1:00',
       room: '(1st Floor) Rosa Parks',
     },
@@ -1381,7 +1381,7 @@ Currently, as the CEO of a financial services firm, Grace applies her technical 
       title: 'Storytelling for Cultural Preservation',
       description:
         'This session will explore the intersection of technology and media as powerful tools for cultural preservation, innovation, and community building. Drawing from my experience leading marketing campaigns for over 150 events nationwide and collaborating with global brands like Disney+ and Blumhouse, I will share actionable strategies for leveraging technology to tell authentic stories and create lasting impact. The talk will also highlight case studies from my work at Real Culture, a platform dedicated to amplifying diverse voices through multimedia storytelling and strategic initiatives.',
-      track: 'Breakout Sessions',
+      track: 'Futures & Frontiers',
       time: '1:00',
       room: '(3rd Floor) Mack',
     },
@@ -1407,7 +1407,7 @@ With a passion for innovation and social impact, Daniel is committed to empoweri
       description: `In this transformative session, Daniel Easterly, a visionary technologist and social Finance innovator, will discuss the groundbreaking 40 Acres App—a blockchain-enabled platform revolutionizing ownership for Black and Brown communities. By integrating tokenized real estate and a digital asset marketplace, the app fosters generational wealth and empowers communities to thrive in the digital economy.
 
 Drawing from his acclaimed book, A New Nation Inside of a Nation: The Age of Technology and the Black Dollar, Daniel will set the historical and cultural context, emphasizing the significance of financial empowerment as a form of modern liberation. The session will explore the intersection of technology, economic equity, and cultural resilience, providing a roadmap for how communities can reclaim and sustain ownership in the digital age.`,
-      track: 'Breakout Sessions',
+      track: 'Futures & Frontiers',
       time: '1:00',
       room: '(3rd Floor) Brush',
     },
@@ -1431,7 +1431,7 @@ In 2020, the organization opened a NEW Wellness Center to further assist the chi
       description: `Maggie's Wigs 4 Kids, VR 4 Kids Program powered by XR Impact Network. We partner with exceptional leaders and organizations to bridge the gap— and enable access to VR for under-resourced youth communities through curated multi-partner VR programs.
 
 Objective of program: Improve the health and well-being of children referred from 8 pediatric hospitals across Michigan served at MW4K, including those facing pediatric cancer, by evaluating the qualitative impact of best-fit virtual reality therapy and wellness solutions.`,
-      track: 'Breakout Sessions',
+      track: 'Futures & Frontiers',
       time: '2:00',
       room: '(1st Floor) Rosa Parks',
     },
@@ -1455,7 +1455,7 @@ Beth’s passion lies in translating a vision into strategy, action, and outcome
       description: `Maggie's Wigs 4 Kids, VR 4 Kids Program powered by XR Impact Network. We partner with exceptional leaders and organizations to bridge the gap— and enable access to VR for under-resourced youth communities through curated multi-partner VR programs.
 
 Objective of program: Improve the health and well-being of children referred from 8 pediatric hospitals across Michigan served at MW4K, including those facing pediatric cancer, by evaluating the qualitative impact of best-fit virtual reality therapy and wellness solutions.`,
-      track: 'Breakout Sessions',
+      track: 'Futures & Frontiers',
       time: '2:00',
       room: '(1st Floor) Rosa Parks',
     },
@@ -1487,7 +1487,7 @@ This interactive workshop combines focused presentation with real-time exercises
 
 Why It Matters:
 Even exceptional products fail when they don't connect with their audience. This session bridges that gap by teaching you how to create messaging that's both deeply relevant and distinctly yours. You'll gain the tools to craft communications that build trust, drive action, and set your brand apart in today's competitive landscape.`,
-      track: 'Breakout Sessions',
+      track: 'Futures & Frontiers',
       time: '2:00',
       room: '(3rd Floor) Mack',
     },
@@ -1504,7 +1504,7 @@ Even exceptional products fail when they don't connect with their audience. This
       title: 'The Financial Power of Personal Data',
       description:
         'Educate people on the financial power of their personal data.',
-      track: 'Breakout Sessions',
+      track: 'Futures & Frontiers',
       time: '2:00',
       room: '(3rd Floor) Brush',
     },
@@ -1529,7 +1529,7 @@ This session will provide actionable strategies, including how to:
 • Build a roadmap for operational efficiency and market expansion.
 
 Whether you’re a founder, early-career professional, or creative entrepreneur, this session will equip you with the tools and mindset to embrace technology and drive measurable impact. Together, we’ll demystify AI’s role in scaling businesses and shaping the future of Detroit’s innovation ecosystem.`,
-      track: 'Breakout Sessions',
+      track: 'Futures & Frontiers',
       time: '3:00',
       room: '(1st Floor) Rosa Parks',
     },
@@ -1545,7 +1545,7 @@ Whether you’re a founder, early-career professional, or creative entrepreneur,
     session: {
       title: 'Funding Gap in Midwest',
       description: '',
-      track: 'Breakout Sessions',
+      track: 'Futures & Frontiers',
       time: '3:00',
       room: '(3rd Floor) Brush',
     },
