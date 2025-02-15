@@ -3,6 +3,7 @@ import IBM from '@/assets/images/sponsors/IBM.webp'
 import Google from '@/assets/images/sponsors/Google.webp'
 import GrandCircus from '@/assets/images/organizers/gc.png'
 import DTE from '@/assets/images/organizers/DTE.png'
+import COMPASSDetroit from '@/assets/images/sponsors/compass.png'
 
 
 export const organizersData = [
@@ -36,4 +37,12 @@ export const organizersData = [
     avatar: IBM,
     url: 'https://bit.ly/ibm-jobs-25',
   },
+  {
+    id: 6,
+    name: 'Resume Drop',
+    avatar: COMPASSDetroit,
+    url: 'https://bit.ly/bhm-resume-drop',
+  },
+
+
 ]
