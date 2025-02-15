@@ -1,6 +1,7 @@
 import Hisham_Odeh from '@/assets/images/dev/Hisham_Odeh.jpg'
 import Rehanashri from '@/assets/images/dev/Rehanashri.jpg'
 import JesusOrozco from '@/assets/images/dev/Jesus Orozco.jpg'
+import AditiDharmadhikari from '@assets/images/dev/Aditi_Dharmadhikari.jpg'
 
 export const devTeamData = [
   {
@@ -37,4 +38,15 @@ export const devTeamData = [
     position: 'Senior',
     avatar: JesusOrozco,
   },
+  {
+  id: 4,
+    name: 'Aditi Dharmadhikari',
+    bio: '',
+    linkedin: 'https://www.linkedin.com/in/aditi-d4/',
+    github: 'https://github.com/Aditi1900',
+    university: 'University Of Michigan - Dearborn',
+    organization: '',
+    position: 'Sophomore',
+    avatar: AditiDharmadhikari,
+  }
 ]
