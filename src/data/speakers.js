@@ -3,10 +3,22 @@ import EtienneCaron from '@/assets/images/speakers/Etienne Caron.png'
 import HodaSolati from '@/assets/images/speakers/Hoda Solati.jpg'
 import ShimaSolati from '@/assets/images/speakers/Shima Solati.jpg'
 import JoshuaAshford from '@/assets/images/speakers/Joshua Ashford.png'
-import CullenJones from '@/assets/images/speakers/Cullen Jones.jpeg'
+import CullenJones from '@/assets/images/speakers/Cullen Jones.jpg'
 import BrandonCooper from '@/assets/images/speakers/Brandon Cooper.jpg'
 import CynthiaRespert from '@/assets/images/speakers/Cynthia Respert.jpg'
 import HajjFlemings from '@/assets/images/speakers/Hajj Flemings.jpg'
+
+import NareshJasotani from '@assets/images/speakers/Naresh Jasotani.jpg'
+import NileshPatel from '@assets/images/speakers/Nilesh Patel.jpg'
+import AsimWilliams from '@assets/images/speakers/Asim Williams.jpg'
+import BrentFenaik from '@assets/images/speakers/Brent Fenaik.jpg'
+import DarrenRiley from '@assets/images/speakers/Darren Riley.jpg'
+import MykolasRambus from '@assets/images/speakers/Mykolas Rambus.jpg'
+import WestleyAmica from '@assets/images/speakers/Westley Amica.jpg'
+//import DawnBatts from '@assets/images/speakers/Dawn Batts.jpeg'
+//import ArabiaSimeon from '@assets/images/speakers/Arabia Simeon.jpeg'
+//import MonicaWheat from '@assets/images/speakers/Monica Wheat.jpeg'
+import RajGrover from '@assets/images/speakers/Raj Grover.jpg'
 
 // funders and founders
 import ChristinaDrake from '@/assets/images/speakers/Christina Drake.jpg'
@@ -74,8 +86,8 @@ import JoeRobinson from '@/assets/images/speakers/Joe Robinson.jpeg'
 import OrlettaCaldwell from '@/assets/images/speakers/Orletta Caldwell.jpeg'
 import TimMoore from '@/assets/images/speakers/Tim Moore.png'
 import PastorVelmaJean from '@/assets/images/speakers/Pastor Velma Jean.jpg'
-import Ricardo from '@/assets/images/speakers/Ricardo.jpg'
-import AmberLewise from '@/assets/images/speakers/AmberLewise.jpeg'
+import Ricardo from '@/assets/images/speakers/Ricardo ONeal.jpg'
+import AmberLewise from '@/assets/images/speakers/Amber Lewise.jpeg'
 import JessicaBlack from '@/assets/images/speakers/Jessica Black.jpg'
 
 import DefaultAvatar from '@/assets/images/speakers/default profile.png'
@@ -84,9 +96,9 @@ const rawData = [
   {
     name: 'Brent Fenaik',
     email: '',
-    avatar: DefaultAvatar,
+    avatar: BrentFenaik,
     bio: '',
-    url: '',
+    url: 'https://www.linkedin.com/in/brent-feniak-4a62953b/',
     twitter: null,
     organization: '',
     session: {
@@ -95,8 +107,8 @@ const rawData = [
       description:
         'The cloud is transforming industries. Stay ahead of the curve by investing in your Google Cloud skills. Join Brent Fenaik and Rachel Francois in conversation who will showcase how Google Cloud Learning Services can help you gain in-demand expertise, advance your career, and drive innovation in your business.',
       track: 'Open Innovation',
-      time: '10:45',
-      room: '(3rd Floor) Google Build with AI Stage',
+      time: '10:45-11:10',
+      room: '(3rd Floor) Build with AI',
     },
   },
   {
@@ -193,8 +205,8 @@ const rawData = [
       description:
         'The cloud is transforming industries. Stay ahead of the curve by investing in your Google Cloud skills. Join Brent Fenaik and Rachel Francois in conversation who will showcase how Google Cloud Learning Services can help you gain in-demand expertise, advance your career, and drive innovation in your business.',
       track: 'Open Innovation',
-      time: '10:45',
-      room: 'Google Build with AI Stage',
+      time: '10:45-11:10',
+      room: '(3rd floor) Build with AI',
     },
   },
   {
@@ -220,25 +232,25 @@ With over 25 years of experience, Etienne remains a dedicated community member, 
       description:
         'This is a Build with AI hands-on workshop with Google Developer Expert Etienne Caron. Please bring a charged laptop and/or power cord in order to participate.|',
       track: 'Open Innovation',
-      time: '10:45',
+      time: '11:15-11:40',
       room: '(2nd Floor) Chene',
     },
   },
   {
     name: 'Asim Williams',
     email: '',
-    avatar: DefaultAvatar,
+    avatar: AsimWilliams,
     bio: '',
     twitter: null,
-    url: '',
+    url: 'https://www.linkedin.com/in/asim-w/',
     organization: 'Google',
     session: {
       title: "Introduction to AI Literacy with Google's Code Next",
       description:
         "Google's Code Next program works with high schoolers to cultivate the next generation of Black, Latinx and Indigenous tech leaders. Join us to learn the what, why and how of 'AI' and how to use it responsibly to be more productive.",
       track: 'Open Innovation',
-      time: '11:15',
-      room: '(3rd Floor) Google Build with AI Stage',
+      time: '11:15-11:40',
+      room: '(3rd Floor) Build with AI Stage',
     },
   },
   {
@@ -267,8 +279,8 @@ The platform aims to improve mobility, social participation, independence, and m
 
 This session will delve into the research, challenges, and design innovations that drive the creation of an inclusive and accessible mobility platform.`,
       track: 'Open Innovation',
-      time: '11:45',
-      room: '(3rd Floor) Google Build with AI Stage',
+      time: '11:45-12:10',
+      room: '(3rd Floor) Build with AI Stage',
     },
   },
   {
@@ -292,7 +304,7 @@ The platform aims to improve mobility, social participation, independence, and m
 This session will delve into the research, challenges, and design innovations that drive the creation of an inclusive and accessible mobility platform.`,
       track: 'Open Innovation',
       time: '11:45',
-      room: '(3rd Floor) Google Build with AI Stage',
+      room: '(3rd Floor) Build with AI',
     },
   },
   {
@@ -320,17 +332,17 @@ statements to build a functional program.
 Workshop Objective
 Students will create a program that will rank their top 5 favorite artists. Students will reference their own Spotify Wrapped, Apple Music Replay, or any other streaming platform that they frequent to use within this Project. The goal is to let students personalize their program based on their own listening habits and data while learning and applying essential coding concepts. No prior experience is needed; We just needs students to bring your creativity and a love for music!`,
       track: 'Open Innovation',
-      time: '11:45',
+      time: '11:45-12:40',
       room: '(2nd Floor) Chene',
     },
   },
   {
     name: 'Naresh Jasotani',
     email: '',
-    avatar: DefaultAvatar,
+    avatar: NareshJasotani,
     bio: '',
     twitter: null,
-    url: '',
+    url: 'https://www.linkedin.com/in/naresh-r-jasotani/',
     organization: 'Google',
     session: {
       title:
@@ -338,17 +350,17 @@ Students will create a program that will rank their top 5 favorite artists. Stud
       description:
         'Generative AI has captured the imagination of the tech world, but its practical applications and return on investment remain a mystery to many. This session will bridge the gap between the "wow" of GenAI\'s potential and the "how" of its implementation. At the end, you\'ll understand the core concepts and capabilities of GenAI, separating hype from reality; learn how to pinpoint areas within your organization where GenAI can drive value and efficiency; discover strategies to leverage GenAI tools and resources without breaking the bank. Speakers Raj Grover, Head of Customer Engineering Automotive; Naresh Jasotani, AI Practice Lead, and Nilesh Patel, Customer Experience Practice Lead, Google',
       track: 'Open Innovation',
-      time: '12:15',
-      room: '(3rd Floor) Google Build with AI Stage',
+      time: '12:15-12:40',
+      room: '(3rd Floor) Build with AI',
     },
   },
   {
     name: 'Nilesh Patel',
     email: '',
-    avatar: DefaultAvatar,
+    avatar: NileshPatel,
     bio: '',
     twitter: null,
-    url: '',
+    url: 'https://www.linkedin.com/in/nilesh-patel/',
     organization: 'Google',
     session: {
       title:
@@ -356,17 +368,17 @@ Students will create a program that will rank their top 5 favorite artists. Stud
       description:
         'Generative AI has captured the imagination of the tech world, but its practical applications and return on investment remain a mystery to many. This session will bridge the gap between the "wow" of GenAI\'s potential and the "how" of its implementation. At the end, you\'ll understand the core concepts and capabilities of GenAI, separating hype from reality; learn how to pinpoint areas within your organization where GenAI can drive value and efficiency; discover strategies to leverage GenAI tools and resources without breaking the bank. Speakers Raj Grover, Head of Customer Engineering Automotive; Naresh Jasotani, AI Practice Lead, and Nilesh Patel, Customer Experience Practice Lead, Google',
       track: 'Open Innovation',
-      time: '12:15',
-      room: '(3rd Floor) Google Build with AI Stage',
+      time: '12:15-12:40',
+      room: '(3rd Floor) Build with AI',
     },
   },
   {
     name: 'Raj Grover',
     email: '',
-    avatar: DefaultAvatar,
+    avatar: RajGrover,
     bio: '',
     twitter: null,
-    url: '',
+    url: 'https://www.linkedin.com/in/rajeevgrover/',
     organization: 'Google',
     session: {
       title:
@@ -374,8 +386,8 @@ Students will create a program that will rank their top 5 favorite artists. Stud
       description:
         'Generative AI has captured the imagination of the tech world, but its practical applications and return on investment remain a mystery to many. This session will bridge the gap between the "wow" of GenAI\'s potential and the "how" of its implementation. At the end, you\'ll understand the core concepts and capabilities of GenAI, separating hype from reality; learn how to pinpoint areas within your organization where GenAI can drive value and efficiency; discover strategies to leverage GenAI tools and resources without breaking the bank. Speakers Raj Grover, Head of Customer Engineering Automotive; Naresh Jasotani, AI Practice Lead, and Nilesh Patel, Customer Experience Practice Lead, Google',
       track: 'Open Innovation',
-      time: '12:15',
-      room: '(3rd Floor) Google Build with AI Stage',
+      time: '12:15-12:40',
+      room: '(3rd Floor) Build with AI',
     },
   },
   {
@@ -392,8 +404,8 @@ Students will create a program that will rank their top 5 favorite artists. Stud
       description:
         'Four-time Olympic medalist, and the first African American swimmer to hold a world record, will share his inspiring story as the Innovation Summit Keynote Speaker.',
       track: 'Open Innovation',
-      time: '1:00',
-      room: '(3rd Floor) Google Build with AI Stage',
+      time: '1:00-1:50',
+      room: '(3rd Floor) Build with AI',
     },
   },
   {
@@ -425,7 +437,7 @@ Students will create a program that will rank their top 5 favorite artists. Stud
       title: 'Android for Cars and Adaptive Apps',
       description: '',
       track: 'Open Innovation',
-      time: '1:30',
+      time: '1:30-1:55',
       room: '(2nd Floor) Chene',
     },
   },
@@ -442,8 +454,8 @@ Students will create a program that will rank their top 5 favorite artists. Stud
         'Agentic Future: AI Agents Fireside Chat & Live Demo presented by Think Technologies & Cxomplex',
       description: '',
       track: 'Open Innovation',
-      time: '2:00',
-      room: '(3rd Floor) Google Build with AI Stage',
+      time: '2:00-2:45',
+      room: '(3rd Floor) Build with AI',
     },
   },
   {
@@ -459,8 +471,8 @@ Students will create a program that will rank their top 5 favorite artists. Stud
         'Agentic Future: AI Agents Fireside Chat & Live Demo presented by Think Technologies & Cxomplex',
       description: '',
       track: 'Open Innovation',
-      time: '2:00',
-      room: '(3rd Floor) Google Build with AI Stage',
+      time: '2:00-2:45',
+      room: '(3rd Floor) Build with AI',
     },
   },
   {
@@ -476,8 +488,8 @@ Students will create a program that will rank their top 5 favorite artists. Stud
         'Agentic Future: AI Agents Fireside Chat & Live Demo presented by Think Technologies & Cxomplex',
       description: '',
       track: 'Open Innovation',
-      time: '2:00',
-      room: '(3rd Floor) Google Build with AI Stage',
+      time: '2:00-2:45',
+      room: '(3rd Floor) Build with AI',
     },
   },
   {
@@ -495,25 +507,25 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
         'Agentic Future: AI Agents Fireside Chat & Live Demo presented by Think Technologies & Cxomplex',
       description: '',
       track: 'Open Innovation',
-      time: '2:00',
-      room: '(3rd Floor) Google Build with AI Stage',
+      time: '2:00-2:45',
+      room: '(3rd Floor) Build with AI',
     },
   },
   {
     name: 'Westley Amica',
     email: '',
-    avatar: DefaultAvatar,
+    avatar: WestleyAmica,
     bio: '',
     twitter: null,
-    url: '',
+    url: 'https://www.linkedin.com/in/westleyamicaiii/',
     organization: '',
     session: {
       title:
         'Agentic Future: AI Agents Fireside Chat & Live Demo presented by Think Technologies & Cxomplex',
       description: '',
       track: 'Open Innovation',
-      time: '2:00',
-      room: '(3rd Floor) Google Build with AI Stage',
+      time: '2:00-2:45',
+      room: '(3rd Floor) Build with AI',
     },
   },
   {
@@ -525,10 +537,11 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
     url: '',
     organization: '',
     session: {
-      title: 'AI Innovation Workshop presented by IBM',
+      title:
+        'Unleashing the Future: Transformative Innovations in AI with watsonx presented by IBM',
       description: '',
       track: 'Open Innovation',
-      time: '2:00',
+      time: '2:00-2:55',
       room: '(2nd Floor) Chene',
     },
   },
@@ -538,7 +551,7 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
     avatar: DefaultAvatar,
     bio: '',
     twitter: null,
-    url: '',
+    url: 'https://www.linkedin.com/in/ashton-keys-67941aba/',
     organization: 'Athlytic',
     session: {
       title:
@@ -546,33 +559,33 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
       description: '',
       track: 'Open Innovation',
       time: '2:45',
-      room: '(3rd Floor) Google Build with AI Stage',
+      room: '(3rd Floor) Build with AI',
     },
   },
   {
     name: 'Darren Riley',
-    email: 'JustAir',
-    avatar: DefaultAvatar,
+    email: '',
+    avatar: DarrenRiley,
     bio: '',
     twitter: null,
-    url: '',
-    organization: '',
+    url: 'https://www.linkedin.com/in/darrenrashaunriley/',
+    organization: 'JustAir',
     session: {
       title:
         'The Future of Detroit & Beyond: AI, Community, and the Startup Ecosystem',
       description: '',
       track: 'Open Innovation',
       time: '2:45',
-      room: '(3rd Floor) Google Build with AI Stage',
+      room: '(3rd Floor) Build with AI',
     },
   },
   {
     name: 'Mykolas Rambus',
     email: '',
-    avatar: DefaultAvatar,
+    avatar: MykolasRambus,
     bio: '',
     twitter: null,
-    url: '',
+    url: 'https://www.linkedin.com/in/mykolasrambus/',
     organization: 'Hush',
     session: {
       title:
@@ -580,7 +593,7 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
       description: '',
       track: 'Open Innovation',
       time: '2:45',
-      room: '(3rd Floor) Google Build with AI Stage',
+      room: '(3rd Floor) Build with AI',
     },
   },
   {
@@ -597,7 +610,7 @@ Globally, Hajj’s influence extends to AI innovation and cultural transformatio
       description: '',
       track: 'Open Innovation',
       time: '2:45',
-      room: '(3rd Floor) Google Build with AI Stage',
+      room: '(3rd Floor) Build with AI',
     },
   },
   {
@@ -641,7 +654,7 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
         'Calling all developers, join us for a presentation on the latest in-vehicle features, hardware and software powered by Android, followed by a vehicle demo.',
       track: 'Open Innovation',
       time: '3:30',
-      room: '(3rd Floor) Google Build with AI Stage',
+      room: '(3rd Floor) Build with AI',
     },
   },
   {
@@ -650,7 +663,7 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     avatar: DefaultAvatar,
     bio: '',
     twitter: null,
-    url: '',
+    url: 'https://www.linkedin.com/in/brittniabiolu/',
     organization: 'Michign Founders Fund',
     session: {
       title: 'MFF Accelerator with Gener8r',
@@ -686,7 +699,7 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     avatar: ChristinaDrake,
     bio: '',
     twitter: null,
-    url: '',
+    url: 'https://www.linkedin.com/in/cdrake-detroitmi/',
     organization: 'Renaissance Venture Capital',
     session: {
       title: 'Venture 101: Why Venture is Important',
@@ -776,7 +789,8 @@ This is a Build with AI hands-on workshop with Google Developer Expert David Car
     bio: 'Info not available',
     twitter: null,
     url: 'Info not available',
-    organization: 'Info not available',
+    organization: '',
+    position: '',
     session: {
       title: 'Angel Investing 101',
       abstract: 'Info not available',
@@ -1890,6 +1904,272 @@ Whether you’re a founder, early-career professional, or creative entrepreneur,
       track: 'Detroit Ecosystem',
       time: '11:15',
       room: '(1st Floor) Venture 313 Stage',
+    },
+  },
+  {
+    id: 29,
+    name: 'Arabia Simeon',
+    email: 'Info is not available',
+    avatar: DefaultAvatar,
+    bio: 'Info is not available',
+    twitter: null,
+    url: 'Info is not available',
+    organization: '',
+    position: '',
+    session: {
+      title: 'Michigan Founders Fund Pre-Accelerator with gener8tor',
+      abstract: 'Info is not available',
+      description: 'Info is not available',
+      tags: [],
+      track: 'Founders & Funders',
+      time: '11:15',
+      room: '(1st Floor) Venture Stage',
+    },
+  },
+  {
+    id: 30,
+    name: 'Darrell Marshall',
+    email: 'Info is not available',
+    avatar: DefaultAvatar,
+    bio: 'Info is not available',
+    twitter: null,
+    url: 'Info is not available',
+    organization: '',
+    position: '',
+    session: {
+      title: 'Michigan Founders Fund Pre-Accelerator with gener8tor',
+      abstract: 'Info is not available',
+      description: 'Info is not available',
+      tags: [],
+      track: 'Founders & Funders',
+      time: '11:15',
+      room: '(1st Floor) Venture Stage',
+    },
+  },
+  {
+    id: 31,
+    name: 'Matthew Burnett',
+    email: 'Info is not available',
+    avatar: DefaultAvatar,
+    bio: 'Info is not available',
+    twitter: null,
+    url: 'Info is not available',
+    organization: '',
+    position: '',
+    session: {
+      title: 'Michigan Founders Fund Pre-Accelerator with gener8tor',
+      abstract: 'Info is not available',
+      description: 'Info is not available',
+      tags: [],
+      track: 'Founders & Funders',
+      time: '11:15',
+      room: '(1st Floor) Venture Stage',
+    },
+  },
+  {
+    id: 32,
+    name: 'Sheri Washington',
+    email: 'swashington@mml.mobi',
+    avatar: SheriWashington,
+    bio: '30 years in global IT, manufacturing, systems engineering and cyber vigilence.',
+    twitter: null,
+    url: 'https://www.mml.mobi/',
+    organization: 'Michigan Mobility and Logistics',
+    position: '',
+    session: {
+      title: 'Michigan Founders Fund Pre-Accelerator with gener8tor',
+      abstract: 'Info is not available',
+      description:
+        '1.Discuss how customer demand has impacted on-demand delivery market. 2.Amazon effect. 3.New jobs, new tech possibilities',
+      tags: [],
+      track: 'Founders & Funders',
+      time: '11:15',
+      room: '(1st Floor) Venture Stage',
+    },
+  },
+  {
+    id: 33,
+    name: 'Asia Wimbush-Sherrod',
+    email: 'asia_m_wimbush-sherrod@whirlpool.com',
+    avatar: AsiaWimbushSherrod,
+    bio: "Asia Wimbush-Sherrod is a transformative leader in diversity, equity, and inclusion (DEI) at Whirlpool Corporation's global headquarters in Benton Harbor, Michigan. As Senior Manager of Global DEI Strategy and Early Career Acquisition, she is reshaping how the company engages with underrepresented talent, bringing 15 years of experience to the role. Asia has led systemic changes in Whirlpool’s DEI efforts, focusing on diverse talent acquisition, mentoring, and providing scholarships for students at Michigan universities.",
+    twitter: null,
+    url: 'https://www.linkedin.com/in/asia-wimbush-sherrod-mba-1926ab1a/',
+    organization: 'Whirlpool Corporation',
+    position: '',
+    session: {
+      title: 'Leveraging AI to Build Equitable Teams and Organizations',
+      abstract: 'Info not available',
+      description:
+        'Demonstrate how AI has completely transformed learning via AI Generated Video, Translations and Agency.',
+      tags: [],
+      track: 'Founders & Funders',
+      time: '1:00',
+      room: '(1st Floor) Venture 313 Stage',
+    },
+  },
+  {
+    id: 34,
+    name: 'Robert Simmons',
+    email: 'robert.simmons@nationalgrid.com',
+    avatar: RobertSimmons,
+    bio: "As a Detroiter raised on Livernois and Tireman, I have been afforded the opportunity to work at the intersection of social impact, community engagement and CSR. As a corporate social responsibility professional with extensive experience in the social sector, I have led teams focused on making a social impact through philanthropy and STEM programming, it’s not just about giving back—it's about fortifying communities and sparking a cycle of enduring growth.",
+    twitter: null,
+    url: 'https://www.linkedin.com/in/robert-simmons-iii-2179957/',
+    organization: 'National Grid',
+    position: '',
+    session: {
+      title: 'Leveraging AI to Build Equitable Teams and Organizations',
+      abstract: 'Info not available',
+      description:
+        'This thought-provoking keynote (or panel) will explore the powerful convergence of artificial intelligence and corporate philanthropy. This session delves into how AI technologies are being harnessed to drive transformative social impact, amplifying the reach and effectiveness of corporate philanthropic efforts across the globe. I will highlight real-world examples of AI-driven initiatives that are addressing critical social challenges, from healthcare and education to environmental sustainability and humanitarian aid. Attendees will gain insights into the innovative ways AI is being used to enhance data analysis, optimize resource allocation, and create more personalized and impactful solutions.',
+      tags: [],
+      track: 'Founders & Funders',
+      time: '1:00',
+      room: '(1st Floor) Venture 313 Stage',
+    },
+  },
+  {
+    id: 35,
+    name: 'Asalyn Coachman',
+    email: 'asalyn.coachman@prudential.com',
+    avatar: AsalynCoachman,
+    bio: 'Asalyn Coachman is a Financial Advisor who coaches clients to wealth one decision and one dollar at a time. A Harvard University graduate and New York State licensed attorney, she has been working in financial services since 2009 and is affiliated with Prudential and Great Lakes Financial Group. Retirement planning, insurance, savings, debt management, and investments are areas of focus. A frequent public speaker, Asalyn has presented to organizations and industry peers on topics ranging from strategies for single clients, college and estate planning, and legacy creation to general financial knowledge with a focus on debt reduction and wealth accumulation. Quoted frequently in online publications such Insurance News Net and published in Advisor Today, she seeks to demystify the complicated world of money. Asalyn understands the key to financial wealth is not how much money you have, but the decisions you make with your money. She knows personal finance can be confusing and finds people are trying to make good money decisions but are burdened by lack of information or misinformation that prevents them from reaching their maximum financial potential.',
+    twitter: null,
+    url: 'https://www.linkedin.com/in/asalyncoachman/',
+    organization: 'Prudential Advisors',
+    position: '',
+    session: {
+      title: 'Creating Black Wealth',
+      description:
+        'The proposed session is Cornerstones of Financial Planning. It focuses on four areas of planning in creating Black Wealth centered on Cash Management and Liabilities, Protection, Investments, and Tax and Estate Planning Strategies.',
+      tags: [],
+      track: 'Founders & Funders',
+      time: '1:30',
+      room: '(1st Floor) Venture 313 Stage',
+    },
+  },
+  {
+    id: 36,
+    name: 'Eddie Cargor',
+    email: 'eddie.cargor@prudential.com',
+    avatar: EddieCargor,
+    bio: 'I retired as a Human Resource Manager in 2017 after 30 years of service with the State of Michigan and began my career as a Financial professional. I have also owned and operated a tax practice for over 25 years. As a Financial Professional, my primary focus centers on cash management and liabilities, protection, investments, and tax and estate planning. I develop strategies concentrated on wealth accumulation, life insurance and long-term care solutions and robust distribution strategies to mitigate, reduce, or eliminate taxes to help my clients plan for getting to and through retirement without running out of assets.',
+    twitter: null,
+    url: 'https://www.linkedin.com/in/drcargor/',
+    organization: 'Prudential Advisors',
+    position: '',
+    session: {
+      title: 'Creating Black Wealth',
+      abstract: 'Info not available',
+      description:
+        'The proposed session is Cornerstones of Financial Planning. It will focus on 4 areas of planning in creating Black Wealth centered on Cash Management and Liabilities, Protection, Investments, and Tax and Estate Planning Strategies.',
+      tags: [],
+      track: 'Founders & Funders',
+      time: '1:30',
+      room: '(1st Floor) Venture 313 Stage',
+    },
+  },
+  {
+    id: 37,
+    name: 'Tyrone Thorpe',
+    email: 'ty.thorpe@prudential.com',
+    avatar: TyroneThorpe,
+    bio: 'Tyrone (Ty) Thorpe is a dedicated financial advisor with a commitment to navigating a path to financial security for his clients and their families. With expertise in investment and insurance strategies, Tyrone believes in taking an integrative planning approach to create tailored solutions that suit each client’s needs and desires. Throughout his career as a financial advisor, Tyrone has been lauded for his ability to deliver excellent customer service and create sustainable methods to achieve financial wellbeing. He previously held leadership and managerial positions which fine-tuned his versatile approach.',
+    twitter: null,
+    url: 'https://www.prudential.com/advisor/tyrone-thorpe',
+    organization: 'Prudential Advisors',
+    position: '',
+    session: {
+      title: 'Creating Black Wealth',
+      abstract: 'Info not available',
+      description:
+        'The proposed session is Cornerstones of Financial Planning. It focuses on four areas of planning in creating Black Wealth centered on Cash Management and Liabilities, Protection, Investments, and Tax and Estate Planning Strategies.',
+      tags: [],
+      track: 'Founders & Funders',
+      time: '1:00',
+      room: '(1st Floor) Venture 313 Stage',
+    },
+  },
+  {
+    id: 38,
+    name: 'Shane Kelly',
+    email: '',
+    avatar: DefaultAvatar,
+    bio: '',
+    twitter: null,
+    url: '',
+    organization: '',
+    position: '',
+    session: {
+      title: 'V313 Fireside Chat',
+      abstract: 'Info not available',
+      description: '',
+      tags: [],
+      track: 'Founders & Funders',
+      time: '2:00',
+      room: '(1st Floor) Venture 313 Stage',
+    },
+  },
+  {
+    id: 39,
+    name: 'Monica Wheat',
+    email: '',
+    avatar: DefaultAvatar,
+    bio: '',
+    twitter: null,
+    url: '',
+    organization: '',
+    position: '',
+    session: {
+      title: 'V313 Fireside Chat',
+      abstract: 'Info not available',
+      description: '',
+      tags: [],
+      track: 'Founders & Funders',
+      time: '2:00',
+      room: '(1st Floor) Venture 313 Stage',
+    },
+  },
+  {
+    id: 40,
+    name: 'Cathy Mott',
+    email: '',
+    avatar: DefaultAvatar,
+    bio: '',
+    twitter: null,
+    url: '',
+    organization: '',
+    position: '',
+    session: {
+      title: 'Thriving in the Digital Age: The Power of Emotional Intelligence',
+      abstract: 'Info not available',
+      description: '',
+      tags: [],
+      track: 'Founders & Funders',
+      time: '2:00',
+      room: '(1st Floor) Woodward ',
+    },
+  },
+  {
+    id: 41,
+    name: 'Rainy Hamilton',
+    email: 'znorthover@hamilton-anderson.com',
+    avatar: RainyHamilton,
+    bio: 'Rainy Hamilton Jr., FAIA, NOMA is a proud Detroiter, Cass Tech graduate, and alumnus of the University of Detroit Mercy School of Architecture. As president and principal-in-charge of Hamilton Anderson Associates (HAA), Rainy has led the firm for over 30 years, growing it into one of the largest Black-owned architecture firms in the United States, with a team of up to 75 professionals. HAA’s legacy is built on a foundation of diversity, inclusion, and personal development, with many of its alumni going on to do amazing things, including owning their own firms.',
+    twitter: null,
+    url: 'http://hamilton-anderson.com/',
+    organization: 'Hamilton Anderson Associates',
+    position: '',
+    session: {
+      title: 'The Future of Real Estate and Sustainable Housing',
+      abstract: '',
+      description:
+        '2 percent of architects across the nation are African American. Rainy Hamilton is the owner of Hamilton Anderson Associates and pioneered projects throughout Detroit and in Vegas, Massachusetts, Puerto Rico, Atlanta and etc. He runs a firm that employed a very diverse team and has mentored and supported the growth of many architects that have gone on to be apart of the 2 percent. Technology is a major part of the architecture landscape and we owe it to the culture to start showcasing the representation we do have right here in The D. Would love to have Rainy and possibly a few others on the team sit on a panel. It would be awesome to put together a panel with a black developer and construction company as well. It will yield impactful insight into a world most don’t realize we have some owners within and need more. We are open to support and show up in whatever capacity Black Tech Saturdays believes would serve the community best.',
+      tags: [],
+      track: 'Founders & Funders',
+      time: '3:00',
+      room: '(1st Floor) Woodward',
     },
   },
 ]
