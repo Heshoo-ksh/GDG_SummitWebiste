@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { FaBars } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
-import compassLogo from '@/assets/images/compass_gray.png'
+import logo from '@/assets/images/GDG Detroit.png'
 
 function Navbar() {
   const [activeLink, setActiveLink] = useState('landing')
@@ -92,7 +92,7 @@ function Navbar() {
           onClick={(event) => handleNavigation(event, 'landing')}
           className="cursor-pointer"
         >
-          <img src={compassLogo} alt="Compass Logo" className="h-10 w-auto" />
+          <img src={logo} alt="Compass Logo" className="h-10 w-auto" />
         </Link>
 
         <button
